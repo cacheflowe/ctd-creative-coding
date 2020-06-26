@@ -25,6 +25,7 @@ Explores creative uses of software development while introducing foundational pr
 * What is (creative) code?
   * Talk about creativity in code too
   * What kind of creative coder do you want to be?
+    * Show Artists for inspo
 * Get tools ready
   * Proccessing/p5js
   * Github desktop
@@ -42,9 +43,12 @@ Explores creative uses of software development while introducing foundational pr
   * [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
 ### Sep 7 (No class - Labor Day)
 * Do we do an open office hours during the week? Ask in the prior class
+* Homework
+  * Rebuild previous project in another tool
+  * ...
 ### Sep 14
-* Topic: Input
-* Topic: Animation
+* Topic: Input (map())
+* Topic: Animation (lerp())
 * Topic: Strings & typography
 ### Sep 21
 * Topic: Image Processing
@@ -80,6 +84,7 @@ Explores creative uses of software development while introducing foundational pr
 ### Nov 16
 * Prep for final project - pick an assignment
 ### Nov 23
+* Topic: Databases
 * Topic: Databases
 * Project help
 ### Nov 30
