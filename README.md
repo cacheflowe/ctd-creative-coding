@@ -62,7 +62,7 @@ Explores creative uses of software development while introducing foundational pr
 ### Oct 5
 * Topic: Data structures
 * Topic: Data & Databases
-* Topic: Refactoring
+* Topic: Refactoring (small/short vs large/long projects)
 * Topic: Sound
 ### Oct 12
 * Topic: CLI
