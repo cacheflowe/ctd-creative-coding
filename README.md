@@ -20,12 +20,15 @@ Explores creative uses of software development while introducing foundational pr
 
 ### Aug 24
 * Intro
+  * Take roll
+  * Inquire about special needs/requests to make this class format work for you
   * What is code?
   * How to love it
 * What is (creative) code?
   * Talk about creativity in code too
   * What kind of creative coder do you want to be?
     * Show Artists for inspo
+  * What type of code are you interested in?
 * Get tools ready
   * Proccessing/p5js
   * Github desktop
