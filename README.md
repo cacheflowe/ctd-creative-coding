@@ -74,6 +74,7 @@ Explores creative uses of software development while introducing foundational pr
 ### Oct 19
 * Topic: Hardware
 * Topic: Computer vision
+* Topic: Open Source
 ### Oct 26
 * Topic: APIs
 * Topic: Networking
