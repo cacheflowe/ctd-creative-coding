@@ -6,13 +6,16 @@
 
 ## Some personal favorites
 
-Artists and their current "specialty"
+Artists and their "specialty"
 
-* Early creative coding originators:
+* 1960s-1970s - early innovators
   * [Vera Molnár](http://www.artnet.com/artists/vera-molnar/)
   * [Manfred Mohr](http://www.emohr.com/)
   * [Frieder Nake](https://en.wikipedia.org/wiki/Frieder_Nake)
   * [Georg Nees](https://en.wikipedia.org/wiki/Georg_Nees)
+  * [Doris Chase](https://www.youtube.com/watch?v=IkNpWG2LypQ)
+  * [John Whitney](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
+  * [Ed Catmull](https://vimeo.com/16292363) (later founded Pixar)
 * 1980s-2000s
   * [John Maeda](https://maedastudio.com/) - Modern creative coding pioneer
   * [Karl Sims](https://www.karlsims.com/) - Early genetic algorithms & research
@@ -32,8 +35,9 @@ Artists and their current "specialty"
   * [Saskia Freeke](http://sasj.nl/) - Generative shapes
   * [Matt Deslaurier](https://www.mattdesl.com/) - Tools, techniques, execution
   * [Nervous System](http://n-e-r-v-o-u-s.com/) - Product design
-  * [Rezi Ali](https://www.syedrezaali.com/) - Generative art & low-level tools
+  * [Reza Ali](https://www.syedrezaali.com/) - Generative art & low-level tools
   * [Kyle McDonald](https://kylemcdonald.net/) - Machine learning & all new tech
+  * [Rebecca Fiebrink](https://twitter.com/rebeccafiebrink) - Machine learning-based tools
   * [Robert Hodgin](http://roberthodgin.com/) - Generative high-end animation
   * [Memo Akten](http://www.memo.tv/works/) - Lasers, performance, AI
   * [Sofia Crespo](https://www.katevassgalerie.com/sofia-crespo) - Machine learning + graphics

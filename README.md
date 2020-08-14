@@ -18,7 +18,7 @@ This course explores creative uses of software development while introducing fou
 
 * Gain and reinforce basic programming skills to build creative software applications
 * Learn how to self-educate and find answers to very specific problems while developing code skills
-* Learn to love code via exposure to (and practice of) a wide array of techniques and concepts
+* Learn to love code via exposure to (and practice with) a wide array of tools, techniques and concepts
 * Learn about the landscape of artists, tools, and roles of people in the "creative coding" field
 * Build, document, and present original pieces of software
 
@@ -34,29 +34,25 @@ This course explores creative uses of software development while introducing fou
 * Prepare tools for the semester
 * Code basics overview
 
-### Aug 31
+### [Aug 31 🔗](./classes/2020-08-31-Aug-31.md)
 
-* Review code
-* Topic: Languages
-* Topic: Drawing shapes
-* Topic: Iteration
-* Homework
-  * Read:
-    * "[Why Love Generative Art?](https://www.artnome.com/news/2018/8/8/why-love-generative-art)" - A history of the medium
-  * Watch:
-    * "[Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)"
+* Review homework code
+* Topic: Basic drawing tools
+* Topic: Strings & typography
 
 ### Sep 7 (No class - Labor Day)
-* Do we do an open office hours during the week? Ask in the prior class
+* Can we do an open office hours during the week? Ask in the prior class
 * Homework
   * Rebuild previous project in another tool
-  * ...
+  * https://www.inc.com/magazine/201710/maria-aspan/how-women-once-ruled-computing.html
 
 ### Sep 14
+* Review posters. What's it like working with designers?
+* Topic: Languages & IDEs
+* Topic: Control flow
 * Topic: How to build anything
 * Topic: Input (map())
 * Topic: Animation (lerp())
-* Topic: Strings & typography
 
 ### Sep 21
 * Topic: Image Processing
@@ -92,6 +88,8 @@ This course explores creative uses of software development while introducing fou
 
 ### Nov 2
 * Topic: Browsers
+* Topic: CSS
+  * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
 * Topic: Automate your life
 
 ### Nov 9
@@ -102,7 +100,6 @@ This course explores creative uses of software development while introducing fou
 * Prep for final project - pick an assignment
 
 ### Nov 23
-* Topic: Databases
 * Topic: Databases
 * Project help
 
