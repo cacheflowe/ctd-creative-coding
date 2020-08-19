@@ -61,6 +61,8 @@ This course explores creative uses of software development while introducing fou
 
 ### Sep 28
 * Topic: Maths
+  * https://www.youtube.com/user/codingmath
+  * Basic physics
 * Topic: Design patterns
 * Topic: Graphics effects
 
@@ -90,6 +92,7 @@ This course explores creative uses of software development while introducing fou
 * Topic: CSS
   * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
 * Topic: Automate your life
+* Activity: remove an ad-blocker blocker
 
 ### Nov 9
 * Topic: Browsers II
