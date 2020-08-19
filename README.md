@@ -45,7 +45,7 @@ This course explores creative uses of software development while introducing fou
 
 ### [Sep 14 🔗](./classes/2020-08-14-sep-14.md)
 
-* Review posters. What's it like working with designers?
+* Review homework
 * Topics:
   * Languages & IDEs
   * Control flow
