@@ -39,6 +39,8 @@ Artists and their "specialty"
   * [Kyle McDonald](https://kylemcdonald.net/) - Machine learning & all new tech
   * [Rebecca Fiebrink](https://twitter.com/rebeccafiebrink) - Machine learning-based tools
   * [Robert Hodgin](http://roberthodgin.com/) - Generative high-end animation
+  * [Freya Holmér](https://twitter.com/FreyaHolmer) - Unity tools & explainer gifs
+  * [I Am Robot and Proud](https://www.instagram.com/robotandproud/) - Minimal generative audio + visual
   * [Memo Akten](http://www.memo.tv/works/) - Lasers, performance, AI
   * [Sofia Crespo](https://www.katevassgalerie.com/sofia-crespo) - Machine learning + graphics
   * [Tim Rodenbroeker](https://timrodenbroeker.de/processing-tutorial-kinetic-typography-1/) - Generative poster design

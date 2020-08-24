@@ -50,17 +50,20 @@ This course explores creative uses of software development while introducing fou
   * Languages & IDEs
   * Control flow
   * How to build anything
-  * Input (map())
-  * Animation (lerp())
+  * map()
+  * lerp()
 
 ### Sep 21
 * Topic: Images
 * Topic: Multimedia
 * Topic: Debugging
 * Topic: Version control
+* Homework: https://www.instagram.com/36daysoftype/
+  * Read: https://www.wired.com/story/databases-coding-real-programming-myth/
 
 ### Sep 28
 * Topic: Maths
+  * Trigonometry
   * https://www.youtube.com/user/codingmath
   * Basic physics
 * Topic: Design patterns

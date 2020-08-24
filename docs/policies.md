@@ -12,6 +12,34 @@ Modern software development relies on open source code and the benevolent sharin
 
 * Algorithmic originality is a subject of [intense debate](http://mariuswatz.com/mwatztumblrcom/the-algorithm-thought-police.html), largely when it comes to claiming that a well-defined algorithm, left largely alone, is a piece of "art". For the purposes of this class, we're far more concerned cultivating your understanding of the underlying concepts than copying-and-pasting someone else's code (which can itself be a difficult task). The journey towards deeper understanding of the craft is essential in order to grow as a software developer. This is where the line is easily blurred between using pre-existing tools and making original work.
 
+### Ethos for learning code
+
+*Borrowed from [Recurse Center](https://www.recurse.com/manual#sub-sec-social-rules) and [CMU's IACD](http://golancourses.net/2016/logistics/social-rules/)
+
+#### Social Rules
+
+These rules are intended to be lightweight, and to make more explicit certain social norms that are normally implicit. Most of these social rules really boil down to “don’t be a jerk” or “don’t be annoying.” Of course, almost nobody sets out to be a jerk or annoying, so telling people not to be jerks isn’t a very productive strategy. That’s why our social rules are designed to curtail specific behavior known be destructive to a supportive, productive, and fun learning environment.
+
+#### A Word About Fear
+
+An obstacle we try to remove is fear. We think this is one of the most pernicious impediments to education. In most of the world, but especially school and work, people are afraid of looking stupid. This fear frequently keeps us from asking important questions like “how does that work?” or even just “why?” Worse, it keeps us from saying “I don’t understand.” That means many of us muddle on with a half-baked or entirely incorrect understanding of core concepts. This is particularly bad with programming, because these misunderstandings compound, and over time become harder and more embarrassing to admit to and address.
+
+Did you know there’s a well-documented phenomenon in which highly qualified people go through life feeling like they’re a bunch of frauds and don’t deserve the things they’ve achieved? It’s common in work (“I can’t believe I made it past the interviews. Surely someone will figure out I’m wildly incompetent and fire me soon!”) and school (“Everyone here is so much smarter than me. I got in on a fluke.”). This is called impostor syndrome.
+
+This is why saying “I don’t know” or “I don’t understand” is a positive thing. It’s an opportunity for you to learn something new, and for someone else to help you with it (or vise versa).
+
+#### No feigning surprise
+
+The first rule means you shouldn’t act surprised when people say they don’t know something. This applies to both technical things (“What?! I can’t believe you don’t know what the stack is!”) and non-technical things (“You don’t know who RMS is?!”). Feigning surprise has absolutely no social or educational benefit: When people feign surprise, it’s usually to make them feel better about themselves and others feel worse. And even when that’s not the intention, it’s almost always the effect. This rule is tightly coupled to our belief in the importance of people feeling comfortable saying “I don’t know” and “I don’t understand.”
+
+#### No well-actually’s
+
+A well-actually happens when someone says something that’s almost – but not entirely – correct, and you say, “well, actually…” and then give a minor correction. This is especially annoying when the correction has no bearing on the actual conversation. This doesn’t mean our classroom isn’t about truth-seeking or that we don’t care about being precise. Many well-actually’s are about grandstanding, not truth-seeking.
+
+#### No back-seat driving
+
+If you overhear people working through a problem, you shouldn’t intermittently lob advice across the room. This can lead to the “too many cooks” problem, but more important, it can be rude and disruptive to half-participate in a conversation. This isn’t to say you shouldn’t help, offer advice, or join conversations. On the contrary, we encourage all those things. Rather, it just means that when you want to help out or work with others, you should fully engage and not just butt in sporadically.
+
 
 ## General CU/ATLAS Policies
 
