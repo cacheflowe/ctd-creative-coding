@@ -24,7 +24,7 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule (in progress)
 
-### [Aug 24 🔗](./classes/2020-08-24-Aug-24.md)
+### [Aug 24 🔗](./classes/2020-08-24-aug-24.md)
 
 * Introductions
 * What is (creative) code?
