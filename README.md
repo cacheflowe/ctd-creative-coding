@@ -5,9 +5,9 @@
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
 ATLS 5660 | Fall 2020 <br>
 Time: Mondays @ 4:00–6:30 PM <br>
+Office hours: Thursdays @ 4:00–6:30 PM or by appointment <br>
 Location: ~ENVD234A~ Remote <br>
 Instructor: [Justin Gitlin](https://cacheflowe.com) <br>
-Office hours: Thursdays @ 4:00–6:30 PM or by appointment <br>
 [Class Policies](./docs/policies.md)
 
 ## Course Description
@@ -59,7 +59,8 @@ This course explores creative uses of software development while introducing fou
 * Topic: Debugging
 * Topic: Version control
 * Homework: https://www.instagram.com/36daysoftype/
-  * Read: https://www.wired.com/story/databases-coding-real-programming-myth/
+  * Read: ['Real' Programming Is an Elitist Myth](https://www.wired.com/story/databases-coding-real-programming-myth/) by Paul Ford
+  * Read: [So you want to build a generator](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator) by Kate Compton
 
 ### Sep 28
 * Topic: Maths
@@ -68,6 +69,7 @@ This course explores creative uses of software development while introducing fou
   * Basic physics
 * Topic: Design patterns
 * Topic: Graphics effects
+* Homework: Build a generator
 
 ### Oct 5
 * Topic: Data structures
@@ -78,6 +80,7 @@ This course explores creative uses of software development while introducing fou
 ### Oct 12
 * Topic: CLI
 * Topic: Shaders
+* Topic: CPU vs GPU
 * Paired programming assignment
 
 ### Oct 19
