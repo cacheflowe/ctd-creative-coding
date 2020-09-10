@@ -68,30 +68,53 @@ This course explores creative uses of software development while introducing fou
 * Topic: Graphics effects
 * Homework: Build a generator
 
+
+### Add above
+
+* Strings/text/typography (move to earlier date!)
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+  * https://creative-coding.decontextualize.com/text-and-type/
+
+Add to previous animation section:
+https://creative-coding.decontextualize.com/changes-over-time/
+
+And for media:
+https://creative-coding.decontextualize.com/media/
+https://creative-coding.decontextualize.com/video/
+
 ### Oct 5
-* Topic: Data structures
-* Topic: Data & Databases
-* Topic: Refactoring (small/short vs large/long projects)
-* Topic: Sound
+* Topics:
+  * Data structures
+  * Data & Databases
+  * Refactoring (small/short vs large/long projects)
+  * Sound
 
 ### Oct 12
-* Topic: CLI
-* Topic: Shaders
-* Topic: CPU vs GPU
+* Topics:
+  * CLI
+  * Shaders
+  * CPU vs GPU
 * Paired programming assignment
 
 ### Oct 19
-* Topic: Hardware
-* Topic: Computer vision
-* Topic: Open Source
+* Topics:
+  * Hardware
+  * Computer vision
+  * Open Source
+* Build a tool and use it
+* Build a webcam
 
 ### Oct 26
-* Topic: APIs
-* Topic: Networking
+* Topics:
+  * APIs
+  * Topic: Networking
 * Paired programming assignment
+  * Get data from an API
+
 
 ### Nov 2
 * Topic: Browsers
+  * https://creative-coding.decontextualize.com/browser-console/
 * Topic: CSS
   * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
 * Topic: Automate your life
