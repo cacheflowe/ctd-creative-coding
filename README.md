@@ -61,11 +61,11 @@ This course explores creative uses of software development while introducing fou
 ### Sep 28
 * Topics:
   * Maths
-  * Trigonometry
-  * https://www.youtube.com/user/codingmath
-  * Basic physics
-* Topic: Design patterns
-* Topic: Graphics effects
+    * Trigonometry
+    * https://www.youtube.com/user/codingmath
+    * Basic physics
+  * Software design patterns
+  * Graphics effects
 * Homework: Build a generator
 
 
