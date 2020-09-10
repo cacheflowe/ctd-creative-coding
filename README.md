@@ -71,12 +71,6 @@ This course explores creative uses of software development while introducing fou
 
 ### Add above
 
-* Strings/text/typography (move to earlier date!)
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-  * https://creative-coding.decontextualize.com/text-and-type/
-
-Add to previous animation section:
-https://creative-coding.decontextualize.com/changes-over-time/
 
 And for media:
 https://creative-coding.decontextualize.com/media/
@@ -98,7 +92,7 @@ https://creative-coding.decontextualize.com/video/
 
 ### Oct 19
 * Topics:
-  * Hardware
+  * Hardware (& simulation before sending to hardware)
   * Computer vision
   * Open Source
 * Build a tool and use it
