@@ -33,7 +33,6 @@ This course explores creative uses of software development while introducing fou
 
 ### [Aug 31 🔗](./classes/2020-08-31-aug-31.md)
 
-* Review homework code
 * Topics:
   * Basic drawing tools
   * Iteration
@@ -45,25 +44,23 @@ This course explores creative uses of software development while introducing fou
 
 ### [Sep 14 🔗](./classes/2020-08-14-sep-14.md)
 
-* Review homework
 * Topics:
   * Languages & IDEs
   * Control flow
-  * How to build anything
-  * map()
-  * lerp()
+  * Remapping numbers
+  * Animation
 
-### Sep 21
-* Topic: Images
-* Topic: Multimedia
-* Topic: Debugging
-* Topic: Version control
-* Homework: https://www.instagram.com/36daysoftype/
-  * Read: ['Real' Programming Is an Elitist Myth](https://www.wired.com/story/databases-coding-real-programming-myth/) by Paul Ford
-  * Read: [So you want to build a generator](http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator) by Kate Compton
+### [Sep 21 🔗](./classes/2020-08-21-sep-21.md)
+
+* Topics:
+  * Looping animation
+  * Images
+  * Multimedia
+  * Debugging
 
 ### Sep 28
-* Topic: Maths
+* Topics:
+  * Maths
   * Trigonometry
   * https://www.youtube.com/user/codingmath
   * Basic physics
