@@ -54,6 +54,7 @@ This course explores creative uses of software development while introducing fou
 
 * Topics:
   * Looping animation
+  * Strings
   * Images
   * Multimedia
   * Debugging
@@ -68,14 +69,6 @@ This course explores creative uses of software development while introducing fou
   * Graphics effects
 * Homework: Build a generator
 
-
-### Add above
-
-
-And for media:
-https://creative-coding.decontextualize.com/media/
-https://creative-coding.decontextualize.com/video/
-
 ### Oct 5
 * Topics:
   * Data structures
@@ -86,6 +79,7 @@ https://creative-coding.decontextualize.com/video/
 ### Oct 12
 * Topics:
   * CLI
+  * 3D, texture()
   * Shaders
   * CPU vs GPU
 * Paired programming assignment
@@ -94,9 +88,11 @@ https://creative-coding.decontextualize.com/video/
 * Topics:
   * Hardware (& simulation before sending to hardware)
   * Computer vision
+    * https://github.com/kylemcdonald/cv-examples
   * Open Source
+* Build a webcam app
 * Build a tool and use it
-* Build a webcam
+  * A function, a class, an abstracted system...
 
 ### Oct 26
 * Topics:
