@@ -88,7 +88,7 @@ This course explores creative uses of software development while introducing fou
 * Topics:
   * Hardware (& simulation before sending to hardware)
   * Computer vision
-    * https://github.com/kylemcdonald/cv-examples
+    * https://github.com/kylemcdonald/cv-examples (need to change p5js version number)
   * Open Source
 * Build a webcam app
 * Build a tool and use it
@@ -97,6 +97,7 @@ This course explores creative uses of software development while introducing fou
 ### Oct 26
 * Topics:
   * APIs
+    * https://editor.p5js.org/lingdong/sketches/xrT2VF08P
   * Topic: Networking
 * Paired programming assignment
   * Get data from an API
