@@ -42,7 +42,7 @@ This course explores creative uses of software development while introducing fou
 
 * I'll have open office hours during normal class time if you'd like to stop by and talk about progress
 
-### [Sep 14 🔗](./classes/2020-08-14-sep-14.md)
+### [Sep 14 🔗](./classes/2020-09-14-sep-14.md)
 
 * Topics:
   * Languages & IDEs
@@ -50,7 +50,7 @@ This course explores creative uses of software development while introducing fou
   * Remapping numbers
   * Animation
 
-### [Sep 21 🔗](./classes/2020-08-21-sep-21.md)
+### [Sep 21 🔗](./classes/2020-09-21-sep-21.md)
 
 * Topics:
   * Looping animation
