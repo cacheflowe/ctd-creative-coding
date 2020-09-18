@@ -64,7 +64,7 @@ This course explores creative uses of software development while introducing fou
   * Math
   * Software design
   * Debugging
-  * Graphics effects
+  * Graphics effects & algorithms
 
 ### Oct 5
 * Topics:
@@ -98,7 +98,6 @@ This course explores creative uses of software development while introducing fou
   * Topic: Networking
 * Paired programming assignment
   * Get data from an API
-
 
 ### Nov 2
 * Topic: Browsers
