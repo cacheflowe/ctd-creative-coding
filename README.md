@@ -54,16 +54,16 @@ This course explores creative uses of software development while introducing fou
 
 * Topics:
   * How to do more, better code
-  * Looping animation
   * Strings
   * Images
-  * Debugging
+  * Looping animation
 
 ### [Sep 28 🔗](./classes/2020-09-28-sep-28.md)
 
 * Topics:
   * Math
-  * Software design patterns
+  * Software design
+  * Debugging
   * Graphics effects
 
 ### Oct 5
