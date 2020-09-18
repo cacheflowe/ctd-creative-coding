@@ -53,21 +53,18 @@ This course explores creative uses of software development while introducing fou
 ### [Sep 21 🔗](./classes/2020-09-21-sep-21.md)
 
 * Topics:
+  * How to do more, better code
   * Looping animation
   * Strings
   * Images
-  * Multimedia
   * Debugging
 
-### Sep 28
+### [Sep 28 🔗](./classes/2020-09-28-sep-28.md)
+
 * Topics:
-  * Maths
-    * Trigonometry
-    * https://www.youtube.com/user/codingmath
-    * Basic physics
+  * Math
   * Software design patterns
   * Graphics effects
-* Homework: Build a generator
 
 ### Oct 5
 * Topics:
