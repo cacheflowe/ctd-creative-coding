@@ -64,7 +64,7 @@ This course explores creative uses of software development while introducing fou
   * Math
   * Software design
 
-### Oct 5
+### [Oct 5 🔗](./classes/2020-10-05-oct-05.md)
 
 * Topics:
   * Graphics algorithms & effects
