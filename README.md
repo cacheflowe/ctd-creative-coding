@@ -63,26 +63,36 @@ This course explores creative uses of software development while introducing fou
 * Topics:
   * Math
   * Software design
-  * Debugging
-  * Graphics effects & algorithms
 
 ### Oct 5
+
 * Topics:
+  * Graphics algorithms & effects
   * Data structures
-  * Data & Databases
-  * Refactoring (small/short vs large/long projects)
-  * Sound
+  * Databases
+  * Data Visualization
 
 ### Oct 12
+
 * Topics:
   * CLI
-  * 3D, texture()
+    * ffmpeg
+    * sox
+    * automation
+  * 3D
+    * Graphics pipeline
+    * Basic layout & 3d thinking
   * Shaders
+    * What can they do?
+    * How to start
   * CPU vs GPU
+    * What tasks are handled on each?
+    * What's optimized and where?
 * Paired programming assignment
 
 ### Oct 19
 * Topics:
+  * Refactoring (small/short vs large/long projects)
   * Hardware (& simulation before sending to hardware)
   * Computer vision
     * https://github.com/kylemcdonald/cv-examples (need to change p5js version number)
@@ -93,23 +103,58 @@ This course explores creative uses of software development while introducing fou
 
 ### Oct 26
 * Topics:
-  * APIs
-    * https://editor.p5js.org/lingdong/sketches/xrT2VF08P
-  * Topic: Networking
+  * Networking
+  * Audio
+
+  ## 🛠️ Sound
+
+  * Samples vs. synthesis
+  * Data & timing to make music
+  * Changing parameters over time
+  * Scales & frequencies
+  * Other tools for creating music
+    * [Sonic PI](http://sonic-pi.net/)
+    * [ORCA](https://github.com/hundredrabbits/Orca)
+    * [ChucK](http://chuck.cs.princeton.edu/)
+    * [Supercollider](http://supercollider.github.io/)
+    * [Alda](https://alda.io/)
+    * [Extempore](https://extemporelang.github.io/)
+    * [Overtone](http://overtone.github.io/)
+    * [TidalCycles](https://tidalcycles.org/)
+    * [EarSketch](http://earsketch.gatech.edu/landing/)
+    * [Aubio](https://aubio.org/)
+
 * Paired programming assignment
   * Get data from an API
 
 ### Nov 2
-* Topic: Browsers
-  * https://creative-coding.decontextualize.com/browser-console/
-* Topic: CSS
-  * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
-* Topic: Automate your life
-* Activity: remove an ad-blocker blocker
+* Topics:
+  * Browsers
+    * https://creative-coding.decontextualize.com/browser-console/
+  * CSS
+    * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
+  * Automate your life
+  * Activity: remove an ad-blocker blocker
 
 ### Nov 9
-* Topic: Browsers II
-* Topic: Machine learning
+* Topics
+  * Browsers II
+  * Machine learning
+  * Debugging
+
+  ## 🛠️ Debugging (from last class)
+
+  * General debugging
+    * Syntax errors
+    * `console.log()`
+    * Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
+  * Graphical debugging
+    * It's hard...
+    * If something isn't displaying, can you make a simpler version?
+    * Add a "debug view"
+      * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
+
+
 
 ### Nov 16
 * Prep for final project - pick an assignment
