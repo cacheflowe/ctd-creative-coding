@@ -76,18 +76,9 @@ This course explores creative uses of software development while introducing fou
 
 * Topics:
   * CLI
-    * ffmpeg
-    * sox
-    * automation
   * 3D
-    * Graphics pipeline
-    * Basic layout & 3d thinking
   * Shaders
-    * What can they do?
-    * How to start
   * CPU vs GPU
-    * What tasks are handled on each?
-    * What's optimized and where?
 * Paired programming assignment
 
 ### Oct 19
