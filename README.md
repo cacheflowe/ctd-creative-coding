@@ -72,14 +72,13 @@ This course explores creative uses of software development while introducing fou
   * Databases
   * Data Visualization
 
-### Oct 12
+### [Oct 12 🔗](./classes/2020-10-12-oct-12.md)
 
 * Topics:
   * CLI
   * 3D
   * Shaders
   * CPU vs GPU
-* Paired programming assignment
 
 ### Oct 19
 * Topics:
