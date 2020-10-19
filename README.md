@@ -81,41 +81,20 @@ This course explores creative uses of software development while introducing fou
   * CPU vs GPU
 
 ### [Oct 19 🔗](./classes/2020-10-19-oct-19.md)
+
 * Topics:
-  * Refactoring (small/short vs large/long projects)
-  * Hardware (& simulation before sending to hardware)
+  * Refactoring
+  * Hardware
   * Computer vision
-    * https://github.com/kylemcdonald/cv-examples (need to change p5js version number)
-  * Open Source
-* Build a webcam app
-* Build a tool and use it
-  * A function, a class, an abstracted system...
 
 ### Oct 26
 * Topics:
   * Networking
   * Audio
+  * Open Source
 
-  ## 🛠️ Sound
 
-  * Samples vs. synthesis
-  * Data & timing to make music
-  * Changing parameters over time
-  * Scales & frequencies
-  * Other tools for creating music
-    * [Sonic PI](http://sonic-pi.net/)
-    * [ORCA](https://github.com/hundredrabbits/Orca)
-    * [ChucK](http://chuck.cs.princeton.edu/)
-    * [Supercollider](http://supercollider.github.io/)
-    * [Alda](https://alda.io/)
-    * [Extempore](https://extemporelang.github.io/)
-    * [Overtone](http://overtone.github.io/)
-    * [TidalCycles](https://tidalcycles.org/)
-    * [EarSketch](http://earsketch.gatech.edu/landing/)
-    * [Aubio](https://aubio.org/)
 
-* Paired programming assignment
-  * Get data from an API
 
 ### Nov 2
 * Topics:
