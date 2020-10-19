@@ -80,7 +80,7 @@ This course explores creative uses of software development while introducing fou
   * Shaders
   * CPU vs GPU
 
-### Oct 19
+### [Oct 19 🔗](./classes/2020-10-19-oct-19.md)
 * Topics:
   * Refactoring (small/short vs large/long projects)
   * Hardware (& simulation before sending to hardware)
