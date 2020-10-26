@@ -87,17 +87,16 @@ This course explores creative uses of software development while introducing fou
   * Hardware
   * Computer vision
 
-### Oct 26
+### [Oct 26 🔗](./classes/2020-10-26-oct-26.md)
+
 * Topics:
-  * Networking
-  * Audio
   * Open Source
-
-
-
+  * Audio
 
 ### Nov 2
+
 * Topics:
+  * Networking
   * Browsers
     * https://creative-coding.decontextualize.com/browser-console/
   * CSS
