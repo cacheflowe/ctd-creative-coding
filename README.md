@@ -96,6 +96,7 @@ This course explores creative uses of software development while introducing fou
 ### Nov 2
 
 * Topics:
+  * Final projects
   * Networking
   * Browsers
     * https://creative-coding.decontextualize.com/browser-console/
@@ -112,6 +113,12 @@ This course explores creative uses of software development while introducing fou
 
   ## 🛠️ Debugging (from last class)
 
+  * [p5js Debugging article](https://p5js.org/learn/debugging.html)
+  * What to do when something doesn't work
+    * Does your IDE point out any syntax problems?
+    * Is there an error message in the console?
+      * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
+    * Can you make a more basic version of the code do something?
   * General debugging
     * Syntax errors
     * `console.log()`
