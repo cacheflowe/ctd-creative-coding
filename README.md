@@ -102,30 +102,10 @@ This course explores creative uses of software development while introducing fou
 
 ### Nov 9
 
-* Topics
-  * Browsers II
-  * Machine learning
+* Topics:
+  * More web technology
   * Debugging
-
-  ## 🛠️ Debugging (from last class)
-
-  * [p5js Debugging article](https://p5js.org/learn/debugging.html)
-  * What to do when something doesn't work
-    * Does your IDE point out any syntax problems?
-    * Is there an error message in the console?
-      * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
-    * Can you make a more basic version of the code do something?
-  * General debugging
-    * Syntax errors
-    * `console.log()`
-    * Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
-  * Graphical debugging
-    * It's hard...
-    * If something isn't displaying, can you make a simpler version?
-    * Add a "debug view"
-      * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
-
-
+  * Machine learning
 
 ### Nov 16
 * Prep for final project - pick an assignment
