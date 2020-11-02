@@ -93,19 +93,15 @@ This course explores creative uses of software development while introducing fou
   * Open Source
   * Audio
 
-### Nov 2
+### [Nov 2 🔗](./classes/2020-11-02-nov-02.md)
 
 * Topics:
   * Final projects
+  * Web Browsers
   * Networking
-  * Browsers
-    * https://creative-coding.decontextualize.com/browser-console/
-  * CSS
-    * https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/
-  * Automate your life
-  * Activity: remove an ad-blocker blocker
 
 ### Nov 9
+
 * Topics
   * Browsers II
   * Machine learning
