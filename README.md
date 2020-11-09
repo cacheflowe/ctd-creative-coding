@@ -100,22 +100,26 @@ This course explores creative uses of software development while introducing fou
   * Web Browsers
   * Networking
 
-### Nov 9
+### [Nov 9 🔗](./classes/2020-11-09-nov-09.md)
 
 * Topics:
-  * More web technology
   * Debugging
   * Machine learning
 
 ### Nov 16
+
 * Prep for final project - pick an assignment
 
 ### Nov 23
+
 * Topic: Databases
 * Project help
 
 ### Nov 30
+
 * Project help
+* Parting thoughts - where do we go from here?
 
 ### Dec 7
+
 * Final projects due
