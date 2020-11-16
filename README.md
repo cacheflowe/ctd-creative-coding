@@ -106,13 +106,19 @@ This course explores creative uses of software development while introducing fou
   * Debugging
   * Machine learning
 
-### Nov 16
+### [Nov 16 🔗](./classes/2020-11-16-nov-16.md)
 
-* Prep for final project - pick an assignment
+* Topics:
+  * Projection mapping
+  * Final project help & prep
 
 ### Nov 23
 
 * Topic: Databases
+* Local web dev -> production server
+* Node.js
+* Firebase
+* Project setup
 * Project help
 
 ### Nov 30
