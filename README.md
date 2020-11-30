@@ -114,17 +114,13 @@ This course explores creative uses of software development while introducing fou
 
 ### Nov 23
 
-* Topic: Databases
-* Local web dev -> production server
-* Node.js
-* Firebase
-* Project setup
 * Project help
 
 ### Nov 30
 
 * Project help
-* Parting thoughts - where do we go from here?
+* Questions
+* Tools
 
 ### Dec 7
 
