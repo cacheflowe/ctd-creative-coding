@@ -122,6 +122,6 @@ This course explores creative uses of software development while introducing fou
 * Questions
 * Tools
 
-### Dec 7
+### [Dec 7 🔗](./classes/2020-12-07-dec-07.md)
 
 * Final projects due
