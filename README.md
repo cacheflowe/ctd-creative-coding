@@ -125,3 +125,13 @@ This course explores creative uses of software development while introducing fou
 ### [Dec 7 🔗](./classes/2020-12-07-dec-07.md)
 
 * Final projects due
+
+### Next time:
+
+* Careers?!!?!
+* Topic: Databases
+* Local web dev -> production server
+* Node.js
+* Firebase
+* Project setup
+* Parting thoughts - where do we go from here?
