@@ -126,12 +126,4 @@ This course explores creative uses of software development while introducing fou
 
 * Final projects due
 
-### Next time:
 
-* Careers?!!?!
-* Topic: Databases
-* Local web dev -> production server
-* Node.js
-* Firebase
-* Project setup
-* Parting thoughts - where do we go from here?
