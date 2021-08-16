@@ -3,10 +3,10 @@
 ## Course Info
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
-ATLS 5660 | Fall 2020 <br>
+ATLS 5660 | Fall 2021 <br>
 Time: Mondays @ 4:00–6:30 PM <br>
 Office hours: Thursdays @ 4:00–6:30 PM or by appointment <br>
-Location: ~ENVD234A~ Remote <br>
+Location: Remote <br>
 Instructor: [Justin Gitlin](https://cacheflowe.com) <br>
 [Class Policies](./docs/policies.md)
 
@@ -22,27 +22,27 @@ This course explores creative uses of software development while introducing fou
 * Learn about the landscape of artists, tools, and roles of people in the "creative coding" field
 * Build, document, and present original pieces of software
 
-## Schedule (in progress)
+## Schedule
 
-### [Aug 24 🔗](./classes/2020-08-24-aug-24.md)
+### [Aug 23 🔗](./classes/2021-08-24.md)
 
 * Introductions
 * What is (creative) code?
 * Prepare tools for the semester
 * Code basics overview
 
-### [Aug 31 🔗](./classes/2020-08-31-aug-31.md)
+### [Aug 30 🔗](./classes/2021-08-31.md)
 
 * Topics:
   * Basic drawing tools
   * Iteration
   * Animation intro
 
-### Sep 7 (No class - Labor Day)
+### Sep 6 (No class - Labor Day)
 
 * I'll have open office hours during normal class time if you'd like to stop by and talk about progress
 
-### [Sep 14 🔗](./classes/2020-09-14-sep-14.md)
+### [Sep 13 🔗](./classes/2021-09-14.md)
 
 * Topics:
   * Languages & IDEs
@@ -50,7 +50,7 @@ This course explores creative uses of software development while introducing fou
   * Remapping numbers
   * Animation
 
-### [Sep 21 🔗](./classes/2020-09-21-sep-21.md)
+### [Sep 20 🔗](./classes/2021-09-21.md)
 
 * Topics:
   * How to do more, better code
@@ -58,13 +58,13 @@ This course explores creative uses of software development while introducing fou
   * Images
   * Looping animation
 
-### [Sep 28 🔗](./classes/2020-09-28-sep-28.md)
+### [Sep 27 🔗](./classes/2021-09-28.md)
 
 * Topics:
   * Math
   * Software design
 
-### [Oct 5 🔗](./classes/2020-10-05-oct-05.md)
+### [Oct 4 🔗](./classes/2021-10-05.md)
 
 * Topics:
   * Graphics algorithms & effects
@@ -72,7 +72,7 @@ This course explores creative uses of software development while introducing fou
   * Databases
   * Data Visualization
 
-### [Oct 12 🔗](./classes/2020-10-12-oct-12.md)
+### [Oct 11 🔗](./classes/2021-10-12.md)
 
 * Topics:
   * CLI
@@ -80,50 +80,59 @@ This course explores creative uses of software development while introducing fou
   * Shaders
   * CPU vs GPU
 
-### [Oct 19 🔗](./classes/2020-10-19-oct-19.md)
+### [Oct 18 🔗](./classes/2021-10-19.md)
 
 * Topics:
   * Refactoring
   * Hardware
   * Computer vision
 
-### [Oct 26 🔗](./classes/2020-10-26-oct-26.md)
+### [Oct 25 🔗](./classes/2021-10-26.md)
 
 * Topics:
   * Open Source
   * Audio
 
-### [Nov 2 🔗](./classes/2020-11-02-nov-02.md)
+### [Nov 1 🔗](./classes/2021-11-02.md)
 
 * Topics:
   * Final projects
   * Web Browsers
   * Networking
 
-### [Nov 9 🔗](./classes/2020-11-09-nov-09.md)
+### [Nov 8 🔗](./classes/2021-11-09.md)
 
 * Topics:
   * Debugging
   * Machine learning
 
-### [Nov 16 🔗](./classes/2020-11-16-nov-16.md)
+### [Nov 15 🔗](./classes/2021-11-16.md)
 
 * Topics:
   * Projection mapping
   * Final project help & prep
 
-### Nov 23
+### Nov 22
 
 * Project help
 
-### Nov 30
+### Nov 29
 
 * Project help
 * Questions
 * Tools
 
-### [Dec 7 🔗](./classes/2020-12-07-dec-07.md)
+### [Dec 6 🔗](./classes/2021-12-07.md)
 
 * Final projects due
 
+### Next time:
 
+* Careers
+* Project budgeting, concepting, resources needed, estimating time
+* Topic: Databases
+* Local web dev -> production server
+* Node.js
+* Firebase
+* Project setup
+* Parting thoughts - where do we go from here?
