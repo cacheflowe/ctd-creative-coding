@@ -24,14 +24,14 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Aug 23 🔗](./classes/2021-08-24.md)
+### [Aug 23 🔗](./classes/2021-08-23.md)
 
 * Introductions
 * What is (creative) code?
 * Prepare tools for the semester
 * Code basics overview
 
-### [Aug 30 🔗](./classes/2021-08-31.md)
+### [Aug 30 🔗](./classes/2021-08-30.md)
 
 * Topics:
   * Basic drawing tools
@@ -42,7 +42,7 @@ This course explores creative uses of software development while introducing fou
 
 * I'll have open office hours during normal class time if you'd like to stop by and talk about progress
 
-### [Sep 13 🔗](./classes/2021-09-14.md)
+### [Sep 13 🔗](./classes/2021-09-13.md)
 
 * Topics:
   * Languages & IDEs
@@ -50,7 +50,7 @@ This course explores creative uses of software development while introducing fou
   * Remapping numbers
   * Animation
 
-### [Sep 20 🔗](./classes/2021-09-21.md)
+### [Sep 20 🔗](./classes/2021-09-20.md)
 
 * Topics:
   * How to do more, better code
@@ -58,13 +58,13 @@ This course explores creative uses of software development while introducing fou
   * Images
   * Looping animation
 
-### [Sep 27 🔗](./classes/2021-09-28.md)
+### [Sep 27 🔗](./classes/2021-09-27.md)
 
 * Topics:
   * Math
   * Software design
 
-### [Oct 4 🔗](./classes/2021-10-05.md)
+### [Oct 4 🔗](./classes/2021-10-04.md)
 
 * Topics:
   * Graphics algorithms & effects
@@ -72,7 +72,7 @@ This course explores creative uses of software development while introducing fou
   * Databases
   * Data Visualization
 
-### [Oct 11 🔗](./classes/2021-10-12.md)
+### [Oct 11 🔗](./classes/2021-10-11.md)
 
 * Topics:
   * CLI
@@ -80,33 +80,33 @@ This course explores creative uses of software development while introducing fou
   * Shaders
   * CPU vs GPU
 
-### [Oct 18 🔗](./classes/2021-10-19.md)
+### [Oct 18 🔗](./classes/2021-10-18.md)
 
 * Topics:
   * Refactoring
   * Hardware
   * Computer vision
 
-### [Oct 25 🔗](./classes/2021-10-26.md)
+### [Oct 25 🔗](./classes/2021-10-25.md)
 
 * Topics:
   * Open Source
   * Audio
 
-### [Nov 1 🔗](./classes/2021-11-02.md)
+### [Nov 1 🔗](./classes/2021-11-01.md)
 
 * Topics:
   * Final projects
   * Web Browsers
   * Networking
 
-### [Nov 8 🔗](./classes/2021-11-09.md)
+### [Nov 8 🔗](./classes/2021-11-08.md)
 
 * Topics:
   * Debugging
   * Machine learning
 
-### [Nov 15 🔗](./classes/2021-11-16.md)
+### [Nov 15 🔗](./classes/2021-11-15.md)
 
 * Topics:
   * Projection mapping
@@ -122,17 +122,7 @@ This course explores creative uses of software development while introducing fou
 * Questions
 * Tools
 
-### [Dec 6 🔗](./classes/2021-12-07.md)
+### [Dec 6 🔗](./classes/2021-12-06.md)
 
 * Final projects due
 
-### Next time:
-
-* Careers
-* Project budgeting, concepting, resources needed, estimating time
-* Topic: Databases
-* Local web dev -> production server
-* Node.js
-* Firebase
-* Project setup
-* Parting thoughts - where do we go from here?
