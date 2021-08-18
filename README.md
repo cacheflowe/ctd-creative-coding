@@ -115,6 +115,7 @@ This course explores creative uses of software development while introducing fou
 ### Nov 22
 
 * Project help
+* [NFTs](https://www.twitch.tv/videos/1120091673)?
 
 ### Nov 29
 
