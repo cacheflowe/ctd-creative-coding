@@ -112,10 +112,11 @@ This course explores creative uses of software development while introducing fou
   * Projection mapping
   * Final project help & prep
 
-### Nov 22
+### [Nov 22 🔗](./classes/2021-11-22.md)
 
 * Project help
-* [NFTs](https://www.twitch.tv/videos/1120091673)?
+* Topics:
+  * NFTs
 
 ### Nov 29
 
