@@ -118,7 +118,7 @@ This course explores creative uses of software development while introducing fou
 * Topics:
   * NFTs
 
-### Nov 29
+### [Nov 29 🔗](./classes/2021-11-29.md)
 
 * Project help
 * Questions
