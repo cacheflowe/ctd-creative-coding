@@ -126,6 +126,9 @@ This course explores creative uses of software development while introducing fou
 
 ### [Dec 6 🔗](./classes/2021-12-06.md)
 
-* Final projects due
+* Present final projects WIP
 
+### Dec 13
+
+* Final projects due in Canvas
 
