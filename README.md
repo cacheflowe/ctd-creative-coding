@@ -3,7 +3,7 @@
 ## Course Info
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
-ATLS 5660 | Fall 2021 <br>
+ATLS 5660 | Fall 2022 <br>
 Time: Mondays @ 4:00–6:30 PM <br>
 Office hours: Tuesdays & Wednesdays @ 4:30–6:30 PM or by appointment <br>
 Location: Remote <br>
@@ -24,14 +24,14 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Aug 23 🔗](./classes/2021-08-23.md)
+### [Aug 22 🔗](./classes/2022-08-22.md)
 
 * Introductions
 * What is (creative) code?
 * Prepare tools for the semester
 * Code basics overview
 
-### [Aug 30 🔗](./classes/2021-08-30.md)
+### [Aug 29 🔗](./classes/2022-08-29.md)
 
 * Topics:
   * Basic drawing tools
@@ -40,9 +40,7 @@ This course explores creative uses of software development while introducing fou
 
 ### Sep 6 (No class - Labor Day)
 
-* I'll have open office hours during normal class time if you'd like to stop by and talk about progress
-
-### [Sep 13 🔗](./classes/2021-09-13.md)
+### [Sep 12 🔗](./classes/2022-09-12.md)
 
 * Topics:
   * Languages & IDEs
@@ -50,7 +48,7 @@ This course explores creative uses of software development while introducing fou
   * Remapping numbers
   * Animation
 
-### [Sep 20 🔗](./classes/2021-09-20.md)
+### [Sep 19 🔗](./classes/2022-09-19.md)
 
 * Topics:
   * How to do more, better code
@@ -58,13 +56,13 @@ This course explores creative uses of software development while introducing fou
   * Images
   * Looping animation
 
-### [Sep 27 🔗](./classes/2021-09-27.md)
+### [Sep 26 🔗](./classes/2022-09-26.md)
 
 * Topics:
   * Math
   * Software design
 
-### [Oct 4 🔗](./classes/2021-10-04.md)
+### [Oct 3 🔗](./classes/2022-10-03.md)
 
 * Topics:
   * Graphics algorithms & effects
@@ -72,7 +70,7 @@ This course explores creative uses of software development while introducing fou
   * Databases
   * Data Visualization
 
-### [Oct 11 🔗](./classes/2021-10-11.md)
+### [Oct 10 🔗](./classes/2022-10-10.md)
 
 * Topics:
   * CLI
@@ -80,51 +78,51 @@ This course explores creative uses of software development while introducing fou
   * Shaders
   * CPU vs GPU
 
-### [Oct 18 🔗](./classes/2021-10-18.md)
+### [Oct 17 🔗](./classes/2022-10-17.md)
 
 * Topics:
   * Refactoring
   * Hardware
   * Computer vision
 
-### [Oct 25 🔗](./classes/2021-10-25.md)
+### [Oct 24 🔗](./classes/2022-10-24.md)
 
 * Topics:
   * Open Source
   * Audio
 
-### [Nov 1 🔗](./classes/2021-11-01.md)
+### [Oct 30 🔗](./classes/2022-10-30.md)
 
 * Topics:
   * Final projects
   * Web Browsers
   * Networking
 
-### [Nov 8 🔗](./classes/2021-11-08.md)
+### [Nov 7 🔗](./classes/2022-11-07.md)
 
 * Topics:
   * Debugging
   * Machine learning
 
-### [Nov 15 🔗](./classes/2021-11-15.md)
+### [Nov 14 🔗](./classes/2022-11-14.md)
 
 * Topics:
   * Projection mapping
   * Final project help & prep
 
-### [Nov 22 🔗](./classes/2021-11-22.md)
+### [Nov 21 🔗](./classes/2022-11-21.md)
 
 * Project help
 * Topics:
   * NFTs
 
-### [Nov 29 🔗](./classes/2021-11-29.md)
+### [Nov 28 🔗](./classes/2022-11-28.md)
 
 * Project help
 * Questions
 * Tools
 
-### [Dec 6 🔗](./classes/2021-12-06.md)
+### [Dec 5 🔗](./classes/2022-12-05.md)
 
 * Present final projects WIP
 
