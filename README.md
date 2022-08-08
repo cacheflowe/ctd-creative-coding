@@ -33,20 +33,18 @@ This course explores creative uses of software development while introducing fou
 
 ### [Aug 29 🔗](./classes/2022-08-29.md)
 
-* Topics:
-  * Basic drawing tools
-  * Iteration
-  * Animation intro
+* Basic drawing tools
+* Iteration
+* Animation
 
 ### Sep 6 (No class - Labor Day)
 
 ### [Sep 12 🔗](./classes/2022-09-12.md)
 
-* Topics:
-  * Languages & IDEs
-  * Control flow
-  * Remapping numbers
-  * Animation
+* Languages & IDEs
+* Control flow
+* Remapping numbers
+* Animation
 
 ### [Sep 19 🔗](./classes/2022-09-19.md)
 
@@ -126,7 +124,7 @@ This course explores creative uses of software development while introducing fou
 
 * Present final projects WIP
 
-### Dec 13
+### Dec 12
 
 * Final projects due in Canvas
 
