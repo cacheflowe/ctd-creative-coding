@@ -48,71 +48,61 @@ This course explores creative uses of software development while introducing fou
 
 ### [Sep 19 🔗](./classes/2022-09-19.md)
 
-* Topics:
-  * How to do more, better code
-  * Strings
-  * Images
-  * Looping animation
+* How to do build anything
+* Strings
+* Images
+* Looping animation
 
 ### [Sep 26 🔗](./classes/2022-09-26.md)
 
-* Topics:
-  * Math
-  * Software design
+* Software design
+* Graphics effects & algorithms
+* Math
 
 ### [Oct 3 🔗](./classes/2022-10-03.md)
 
-* Topics:
-  * Graphics algorithms & effects
-  * Data structures
-  * Databases
-  * Data Visualization
+* Data structures
+* Databases
+* Data Visualization
 
 ### [Oct 10 🔗](./classes/2022-10-10.md)
 
-* Topics:
-  * CLI
-  * 3D
-  * Shaders
-  * CPU vs GPU
+* CLI
+* 3D
+* Shaders
+* CPU vs GPU
 
 ### [Oct 17 🔗](./classes/2022-10-17.md)
 
-* Topics:
-  * Refactoring
-  * Hardware
-  * Computer vision
+* Refactoring
+* Hardware
+* Computer vision
 
 ### [Oct 24 🔗](./classes/2022-10-24.md)
 
-* Topics:
-  * Open Source
-  * Audio
+* Open Source
+* Audio
 
 ### [Oct 30 🔗](./classes/2022-10-30.md)
 
-* Topics:
-  * Final projects
-  * Web Browsers
-  * Networking
+* Final projects
+* Web Browsers
+* Networking
 
 ### [Nov 7 🔗](./classes/2022-11-07.md)
 
-* Topics:
-  * Debugging
-  * Machine learning
+* Debugging
+* Machine learning
 
 ### [Nov 14 🔗](./classes/2022-11-14.md)
 
-* Topics:
-  * Projection mapping
-  * Final project help & prep
+* Projection mapping
+* Final project help & prep
 
 ### [Nov 21 🔗](./classes/2022-11-21.md)
 
 * Project help
-* Topics:
-  * NFTs
+* NFTs
 
 ### [Nov 28 🔗](./classes/2022-11-28.md)
 
@@ -127,4 +117,5 @@ This course explores creative uses of software development while introducing fou
 ### Dec 12
 
 * Final projects due in Canvas
+
 
