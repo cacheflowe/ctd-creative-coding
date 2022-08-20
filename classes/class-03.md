@@ -39,7 +39,7 @@
   * [Sliders](https://editor.p5js.org/cacheflowe/sketches/t7su_ViJ3)
   * [Random numbers](https://happycoding.io/tutorials/p5js/random)
   * Data
-  * noise()
+  * [noise()](https://twitter.com/pantrymoth/status/1557085719318990850)
   * sin()
   * lerp()
   * map()

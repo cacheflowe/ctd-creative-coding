@@ -74,7 +74,7 @@
   * Live coding
     * [Hydra](https://github.com/ojack/hydra)
     * [Hedron](https://github.com/nudibranchrecords/hedron)
-  * Audio (see [previous class](./2022-10-24.md) for a list)
+  * Audio (see [previous class](./class-09.md) for a list)
   * Voice-recognition
     * [Web Speech API demo](https://mdn.github.io/web-speech-api/speech-color-changer/) (Chrome only)
   * Face trackers

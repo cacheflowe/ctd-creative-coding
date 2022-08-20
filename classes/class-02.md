@@ -24,6 +24,8 @@
     * `text()`
       * Make sure you load the font first
         * Example in Processing & [p5](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)
+  * Advanced `context` topics
+    * [Clipping](https://editor.p5js.org/cacheflowe/sketches/-tO_SsjsC)
 
 ## 🛠️ Iteration
 

@@ -33,6 +33,7 @@
   * Jobs
   * Interdisciplinary & creative work
   * It's fun and magic!
+* [Which language should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
 * How to love it
   * Find something that speaks to your interests
     * You'll each find your own path with code (languages, career paths)

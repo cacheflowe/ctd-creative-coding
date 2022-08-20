@@ -24,14 +24,14 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Aug 22 🔗](./classes/2022-08-22.md)
+### [Aug 22 🔗](./classes/class-01.md)
 
 * Introductions
 * What is (creative) code?
 * Prepare tools for the semester
 * Code basics overview
 
-### [Aug 29 🔗](./classes/2022-08-29.md)
+### [Aug 29 🔗](./classes/class-02.md)
 
 * Basic drawing tools
 * Iteration
@@ -39,78 +39,77 @@ This course explores creative uses of software development while introducing fou
 
 ### Sep 6 (No class - Labor Day)
 
-### [Sep 12 🔗](./classes/2022-09-12.md)
+### [Sep 12 🔗](./classes/class-03.md)
 
 * Languages & IDEs
 * Control flow
 * Remapping numbers
 * Animation
 
-### [Sep 19 🔗](./classes/2022-09-19.md)
+### [Sep 19 🔗](./classes/class-04.md)
 
 * How to do build anything
 * Strings
 * Images
 * Looping animation
 
-### [Sep 26 🔗](./classes/2022-09-26.md)
+### [Sep 26 🔗](./classes/class-05.md)
 
 * Software design
 * Graphics effects & algorithms
 * Math
 
-### [Oct 3 🔗](./classes/2022-10-03.md)
+### [Oct 3 🔗](./classes/class-06.md)
 
 * Data structures
 * Databases
 * Data Visualization
 
-### [Oct 10 🔗](./classes/2022-10-10.md)
+### [Oct 10 🔗](./classes/class-07.md)
 
 * CLI
 * 3D
 * Shaders
 * CPU vs GPU
 
-### [Oct 17 🔗](./classes/2022-10-17.md)
+### [Oct 17 🔗](./classes/class-08.md)
 
 * Refactoring
 * Hardware
 * Computer vision
 
-### [Oct 24 🔗](./classes/2022-10-24.md)
+### [Oct 24 🔗](./classes/class-09.md)
 
 * Open Source
 * Audio
 
-### [Oct 30 🔗](./classes/2022-10-30.md)
+### [Oct 30 🔗](./classes/class-10.md)
 
 * Final projects
 * Web Browsers
 * Networking
 
-### [Nov 7 🔗](./classes/2022-11-07.md)
+### [Nov 7 🔗](./classes/class-11.md)
 
 * Debugging
 * Machine learning
 
-### [Nov 14 🔗](./classes/2022-11-14.md)
+### [Nov 14 🔗](./classes/class-12.md)
 
 * Projection mapping
 * Final project help & prep
 
-### [Nov 21 🔗](./classes/2022-11-21.md)
+### [Nov 21 🔗](./classes/class-13.md)
 
-* Project help
-* NFTs
+* Final project help
 
-### [Nov 28 🔗](./classes/2022-11-28.md)
+### [Nov 28 🔗](./classes/class-14.md)
 
-* Project help
+* Final project help
 * Questions
 * Tools
 
-### [Dec 5 🔗](./classes/2022-12-05.md)
+### [Dec 5 🔗](./classes/class-15.md)
 
 * Present final projects WIP
 

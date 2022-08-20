@@ -97,7 +97,8 @@
 
 * [Healthcare](https://ai.googleblog.com/2019/12/developing-deep-learning-models-for.html)
 * [Computer vision](https://www.youtube.com/watch?v=IXdDND9cVDg)
-* [Self-driving cars](https://www.tesla.com/autopilotAI)
+* [Self-driving cars](https://www.tesla.com/ai)
+  * [But...](https://twitter.com/ISusmelj/status/1558912252119482368)
 * [Helpful robots](https://youtu.be/tf7IEVTDjng?t=63) (or are they war machines?)
 * [Natural Language Processing](https://www.youtube.com/watch?v=fOvTtapxa9c)
 * [Enhancing old recordings](https://twitter.com/doodlewhale/status/1225796918128906243)
