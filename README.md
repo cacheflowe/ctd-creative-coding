@@ -116,13 +116,3 @@ This course explores creative uses of software development while introducing fou
 ### Dec 12
 
 * Final projects due in Canvas
-
-
-Inspirations
-
-https://www.creativeapplications.net/
-https://prostheticknowledge.tumblr.com/
-https://generative.substack.com/
-https://www.instagram.com/awe.curation/
-The Coding Train by Daniel Shiffman
-https://www.instagram.com/new_media_art/

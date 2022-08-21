@@ -103,6 +103,8 @@
   * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
   * [Algorithmic Music @ Wikipedia](http://en.wikipedia.org/wiki/Algorithmic_music)
   * Advanced articles (optional, just for kicks)
+    * [What Is the Web Audio API?](https://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
+    * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
     * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
     * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
 * Watch & listen:

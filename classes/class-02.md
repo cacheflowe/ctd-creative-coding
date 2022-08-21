@@ -51,6 +51,7 @@
   * [OpenProcessing](https://www.openprocessing.org/)
   * [CodePen](https://codepen.io/search/pens?q=p5js)
   * [ShaderToy](https://www.shadertoy.com/)
+  * [Justin's inspiration links](../docs/inspiration.md)
 * Program a [poster](https://www.instagram.com/tim_rodenbroeker/)
   * Use shapes, color, type, images
   * If you're not great with colors, use a [palette generator](https://coolors.co/palettes)
