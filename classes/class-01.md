@@ -115,7 +115,7 @@
 * Variables
 * Functions
 * Conditionals (if/else)
-* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages)
+* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages) - ([1972](../images/for-loop-50-yo.png))
 * Arrays
 * Animation
 * Input
