@@ -4,9 +4,12 @@
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
 ATLS 5660 | Fall 2022 <br>
-Time: Mondays @ 4:00–6:30 PM <br>
-Office hours: Tuesdays & Wednesdays @ 4:30–6:30 PM or by appointment <br>
-Location: Remote <br>
+Time: Mondays @ 4:00–6:30pm <br>
+Office hours: <br>
+> Wednesdays (Suibi) @ 2:00-5:00pm on campus at the Grad Lab<br>
+  Thursdays  (Justin) @ 4:00-6:30pm via Zoom<br>
+
+Location: Hybrid/Remote @ ENVD 234A or Zoom<br>
 Instructor: [Justin Gitlin](https://cacheflowe.com) <br>
 [Class Policies](./docs/policies.md)
 
