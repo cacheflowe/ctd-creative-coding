@@ -103,18 +103,21 @@ Build a clock
 
 * Textual, graphical, or both
 * Make it abstract or conceptual, not a [literal clock](https://p5js.org/examples/input-clock.html)
-* Some ideas
-  * Use [millis()](https://p5js.org/reference/#/p5/millis) for fine-grained time display
-  * Build a countdown clock?
-    * How many years do you have left to live? Use variables to calculate
-    * [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)
-    * How long before Covid is over, with variables added to the equation
-  * Show multiple time zones?
-  * Does time of day influence the color or drawing style?
-  * Add sound
-  * Reveal the rhythm of time with shapes
-  * Use Javascript for more [Date functions](https://flaviocopes.com/javascript-dates/)
-  * Turn the time into another "poster" and change the content depending on the time of day
+
+Some ideas
+
+* Use [millis()](https://p5js.org/reference/#/p5/millis) for fine-grained time display
+* Build a countdown clock?
+  * How many years do you have left to live? Use variables to calculate
+  * [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)
+  * How long before Covid is over, with variables added to the equation
+* Show multiple time zones, or use an invented time scale
+* Does IRL time of day influence the color or drawing style?
+* Add sound
+* Apply time to your favorite activity
+* Reveal the rhythm of time with shapes
+* Use Javascript for more [Date functions](https://flaviocopes.com/javascript-dates/)
+* Turn the time into another "poster" and change the content depending on the time of day
 
 ---
 
