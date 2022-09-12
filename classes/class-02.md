@@ -74,7 +74,7 @@
   * [CodePen](https://codepen.io/search/pens?q=p5js)
   * [ShaderToy](https://www.shadertoy.com/)
   * [Justin's inspiration links](../docs/inspiration.md)
-* Program a [poster](https://www.instagram.com/tim_rodenbroeker/)
+* **Program a [poster](https://www.instagram.com/tim_rodenbroeker/)**
   * Use shapes, color, type, images
   * If you're not great with colors, use a [palette generator](https://coolors.co/palettes)
   * Find [inspiration](https://www.google.com/search?q=bauhaus+poster+design) and borrow ideas if you're not a natural designer. If you really want to keep it simple, replicate an existing design, but credit the original designer in the comments.
