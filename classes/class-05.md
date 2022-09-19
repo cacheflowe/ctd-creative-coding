@@ -46,6 +46,7 @@
 
 ## 🛠️ Math
 
+- [Floating Point Math](https://0.30000000000000004.com/)
 - [Trigonometry (Making generative art with simple mathematics)](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
   - [Polar (circular) coordinates](https://editor.p5js.org/cacheflowe/sketches/22CiPOyiN)
   - [Circular motion](https://editor.p5js.org/cacheflowe/sketches/QazkuY-bZ)
