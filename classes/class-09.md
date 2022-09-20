@@ -27,6 +27,10 @@
     * Quick & easy
     * Dependency management
     * One source for the latest tools
+  * Downsides
+    * Security
+    * Large download size
+    * Versioning/dependencies can break over time
   * Different languages have different package managers
     * Processing: library manager inside IDE
     * p5js: N/A - you include remote javascript files or upload them

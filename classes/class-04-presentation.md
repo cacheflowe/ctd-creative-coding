@@ -16,7 +16,6 @@
   - Sleep on it
   - Go for a walk
   - Use [a](https://en.wikipedia.org/wiki/Rubber_duck_debugging) [duck](https://rubberduckdebugging.com/)
-  - > In a pinch a coworker might be able to substitute for the duck, however, it is often preferred to confide mistakes to the duck instead of your coworker. - A coworker
   - Try a different approach or reduce your ambition this time around. You'll figure it out with persistence!
 - Build your toolkit as you find solutions
   - [Haxademic](https://github.com/cacheflowe/haxademic/) is one of mine

@@ -29,6 +29,7 @@
   - Separate files
   - Build scripts
   - Package managers
+  - es6 imports
 - Functional programming
 
 ## 🛠️ Graphics Effects & Algorithms

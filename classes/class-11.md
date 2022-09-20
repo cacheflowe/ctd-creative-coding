@@ -36,6 +36,7 @@
 
 ### Articles / videos
 
+* [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
 * [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
 
