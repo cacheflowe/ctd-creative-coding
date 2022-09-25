@@ -1,4 +1,8 @@
-# Class 5
+# Creative Code
+
+## Class 5
+
+---
 
 ## 🛠️ Software Design (How to write better code)
 
@@ -10,6 +14,8 @@ General advice for cleaner, better code
   - Read blog posts
   - Follow developers on Twitter
 - Refactor & clean-up your own code once it's working
+
+---
 
 Strategies
 
@@ -31,6 +37,8 @@ Strategies
   - Package managers
   - es6 imports
 
+---
+
 ## 🛠️ Graphics Effects & Algorithms
 
 - [p5js libraries](https://p5js.org/libraries/)!
@@ -41,6 +49,8 @@ Strategies
   - [Convolution](https://www.taylorpetrick.com/blog/post/convolution-part1)
   - [Interactive image kernels](https://setosa.io/ev/image-kernels/)
   - [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328)
+
+---
 
 ## 🛠️ Math
 
@@ -59,6 +69,8 @@ Strategies
 - [Coding Math](https://www.youtube.com/user/codingmath) video series by Keith Peters
 - ...and so much more
 
+---
+
 ## 📝 Homework
 
 Read
@@ -70,9 +82,13 @@ Read
 - [Probability Distributions for Algorithmic Artists](https://tylerxhobbs.com/essays/2014/probability-distributions-for-algorithmic-artists) by Tyler Hobbs
 - [What makes generative art hard?](https://bendotk.com/writing/what-makes-generative-art-hard) by Ben Kovach
 
+---
+
+## 📝 Homework
+
 Build a "generator"
 
-- Shapes
+- Shapes, primarily
 - Some ideas
   - [Basic example](https://editor.p5js.org/cacheflowe/sketches/JytAPkkLQ0)
   - Generate an environment
@@ -81,6 +97,10 @@ Build a "generator"
   - Or a particle system
   - Animate your generated visuals
   - Add sound!
+
+---
+
+## 📝 Homework
 
 Inspiration
 
@@ -100,8 +120,9 @@ Inspiration
   - [KilledByAPixel](https://www.fxhash.xyz/u/KilledByAPixel)
   - [flight404](https://www.fxhash.xyz/u/flight404)
   - [toxi](https://www.fxhash.xyz/u/toxi)
-  - [https://www.fxhash.xyz/generative/slug/panta-rei](https://www.fxhash.xyz/generative/slug/panta-rei)
+  - [Koboljka](https://www.fxhash.xyz/generative/slug/panta-rei)
 
+---
 
 ## 📋 Review code
 
