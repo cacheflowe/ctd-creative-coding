@@ -51,7 +51,8 @@ Loading data payloads from files or APIs
   * [public-apis](https://github.com/public-apis/public-apis)
   * [OpenWeather](https://openweathermap.org/api)
 * Data Viz drawing tools
-  * [Make your own!](https://vimeo.com/showcase/2573675)
+  * [Make your own!](https://vimeo.com/showcase/2573675) - This is Processing-specific, but would port easily to p5js
+  * [Mappa.js](https://github.com/cvalenzuela/Mappa)
   * [D3](https://d3js.org/)
   * [deck.gl](https://deck.gl/)
   * [chart.js](https://www.chartjs.org/docs/latest/samples/information.html)

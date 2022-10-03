@@ -65,6 +65,7 @@ This course explores creative uses of software development while introducing fou
 ### [Oct 3 🔗](./classes/class-06.md)
 
 * Data structures
+* APIs
 * Databases
 * Data Visualization
 
