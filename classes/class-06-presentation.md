@@ -1,4 +1,8 @@
-# Class 6
+# Creative Code
+
+## Class 6
+
+---
 
 ## 🛠️ Data Structures
 
@@ -17,6 +21,8 @@ Loading data payloads from files or APIs
   * [XML](https://www.sitepoint.com/really-good-introduction-xml/)
     * `loadXML()` - [p5 example](https://p5js.org/reference/#/p5/loadXML)
 
+---
+
 ## 🛠️ APIs
 
 * "[WTF is an API?](https://maggieappleton.com/api/)"
@@ -29,6 +35,7 @@ Loading data payloads from files or APIs
 * How does code talk to other code?
   * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
 
+---
 
 ## 🛠️ Databases
 
@@ -39,6 +46,8 @@ Loading data payloads from files or APIs
   * Con: More difficult to set up and work with
   * Some different types of databases: SQL, Mongo, GraphQL
 * What's the best tool for the job? ([or most in fashion](../images/databases-relational-or-not.png))
+
+---
 
 ## 🛠️ Data Visualization
 
@@ -58,6 +67,8 @@ Loading data payloads from files or APIs
   * [Vizzu](https://github.com/vizzuhq/vizzu-lib)
   * Other [data viz libraries](https://medium.com/nightingale/navigating-the-wide-world-of-web-based-data-visualization-libraries-798ea9f536e7)
 
+---
+
 ## 📝 Homework:
 
 Watch:
@@ -67,6 +78,10 @@ Watch:
 * [Aaron Koblin: From Data to Digital Art](https://www.youtube.com/watch?v=-SETcTrdcU4)
 * [Data Becomes Art in Immersive Visualizations](https://www.youtube.com/watch?v=99gMbK2QCKE)
 * [Refik Anadol: Art in the age of machine intelligence](https://www.youtube.com/watch?v=UxQDG6WQT5s)
+
+---
+
+## 📝 Homework:
 
 **Build a data visualization**
 
@@ -89,6 +104,8 @@ Watch:
   * Find or create some interesting data
   * Load your data source into your environment
   * Draw something based on your data
+
+---
 
 ## 📋 Review code
 
