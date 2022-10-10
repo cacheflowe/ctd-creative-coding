@@ -112,6 +112,8 @@
     * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
     * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
 * Watch & listen:
+  * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
+  * [Simon Russell - Beat Visualization](https://vimeo.com/687076688)
   * "The Code Creative" [Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
   * [George E. Lewis: Why Do We Want Our Computers to Improvise?](https://www.youtube.com/watch?v=wDP8FsjyCaA)
   * [The Ballad of the Psychotropic Robots](https://www.youtube.com/watch?v=nhq6wzgFEXc)

@@ -9,6 +9,32 @@
 * CSS animations update!
   * Client feedback, rounds, pitching, client overlap
 
+## Shaders
+
+* What can they do?
+  * Fragment shaders
+    * Postprocessing effects
+    * Generative textures
+      * Raymarching!
+    * Dynamic texturing of polygons
+  * Vertex shaders
+    * Create & manipulate geometry
+* How to start
+  * Interactive tutorials
+    * [Book of Shaders](http://thebookofshaders.com/) (+ [Editor](http://editor.thebookofshaders.com/))
+    * [Fragment Foundry](http://hughsk.io/fragment-foundry/)
+  * Online editors
+    * [Shadertoy](http://shadertoy.com) (Online editor)
+  * p5js
+    * [Welcome to p5.js shaders](https://itp-xstory.github.io/p5js-shaders/)
+    * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
+  * Processing
+    * [Official `PShader` tutorial](https://processing.org/tutorials/pshader/)
+  * More reading
+    * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
+    * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
+    * [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
+
 ## 🛠️ Projection mapping
 
 * TLDR; Map a video source to a surface!

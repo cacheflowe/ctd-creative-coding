@@ -73,7 +73,6 @@ This course explores creative uses of software development while introducing fou
 
 * CLI
 * 3D
-* Shaders
 * CPU vs GPU
 
 ### [Oct 17 🔗](./classes/class-08.md)
@@ -100,6 +99,7 @@ This course explores creative uses of software development while introducing fou
 
 ### [Nov 14 🔗](./classes/class-12.md)
 
+* Shaders
 * Projection mapping
 * Final project help & prep
 

@@ -2,9 +2,7 @@
 
 ## 🛠️ Project in progress
 
-* Billy Griffin
-* Snow particles
-* New Generator
+* GAN training
 
 ## Upcoming classes
 
@@ -13,6 +11,7 @@
 ## 🛠️ Debugging
 
 * [p5js Debugging article](https://p5js.org/learn/debugging.html)
+* ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
 * What to do when something doesn't work
   * Does your IDE point out any syntax problems?
   * Is there an error message in the console?
