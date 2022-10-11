@@ -38,9 +38,16 @@ Why use CLI?
 
 How to use it?
 
-* Each `command` is basically a function that can take parameters, just like in JavaScript
-* Ask Google how to do something with `bash` or `zsh` or `Windows Command Prompt 🤢`
-* Write your command into the terminal
+* Install your tools with a package manager:
+  * [Homebrew](https://brew.sh/) for Mac
+  * [Chocolatey](https://chocolatey.org/) for Windows
+  * [apt](https://manpages.ubuntu.com/manpages/trusty/man8/apt.8.html) for Linux (Ubuntu)
+  * Or custom installation when necessary (usually just copying some files onto your computer)
+* Navigate to somewhere on your computer
+* Run a command!
+  * Each `command` is basically a function that can take parameters, just like in JavaScript
+  * Ask Google how to do something with `bash` or `zsh` or `Windows Command Prompt 🤢`
+  * Write your command into the terminal
   * Or write more complex scripts into a text file, and run your text file from the command line
 
 ## 🛠️ 3D Graphics
