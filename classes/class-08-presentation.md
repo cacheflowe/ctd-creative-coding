@@ -1,4 +1,8 @@
-# Class 8
+# Creative Code
+
+## Class 8
+
+---
 
 ## 🛠️ Hardware
 
@@ -8,6 +12,10 @@ Some hardware needs special device drivers.
 * There's not a simple messaging scheme (like Serial communication) that you can replicate without major reverse-engineering. for example:
 * Kinect / Realsense
 * Leap Motion
+
+---
+
+## 🛠️ Hardware
 
 Some hardware uses system-supported protocols
 
@@ -23,6 +31,10 @@ Some hardware uses system-supported protocols
   * Example: [Epic React: Instant Go](https://cacheflowe.com/code/installation/epic-react-instant-go) treadmill
   * Example: [30 Years of Air](https://cacheflowe.com/code/installation/nike-soho-air-max-screens) - sensor & motors
 
+---
+
+## 🛠️ Hardware
+
 Some hardware just uses electrical signals
 
 * Sensor modules
@@ -32,10 +44,17 @@ Some hardware just uses electrical signals
   - [DMX](https://en.wikipedia.org/wiki/DMX512) ([Example: Zoom simulation](https://cacheflowe.com/code/installation/zoom-centrifuge))
   - [sACN](https://www.lightjams.com/sacn.html)
 
+---
+
+## 🛠️ Hardware
+
 *show examples*
 
 You can combine these tools to create larger integrated systems 
   - Current project example (ArtNet, WebSockets, Realsense, http)
+
+
+---
 
 ## 🛠️ Computer vision
 
@@ -50,6 +69,8 @@ You can combine these tools to create larger integrated systems
   * [Thermal](https://groupgets.com/manufacturers/getlab/products/purethermal-2-flir-lepton-smart-i-o-module)
   * [Infrared](https://www.amazon.com/SVPRO-Outdoor-Waterproof-Surveillance-Android/dp/B07C2RL8PB/) (night vision)
 
+---
+
 ## 🛠️ Computer vision in p5js
 
 * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
@@ -62,11 +83,17 @@ You can combine these tools to create larger integrated systems
 * [ml5.js PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 * [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
 
+---
+
 ## 📝 Homework:
 
 Listen to an episode from either podcast:
 * [Tech+Art](https://podcasts.apple.com/ca/podcast/tech-art/id1480019037) Podcast
 * [That's So New Media!?](https://open.spotify.com/show/7MXw99WToC4MbZHwAlaFzB?si=UggW_cRMTwmZKVWeVAfsjw&nd=1)
+
+---
+
+## 📝 Homework:
 
 Build something with a webcam or other hardware
 
@@ -83,6 +110,8 @@ Build something with a webcam or other hardware
 * MIDI (Chrome only)
   * [Justin's example sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
   * [Justin's example sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
+
+---
 
 ## 📋 Review code
 

@@ -58,6 +58,9 @@
     * [BodyPix](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
   * [YOLO](https://pjreddie.com/darknet/yolo/)
   * [Mediapipe](https://google.github.io/mediapipe/)
+  * Processing
+    * [Creative Machine](https://github.com/jjeongin/creative-machine)
+    * [Deep Vision Processing](https://github.com/cansik/deep-vision-processing)
   
 * More advanced
   * [VQGAN + CLIP](https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52)

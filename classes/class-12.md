@@ -11,6 +11,7 @@
 
 ## Shaders
 
+* [NVIDIA: Adam and Jamie Paint the Mona Lisa in 80 Milliseconds](https://www.youtube.com/watch?v=WmW6SD-EHVY)
 * What can they do?
   * Fragment shaders
     * Postprocessing effects
@@ -26,8 +27,10 @@
   * Online editors
     * [Shadertoy](http://shadertoy.com) (Online editor)
   * p5js
+    * Seriously.js - https://www.youtube.com/watch?v=jdKep6jo7b0
     * [Welcome to p5.js shaders](https://itp-xstory.github.io/p5js-shaders/)
     * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
+      * https://editor.p5js.org/patriciogonzalezvivo/sketches/kux6ZVxE8
   * Processing
     * [Official `PShader` tutorial](https://processing.org/tutorials/pshader/)
   * More reading

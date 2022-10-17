@@ -54,7 +54,7 @@ How to use it?
 
 * Install your tools with a package manager:
   * [Homebrew](https://brew.sh/) for Mac
-  * [Chocolatey](https://chocolatey.org/) for Windows
+  * [Chocolatey](https://chocolatey.org/) or [Scoop](https://scoop.sh/) for Windows
   * [apt](https://manpages.ubuntu.com/manpages/trusty/man8/apt.8.html) for Linux (Ubuntu)
   * Or custom installation when necessary (usually just copying some files onto your computer)
 * Navigate to somewhere on your computer
