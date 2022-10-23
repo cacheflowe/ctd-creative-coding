@@ -9,9 +9,10 @@
 See also: [Creative Coding Notes list](https://github.com/cacheflowe/creative-coding-notes#physical-computing)
 
 Some hardware needs special device drivers. 
+
 * There's not a simple messaging scheme (like Serial communication) that you can replicate without major reverse-engineering. for example:
-* Kinect / Realsense
-* Leap Motion
+  * Kinect / Realsense
+  * Leap Motion
 
 ---
 
@@ -30,6 +31,7 @@ Some hardware uses system-supported protocols
 * Serial I/O - This is how we talk to custom sensors via Arduino (or other PCB boards)
   * Example: [Epic React: Instant Go](https://cacheflowe.com/code/installation/epic-react-instant-go) treadmill
   * Example: [30 Years of Air](https://cacheflowe.com/code/installation/nike-soho-air-max-screens) - sensor & motors
+* Bluetooth - pretty hard to reverse-engineer
 
 ---
 

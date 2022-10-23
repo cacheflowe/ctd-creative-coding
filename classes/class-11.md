@@ -33,6 +33,15 @@
 
 ## 🛠️ Machine Learning
 
+### How to use a ML tool
+
+* Some will be pre-packaged into a nice UI. This is rare
+  * Runway
+  * Stable Diffusion GUI
+* Some have online notebooks that are ready to use, usually in Google Colab. This creates a virtual environment with a good GPU to use. This will also cost money if you want a very good GPU
+* Some must be installed on your own computer. Sometimes a very fancy GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
+  * [This can be hard](../images/get-old-repo-to-run.png), [really](../images/get-old-repo-to-run-again.png)
+
 ### Articles / videos
 
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
@@ -46,36 +55,40 @@
 
 ### Interesting Tools
 
-* Beginner-friendly
-  * [ml5js](https://ml5js.org/) [demo from scratch](https://www.youtube.com/watch?v=8HEgeAbYphA)
-  * [Wekinator](http://www.wekinator.org/)
-  * [Artbreeder](https://www.artbreeder.com/)
-  * [Teachable Machine by Google](https://teachablemachine.withgoogle.com/) & [Shiffman tutorials](https://thecodingtrain.com/TeachableMachine/index.html)
+Beginner-friendly
 
-* Computer vision
-  * [Tensorflow](https://www.tensorflow.org/js/models)
-    * [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
-    * [BodyPix](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
-  * [YOLO](https://pjreddie.com/darknet/yolo/)
-  * [Mediapipe](https://google.github.io/mediapipe/)
-  * Processing
-    * [Creative Machine](https://github.com/jjeongin/creative-machine)
-    * [Deep Vision Processing](https://github.com/cansik/deep-vision-processing)
+* [ml5js](https://ml5js.org/) [demo from scratch](https://www.youtube.com/watch?v=8HEgeAbYphA)
+* [Teachable Machine by Google](https://teachablemachine.withgoogle.com/) & [Shiffman tutorials](https://thecodingtrain.com/TeachableMachine/index.html)
+* [Wekinator](http://www.wekinator.org/)
+* [Artbreeder](https://www.artbreeder.com/)
+* [Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
+
+Computer vision
+
+* [Tensorflow](https://www.tensorflow.org/js/models)
+  * [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
+  * [BodyPix](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
+* [YOLO](https://pjreddie.com/darknet/yolo/)
+* [Mediapipe](https://google.github.io/mediapipe/)
+* Processing
+  * [Creative Machine](https://github.com/jjeongin/creative-machine)
+  * [Deep Vision Processing](https://github.com/cansik/deep-vision-processing)
   
-* More advanced
-  * [VQGAN + CLIP](https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52)
-  * [GPT-3](https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond/)
-  * [StyleGAN](https://github.com/NVlabs/stylegan)
-  * [AWS ML tools](https://aws.amazon.com/machine-learning/)
-  * [Machine Learning for Artists](https://ml4a.net/)
-  * [Style Transfer](https://tenso.rs/demos/fast-neural-style/)
-  * [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
-  * [Synopsis](https://special-circumstances.info/)
-  * [Descript](https://www.descript.com/)
-  * [Demucs](https://github.com/facebookresearch/demucs)
-  * [Depth-Aware video frame INterpolation (DAIN)](https://github.com/baowenbo/DAIN)
-  * [Consistent Video Depth Estimation](https://github.com/facebookresearch/consistent_depth)
-  * [Hotpot](https://hotpot.ai/tools)
+More advanced
+
+* [VQGAN + CLIP](https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52)
+* [GPT-3](https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond/)
+* [StyleGAN](https://github.com/NVlabs/stylegan)
+* [AWS ML tools](https://aws.amazon.com/machine-learning/)
+* [Machine Learning for Artists](https://ml4a.net/)
+* [Style Transfer](https://tenso.rs/demos/fast-neural-style/)
+* [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
+* [Synopsis](https://special-circumstances.info/)
+* [Descript](https://www.descript.com/)
+* [Demucs](https://github.com/facebookresearch/demucs)
+* [Depth-Aware video frame INterpolation (DAIN)](https://github.com/baowenbo/DAIN)
+* [Consistent Video Depth Estimation](https://github.com/facebookresearch/consistent_depth)
+* [Hotpot](https://hotpot.ai/tools)
 
 ### ML-based Artists
 
@@ -93,7 +106,6 @@
 * [WIRED: AI Is the Future - But Where Are the Women?](https://www.wired.com/story/artificial-intelligence-researchers-gender-imbalance/)
 * [Women in Machine Learning](https://wimlworkshop.org/)
 * [Women in Machine Learning & Data Science: Boulder](http://wimlds.org/about-the-boulder-team/)
-  * [March 11th Boulder Meetup](https://www.meetup.com/Boulder-Women-in-Machine-Learning-and-Data-Science/events/268275822/)
 * [Feminist.AI](https://www.feminist.ai/)
 
 ### ML: The Good Things
@@ -109,13 +121,15 @@
 
 ### ML: The Bad Things
 
-* [Racism](https://twitter.com/lilyraynyc/status/1547361484144984065)
+* [Bias](https://twitter.com/lilyraynyc/status/1547361484144984065)
 * [Healthcare bias](https://www.pcmag.com/opinions/healthcare-algorithms-are-biased-and-the-results-can-be-deadly)
+* [Maybe it's not as good as we think](https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/)
 * [Safety](https://www.businessinsider.com/hackers-trick-tesla-accelerating-85mph-using-tape-2020-2)
 * [Privacy](https://twitter.com/kashhill/status/1218510902556811264)
 * [Privacy, again](https://twitter.com/kmlefranc/status/1221869659139366912?s=20) [*](https://fama.io/product/)
 * [Carbon footprint](https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/)
 * [Deepfakes](https://www.theguardian.com/technology/2020/jan/13/what-are-deepfakes-and-how-can-you-spot-them)
+* [Job security](https://www.nytimes.com/2022/09/02/technology/ai-artificial-intelligence-artists.html)
 
 ### General Tech Biases
 

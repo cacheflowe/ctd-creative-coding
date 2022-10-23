@@ -1,4 +1,8 @@
-# Class 9
+# Creative Code
+
+## Class 9
+
+---
 
 ## 🛠️ Open Source
 
@@ -12,17 +16,25 @@ Open source = Freely-available source code!
   * Internal tools that become their own library
   * [The struggles of an open source maintainer](http://antirez.com/news/129)
 
+---
+
+## 🛠️ Open Source
+
 Libraries & frameworks that you'll find
 
 * [What is the difference between a framework and a library?](https://www.youtube.com/watch?v=D_MO9vIRBcA)
 * Processing is the framework, but has a [libraries](https://processing.org/reference/libraries/) manager built in
 
+---
+
+## 🛠️ Open Source
+
 Package (library) managers
 
 * Why?
-  * Quick & easy
-  * Dependency management
-  * One source for the latest tools
+  * Quick & easy installation of tools
+  * [Dependency management](https://medium.com/prodsters/what-are-dependency-managers-26d7d907deb8) is taken care of for you
+  * One source for downloading the latest tools
 * Downsides
   * [Security](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
   * [Large download size](../images/node-modules-meme.png) (lots of extra library dependencies you might not use)
@@ -36,6 +48,8 @@ Package (library) managers
   * `Python`: pip or conda/mamba
   * `OS X`: Homebrew
   * `Windows`: Chocolatey
+
+---
 
 ## 🛠️ Audio
 
@@ -54,6 +68,10 @@ Justin's examples
 * [Obsidian](https://cacheflowe.com/art/digital/obsidian)
   * Looping animation was matched exactly to the length of the looping audio track
 
+---
+
+## 🛠️ Audio
+
 Samples vs. Synthesis
 
 * Samples
@@ -64,6 +82,10 @@ Samples vs. Synthesis
   * [p5.Oscillator](https://p5js.org/reference/#/p5.Oscillator)
   * [Oscillator Frequency](https://p5js.org/examples/sound-oscillator-frequency.html)
   * [Note Envelope](https://p5js.org/examples/sound-note-envelope.html)
+
+---
+
+## 🛠️ Audio
 
 Making music
 
@@ -87,6 +109,10 @@ Making music
   * [Zupiter](https://pointersgonewild.com/2019/10/06/zupiter-a-web-based-modular-synthesizer/)
   * [PatternSketch](https://patternsketch.com/)
 
+---
+
+## 🛠️ Audio
+
 [Scales](https://p5js.org/examples/hello-p5-song.html) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
 
 * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
@@ -97,6 +123,10 @@ Audio input
 * [Amplitude analysis](https://p5js.org/examples/sound-measuring-amplitude.html)
 * [More demos](https://therewasaguy.github.io/p5-music-viz/)
   * [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
+
+---
+
+## 🛠️ Audio
 
 Other tools for creating music
 
@@ -121,11 +151,17 @@ Other tools for creating music
 * [VCV Rack](https://vcvrack.com/Prototype) ([+ plugin docs](https://vcvrack.com/manual/PluginDevelopmentTutorial))
 * [Ableton Live Connection Kit](https://www.ableton.com/en/packs/connection-kit/)
 
+---
+
+## 🛠️ Audio
+
 Inspiration
 
 * [generative.fm](https://generative.fm/)
 * [Blob opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
 * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
+
+---
 
 ## 📝 Homework:
 
@@ -139,6 +175,10 @@ Read:
   * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
   * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
   * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
+
+---
+
+## 📝 Homework:
 
 Watch & listen
 
@@ -156,6 +196,10 @@ Watch & listen
   * [William Fields - Fields OS](https://williamfields.bandcamp.com/album/fieldsos)
     * "FieldsOS is 100% algorithmic music. The probabilities, conditions, and constraints were configured in advance. The output was recorded and this is the result. No curation or editing was done."
 
+---
+
+## 📝 Homework:
+
 Build something with audio
 
 * Ideas:
@@ -172,6 +216,8 @@ Build something with audio
   * [Audacity](https://www.audacityteam.org/) (free desktop app)
   * [Wavacity](https://wavacity.com/) (free browser-based app)
   * [AudioMass](https://audiomass.co/) (free browser-based app)
+
+---
 
 ## 📋 Review code
 
