@@ -77,7 +77,6 @@ This course explores creative uses of software development while introducing fou
 
 ### [Oct 17 🔗](./classes/class-08.md)
 
-* Refactoring
 * Hardware
 * Computer vision
 

@@ -8,9 +8,10 @@ Open source = Freely-available source code!
   * These determine how you can (or can't) legally use the code in your projects. Make sure you're allowed to use the code for your commercial (or non-commercial) purposes.
 * [How does open source happen?](http://opensource.guide/)
   * OS development [funding models](https://mkaz.blog/misc/open-souce-funding-models/)
-  * Personal projects
+  * [Personal projects](https://github.com/cacheflowe/haxademic)
   * Internal tools that become their own library
   * [The struggles of an open source maintainer](http://antirez.com/news/129)
+  * [awful-oss-incidents](https://github.com/PayDevs/awful-oss-incidents)
 
 Libraries & frameworks that you'll find
 

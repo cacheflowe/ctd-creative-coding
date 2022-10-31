@@ -31,6 +31,8 @@
     * [Welcome to p5.js shaders](https://itp-xstory.github.io/p5js-shaders/)
     * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
       * https://editor.p5js.org/patriciogonzalezvivo/sketches/kux6ZVxE8
+    * [Lygia](https://lygia.xyz/)
+      * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
   * More reading
     * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
     * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)

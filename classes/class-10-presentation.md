@@ -1,4 +1,14 @@
-# Class 10
+# Creative Code
+
+## Class 10 🎃
+
+### Topics:
+
+Final Projects
+
+Web Browsers
+
+---
 
 ## 😱 Final projects
 
@@ -9,6 +19,10 @@ Goals:
 * Experiment with a specific technology that interests you
 * Flex your skills
 * Learn some new techniques & revisit topics we've discussed in class
+
+---
+
+## 😱 Final projects
 
 Deliverables:
 
@@ -23,7 +37,9 @@ Deliverables:
   * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube/Vimeo, or otherwise.
   * This should also be uploaded to https://atlasinstitute.work/
 
-## 🛠️ Web Browsers, websites
+---
+
+## 🛠️ Web Browsers
 
 * Creative Web Dev Studios
   * [Active Theory](https://activetheory.net/)
@@ -37,6 +53,10 @@ Deliverables:
   * [Media Monks](https://media.monks.com/)
   * [Tool](https://toolofna.com/)
   * [Wieden + Kennedy](https://wk.com/)
+
+---
+
+## 🛠️ Web Browsers
 
 [The browser console](https://creative-coding.decontextualize.com/browser-console/)
   * Activity: remove an ad-blocker blocker
@@ -54,6 +74,10 @@ CSS
 * [CSS Doodle](https://css-doodle.com/)
 * [Ana Tudor](https://codepen.io/thebabydino)
 
+---
+
+## 🛠️ Web Browsers
+
 Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check [caniuse.com](https://caniuse.com/))
 
 * [Canvas API](https://flaviocopes.com/canvas/) ([Bitmap drawing docs]((https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)))
@@ -69,6 +93,10 @@ Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check 
 * [Web Serial API](https://codelabs.developers.google.com/codelabs/web-serial/) (Serial devices like Arduino/Teensy)
 * [Geolocation API](https://developers.google.com/web/fundamentals/native-hardware/user-location) (GPS)
 
+---
+
+## 🛠️ Web Browsers
+
 Other web-based creative tools:
 
 * Realtime graphics libraries
@@ -83,13 +111,25 @@ Other web-based creative tools:
   * [pts.js](https://ptsjs.org/)
   * [http://twgljs.org/](http://twgljs.org/)
   * [ogl.js](https://github.com/oframe/ogl)
-* Live coding
+
+---
+
+## 🛠️ Web Browsers
+
+Other web-based creative tools:
+
+* [Live coding](https://www.youtube.com/watch?v=h340aNznHnM)
   * [P5LIVE](https://teddavis.org/p5live/)
   * [Hydra](https://github.com/ojack/hydra)
   * [Hedron](https://github.com/nudibranchrecords/hedron)
 * Audio (see [previous class](./class-09.md) for a list)
 * Voice-recognition
   * [Web Speech API demo](https://mdn.github.io/web-speech-api/speech-color-changer/) (Chrome only)
+
+---
+
+## 🛠️ Web Browsers
+
 * Face trackers
   * [face-api.js](https://github.com/justadudewhohacks/face-api.js)
   * [tracking.js](https://trackingjs.com/)
@@ -107,6 +147,13 @@ Other web-based creative tools:
   * [MoveNet](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html)
   * [Mediapipe - Pose](https://google.github.io/mediapipe/solutions/pose)
     * [BlazePose (3d)](https://blog.tensorflow.org/2021/08/3d-pose-detection-with-mediapipe-blazepose-ghum-tfjs.html)
+
+---
+
+## 🛠️ Web Browsers
+
+Other web-based creative tools:
+
 * Fonts
   * [opentype.js](https://opentype.js.org/)
 * Augmented/Mixed/Virtual Reality
@@ -122,6 +169,11 @@ Other web-based creative tools:
   * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
   * [Web Serial API](https://wicg.github.io/serial/)
   * [Tramontana](https://tramontana.xyz/)
+
+---
+
+## 🛠️ Web Browsers
+
 * Multi-user sync
   * WebSockets (small data packets)
     * [ws](https://www.npmjs.com/package/ws)
@@ -130,6 +182,8 @@ Other web-based creative tools:
   * WebRTC (data/video/audio streaming)
     * [PeerJS](https://github.com/peers/peerjs)
     * [Kurento](https://doc-kurento.readthedocs.io/en/stable/index.html)
+
+---
 
 ## 📝 Homework:
 
@@ -144,6 +198,8 @@ Other web-based creative tools:
   * [Generative Machines with Matt DesLauriers](https://www.youtube.com/watch?v=8Uo6zFwSO78)
 * Build something with a new (to you) Web Browser feature
   * Find a tool or API above ☝️
+
+---
 
 ## 📋 Review code
 
