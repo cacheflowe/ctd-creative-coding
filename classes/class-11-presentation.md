@@ -1,8 +1,14 @@
-# Class 11
+# Creative Code
 
-## Upcoming classes
+## Class 11
 
-* What do we want to discuss?
+### Topics:
+
+Debugging
+
+Machine Learning
+
+---
 
 ## 🛠️ Debugging
 
@@ -16,6 +22,11 @@
   * Can you make a more basic version of the code do something?
   * Double-check the documentation
   * Do some Googling - has someone else had this problem?
+
+---
+
+## 🛠️ Debugging
+
 * General debugging
   * [Syntax errors](../images/roses-are-red.jpg)
   * Reference errors (is your code pointing to the right thing?)
@@ -27,6 +38,8 @@
   * Add a "debug view"
     * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
+---
+
 ## 🛠️ Machine Learning
 
 ### How to do ML things
@@ -37,9 +50,17 @@
 
 __*__ Just using a ML tool that is "ready to use" can be an [expert-level](../images/carmack-pytorch.png) journey
 
+---
+
+## 🛠️ Machine Learning
+
 ### Find an ML tool
 
 ML is really good at dealing with images, so many of the popular machine-learning tools are either image generators or analyzers. However, some other popular ML tools deal with text, audio, and other data types to do amazing, magical things. Some places to start, depending on your interests:
+
+---
+
+## 🛠️ Machine Learning
 
 * Computer vision (image analysis)
   * [MediaPipe](https://mediapipe.dev/)
@@ -59,6 +80,11 @@ ML is really good at dealing with images, so many of the popular machine-learnin
   - [OpenAI Jukebox](https://openai.com/blog/jukebox/)
   - [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
   - [Open-Unmix](https://sigsep.github.io/open-unmix/js.html)
+
+---
+
+## 🛠️ Machine Learning
+
 ### Install an ML tool
 
 How to install an ML tool:
@@ -73,6 +99,10 @@ How to install an ML tool:
 * Some must be installed on your own computer. Sometimes a very fancy GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
   * [This can be hard](../images/get-old-repo-to-run.png), [really](../images/get-old-repo-to-run-again.png)
 
+---
+
+## 🛠️ Machine Learning
+
 ### Articles / videos
 
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
@@ -83,6 +113,10 @@ How to install an ML tool:
 
 * [Making Art With GANs (ITP 2022)](https://www.youtube.com/watch?v=MR*J6abDZ2Q&list=PLWuCzxqIpJs826FfGGCU_WJJbCUNqtXiJ)
 * [fast.ai live coding & tutorials](https://www.youtube.com/watch?v=56*IyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=1)
+
+---
+
+## 🛠️ Machine Learning
 
 ### Interesting ML Tools
 
@@ -100,6 +134,12 @@ Beginner-friendly
 * [Artbreeder](https://www.artbreeder.com/)
 * [Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 
+---
+
+## 🛠️ Machine Learning
+
+### Interesting ML Tools
+
 Computer vision
 
 * [Tensorflow](https://www.tensorflow.org/js/models)
@@ -110,6 +150,12 @@ Computer vision
 * Processing
   * [Creative Machine](https://github.com/jjeongin/creative-machine)
   * [Deep Vision Processing](https://github.com/cansik/deep-vision-processing)
+
+---
+
+## 🛠️ Machine Learning
+
+### Interesting ML Tools
   
 More advanced
 
@@ -127,6 +173,10 @@ More advanced
 * [Consistent Video Depth Estimation](https://github.com/facebookresearch/consistent_depth)
 * [Hotpot](https://hotpot.ai/tools)
 
+---
+
+## 🛠️ Machine Learning
+
 ### ML-based Artists
 
 * [List: mlart.co](https://mlart.co/)
@@ -139,12 +189,22 @@ More advanced
 * [Charlie Gerard](https://www.smashingmagazine.com/2019/09/machine-learning-front-end-developers-tensorflowjs/)
 * [Derrick Schultz](https://artificial-images.com/)
 
+---
+
+## 🛠️ Machine Learning
+
 ### Diversity in ML
+
+Why does it matter?
 
 * [WIRED: AI Is the Future - But Where Are the Women?](https://www.wired.com/story/artificial-intelligence-researchers-gender-imbalance/)
 * [Women in Machine Learning](https://wimlworkshop.org/)
 * [Women in Machine Learning & Data Science: Boulder](http://wimlds.org/about-the-boulder-team/)
 * [Feminist.AI](https://www.feminist.ai/)
+
+---
+
+## 🛠️ Machine Learning
 
 ### ML: The Good Things
 
@@ -157,6 +217,10 @@ More advanced
 * [Enhancing old recordings](https://twitter.com/doodlewhale/status/1225796918128906243)
 * [DrumBot - a digital bandmate](https://twitter.com/notwaldorf/status/1201599495244537858)
 
+---
+
+## 🛠️ Machine Learning
+
 ### ML: The Bad Things
 
 * [Bias](https://twitter.com/lilyraynyc/status/1547361484144984065)
@@ -168,6 +232,10 @@ More advanced
 * [Carbon footprint](https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/)
 * [Deepfakes](https://www.theguardian.com/technology/2020/jan/13/what-are-deepfakes-and-how-can-you-spot-them)
 * [Job security](https://www.nytimes.com/2022/09/02/technology/ai-artificial-intelligence-artists.html)
+
+---
+
+## 🛠️ Machine Learning
 
 ### Biases in Software
 
@@ -183,6 +251,8 @@ Not necessarily specific to ML, but exacerbated by ML. Who is building the softw
 * [What Domino's digital accessibility lawsuit means for compliance](https://www.ciodive.com/news/what-dominos-digital-accessibility-lawsuit-means-for-compliance/564737/)
 * [Cost Cutting Algorithms Are Making Your Job Search a Living Hell](https://www.vice.com/en_us/article/pkekvb/cost-cutting-algorithms-are-making-your-job-search-a-living-hell)
 
+---
+
 ## 📝 Homework:
 
 * Read:
@@ -191,6 +261,8 @@ Not necessarily specific to ML, but exacerbated by ML. Who is building the softw
 * Build something with a machine-learning tool
   * *Or* try out some debugging tools and document your learnings
   * *Or* start work on your final project and present that next week
+
+---
 
 ## 📋 Review code
 

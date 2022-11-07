@@ -24,6 +24,7 @@
   * Interactive tutorials
     * [Book of Shaders](http://thebookofshaders.com/) (+ [Editor](http://editor.thebookofshaders.com/))
     * [Fragment Foundry](http://hughsk.io/fragment-foundry/)
+  * [Graham's shader blog post](https://graha.ms/posts/blog/2022-11-01-introduction-to-shaders-in-p5/)
   * Online editors
     * [Shadertoy](http://shadertoy.com) (Online editor)
   * p5js
@@ -35,6 +36,7 @@
       * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
   * More reading
     * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
+    * [Shader Tutorials By XorDev](https://www.getrevue.co/profile/xordev)
     * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
     * [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
 

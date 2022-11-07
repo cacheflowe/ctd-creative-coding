@@ -25,21 +25,24 @@ Deliverables:
 
 ## 🛠️ Web Browsers, websites
 
-* Creative Web Dev Studios
-  * [Active Theory](https://activetheory.net/)
-  * [Lusion](https://lusion.co/)
-  * [Resn](https://resn.co.nz/)
-  * [Jam3](https://www.jam3.com/)
-  * [Unit9](https://www.unit9.com/digital)
-  * [Junni](https://next.junni.co.jp/)
-  * [MakeMePulse](https://www.makemepulse.com/)
-  * [RGA](https://www.rga.com/)
-  * [Media Monks](https://media.monks.com/)
-  * [Tool](https://toolofna.com/)
-  * [Wieden + Kennedy](https://wk.com/)
+Creative Web Dev Studios
 
-[The browser console](https://creative-coding.decontextualize.com/browser-console/)
-  * Activity: remove an ad-blocker blocker
+* [Active Theory](https://activetheory.net/)
+* [Lusion](https://lusion.co/)
+* [Resn](https://resn.co.nz/)
+* [Jam3](https://www.jam3.com/)
+* [Unit9](https://www.unit9.com/digital)
+* [Junni](https://next.junni.co.jp/)
+* [MakeMePulse](https://www.makemepulse.com/)
+* [RGA](https://www.rga.com/)
+* [Media Monks](https://media.monks.com/)
+* [Tool](https://toolofna.com/)
+* [Wieden + Kennedy](https://wk.com/)
+* [North Kingdom](https://www.northkingdom.com/)
+
+The browser [console](https://creative-coding.decontextualize.com/browser-console/)
+
+* Activity: alter the functionality of an existing site
 
 SVG
 
@@ -53,10 +56,11 @@ CSS
 * [Generative Art with CSS](https://yuanchuan.dev/talk/generative-art-with-css/)
 * [CSS Doodle](https://css-doodle.com/)
 * [Ana Tudor](https://codepen.io/thebabydino)
+* Drawing with [A Single Div](https://a.singlediv.com/)
 
 Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check [caniuse.com](https://caniuse.com/))
 
-* [Canvas API](https://flaviocopes.com/canvas/) ([Bitmap drawing docs]((https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)))
+* [Canvas API](https://flaviocopes.com/canvas/) ([Bitmap drawing docs](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API))
 * [WebGL](https://webglfundamentals.org/) (High-performance 3d graphics)
 * [DeviceOrientationEvent](https://developers.google.com/web/fundamentals/native-hardware/device-orientation) (Accelerometer/gyroscope)
 * [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) & [Media Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) (Webcam, microphone, WebRTC streaming)
@@ -69,7 +73,7 @@ Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check 
 * [Web Serial API](https://codelabs.developers.google.com/codelabs/web-serial/) (Serial devices like Arduino/Teensy)
 * [Geolocation API](https://developers.google.com/web/fundamentals/native-hardware/user-location) (GPS)
 
-Other web-based creative tools:
+Web-based creative tools & libraries:
 
 * Realtime graphics libraries
   * [THREE.js](http://threejs.org/)
@@ -110,6 +114,7 @@ Other web-based creative tools:
 * Fonts
   * [opentype.js](https://opentype.js.org/)
 * Augmented/Mixed/Virtual Reality
+  * [p5xr](https://p5xr.org/#/)
   * [WebXR](https://immersive-web.github.io/webxr/)
   * [AR.js](https://github.com/jeromeetienne/ar.js)
   * [8th Wall](https://www.8thwall.com/)
@@ -118,7 +123,7 @@ Other web-based creative tools:
 * Hardware access
   * [WebMIDI](https://www.smashingmagazine.com/2018/03/web-midi-api/)
     * [JZZ](https://github.com/jazz-soft/JZZ)
-  * [Device Orientation](https://www.smashingmagazine.com/2018/03/web-midi-api/)
+  * [Device Orientation](https://developers.google.com/web/fundamentals/native-hardware/device-orientation)
   * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
   * [Web Serial API](https://wicg.github.io/serial/)
   * [Tramontana](https://tramontana.xyz/)
