@@ -160,7 +160,7 @@ Other web-based creative tools:
 * Fonts
   * [opentype.js](https://opentype.js.org/)
 * Augmented/Mixed/Virtual Reality
-  * [p5xr](https://p5xr.org/#/)
+  * [p5xr](https://p5xr.org/)
   * [WebXR](https://immersive-web.github.io/webxr/)
   * [AR.js](https://github.com/jeromeetienne/ar.js)
   * [8th Wall](https://www.8thwall.com/)

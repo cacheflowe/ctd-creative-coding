@@ -99,11 +99,10 @@ This course explores creative uses of software development while introducing fou
 ### [Nov 14 🔗](./classes/class-12.md)
 
 * Shaders
-* Projection mapping
-* Final project help & prep
 
 ### [Nov 21 🔗](./classes/class-13.md)
 
+* Projection mapping
 * Final project help
 
 ### [Nov 28 🔗](./classes/class-14.md)

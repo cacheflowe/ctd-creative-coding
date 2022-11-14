@@ -1,4 +1,12 @@
-# Class 12
+# Creative Code
+
+## Class 12
+
+### Topics:
+
+Shaders
+
+---
 
 ## 🛠️ Shaders
 
@@ -14,6 +22,10 @@
   * Dynamic texturing of polygons
 * Vertex shaders
   * Create & manipulate geometry
+
+---
+
+## 🛠️ Shaders
 
 ## How to start
 
@@ -31,6 +43,12 @@ Graham's shader blog posts
 * [Introduction to Shaders in P5](https://graha.ms/posts/blog/2022-11-01-introduction-to-shaders-in-p5/)
 * [Using p5 shaders for post processing](https://graha.ms/posts/blog/2022-11-10-using-p5-shaders-for-post-processing/)
 
+---
+
+## 🛠️ Shaders
+
+## How to start
+
 p5js
 
 * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
@@ -45,6 +63,10 @@ p5js
   * https://editor.p5js.org/patriciogonzalezvivo/sketches/kux6ZVxE8
   * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
 
+---
+
+## 🛠️ Shaders
+
 More reading
 
 * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
@@ -52,10 +74,22 @@ More reading
 * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
 * [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
 
+---
+
+## 🛠️ Shaders
+
+### Don't just take my word for it
+
+Take Graham's word for it!
+
+---
+
 ## 📝 Homework:
 
 * Work on your final project
 * I can stay late to talk about your project. Otherwise, stop by office hours if you have questions
+
+---
 
 ## 📋 Review code
 
