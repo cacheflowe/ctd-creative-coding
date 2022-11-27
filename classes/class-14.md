@@ -1,93 +1,53 @@
-# Class 14
+# Class 15
 
-## 📋 Faculty Course Questionnaire (FCQ)
+## 📋 We did it!
 
-* 15 minutes at the beginning of class for students to complete their online FCQs
-* Inform students of the purpose of the FCQ, how it's used in your course and department, and highlight its importance to you.
-* Remind students to visit [colorado.campuslabs.com/courseeval](https://colorado.campuslabs.com/courseeval) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
+* You all made cool things with code!
+  * Learning creative code techniques were part of the journey, but you've also learned:
+    * Language features & basic object-oriented code concepts
+    * Setup & configuration of tools
+    * How to try and fail, then try more and (sometimes) succeed
+    * How to ask questions in a new and very deep discipline
+  * You've inspired me!
+    * Tools you've chosen
+    * Ideas you've brought to the table with all of your various interests and inherent talents
+    * Bringing humanity to code
+    * Being nice & creative human beings
+* Where to go from here?
+  * Keep coding! You all have the ability to code, and I'm excited to see what you make
+  * Go back to the basics & get more comfortable with the puzzle pieces
+  * Read about more advanced techniques and tools
+  * Find your own path in this medium - there is a special place that you uniquely occupy
+  * Ask your peers and mentors questions to become a better programmer
+  * Learn the tools that enable you to do the work that you want to do
+  * Augment your other practices with code
+  * Practice by giving yourself challenges like #codevember and #36daysoftype. 
+  * Emulate others until you can do the work that *you* dream up
+  * Follow inspirational coders and organizations on GitHub, Twitter, Instagram, and their blogs. Aspire to join them!
+  * Script yourself out of doing mundane life activities
+  * Fix your family & friends' computers
 
-## 📋 Me + You Recap
+## 📋 Presentations
 
-### Prototyping
+* Present your final project
+* Final versions should be uploaded to Canvas by Mon, Dec 13th
 
-* Creative
-  * Color concepting w/design team
-  * Reworking their initial concepts * returning initial motion prototypes
-* Code
-  * Voice recognition
-  * Volumetric shapes & animations
-  * 3d simulation
-  * 2d pixel map
+## 📝 Final Project Guidelines
 
-### Production & Iteration
-
-* Reality checks
-  * Budget realities
-  * Tech constraints & responsibilites
-    * HDMI vs. addressing
-* Matching LED colors between Mandalas & Artifact
-
-### Integration
-
-* Mandala HDMI pixel map
-* Artifact pixel map
-
-### Website
-
-* Mirroring the physical with the digital
-* GPU particles
-
-### Install
-
-* 3 weeks for me, but 5 total
-* Remote control power outlets
-* Signage tweaks
-  * You're not *just* the programmer
-
-### Monitoring & maintenance
-
-* Health check API
-* AWS alarms & Jira
-
-### Press & public ambassadorship
-
-* Attribution!
-* No claiming things you didn't do
-* How would the client want you representing the project and your uhmble role in it?
-
-### Updating the portfolio
-
-* Explanation
-* Quotes
-* Attribution
-* Photos, video
-
-## 🛠️ Node.js
-
-* What is Node?
-  * Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
-* npm
-
-Use cases
-* Web Server
-* Build tools
-* WebSocket server
-* File-processing tasks
-
-Node Resources
-* [Introduction to Node.js](https://nodejs.dev/learn)
-* [Node Weekly](https://nodeweekly.com/)
-* Shiffman!
-  * [Server-side Programming and Node](https://shiffman.net/a2z/server-node/)
-  * The Coding Train topics:
-    * https://thecodingtrain.com/Tutorials/12-websockets/12.1-introduction-to-node.html
-    * https://thecodingtrain.com/Tutorials/15-twitter-bot/15.1-intro-nodejs.html
-    * https://thecodingtrain.com/Courses/data-and-apis/2.1-server-side-node.html
-    * https://thecodingtrain.com/Courses/data-and-apis/
-* 
-
-## 📝 Homework:
-
-* Work on your final project
-
-
+* Guidelines originally posted in the [Oct 30 class](./2022-10-31.md)
+* Goals:
+  * Combine your interests (code and not-code)
+  * Build something meaningful for yourself
+  * Experiment with a specific technology that interests you
+  * Flex your skills
+  * Learn some new techniques & revisit topics we've discussed in class
+* Deliverables:
+  * The code itself, uploaded or hosted on your own website or Google Drive/Dropbox/etc
+  * One or more of the following: 
+    * A live version of your code running on a website
+    * A .zip file with the code that can be run locally
+    * A video recap of the code in action
+  * Documentation:
+    * Screenshots and/or video screen recordings that show off the output and program features
+    * A description of the piece (and title if applicable). At least 1 paragraph about what you've created, what you learned, tools, techniques, and anything else that makes your project interesting. Tell a story.
+    * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube/Vimeo, or otherwise.

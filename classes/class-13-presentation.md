@@ -1,10 +1,24 @@
-# Class 13
+# Creative Code
+
+## Class 13
+
+### Topics:
+
+FCQ
+
+Me + You project recap
+
+Final project info & help
+
+---
 
 ## 📋 Faculty Course Questionnaire (FCQ)
 
 * 15 minutes at the beginning of class for students to complete their online FCQs
 * The purpose of the FCQ, how it's used in your course and department, and highlight its importance to you.
 * Visit [colorado.campuslabs.com/courseeval](https://colorado.campuslabs.com/courseeval) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
+
+---
 
 ## 📋 Me + You Recap
 
@@ -19,6 +33,10 @@
   * 3d simulation
   * 2d pixel map
 
+---
+
+## 📋 Me + You Recap
+
 ### Production & Iteration
 
 * Reality checks
@@ -27,15 +45,27 @@
     * HDMI vs. addressing
 * Matching LED colors between Mandalas & Artifact
 
+---
+
+## 📋 Me + You Recap
+
 ### Integration
 
 * Mandala HDMI pixel map
 * Artifact pixel map
 
+---
+
+## 📋 Me + You Recap
+
 ### Website
 
 * Mirroring the physical with the digital
 * GPU particles
+
+---
+
+## 📋 Me + You Recap
 
 ### Install
 
@@ -44,16 +74,28 @@
 * Signage tweaks
   * You're not *just* the programmer
 
+---
+
+## 📋 Me + You Recap
+
 ### Monitoring & maintenance
 
 * Health check API
 * AWS alarms & Jira
+
+---
+
+## 📋 Me + You Recap
 
 ### Press & public ambassadorship
 
 * Attribution!
 * No claiming things you didn't do
 * How would the client want you representing the project and your uhmble role in it?
+
+---
+
+## 📋 Me + You Recap
 
 ### Updating the portfolio
 
@@ -62,8 +104,11 @@
 * Attribution
 * Photos, video
 
+---
+
 ## 📝 Homework:
 
 * Work on your final project!
 * Due date is Dec 9th, so I have time to write feedback
+
 

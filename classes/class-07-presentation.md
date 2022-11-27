@@ -70,7 +70,6 @@ How to use it?
 
 The Graphics pipeline
 
-* [Casual Introduction to Low-Level Graphics Programming](http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming)
 * [Projection (3D)](https://jsantell.com/3d-projection)
 * [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
 * [Learn OpenGL](https://learnopengl.com/)
@@ -92,7 +91,7 @@ Basic layout & 3d thinking
     * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
   * Textures & texture operations
     * Loading an image file is almost always faster than drawing vector data
-  * Cached Geometry
+  * [Cached Geometry](https://github.com/davepagurek/p5.buildGeometry)
   * [Drawing the pixels to the screen](https://xem.github.io/articles/images/webgl-guide/workflow.png)
 
 ---

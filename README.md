@@ -100,21 +100,14 @@ This course explores creative uses of software development while introducing fou
 
 * Shaders
 
-### [Nov 21 🔗](./classes/class-13.md)
-
-* Projection mapping
-* Final project help
-
-### [Nov 28 🔗](./classes/class-14.md)
+### [Nov 28 🔗](./classes/class-13.md)
 
 * Final project help
-* Questions
-* Tools
 
-### [Dec 5 🔗](./classes/class-15.md)
+### [Dec 5 🔗](./classes/class-14.md)
 
 * Present final projects WIP
 
-### Dec 12
+### Dec 9
 
 * Final projects due in Canvas
