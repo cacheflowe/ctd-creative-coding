@@ -1,4 +1,8 @@
-# Class 14
+# Creative Code
+
+## Class 14
+
+---
 
 ## 📋 We did it!
 
@@ -11,12 +15,21 @@ You all made cool things with code!
   * How to try and fail, then try more and (sometimes) succeed
   * How to ask questions in a new and very deep discipline
 
+---
+
+## 📋 We did it!
+
 You've inspired me!
 
 * Tools you've chosen
+* The questions you've asked
 * Ideas you've brought to the table with all of your various interests and inherent talents
 * Bringing humanity to code
 * Being nice & creative human beings
+
+---
+
+## 📋 We did it!
 
 Where to go from here?
 
@@ -32,6 +45,8 @@ Where to go from here?
 * Follow inspirational coders and organizations on GitHub, Twitter, Instagram, and their blogs. Aspire to join them!
 * Script yourself out of doing mundane life activities
 * Fix your family & friends' computers
+
+---
 
 ## 📋 Presentations
 
