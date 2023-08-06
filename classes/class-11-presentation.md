@@ -74,6 +74,7 @@ ML is really good at dealing with images, so many of the popular machine-learnin
   * [Style transfer](https://genekogan.com/works/style-transfer/), [pix2pix](https://phillipi.github.io/pix2pix/) and other image-based generators & effects
   * [Palette extraction](https://github.com/angristan/palette)
 * Text (or code) generation
+  * [LLaMA](https://cocktailpeanut.github.io/dalai/)
   * [GPT-3](https://huggingface.co/openai-gpt)
   * [GitHub Copilot](https://github.com/features/copilot)
 * Audio manipulation
@@ -105,9 +106,11 @@ How to install an ML tool:
 
 ### Articles / videos
 
+* [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
 * [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
+* [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)
 
 ### Courses
 
@@ -225,6 +228,7 @@ Why does it matter?
 
 * [Bias](https://twitter.com/lilyraynyc/status/1547361484144984065)
 * [Bias in "creative tools"](https://techpolicy.press/researchers-find-stable-diffusion-amplifies-stereotypes/)
+* [Bias in "generative AI"](https://www.bloomberg.com/graphics/2023-generative-ai-bias/)
 * [Healthcare bias](https://www.pcmag.com/opinions/healthcare-algorithms-are-biased-and-the-results-can-be-deadly)
 * [Maybe it's not as good as we think](https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/)
 * [Safety](https://www.businessinsider.com/hackers-trick-tesla-accelerating-85mph-using-tape-2020-2)

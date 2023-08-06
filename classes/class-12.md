@@ -4,6 +4,7 @@
 
 * [Justin's GLSL overview article](https://github.com/cacheflowe/haxademic/blob/master/guides/shaders-intro.md)
 * [NVIDIA: Adam and Jamie Paint the Mona Lisa in 80 Milliseconds](https://www.youtube.com/watch?v=WmW6SD-EHVY)
+* [Shaders visual explanation](https://typefully.com/DanHollick/gpnhhud) by [@DanHollick](https://twitter.com/DanHollick/status/1603370500306018304)
 
 ### What can they do?
 

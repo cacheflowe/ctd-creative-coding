@@ -3,13 +3,12 @@
 ## Course Info
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
-ATLS 5660 | Fall 2022 <br>
+ATLS 5660 | Fall 2023 <br>
 Time: Mondays @ 4:00–6:30pm <br>
 Office hours: <br>
-> Wednesdays (Suibi) @ 2:00-5:00pm on campus at the Grad Lab<br>
-  Thursdays  (Justin) @ 4:00-6:30pm via Zoom<br>
+> Thursdays  (Justin) @ 4:00-6:00pm via Zoom<br>
 
-Location: Hybrid/Remote @ ENVD 234A or Zoom<br>
+Location: Remote via Zoom<br>
 Instructor: [Justin Gitlin](https://cacheflowe.com) <br>
 [Class Policies](./docs/policies.md)
 
@@ -27,60 +26,60 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Aug 22 🔗](./classes/class-01.md)
+### [Aug 28 🔗](./classes/class-01.md)
 
 * Introductions
 * What is (creative) code?
 * Prepare tools for the semester
 * Code basics overview
 
-### [Aug 29 🔗](./classes/class-02.md)
+### Sep 4 (No class - Labor Day)
+
+### [Sep 11 🔗](./classes/class-02.md)
 
 * Basic drawing tools
 * Iteration
 * Animation
 
-### Sep 6 (No class - Labor Day)
-
-### [Sep 12 🔗](./classes/class-03.md)
+### [Sep 18 🔗](./classes/class-03.md)
 
 * Languages & IDEs
 * Control flow
 * Remapping numbers
 * Animation
 
-### [Sep 19 🔗](./classes/class-04.md)
+### [Sep 25 🔗](./classes/class-04.md)
 
 * How to do build anything
 * Strings
 * Images
 * Looping animation
 
-### [Sep 26 🔗](./classes/class-05.md)
+### [Oct 2 🔗](./classes/class-05.md)
 
 * Software design
 * Graphics effects & algorithms
 * Math
 
-### [Oct 3 🔗](./classes/class-06.md)
+### [Oct 9 🔗](./classes/class-06.md)
 
 * Data structures
 * APIs
 * Databases
 * Data Visualization
 
-### [Oct 10 🔗](./classes/class-07.md)
+### [Oct 16 🔗](./classes/class-07.md)
 
 * CLI
 * 3D
 * CPU vs GPU
 
-### [Oct 17 🔗](./classes/class-08.md)
+### [Oct 23 🔗](./classes/class-08.md)
 
 * Hardware
 * Computer vision
 
-### [Oct 24 🔗](./classes/class-09.md)
+### [Oct 30 🔗](./classes/class-09.md)
 
 * Open Source
 * Audio
@@ -91,23 +90,29 @@ This course explores creative uses of software development while introducing fou
 * Web Browsers
 * Networking
 
-### [Nov 7 🔗](./classes/class-11.md)
+### [Nov 6 🔗](./classes/class-11.md)
 
 * Debugging
 * Machine learning
 
-### [Nov 14 🔗](./classes/class-12.md)
+### [Nov 13 🔗](./classes/class-12.md)
 
 * Shaders
 
-### [Nov 28 🔗](./classes/class-13.md)
+### Nov 20 (No class - Fall Break)
+
+### [Nov 27 🔗](./classes/class-13.md)
 
 * Final project help
 
-### [Dec 5 🔗](./classes/class-14.md)
+### Dec 4
 
-* Present final projects WIP
+* TBD, extra class this year
 
-### Dec 9
+### [Dec 11 🔗](./classes/class-14.md)
 
-* Final projects due in Canvas
+* Present final projects in class
+
+### Dec 16
+
+* Final project due in Canvas

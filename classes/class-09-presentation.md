@@ -134,18 +134,21 @@ Other tools for creating music
 * Processing libraries:
   * [Beads](http://www.beadsproject.net/)
   * [Minim](http://code.compartmental.net/tools/minim/)
+* Live coding!
+  * [Sonic PI](http://sonic-pi.net/)
+  * [TidalCycles](https://tidalcycles.org/)
+  * [Strudel](https://strudel.tidalcycles.org/tutorial/)
+  * [ORCA](https://github.com/hundredrabbits/Orca)
+  * [ChucK](http://chuck.cs.princeton.edu/)
+  * [Gibber](https://gibber.cc/)
+  * [Overtone](http://overtone.github.io/)
+  * [Alda](https://alda.io/)
+  * [Extempore](https://extemporelang.github.io/)
+  * [EarSketch](http://earsketch.gatech.edu/landing/)
 * [WebAudio](http://cacheflowe.github.io/audio-hax/)
 * [Max](https://cycling74.com/products/max/)
 * [Tone.js](https://tonejs.github.io/examples/)
-* [Sonic PI](http://sonic-pi.net/)
-* [ORCA](https://github.com/hundredrabbits/Orca)
-* [ChucK](http://chuck.cs.princeton.edu/)
 * [Supercollider](http://supercollider.github.io/)
-* [Alda](https://alda.io/)
-* [Extempore](https://extemporelang.github.io/)
-* [Overtone](http://overtone.github.io/)
-* [TidalCycles](https://tidalcycles.org/)
-* [EarSketch](http://earsketch.gatech.edu/landing/)
 * [Aubio](https://aubio.org/)
 * [Sound eXchange](http://sox.sourceforge.net/) (cli conversion tool, like ffmpeg but for audio files)
 * [JUCE](https://juce.com/)
@@ -171,6 +174,7 @@ Read:
 * [Introduction to Generative Music](https://medium.com/@alexbainter/introduction-to-generative-music-91e00e4dba11)
 * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
 * [Algorithmic Music @ Wikipedia](http://en.wikipedia.org/wiki/Algorithmic_music)
+* [Live Coding Handbook](https://livecodingbook.toplap.org/)
 * Advanced articles (optional, just for kicks)
   * [What Is the Web Audio API?](https://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
   * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
@@ -183,8 +187,10 @@ Read:
 
 Watch & listen
 
+* [Making Music with CODE?! (With DJ_Dave and Sam Aaron)](https://www.youtube.com/watch?v=vuSZQnkOB_Y)
 * Tutorials
   * "The Code Creative" [Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
+  * [Luisa Pereira's classes](https://www.luisapereira.net/teaching/)
 * Conceptual interviews
   * [Computer Music (Synthesizers, Synclavier) News Report w/Stanley Jordan (1986)](https://www.youtube.com/watch?v=duMStO826W0)
   * [George E. Lewis: Why Do We Want Our Computers to Improvise?](https://www.youtube.com/watch?v=wDP8FsjyCaA)

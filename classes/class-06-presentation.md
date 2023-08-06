@@ -74,6 +74,7 @@ Loading data payloads from files or APIs
 
 Watch:
 
+* [The Pudding](https://pudding.cool/)
 * [Daniel Shiffman: Introduction to Data and APIs in JavaScript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 * [Giorgia Lupi: How we can find ourselves in data](https://www.youtube.com/watch?v=sFIDCtRX_-o)
 * [Aaron Koblin: From Data to Digital Art](https://www.youtube.com/watch?v=-SETcTrdcU4)

@@ -82,7 +82,8 @@
 
 ### How to learn it
 
-* [Which language should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
+* [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
+  * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Practice! Try, fail, repeat
 * It's better to start writing bad code than to let yourself get stuck 
   * [meme](../images/can-i-code-fast.jpg)
@@ -99,6 +100,7 @@
 * Places to search for code answers
   * Google
   * [Stack Overflow](https://stackoverflow.com)
+  * ChatGPT
   * Blogs/Tutorials
   * Slacks/Discords
   * [Technical documentation](https://p5js.org/reference/) - ([meme](../images/rtfm-he-man.png))
@@ -132,6 +134,7 @@
   * New Media Art
   * Making games, toys, apps, instruments, or anything **creative**, that's not just a typical website or app
 * All code is creative!
+  * Solving any engineering problem is a creative process
 * What kind of creative coder do you want to be?
   * Some [artists](../docs/artists.md) for inspiration
   * Let's use this class to learn, build a portfolio, and make conceptual work. Generative art becomes much more meaningful with an artist statement, a unique perspective, or a story to tell.
@@ -203,7 +206,7 @@ If you're *not* comfortable with these, come to office hours and study the follo
 
 * A video series to reinforce the **Welcome to Coding** articles:
   * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) - Please follow along with this series, sections 1-4
-* And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen
+* And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen, which is now its [own website](https://programmingdesignsystems.com/color/color-schemes/index.html)
 * Books!
   * https://www.aesthetic-programming.net/index.html
   * https://natureofcode.com/book/

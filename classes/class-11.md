@@ -1,9 +1,5 @@
 # Class 11
 
-## Upcoming classes
-
-* What do we want to discuss?
-
 ## 🛠️ Debugging
 
 * [p5js Debugging article](https://p5js.org/learn/debugging.html)
@@ -53,6 +49,7 @@ ML is really good at dealing with images, so many of the popular machine-learnin
   * [Style transfer](https://genekogan.com/works/style-transfer/), [pix2pix](https://phillipi.github.io/pix2pix/) and other image-based generators & effects
   * [Palette extraction](https://github.com/angristan/palette)
 * Text (or code) generation
+  * [LLaMA](https://cocktailpeanut.github.io/dalai/)
   * [GPT-3](https://huggingface.co/openai-gpt)
   * [GitHub Copilot](https://github.com/features/copilot)
 * Audio manipulation
@@ -76,9 +73,11 @@ How to install an ML tool:
 
 ### Articles / videos
 
+* [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
 * [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
+* [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)
 
 ### Courses
 
@@ -162,6 +161,7 @@ More advanced
 
 * [Bias](https://twitter.com/lilyraynyc/status/1547361484144984065)
 * [Bias in "creative tools"](https://techpolicy.press/researchers-find-stable-diffusion-amplifies-stereotypes/)
+* [Bias in "generative AI"](https://www.bloomberg.com/graphics/2023-generative-ai-bias/)
 * [Healthcare bias](https://www.pcmag.com/opinions/healthcare-algorithms-are-biased-and-the-results-can-be-deadly)
 * [Maybe it's not as good as we think](https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/)
 * [Safety](https://www.businessinsider.com/hackers-trick-tesla-accelerating-85mph-using-tape-2020-2)
@@ -179,6 +179,7 @@ Not necessarily specific to ML, but exacerbated by ML. Who is building the softw
 * [Color film was built for white people. Here's what it did to dark skin.](https://www.youtube.com/watch?v=d16LNHIEJzs)
 * [What my color-blindness taught me about design](https://uxdesign.cc/what-my-color-blindness-taught-me-about-design-d3009a93ff9c)
 * [Women Work Better in Warmer Rooms, Study Says](https://time.com/5592353/office-temperature-study/)
+* [Women suffer needless pain because almost everything is designed for men](https://www.vox.com/future-perfect/2019/4/17/18308466/invisible-women-pain-gender-data-gap-caroline-criado-perez)
 * [Women suffer needless pain because almost everything is designed for men](https://www.vox.com/future-perfect/2019/4/17/18308466/invisible-women-pain-gender-data-gap-caroline-criado-perez)
 * [Why Can't This Soap Dispenser Identify Dark Skin?](https://gizmodo.com/why-cant-this-soap-dispenser-identify-dark-skin-1797931773)
 * [The racism of technology - and why driverless cars could be the most dangerous example yet](https://www.theguardian.com/technology/shortcuts/2019/mar/13/driverless-cars-racist)
