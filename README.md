@@ -95,11 +95,11 @@ This course explores creative uses of software development while introducing fou
 * Debugging
 * Machine learning
 
+### Nov 20 (No class - Fall Break)
+
 ### [Nov 27 🔗](./classes/class-12.md)
 
 * Shaders
-
-### Nov 20 (No class - Fall Break)
 
 ### [Dec 4 🔗](./classes/class-13.md)
 
