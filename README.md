@@ -84,30 +84,26 @@ This course explores creative uses of software development while introducing fou
 * Open Source
 * Audio
 
-### [Oct 31 🔗](./classes/class-10.md)
+### [Nov 6 🔗](./classes/class-10.md)
 
 * Final projects
 * Web Browsers
 * Networking
 
-### [Nov 6 🔗](./classes/class-11.md)
+### [Nov 13 🔗](./classes/class-11.md)
 
 * Debugging
 * Machine learning
 
-### [Nov 13 🔗](./classes/class-12.md)
+### [Nov 27 🔗](./classes/class-12.md)
 
 * Shaders
 
 ### Nov 20 (No class - Fall Break)
 
-### [Nov 27 🔗](./classes/class-13.md)
+### [Dec 4 🔗](./classes/class-13.md)
 
 * Final project help
-
-### Dec 4
-
-* TBD, extra class this year
 
 ### [Dec 11 🔗](./classes/class-14.md)
 
