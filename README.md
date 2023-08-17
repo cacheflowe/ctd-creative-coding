@@ -14,7 +14,7 @@ Instructor: [Justin Gitlin](https://cacheflowe.com) <br>
 
 ## Course Description
 
-This course explores creative uses of software development while introducing foundational programming concepts, techniques, and best practices. Using Processing and p5.js, students will learn a wide variety of tools that enable the creation of art, animation, interactivity, music, data visualization, and even utilitarian applications. While focusing on graphics, multimedia, and interactivity, the class will also touch on the importance of building the "digital plumbing" that supports our creative work.
+This course explores creative uses of software development while introducing foundational programming concepts, techniques, and best practices. Primarily using p5.js, students will learn a wide variety of tools that enable the creation of art, animation, interactivity, music, data visualization, and even utilitarian applications. While focusing on graphics, multimedia, and interactivity, the class will also cover the importance of building the "digital plumbing" that supports our creative work.
 
 ## Objectives
 
