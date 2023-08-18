@@ -61,7 +61,7 @@
   * Places to search for code answers
     * Google
     * [Stack Overflow](https://stackoverflow.com)
-    * ChatGPT
+    * [ChatGPT](https://www.youtube.com/watch?v=VznoKyh6AXs)
     * Blogs/Tutorials
     * Slacks/Discords
     * [Technical documentation](https://p5js.org/reference/) 
