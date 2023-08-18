@@ -146,6 +146,7 @@
 ### p5js (or Processing)
 
 * For p5js, create an account for [the editor](https://editor.p5js.org/)
+  * Get the [VS Code](https://code.visualstudio.com/) IDE, and then install the [p5js extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
 * For Processing, [install the IDE](https://processing.org/download/)
 * If you'd like to use other tools like Unity, TouchDesigner, THREE.js, Openframeworks:
   * I can help during office hours, but you're largely on your own
