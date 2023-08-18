@@ -160,7 +160,7 @@
   * Use this to help each other out - like we do in the "real world"
 * Screen capture
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
-  * Windows 10: [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
+  * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
 
 ---
 

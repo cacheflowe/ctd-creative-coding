@@ -74,7 +74,7 @@
 ### How to do code
 
 * Get an IDE that's good for your language of choice
-  * [VSCode](https://code.visualstudio.com/) is a popular choice for web and general development
+  * [VS Code](https://code.visualstudio.com/) is a popular choice for web and general development
   * Processing comes with it's own IDE, and p5js has the online editor
   * Other languages often have specific IDEs and tools that work with that language
 * Type your code into text files
@@ -109,7 +109,7 @@
   * Use this to help each other out - like the real world
 * Screen capture
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
-  * Windows 10: [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
+  * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
 
 ## 🛠️ Code basics
 
