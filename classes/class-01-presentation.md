@@ -11,7 +11,7 @@
 * Review the [course description](https://github.com/cacheflowe/ctd-creative-coding). This isn't a frontend course!
   * > This course explores creative uses of software development while introducing foundational programming concepts, techniques, and best practices. Using Processing and p5.js, students will learn a wide variety of tools that enable the creation of art, animation, interactivity, music, data visualization, and even utilitarian applications. While focusing on graphics, multimedia, and interactivity, the class will also touch on the importance of building the "digital plumbing" that supports our creative work.
 * Please sign up for Slack if you haven't yet
-* "Grad Student Code Helper" - Suibi Weng
+* TA - Eli Rachlin
 
 ---
 
