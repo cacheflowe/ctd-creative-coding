@@ -8,7 +8,7 @@ General advice for cleaner, better code
 - Study techniques! What are people in the industry talking & writing about
   - Watch talks from conferences
   - Read blog posts
-  - Follow developers on Twitter
+  - Follow developers on social media
 - Refactor & clean-up your own code once it's working
 
 Strategies
@@ -35,6 +35,7 @@ Strategies
 
 - [p5js libraries](https://p5js.org/libraries/)!
 - [Postprocessing demo in PIXI.js](http://filters.pixijs.download/dev/demo/index.html)
+  - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
 - [List of visual algorithms](https://thatcreativecode.page/)
 - [List of graphics algorithms](https://github.com/cacheflowe/creative-coding-notes#graphics-concepts) @ Cacheflowe's Creative Coding Notes
 - [Matrices](https://vitaminac.github.io/Matrices-in-Computer-Graphics/)

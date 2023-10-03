@@ -9,6 +9,7 @@
 - [Follow the engineering design process](../images/engineering-design-process.jfif)
 - Break the problem down
   - Google the components of the problem, and follow the process above
+  - Project management tools (Asana, Jira, Notion)
 - Write ugly code, then clean it up once it works
   - Don't over-engineer it until it's working
 - Ask someone for help/advice!
