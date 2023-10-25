@@ -88,7 +88,7 @@ You can combine these tools to create larger integrated systems
 ## 🛠️ Computer vision in p5js
 
 * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
-* [MediaPipe](https://editor.p5js.org/golan/sketches/0yyu6uEwM)
+* [MediaPipe multi-mode tracker](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt) - [original](https://editor.p5js.org/golan/sketches/0yyu6uEwM)
 * [MediaPipe hand tracker](https://editor.p5js.org/lingdong/sketches/1viPqbRMv)
 * [MediaPipe facemesh](https://editor.p5js.org/lingdong/sketches/ef6FB-uNq)
 * [clmtracker example](https://editor.p5js.org/cacheflowe/sketches/k5331wdu7)
