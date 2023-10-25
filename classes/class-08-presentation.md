@@ -20,7 +20,7 @@ Some hardware needs special device drivers.
 
 Some hardware uses system-supported protocols
 
-* Keyboard/mouse [devices](https://xkeys.com/xkeys.html)
+* Keyboard/mouse [HID](https://en.wikipedia.org/wiki/Human_interface_device) [devices](https://xkeys.com/xkeys.html)
 * Webcams - "[UVC](https://en.wikipedia.org/wiki/USB_video_device_class)" means that a camera of video device can be seen as a webcam by your operating system
 - [MIDI](http://en.wikipedia.org/wiki/MIDI)
 * Network
@@ -76,6 +76,7 @@ You can combine these tools to create larger integrated systems
 ## 🛠️ Computer vision in p5js
 
 * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
+* [MediaPipe](https://editor.p5js.org/golan/sketches/0yyu6uEwM)
 * [MediaPipe hand tracker](https://editor.p5js.org/lingdong/sketches/1viPqbRMv)
 * [MediaPipe facemesh](https://editor.p5js.org/lingdong/sketches/ef6FB-uNq)
 * [clmtracker example](https://editor.p5js.org/cacheflowe/sketches/k5331wdu7)
@@ -83,6 +84,8 @@ You can combine these tools to create larger integrated systems
 * [ml5.js FaceApi example](https://editor.p5js.org/ml5/sketches/FaceApi_Video_Landmarks)
 * [ml5.js BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
 * [ml5.js PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
+* [ml5.js + p5play game](https://editor.p5js.org/StevesMakerspace/sketches/RLGFfn2pt)
+* [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
 * [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
 
 ---
