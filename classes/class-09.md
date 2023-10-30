@@ -29,7 +29,7 @@ Package (library) managers
   * [Large download size](../images/node-modules-meme.png) (lots of extra library dependencies you might not use)
   * Versioning/dependencies can [break or become outdated](../images/get-old-repo-to-run.png) over time
 * Different languages have different package managers
-  * `p5js`: Doesn't have one! You include remote javascript files or upload them
+  * `p5js`: [Doesn't have one](https://p5js.org/libraries/)! You include remote javascript files or upload them
   * `Processing`: library manager inside IDE
   * `Javascript`: Node.js (npm)
   * `Java`: Maven
@@ -43,7 +43,8 @@ Package (library) managers
 Justin's examples
 
 * [Interphase](https://cacheflowe.com/code/installation/interphase)
-  * Interactive music generator software w/physical lighting 
+  * Interactive music generator software w/physical lighting
+  * [New iterations](https://www.instagram.com/p/Cy0wLwZrt6m/)
 * [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
   * All choreography & computer-generated visuals were synced to the tempo of the music
 * [Bauhouse](https://cacheflowe.com/art/digital/bauhouse) 
