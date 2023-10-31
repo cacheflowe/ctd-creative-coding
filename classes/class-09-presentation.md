@@ -54,7 +54,7 @@ Package (library) managers
 
 ## 🛠️ Audio
 
-Justin's examples
+Justin's examples of different audio uses in creative code
 
 * [Interphase](https://cacheflowe.com/code/installation/interphase)
   * Interactive music generator software w/physical lighting 
@@ -69,6 +69,8 @@ Justin's examples
   * Incoming audio signal is analysed and used to draw audio-reactive images
 * [Obsidian](https://cacheflowe.com/art/digital/obsidian)
   * Looping animation was matched exactly to the length of the looping audio track
+* [Webcam sonification](https://www.instagram.com/p/CIytqIxljZG/)
+  * Using pixel data to translate into a looping sound wave
 
 ---
 
