@@ -26,16 +26,17 @@ Goals:
 
 Deliverables:
 
-* The code itself, uploaded or hosted on your own website or Google Drive/Dropbox/etc
+* The code itself, uploaded to Canvas or hosted on your own website
 * One or more of the following: 
   * A live version of your code running on a website
   * A .zip file with the code that can be run locally
   * A video recap of the code in action
+  * A live performance??
 * Documentation:
   * Screenshots and/or video screen recordings that show off the output and program features
   * A description of the piece (and title if applicable). At least 1 paragraph about what you've created, what you learned, tools, techniques, and anything else that makes your project interesting. Tell a story.
   * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube/Vimeo, or otherwise.
-  * This should also be uploaded to https://atlasinstitute.work/
+  * This could also be uploaded to https://atlasinstitute.work/
 
 ---
 
