@@ -55,6 +55,8 @@ p5js
 More reading
 
 * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
+* [A Journey Into Shaders](https://www.mayerowitz.io/blog/a-journey-into-shaders)
+* [An introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY)
 * [Shader Tutorials By XorDev](https://mini.gmshaders.com/)
 * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
 * [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
