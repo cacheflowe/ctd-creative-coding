@@ -17,12 +17,13 @@ Shaders
 ### What can they do?
 
 * Fragment shaders
-  * Postprocessing effects
-  * Generative textures
-    * Raymarching!
-  * Dynamic texturing of polygons
+  * [Dynamic texturing & lighting](https://threejs.org/examples/#webgl_materials_bumpmap) of polygons
+  * [Postprocessing effects](https://filters.pixijs.download/main/demo/index.html)
+  * [Compositing](https://filters.pixijs.download/main/demo/index.html)
+  * [Generative textures](https://www.shadertoy.com/view/XtyXzw)
+    * [Raymarching](https://www.shadertoy.com/view/Xds3zN)!
 * Vertex shaders
-  * Create & manipulate geometry
+  * Create & [manipulate geometry](https://www.instagram.com/p/CfHwxRGlpod/)
 
 ---
 
@@ -52,16 +53,20 @@ Graham's shader blog posts
 
 p5js
 
+* Documentation
+  * [p5js shader reference](https://p5js.org/reference/#/p5/shader)
+  * [p5js Introduction to Shaders](https://p5js.org/learn/getting-started-in-webgl-shaders.html)
+  * [p5js createFilterShader()](https://p5js.org/reference/#/p5/createFilterShader) (New as of p5js 1.8!)
 * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
-* [Welcome to p5.js shaders](https://itp-xstory.github.io/p5js-shaders/)
 * Justin's p5js examples
+  * [Basic generative starter](https://editor.p5js.org/cacheflowe/sketches/ha6wfUQHS)
   * [Basic generative shader](https://editor.p5js.org/cacheflowe/sketches/ml0ubsQhB)
-  * [Basic post-processing shader effect](https://editor.p5js.org/cacheflowe/sketches/xIU6cbKvm)
+  * [Basic post-processing shader effect](https://editor.p5js.org/cacheflowe/sketches/K8LFvt_D2)
   * [Feedback effect without a shader](https://editor.p5js.org/cacheflowe/sketches/RMfzMUdhc)
   * [Feedback effect with a shader](https://editor.p5js.org/cacheflowe/sketches/TKFuqnxVE)
   * [Fancier feedback effect](https://editor.p5js.org/cacheflowe/sketches/8aCDXu1cU)
 * [Lygia](https://lygia.xyz/)
-  * https://editor.p5js.org/patriciogonzalezvivo/sketches/kux6ZVxE8
+  * https://editor.p5js.org/patriciogonzalezvivo/sketches/hwBn0i0qw
   * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
 
 ---
@@ -71,17 +76,9 @@ p5js
 More reading
 
 * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
-* [Shader Tutorials By XorDev](https://www.getrevue.co/profile/xordev)
+* [Shader Tutorials By XorDev](https://mini.gmshaders.com/)
 * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
 * [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
-
----
-
-## 🛠️ Shaders
-
-### Don't just take my word for it
-
-Take Graham's word for it!
 
 ---
 
