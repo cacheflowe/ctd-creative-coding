@@ -109,6 +109,6 @@ Final project info & help
 ## 📝 Homework:
 
 * Work on your final project!
-* Due date is Dec 9th, so I have time to write feedback
+* Due date is Dec 16th, so I have time to write feedback
 
 
