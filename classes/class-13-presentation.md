@@ -16,7 +16,7 @@ Final project info & help
 
 * 15 minutes at the beginning of class for students to complete their online FCQs
 * The purpose of the FCQ, how it's used in your course and department, and highlight its importance to you.
-* Visit [colorado.campuslabs.com/courseeval](https://colorado.campuslabs.com/courseeval) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
+* Visit [https://colorado.campuslabs.com/eval-home/](https://colorado.campuslabs.com/eval-home/) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
 
 ---
 
