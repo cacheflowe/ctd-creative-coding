@@ -1,7 +1,8 @@
 ### Hello ATLAS friends!
 
-[Justin Gitlin](https://cacheflowe.com) here (he/him) - your lecturer for the Creative Coding course (ATLS 5660). I wanted to welcome you to our class and make sure you have the info to join our virtual spaces. This course will be remote and held via Zoom. I'm really excited to code with you all this Fall, starting Monday, August 28 at 4pm.
-The [living syllabus](https://github.com/cacheflowe/ctd-creative-coding) will be updated throughout the semester, but is fairly stable. I have a solid outline of topics that I want to cover, but I'll be flexible and responsive to the natural progression of the class and individual needs. **Please read the course description in the syllabus, because this is not a frontend web development class** as some old descriptions suggest! We will be making *art with code*, not traditional websites. However, the coding skills we learn in the course will be valuable for any other coding adventures you go on.
+[Justin Gitlin](https://cacheflowe.com) here (he/him) - your lecturer for the Creative Coding course (ATLS 5660). I wanted to welcome you to our class and make sure you have the info to join our virtual spaces. This course will be remote and held via Zoom. I'm really excited to code with you this Fall.
+
+The [living syllabus](https://github.com/cacheflowe/ctd-creative-coding) will be updated throughout the semester, but is fairly stable. I have a solid outline of topics that I want to cover, but I'll be flexible and responsive to the natural progression of the class and individual needs. **Please read the [current course description](https://github.com/cacheflowe/ctd-creative-coding/blob/master/README.md#course-description) in the syllabus, because this is not a frontend web development class** as some [old descriptions](https://catalog.colorado.edu/courses-a-z/atls/) suggest on the ATLAS website! We will be making *art with code*, not traditional websites. However, the coding skills we learn in the course will be valuable for any other coding adventures you go on.
 
 ## Preparing for class
 
