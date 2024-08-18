@@ -3,10 +3,10 @@
 ## Course Info
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
-ATLS 5660 | Fall 2023 <br>
+ATLS 5660 | Fall 2024 <br>
 Time: Mondays @ 4:00–6:30pm <br>
-Office hours: <br>
-> Thursdays  (Justin) @ 4:00-6:00pm via Zoom<br>
+Office hours:
+> Thursdays  (Justin) @ 4:00-6:00pm via Zoom
 
 Location: Remote via Zoom<br>
 Instructor: [Justin Gitlin](https://cacheflowe.com) <br>

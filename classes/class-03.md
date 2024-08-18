@@ -3,15 +3,14 @@
 ## 🛠️ Languages & IDEs
 
 - [Language differences & use-cases](https://www.quora.com/What-are-the-differences-that-exist-between-programming-languages/answer/James-Barton-129)
-  - [Typing](https://en.wikipedia.org/wiki/Type_system)
-    - [Javascript data types](../images/javascript-datatypes.jpg)
-    - p5js ([Javascript](https://blog.jscrambler.com/type-system-in-javascript-what-it-is-and-why-it-matters)) vs Processing (Java)
-    - Video: [Typing: Static vs Dynamic, Weak vs. Strong](https://www.youtube.com/watch?v=C5fr0LZLMAs)
-    - [Example of error-checking](https://editor.p5js.org/cacheflowe/sketches/RIT2lquNi)
-  - [Object-oriented](https://www.youtube.com/watch?v=m_MQYyJpIjg) vs [functional](https://www.youtube.com/watch?v=XGNYDjyD6G8)
-    - Other [programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
-  - Languages update over time!
-    - [Javascript history](https://www.educative.io/blog/javascript-versions-history)
+- [Typing](https://en.wikipedia.org/wiki/Type_system)
+  - [Demo: Javascript data types & error-checking](https://editor.p5js.org/cacheflowe/sketches/RIT2lquNi)
+  - [Type System for Javascript](https://dev.to/melodyleonard/type-system-for-javascript-1c1a)
+  - Video: [Typing: Static vs Dynamic, Weak vs. Strong](https://www.youtube.com/watch?v=C5fr0LZLMAs)
+- [Object-oriented](https://www.youtube.com/watch?v=m_MQYyJpIjg) vs [functional](https://www.youtube.com/watch?v=XGNYDjyD6G8)
+  - Other [programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
+- Languages update over time!
+  - [Javascript history](https://www.educative.io/blog/javascript-versions-history)
 - IDEs - what can they do for you?
   - They're built specifically for certain languages
 - [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)s
@@ -25,8 +24,8 @@
   - Conditionals
   - Loops
 - Order of operations
-  - UI thread can slow down because code executes serially
-  - Multithreading breaks out of the predictable order of execution
+  - In most languages, code executes serially by default. One operation needs to finish before the next starts.
+  - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
 
 ## 🛠️ Shaping our sketches
 
@@ -76,9 +75,9 @@
   - Chuck
 - **Build a clock**
   - Textual, graphical, or both
-  - Make it abstract or conceptual, not a [literal clock](https://p5js.org/examples/input-clock.html)
+  - Make it abstract or conceptual, not a [literal clock](https://editor.p5js.org/p5/sketches/Input:_Clock)
   - Some ideas
-    - Use [millis()](https://p5js.org/reference/#/p5/millis) for fine-grained time display
+    - Use [millis()](https://p5js.org/reference/p5/millis/) for fine-grained time display
     - Build a countdown clock?
       - How many years do you have left to live? Use variables to calculate
       - [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)

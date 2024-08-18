@@ -2,25 +2,40 @@
 
 ## 🛠️ Debugging
 
+<img src="../images/debugging.png" alt="alt text" width="500"/>
+
+### Resources
+
 * [p5js Debugging article](https://p5js.org/learn/debugging.html)
 * ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
-* What to do when [something doesn't work](../images/debugging.png)
-  * Does your IDE point out any syntax problems?
-  * Is there an error message in the console?
-    * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
-  * Check your syntax
-  * Can you make a more basic version of the code do something?
-  * Double-check the documentation
-  * Do some Googling - has someone else had this problem?
-* General debugging
-  * [Syntax errors](../images/roses-are-red.jpg)
-  * Reference errors (is your code pointing to the right thing?)
-  * `console.log()` / `println()`
-  * Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
-* Graphical debugging
-  * It's hard...
-  * If something isn't displaying, can you make a simpler version?
-  * Add a "debug view"
+* [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+
+
+### What to do when something doesn't work
+
+<img src="../images/roses-are-red.jpg" alt="alt text" width="500"/>
+
+* Does your IDE point out any syntax problems?
+* Is there an error message in the console?
+  * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
+* Check your syntax
+* Check for typos
+* Can you make a more basic version of the code do something?
+* Double-check the documentation
+* Do some Googling - has someone else had this problem?
+* Get help from ChatGPT or Copilot
+
+### General debugging
+
+* Reference errors (is your code pointing to the right thing?)
+* `console.log()` / `println()`
+* Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
+
+### Graphical debugging
+
+* It's hard...
+* If something isn't displaying, can you make a simpler version?
+* Add a "debug view"
     * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
 ## 🛠️ Machine Learning & AI
@@ -85,6 +100,7 @@ How to install an ML tool:
 
 ### Articles / videos
 
+* [The Wizard of AI](https://alanwarburton.co.uk/)
 * [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
@@ -93,6 +109,8 @@ How to install an ML tool:
 
 ### Courses / Tutorials
 
+* https://microsoft.github.io/generative-ai-for-beginners/
+* https://microsoft.github.io/ML-For-Beginners/
 * Syllabus update: Find almost anything on YouTube!
 
 ### Interesting ML Tools

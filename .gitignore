@@ -1,1 +1,5 @@
 _assets
+node_modules
+TODO_.md
+package-lock.json
+package.json

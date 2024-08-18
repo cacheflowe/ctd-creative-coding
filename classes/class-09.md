@@ -25,6 +25,7 @@ Package (library) managers
   * Dependency management
   * One source for the latest tools
 * Downsides
+  * [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/)
   * [Security](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
   * [Large download size](../images/node-modules-meme.png) (lots of extra library dependencies you might not use)
   * Versioning/dependencies can [break or become outdated](../images/get-old-repo-to-run.png) over time
@@ -61,11 +62,11 @@ Justin's examples of different audio uses in creative code
 Samples vs. Synthesis
 
 * Samples
-  * [p5.SoundFile](https://p5js.org/reference/#/p5.SoundFile)
+  * [p5.SoundFile](https://p5js.org/reference/p5.SoundFile)
   * [Sample playback via button click](https://p5js.org/examples/sound-sound-effect.html)
   * [Sound playback rate](https://p5js.org/examples/sound-playback-rate.html)
 * Synthesis
-  * [p5.Oscillator](https://p5js.org/reference/#/p5.Oscillator)
+  * [p5.Oscillator](https://p5js.org/reference/p5.Oscillator)
   * [Oscillator Frequency](https://p5js.org/examples/sound-oscillator-frequency.html)
   * [Note Envelope](https://p5js.org/examples/sound-note-envelope.html)
 

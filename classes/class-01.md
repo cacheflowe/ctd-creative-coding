@@ -36,9 +36,9 @@
 
 ### Why code?
 
-* Jobs
 * Interdisciplinary & creative work
 * It's fun and magic!
+* Jobs
 
 ### How to love it
 
@@ -49,6 +49,12 @@
 
 ### How to learn it
 
+* [Coding Was HARD Until I Learned These 5 Things...](https://www.youtube.com/watch?v=ujPDRl1q-dw)
+  1. Learn by doing
+  2. Learn to program, not programming language
+  3. Create a roadmap for yourself
+  4. Prioritize understanding
+  5. Get use to failing
 * [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
   * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Practice! Try, fail, repeat
@@ -160,16 +166,16 @@ If you're *not* comfortable with these, come to office hours and study the follo
 * Build an [ATLAS logo](https://clementzheng.github.io/atlas-wordmark/index.html) "**A**" of your choice with [code](https://editor.p5js.org/cacheflowe/sketches/igKe9eDoB). Use basic drawing tools to set colors and create shapes:
   * w/p5js:
     * Color
-      * [background()](https://p5js.org/reference/#/p5/background)
-      * [fill()](https://p5js.org/reference/#/p5/fill)
-      * [noFill()](https://p5js.org/reference/#/p5/noFill)
-      * [noStroke()](https://p5js.org/reference/#/p5/noStroke)
+      * [background()](https://p5js.org/reference/p5/background)
+      * [fill()](https://p5js.org/reference/p5/fill)
+      * [noFill()](https://p5js.org/reference/p5/noFill)
+      * [noStroke()](https://p5js.org/reference/p5/noStroke)
     * Shapes
-      * [Triangles](https://p5js.org/reference/#/p5/triangle)
-      * [Rectangles](https://p5js.org/reference/#/p5/rect) and [Quads](https://p5js.org/reference/#/p5/quad)
-      * [Ellipses](https://p5js.org/reference/#/p5/ellipse)
-      * [Polygons](https://p5js.org/reference/#/p5/vertex)
-      * [Bezier](https://p5js.org/reference/#/p5/bezier) or [Quadratic](https://p5js.org/reference/#/p5/quadraticVertex) curves
+      * [Triangles](https://p5js.org/reference/p5/triangle)
+      * [Rectangles](https://p5js.org/reference/p5/rect) and [Quads](https://p5js.org/reference/p5/quad)
+      * [Ellipses](https://p5js.org/reference/p5/ellipse)
+      * [Polygons](https://p5js.org/reference/p5/vertex)
+      * [Bezier](https://p5js.org/reference/p5/bezier) or [Quadratic](https://p5js.org/reference/p5/quadraticVertex) curves
   * w/Processing:
     * Color
       * [background()](https://processing.org/reference/background_.html)

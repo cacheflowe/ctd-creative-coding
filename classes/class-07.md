@@ -52,12 +52,16 @@ How to use it?
 
 ## 🛠️ 3D Graphics
 
-* The Graphics pipeline
-  * [Projection (3D)](https://jsantell.com/3d-projection)
-  * [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
-  * [Learn OpenGL](https://learnopengl.com/)
-* Basic layout & 3d thinking
-  * We're using an abstracted tool... It's just a 3rd coordinate ;)
+The Graphics pipeline
+
+* [How do Video Game Graphics Work?](https://www.youtube.com/watch?v=C8YtdC8mxTU)
+* [Projection (3D)](https://jsantell.com/3d-projection)
+* [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
+* [Learn OpenGL](https://learnopengl.com/)
+
+Basic layout & 3d thinking
+
+* We're using an abstracted tool... It's just a 3rd coordinate ;)
 
 ## CPU vs GPU
 

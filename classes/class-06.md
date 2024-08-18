@@ -8,14 +8,14 @@ Structured data types
 
 Loading data payloads from files or APIs
   * Text file
-    * `loadStrings()` - [p5 example](https://p5js.org/reference/#/p5/loadStrings)
+    * `loadStrings()` - [p5 example](https://p5js.org/reference/p5/loadStrings)
   * [CSV](https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/) (spreadsheet/tabular data)
-    * `loadTable()` - [p5 example](https://p5js.org/reference/#/p5/loadTable)
+    * `loadTable()` - [p5 example](https://p5js.org/reference/p5/loadTable)
   * [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
     * [json validator](https://jsonlint.com/)
-    * `loadJSON()` - [p5 example](https://p5js.org/reference/#/p5/loadJSON)
+    * `loadJSON()` - [p5 example](https://p5js.org/reference/p5/loadJSON)
   * [XML](https://www.sitepoint.com/really-good-introduction-xml/)
-    * `loadXML()` - [p5 example](https://p5js.org/reference/#/p5/loadXML)
+    * `loadXML()` - [p5 example](https://p5js.org/reference/p5/loadXML)
 
 ## 🛠️ APIs
 

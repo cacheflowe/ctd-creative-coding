@@ -4,10 +4,6 @@
 ### Tools & libraries
 
 * https://p5xr.org/
-
-### Tools & libraries
-
-* https://p5xr.org/
 * https://github.com/bandaloo/post5
 * https://github.com/dominikus/p5.rec
 * https://github.com/tapioca24/p5.capture
@@ -22,17 +18,15 @@
 
 ### Webcam
 
-* https://editor.p5js.org/ml5/sketches/BodyPix\_Webcam
-* https://editor.p5js.org/ml5/sketches/PoseNet\_webcam
-* https://editor.p5js.org/ml5/sketches/FaceApi\_Video\_Landmarks
-* https://editor.p5js.org/lingdong/sketches/1viPqbRMv (handpose)
-* https://editor.p5js.org/cacheflowe/sketches/L8YSVTqlA (facemesh)
-* https://editor.p5js.org/cacheflowe/sketches/k5331wdu7 (clmtracker)
-* https://editor.p5js.org/cacheflowe/sketches/8kel7wkpp (headtrackr.js)
+* https://editor.p5js.org/ml5/sketches - All ml5 examples
+* https://editor.p5js.org/ml5/sketches/hMN9GdrO3 (bodyPose skeleton)
+* Old tools
+  * https://editor.p5js.org/cacheflowe/sketches/k5331wdu7 (clmtracker)
+  * https://editor.p5js.org/cacheflowe/sketches/8kel7wkpp (headtrackr.js)
 
 ### Video tutorials
 
-* https://www.youtube.com/watch?v=cq291UzZpPY&list=PLLx7jIm38p9m6n8X01Sz2kQaSC9U6\_6u5
+* https://www.youtube.com/watch?v=cq291UzZpPY&list=PLLx7jIm38p9m6n8X01Sz2kQaSC9U6_6u5
 
 ### Shaders in p5js
 

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CTD Creative Coding</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
+    />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: "Droid Sans";
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Yanone Kaffeesatz";
+        font-weight: 400;
+        /* margin-bottom: 0; */
+      }
+      .remark-slide-content h1 {
+        font-size: 3em;
+      }
+      .remark-slide-content h2 {
+        font-size: 2em;
+      }
+      .remark-slide-content h3 {
+        font-size: 1.6em;
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p {
+        line-height: 1.25em;
+      }
+      .red {
+        color: #fa0000;
+      }
+      .large {
+        font-size: 2em;
+      }
+      a,
+      a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        /* background: #e7e8e2; */
+        border-radius: 5px;
+      }
+      .remark-code,
+      .remark-inline-code {
+        font-family: "Ubuntu Mono";
+      }
+      .remark-code-line-highlighted {
+        background-color: #373832;
+      }
+
+      #content {
+        margin: 2rem auto;
+        max-width: 960px;
+      }
+
+      li.hover {
+        font-weight: bold;
+        padding: 0 1rem;
+        background: rgba(0, 0, 0, 0.4);
+      }
+
+      li.hover li {
+        font-weight: initial;
+        padding: initial;
+        /* background: rgba(0, 0, 0, 0.4); */
+        border-radius: initial;
+      }
+
+      /* a {
+        background-color: #f26522;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 4px;
+      } */
+
+      a[href*="//"]:not([href*="localhost"])
+      {
+        /* background-color: #3fa09d; */
+      }
+      a[href*="//"]:not([href*="localhost"])::after
+      {
+        content: url('data:image/svg+xml;utf8,<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 23.983 24"><path d="M16.664,24H5.926c-1.745,0-2.707,0-3.613-.462-.801-.407-1.44-1.05-1.851-1.851C0,20.781,0,19.819,0,18.07V7.341C0,5.591,0,4.63.462,3.723c.407-.801,1.05-1.44,1.851-1.851.906-.462,1.868-.462,3.617-.462h2.541c.779,0,1.411.631,1.411,1.411s-.631,1.411-1.411,1.411h-2.541c-1.224,0-2.033,0-2.334.152-.267.136-.479.347-.618.618-.152.301-.152,1.11-.152,2.334v10.729c0,1.224,0,2.033.152,2.334.136.267.352.483.618.618.301.152,1.11.152,2.33.152h10.738c1.22,0,2.029,0,2.33-.152.263-.136.483-.356.618-.618.152-.301.152-1.11.152-2.33v-2.546c0-.779.631-1.411,1.411-1.411s1.411.631,1.411,1.411v2.546c0,1.745,0,2.707-.462,3.613-.411.801-1.05,1.444-1.851,1.851-.906.462-1.868.462-3.613.462l.004.004ZM12.703,12.703c-.36,0-.724-.14-1-.415-.551-.551-.551-1.444,0-1.995l7.472-7.472h-3.651c-.779,0-1.411-.631-1.411-1.411S14.745,0,15.524,0h7.159c.14.008.271.038.394.085.182.068.352.178.5.322.148.148.254.318.322.5.047.123.076.258.085.394v7.158c0,.779-.631,1.411-1.411,1.411s-1.411-.631-1.411-1.411v-3.651l-7.472,7.472c-.275.275-.635.415-1,.415l.013.008Z" style="fill: #fff; stroke-width: 0px;"/></svg>');
+        content: url('data:image/svg+xml;utf8,%3Csvg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 23.983 24"%3E%3Cpath d="M16.664,24H5.926c-1.745,0-2.707,0-3.613-.462-.801-.407-1.44-1.05-1.851-1.851C0,20.781,0,19.819,0,18.07V7.341C0,5.591,0,4.63.462,3.723c.407-.801,1.05-1.44,1.851-1.851.906-.462,1.868-.462,3.617-.462h2.541c.779,0,1.411.631,1.411,1.411s-.631,1.411-1.411,1.411h-2.541c-1.224,0-2.033,0-2.334.152-.267.136-.479.347-.618.618-.152.301-.152,1.11-.152,2.334v10.729c0,1.224,0,2.033.152,2.334.136.267.352.483.618.618.301.152,1.11.152,2.33.152h10.738c1.22,0,2.029,0,2.33-.152.263-.136.483-.356.618-.618.152-.301.152-1.11.152-2.33v-2.546c0-.779.631-1.411,1.411-1.411s1.411.631,1.411,1.411v2.546c0,1.745,0,2.707-.462,3.613-.411.801-1.05,1.444-1.851,1.851-.906.462-1.868.462-3.613.462l.004.004ZM12.703,12.703c-.36,0-.724-.14-1-.415-.551-.551-.551-1.444,0-1.995l7.472-7.472h-3.651c-.779,0-1.411-.631-1.411-1.411S14.745,0,15.524,0h7.159c.14.008.271.038.394.085.182.068.352.178.5.322.148.148.254.318.322.5.047.123.076.258.085.394v7.158c0,.779-.631,1.411-1.411,1.411s-1.411-.631-1.411-1.411v-3.651l-7.472,7.472c-.275.275-.635.415-1,.415l.013.008Z" fill="%23fff" stroke-width="0"/%3E%3C/svg%3E');
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        margin: 0 0 0 0.25rem;
+        transform: translateY(-0.3rem);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.2/dist/BigPicture.min.js"></script>
+    <script>
+      ////////////////////////////////////////
+      // Remark.js .md -> html slideshow
+      ////////////////////////////////////////
+      function getQueryParam(variable) {
+        const url = new URL(document.location);
+        for (let [key, value] of url.searchParams) {
+          if (key == variable) return value;
+        }
+        return null;
+      }
+
+      function loadMarkdownFile() {
+        // get md page to include
+        let classNum = getQueryParam("class");
+        let doc = getQueryParam("doc");
+        let mdFile = null;
+        if (classNum) mdFile = `./classes/class-${classNum}.md`;
+        if (doc) mdFile = `./docs/${doc}.md`;
+        if (!mdFile) mdFile = "./README.md";
+
+        // fetch/parse/insert md file
+        fetch(mdFile)
+          .then((response) => response.text())
+          .then((data) => {
+            // parse & insert html from md
+            let parsedHTML = marked.parse(data);
+            document.getElementById("content").innerHTML = parsedHTML;
+            // post-process links
+            prepLocalLinks();
+            // prepLinksForBigPicture();
+          });
+      }
+
+      ////////////////////////////////////////
+      // BigPicture.js to load content inline on click
+      ////////////////////////////////////////
+
+      function prepLocalLinks() {
+        // rewrite .md links
+        let links = document.querySelectorAll("a");
+        for (let link of links) {
+          let href = link.getAttribute("href");
+          let isLocal = href.indexOf("http") == -1;
+          if (isLocal) {
+            if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
+              // href = href.replace("../images/", "./images/");
+              // link.setAttribute("href", href);
+              // link.setAttribute("href", "?");
+            }
+            console.log("Found local link:", href);
+            if (href.indexOf(".md") != -1) {
+              console.log(href.indexOf("classes"));
+              if (href.indexOf("classes") != -1) {
+                let classNum = href.match(/class-(\d+)/)[1];
+                console.log(classNum);
+                link.setAttribute("href", `?class=${classNum}`);
+              } else if (href.indexOf("docs") != -1) {
+                let doc = href.match(/docs\/(.+)\.md/)[1];
+                link.setAttribute("href", `?doc=${doc}`);
+              }
+            }
+          } else {
+            console.log("Found external link:", href);
+            link.setAttribute("target", `external`);
+          }
+        }
+      }
+
+      function prepLinksForBigPicture() {
+        // add click listener on links to open BiggerPicture
+        let links = document.querySelectorAll("a");
+        for (let link of links) {
+          link.addEventListener("click", openBiggerPicture);
+          let href = link.getAttribute("href");
+          if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
+            link.setAttribute("data-img", href);
+            link.setAttribute("data-thumb", href);
+          } else {
+            link.setAttribute("data-iframe", href);
+          }
+        }
+      }
+
+      function openBiggerPicture(e) {
+        e.preventDefault();
+        // console.log(e.target, e.currentTarget)
+        if (e.target.hasAttribute("data-img")) {
+          let href = e.target.getAttribute("data-img");
+          BigPicture({
+            el: e.target,
+            imgSrc: href,
+          });
+        } else {
+          let href = e.target.getAttribute("data-iframe");
+          BigPicture({
+            el: e.target,
+            iframeSrc: href,
+            onError: function () {
+              console.log("there was an error");
+            },
+          });
+        }
+      }
+
+      ///////////////////////////////////
+      // toggle highlight <li> elements on click
+      ///////////////////////////////////
+      function enableHighlightOnClick() {
+        document.body.addEventListener("load", (e) => {
+          console.log("LOADED!", e);
+        });
+        var highlightedEl = null;
+        document.body.addEventListener("click", (e) => {
+          if (highlightedEl && highlightedEl != e.target)
+            highlightedEl.classList.remove("hover");
+          highlightedEl = e.target;
+          e.target.classList.toggle("hover");
+        });
+      }
+
+      // init
+      loadMarkdownFile();
+      enableHighlightOnClick();
+    </script>
+  </body>
+</html>

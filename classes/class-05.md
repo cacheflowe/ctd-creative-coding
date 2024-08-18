@@ -51,7 +51,7 @@ Strategies
   - [Circular oscillation](https://editor.p5js.org/cacheflowe/sketches/QazkuY-bZ)
   - [Divide an arc](https://editor.p5js.org/cacheflowe/sketches/_9FdBq40-)
   - [Sketch: Drive a car](https://editor.p5js.org/cacheflowe/sketches/SSqX9j2X-)
-- [Vectors](https://p5js.org/reference/#/p5.Vector/sub)
+- [Vectors](https://p5js.org/reference/p5.Vector/sub)
   - Keep track of 2d/3d coordinates and do all of the math for you!
 - [Basic physics](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
 - Collision detection
