@@ -1,6 +1,6 @@
 # Coding and learning with AI
 
-[Should students use GitHub Copilot?](https://www.reddit.com/r/csMajors/comments/18zmxbk/should_freshman_students_use_github_copilot/)
+Conversation: [Should students use GitHub Copilot?](https://www.reddit.com/r/csMajors/comments/18zmxbk/should_freshman_students_use_github_copilot/)
 
 ## Introduction
 

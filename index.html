@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CTD Creative Coding</title>
     <meta charset="utf-8" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Haxademic.js</title>
+    <title>CTD Creative Coding</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
@@ -14,6 +18,7 @@
 
       body {
         font-family: "Droid Sans";
+        padding: 0 2rem;
       }
       h1,
       h2,
@@ -70,6 +75,10 @@
         max-width: 960px;
       }
 
+      #content > img {
+        padding-bottom: 2rem;
+      }
+
       li.hover {
         /* font-weight: bold;
         padding: 0 1rem;
@@ -118,7 +127,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.2/dist/BigPicture.min.js"></script>
     <script>
       ////////////////////////////////////////
-      // Remark.js .md -> html slideshow
+      // marked.js .md -> html
       ////////////////////////////////////////
       function getQueryParam(variable) {
         const url = new URL(document.location);
@@ -146,8 +155,9 @@
             document.getElementById("content").innerHTML = parsedHTML;
             // post-process generated markup
             prepHeaderAnchors();
+            prepImages();
             prepLocalLinks();
-            // prepLinksForBigPicture();
+            prepLinksForBigPicture();
           });
       }
 
@@ -167,15 +177,48 @@
       }
 
       ////////////////////////////////////////
-      // BigPicture.js to load content inline on click
+      // Give anchors to headers
       ////////////////////////////////////////
 
+      function slugify(str) {
+        return str
+          .toLowerCase() // Convert to lowercase
+          .trim() // Trim leading and trailing whitespace
+          .replace(/[\s\W-]+/g, "-") // Replace spaces, non-word characters, and hyphens with a single hyphen
+          .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
+      }
+
       function prepHeaderAnchors() {
-        let anchors = document.querySelectorAll("h1, h2, h3");
-        for (let anchor of anchors) {
-          console.log("Found anchor:", anchor);
+        let headers = document.querySelectorAll("h1, h2, h3");
+        for (let header of headers) {
+          let headerTxt = slugify(header.innerText);
+          headerTxt = headerTxt.replace(/ /g, "-"); // slugify
+          if (/^\s/.test(headerTxt)) {
+            headerTxt = headerTxt.substring(1);
+          }
+          header.setAttribute("id", headerTxt);
+          header.addEventListener("click", (e) => {
+            window.location.hash = headerTxt;
+          });
         }
       }
+
+      ////////////////////////////////////////
+      // Fix media paths
+      ////////////////////////////////////////
+
+      function prepImages() {
+        // fix image paths from .md references
+        let imgs = document.querySelectorAll("img");
+        for (let img of imgs) {
+          let src = img.getAttribute("src");
+          img.setAttribute("src", src.replace("../images/", "./images/"));
+        }
+      }
+
+      ////////////////////////////////////////
+      // Fix links to .mc files for single-page app
+      ////////////////////////////////////////
 
       function prepLocalLinks() {
         // rewrite .md links
@@ -186,11 +229,12 @@
           if (isLocal) {
             console.log("Found local link:", href);
             if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
-              console.log("Found local image link:", href);
+              // console.log("Found local image link:", href);
               href = href.replace("../images/", "./images/"); // fix relative images from classes/docs
-              // href = href.replace("../images/", "./images/");
-              // link.setAttribute("href", href);
-              // link.setAttribute("href", "?");
+              // replace link with img tag
+              let img = document.createElement("img");
+              img.setAttribute("src", href);
+              link.parentNode.replaceChild(img, link);
             }
             if (href.indexOf(".md") != -1) {
               if (href.indexOf("/class-") != -1) {
@@ -207,31 +251,49 @@
         }
       }
 
+      ////////////////////////////////////////
+      // BigPicture.js link prep
+      ////////////////////////////////////////
+
       function prepLinksForBigPicture() {
         // add click listener on links to open BiggerPicture
         let links = document.querySelectorAll("a");
         for (let link of links) {
-          link.addEventListener("click", openBiggerPicture);
           let href = link.getAttribute("href");
-          if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
-            link.setAttribute("data-img", href);
-            link.setAttribute("data-thumb", href);
-          } else {
-            link.setAttribute("data-iframe", href);
+          if (href) {
+            console.log(href);
+            if (href.indexOf("youtube.com/watch?v=") != -1) {
+              link.addEventListener("click", openBiggerPicture);
+              link.setAttribute("data-yt", href.split("watch?v=")[1]);
+            }
+            // if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
+            //   link.setAttribute("data-img", href);
+            //   link.setAttribute("data-thumb", href);
+            // } else {
+            //   link.setAttribute("data-iframe", href);
+            // }
           }
         }
       }
 
       function openBiggerPicture(e) {
-        e.preventDefault();
         // console.log(e.target, e.currentTarget)
         if (e.target.hasAttribute("data-img")) {
+          e.preventDefault();
           let href = e.target.getAttribute("data-img");
           BigPicture({
             el: e.target,
             imgSrc: href,
           });
+        } else if (e.target.hasAttribute("data-yt")) {
+          e.preventDefault();
+          let ytId = e.target.getAttribute("data-yt");
+          BigPicture({
+            el: e.target,
+            ytSrc: ytId,
+          });
         } else {
+          e.preventDefault();
           let href = e.target.getAttribute("data-iframe");
           BigPicture({
             el: e.target,
@@ -246,10 +308,8 @@
       ///////////////////////////////////
       // toggle highlight <li> elements on click
       ///////////////////////////////////
+
       function enableHighlightOnClick() {
-        document.body.addEventListener("load", (e) => {
-          console.log("LOADED!", e);
-        });
         var highlightedEl = null;
         document.body.addEventListener("click", (e) => {
           if (highlightedEl && highlightedEl != e.target)
@@ -259,7 +319,10 @@
         });
       }
 
+      ///////////////////////////////////
       // init
+      ///////////////////////////////////
+
       loadMarkdownFile();
       enableHighlightOnClick();
     </script>

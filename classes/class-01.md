@@ -71,12 +71,12 @@
     * Blogs/Tutorials
     * Slacks/Discords
     * [Technical documentation](https://p5js.org/reference/) 
-      * ([meme](../images/rtfm-he-man.png))
   * Community learning - ask each other questions
     * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Slack.
 * Don't get overwhelmed - some concepts take a long time, and this is a long journey
 * We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
 * Finally, [let's talk about AI](./docs/learning-with-ai.md)
+* [Documentation](../images/rtfm-he-man.png)
 
 ### How to do code
 
@@ -126,16 +126,18 @@
 * Variables
 * Functions
 * Conditionals (if/else)
-* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages) - ([1972](../images/for-loop-50-yo.png))
+* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages)
 * Arrays
 * Animation
 * Input
 * Objects
 * Classes
 
+[for() loops were invented in 1972](../images/for-loop-50-yo.png)
+
 Every language has these - the first goal is to understand these constructs & tools
 
-If you're *not* comfortable with these, come to office hours and study the following links:
+If you're *not* comfortable with these, come to office hours and study the following links 👇
 
 ## 📝 Homework:
 
@@ -158,7 +160,7 @@ If you're *not* comfortable with these, come to office hours and study the follo
 * And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen, which is now its [own website](https://programmingdesignsystems.com/color/color-schemes/index.html)
 * Books!
   * https://www.aesthetic-programming.net/index.html
-  * https://natureofcode.com/book/
+  * https://natureofcode.com/
 * Prepare your tools & workspace
 * Prepare to share & document your work
 
@@ -177,18 +179,6 @@ If you're *not* comfortable with these, come to office hours and study the follo
       * [Ellipses](https://p5js.org/reference/p5/ellipse)
       * [Polygons](https://p5js.org/reference/p5/vertex)
       * [Bezier](https://p5js.org/reference/p5/bezier) or [Quadratic](https://p5js.org/reference/p5/quadraticVertex) curves
-  * w/Processing:
-    * Color
-      * [background()](https://processing.org/reference/background_.html)
-      * [fill()](https://processing.org/reference/fill_.html)
-      * [noFill()](https://processing.org/reference/noFill_.html)
-      * [noStroke()](https://processing.org/reference/noStroke_.html)
-    * Shapes
-      * [Triangles](https://processing.org/reference/triangle_.html)
-      * [Rectangles](https://processing.org/reference/rect_.html) and [Quads](https://processing.org/reference/quad_.html)
-      * [Ellipses](https://processing.org/reference/ellipse_.html)
-      * [Polygons](https://processing.org/reference/beginShape_.html)
-      * [Bezier](https://processing.org/reference/bezier_.html) or [Quadratic](https://processing.org/reference/quadraticVertex_.html) curves
 
 ### If this is easy for you, try some stretch goals:
 
