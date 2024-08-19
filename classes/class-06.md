@@ -2,11 +2,11 @@
 
 ## 🛠️ Data Structures
 
-Structured data types
+Structured data types in your code
   * [Arrays](https://www.youtube.com/watch?v=am6e1U2BHkA&vl=en)
   * Dictionaries/Hashes ([Objects](https://www.youtube.com/watch?v=_5jdE6RKxVk) in .js, [HashMap](https://processing.org/examples/hashmapclass.html) in Java)
 
-Loading data payloads from files or APIs
+Loading data payloads from external files or APIs
   * Text file
     * `loadStrings()` - [p5 example](https://p5js.org/reference/p5/loadStrings)
   * [CSV](https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/) (spreadsheet/tabular data)
@@ -28,7 +28,6 @@ Loading data payloads from files or APIs
   * [q5 Example](https://editor.p5js.org/cacheflowe/sketches/IRhjHom9p)
 * How does code talk to other code?
   * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-
 
 ## 🛠️ Databases
 

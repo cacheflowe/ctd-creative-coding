@@ -4,7 +4,7 @@
 
 General advice for cleaner, better code
 - Practice
-- Ask for feedback from your peers or mentors
+- Ask for feedback from your peers or mentors (or AI)
 - Study techniques! What are people in the industry talking & writing about
   - Watch talks from conferences
   - Read blog posts
@@ -33,7 +33,7 @@ Strategies
 
 ## 🛠️ Graphics Effects & Algorithms
 
-- [p5js libraries](https://p5js.org/libraries/)!
+- [p5js libraries](https://p5js.org/libraries/)
 - [Postprocessing demo in PIXI.js](http://filters.pixijs.download/dev/demo/index.html)
   - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
 - [List of visual algorithms](https://thatcreativecode.page/)
@@ -102,7 +102,6 @@ Inspiration
   - [flight404](https://www.fxhash.xyz/u/flight404)
   - [toxi](https://www.fxhash.xyz/u/toxi)
   - [https://www.fxhash.xyz/generative/slug/panta-rei](https://www.fxhash.xyz/generative/slug/panta-rei)
-
 
 ## 📋 Review code
 
