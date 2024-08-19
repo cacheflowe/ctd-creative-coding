@@ -5,7 +5,6 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Haxademic.js</title>
     <title>CTD Creative Coding</title>
     <link
       rel="stylesheet"
@@ -26,45 +25,9 @@
         font-family: "Yanone Kaffeesatz";
         font-family: "Droid Sans";
         font-weight: 400;
-        /* margin-bottom: 0; */
-      }
-      .remark-slide-content h1 {
-        font-size: 3em;
-      }
-      .remark-slide-content h2 {
-        font-size: 2em;
-      }
-      .remark-slide-content h3 {
-        font-size: 1.6em;
-      }
-      .footnote {
-        position: absolute;
-        bottom: 3em;
-      }
-      li p {
-        line-height: 1.25em;
-      }
-      .red {
-        color: #fa0000;
-      }
-      .large {
-        font-size: 2em;
-      }
-      a,
-      a > code {
-        color: rgb(249, 38, 114);
-        text-decoration: none;
       }
       code {
-        /* background: #e7e8e2; */
         border-radius: 5px;
-      }
-      .remark-code,
-      .remark-inline-code {
-        font-family: "Ubuntu Mono";
-      }
-      .remark-code-line-highlighted {
-        background-color: #373832;
       }
 
       header {
@@ -80,9 +43,6 @@
       }
 
       li.hover {
-        /* font-weight: bold;
-        padding: 0 1rem;
-        background: rgba(0, 0, 0, 0.4); */
         padding: 1rem;
         background: rgba(0, 0, 0, 0.4);
         box-shadow: 0rem 0rem 5rem rgba(255, 255, 255, 0.5);
@@ -95,15 +55,6 @@
         /* background: rgba(0, 0, 0, 0.4); */
         border-radius: initial;
       }
-
-      /* a {
-        background-color: #f26522;
-        color: white;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 20px;
-        border-radius: 4px;
-      } */
 
       a[href*="//"]:not([href*="localhost"])
       {
@@ -129,6 +80,7 @@
       ////////////////////////////////////////
       // marked.js .md -> html
       ////////////////////////////////////////
+
       function getQueryParam(variable) {
         const url = new URL(document.location);
         for (let [key, value] of url.searchParams) {

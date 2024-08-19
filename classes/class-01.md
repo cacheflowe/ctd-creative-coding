@@ -55,24 +55,24 @@
   3. Create a roadmap for yourself
   4. Prioritize understanding
   5. Get use to failing
-* [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
-  * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Practice! Try, fail, repeat
+  * *Write a lot of code*
   * It's better to start writing bad code than to let yourself get stuck 
   * [meme](../images/can-i-code-fast.jpg)
-* *Write a lot of code*
+* [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
+  * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Where to find answers?
   * Break problems down & iterate
     * Ask the questions in English (or your preferred language) - How do I make a circle? How do I make a circle move?
   * Places to search for code answers
-    * Google
-    * [Stack Overflow](https://stackoverflow.com)
     * [ChatGPT](https://www.youtube.com/watch?v=VznoKyh6AXs) or other LLMs
-    * Blogs/Tutorials
-    * Slacks/Discords
+    * Google / YouTube
     * [Technical documentation](https://p5js.org/reference/) 
+    * [Stack Overflow](https://stackoverflow.com)
+    * Blogs/Tutorials
   * Community learning - ask each other questions
     * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Slack.
+    * Slacks/Discords
 * Don't get overwhelmed - some concepts take a long time, and this is a long journey
 * We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
 * Finally, [let's talk about AI](./docs/learning-with-ai.md)
@@ -82,9 +82,10 @@
 
 * Get an IDE that's good for your language of choice
   * [VS Code](https://code.visualstudio.com/) is a popular choice for web and general development
-  * Processing comes with it's own IDE, and p5js has the online editor
+  * p5js has the online editor, and other apps like Processing may come with their very own IDE
   * Other languages often have specific IDEs and tools that work with that language
 * Type your code into text files
+  * Or connect nodes in a node editor
 * Compile or run your program
 
 ## 📋 What is "creative" code?
@@ -100,7 +101,7 @@
   * Solving any engineering problem is a creative process
 * What kind of creative coder do you want to be?
   * Some [artists](../docs/artists.md) for inspiration
-  * Let's use this class to learn, build a portfolio, and make conceptual work. Generative art becomes much more meaningful with an artist statement, a unique perspective, or a story to tell.
+  * Let's use this class to learn, build a portfolio, and make conceptual work. Generative art becomes much more meaningful with an artist statement, a unique personal perspective, or a story to tell.
 
 ## 🛠️ Get your tools ready
 
