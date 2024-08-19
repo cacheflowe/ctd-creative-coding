@@ -102,6 +102,6 @@
 ## 📋 Review code
 
 - Present your posters
-- What's it like working with designers?
+<!-- - What's it like working with designers?
   - Do you have a good sense of design?
-  - Or can you find a designer to work with?
+  - Or can you find a designer to work with? -->

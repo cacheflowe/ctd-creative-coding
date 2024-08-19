@@ -24,7 +24,7 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Aug 26](./classes/class-01.md)
+### [Class 01](./classes/class-01.md) - Aug 26
 
 * Introductions
 * What is (creative) code?
@@ -33,77 +33,77 @@ This course explores creative uses of software development while introducing fou
 
 ### Sep 2 (No class - Labor Day)
 
-### [Sep 9](./classes/class-02.md)
+### [Class 02](./classes/class-02.md) - Sep 9
 
 * Basic drawing tools
 * Iteration
 * Animation
 
-### [Sep 16](./classes/class-03.md)
+### [Class 03](./classes/class-03.md) - Sep 16
 
 * Languages & IDEs
-* Control flow
-* Remapping numbers
-* Animation
+* How does a program execute?
+* Shaping our sketches
+* Time
 
-### [Sep 23](./classes/class-04.md)
+### [Class 04](./classes/class-04.md) - Sep 23
 
 * How to do build anything
 * Strings
 * Images
 * Looping animation
 
-### [Sep 30](./classes/class-05.md)
+### [Class 05](./classes/class-05.md) - Sep 30
 
 * Software design
 * Graphics effects & algorithms
 * Math
 
-### [Oct 7](./classes/class-06.md)
+### [Class 06](./classes/class-06.md) - Oct 7
 
 * Data structures
 * APIs
 * Databases
 * Data Visualization
 
-### [Oct 14](./classes/class-07.md)
+### [Class 07](./classes/class-07.md) - Oct 14
 
 * CLI
 * 3D
 * CPU vs GPU
 
-### [Oct 21](./classes/class-08.md)
+### [Class 08](./classes/class-08.md) - Oct 21
 
 * Hardware
 * Computer vision
 
-### [Oct 28](./classes/class-09.md)
+### [Class 09](./classes/class-09.md) - Oct 28
 
 * Open Source
 * Audio
 
-### [Nov 4](./classes/class-10.md)
+### [Class 10](./classes/class-10.md) - Nov 4
 
 * Final projects
 * Web Browsers
 * Networking
 
-### [Nov 11](./classes/class-11.md)
+### [Class 11](./classes/class-11.md) - Nov 11
 
 * Debugging
 * Machine learning
 
-### [Nov 18](./classes/class-12.md)
+### [Class 12](./classes/class-12.md) - Nov 18
 
 * Shaders
 
 ### Nov 25 (No class - Fall Break)
 
-### [Dec 2](./classes/class-13.md)
+### [Class 13](./classes/class-13.md) - Dec 2
 
 * Final project help
 
-### [Dec 9](./classes/class-14.md)
+### [Class 14](./classes/class-14.md) - Dec 9
 
 * Present final projects in class
 

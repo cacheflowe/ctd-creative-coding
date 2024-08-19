@@ -102,9 +102,9 @@ Web-based creative tools & libraries:
   * [clmtrackr](https://github.com/auduno/clmtrackr)
   * [BRFv4](https://tastenkunst.github.io/brfv4_javascript_examples/)
   * [jeelizWeboji](https://github.com/jeeliz/jeelizWeboji)
-  * [MediaPipe](https://mediapipe.dev/) + [example via UDP](https://github.com/madelinegannon/example-mediapipe-udp)
-    * [WebGazer.js](https://webgazer.cs.brown.edu/)
-  * [MediaPipe - Facemesh](https://google.github.io/mediapipe/solutions/face_mesh.html)
+  * [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) + [example via UDP](https://github.com/madelinegannon/example-mediapipe-udp)
+  * [WebGazer.js](https://webgazer.cs.brown.edu/)
+  * [MediaPipe - Face Landmark Detection](https://mediapipe-studio.webapps.google.com/studio/demo/face_landmarker)
 * Body trackers
   * [ml5](https://editor.p5js.org/ml5/sketches)
   * [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
@@ -112,7 +112,7 @@ Web-based creative tools & libraries:
   * [Handtrack.js](https://github.com/victordibia/handtrack.js)
   * [YoHa](https://github.com/handtracking-io/yoha)
   * [MoveNet](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html)
-  * [Mediapipe - Pose](https://google.github.io/mediapipe/solutions/pose)
+  * [Mediapipe - Pose Landmark Detection](https://mediapipe-studio.webapps.google.com/studio/demo/pose_landmarker)
     * [BlazePose (3d)](https://blog.tensorflow.org/2021/08/3d-pose-detection-with-mediapipe-blazepose-ghum-tfjs.html)
 * Fonts
   * [opentype.js](https://opentype.js.org/)

@@ -2,7 +2,7 @@
 
 * [Cacheflowe Inspiration page](https://cacheflowe.com/inspiration)
 * [The Coding Train by Daniel Shiffman](https://thecodingtrain.com/)
-* [Gorilla Sun](https://www.gorillasun.de/articles/)
+* [Gorilla Sun](https://www.gorillasun.de/articles/) & [Newsletter](https://www.gorillasun.de/tag/newsletter/)
 * [CreativeApplications](https://www.creativeapplications.net/)
 * [ProstheticKnowledge](https://prostheticknowledge.tumblr.com/)
 * [Generative Substack](https://generative.substack.com/)

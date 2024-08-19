@@ -36,7 +36,7 @@
 * It's hard...
 * If something isn't displaying, can you make a simpler version?
 * Add a "debug view"
-    * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
+  * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
 ## 🛠️ Machine Learning & AI
 
@@ -54,7 +54,7 @@ __*__ Just using a ML tool that is "ready to use" can be an [expert-level](../im
 ML is really good at dealing with images, so many of the popular machine-learning tools are either image generators or analyzers. However, some other popular ML tools deal with text, audio, and other data types to do amazing, magical things. Some places to start, depending on your interests:
 
 * Computer vision (image analysis)
-  * [MediaPipe](https://mediapipe.dev/)
+  * [MediaPipe](https://mediapipe-studio.webapps.google.com/home)
     * [MediaPipe multi-mode tracker in p5js](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt)
   * [YOLO](https://pjreddie.com/darknet/yolo/)
 * Image creation
@@ -84,8 +84,8 @@ How to install an ML tool:
   * [Stable Diffusion @ Stability.AI](https://huggingface.co/spaces/stabilityai/stable-diffusion)
   * [DreamStudio](https://beta.dreamstudio.ai/generate)
 * Some will be pre-packaged into a nice UI in a desktop app. This is rare
+  * [ComfyUI](https://comfy.org/)
   * [Runway](https://runwayml.com/)
-  * [Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
   * [Flowframes](https://nmkd.itch.io/flowframes)
   * [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
 * Some have online notebooks that are ready to use, usually in [Google Colab](https://github.com/dvschultz/stylegan2-ada-pytorch). This creates a virtual environment with a good GPU to use. You should be able to copy a notebook into your own acount and start using it. This will also usually cost money if you want a very good GPU.
@@ -105,13 +105,16 @@ How to install an ML tool:
 * [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
 * [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
+* [A Coder Considers the Waning Days of the Craft](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)
 * [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)
+* [Robort (A.I. Short Film)](https://www.youtube.com/watch?v=N_Nvr4ztBXs)
 
 ### Courses / Tutorials
 
+* Find almost anything on YouTube! The AI community is very active here
+* [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 * https://microsoft.github.io/generative-ai-for-beginners/
 * https://microsoft.github.io/ML-For-Beginners/
-* Syllabus update: Find almost anything on YouTube!
 
 ### Interesting ML Tools
 
@@ -132,7 +135,7 @@ Beginner-friendly
 
 Computer vision
 
-* [Mediapipe](https://google.github.io/mediapipe/)
+* [Mediapipe](https://mediapipe-studio.webapps.google.com/home)
 * [Tensorflow](https://www.tensorflow.org/js/models)
   * [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
   * [BodyPix](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
