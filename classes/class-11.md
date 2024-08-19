@@ -47,7 +47,9 @@
 3. (Advanced) Download a tool that someone else has made, and train your own data set, then use that
 4. (Expert) Write your own ML tool using existing ML frameworks like PyTorch or Tensorflow
 
-__*__ Just using a ML tool that is "ready to use" can be an [expert-level](../images/carmack-pytorch.png) journey
+__*__ Just using a ML tool that is "ready to use" can be an expert-level journey
+
+[Carmack](../images/carmack-pytorch.png)
 
 ### Find an ML tool
 
@@ -84,7 +86,6 @@ How to install an ML tool:
   * [Stable Diffusion @ Stability.AI](https://huggingface.co/spaces/stabilityai/stable-diffusion)
   * [DreamStudio](https://beta.dreamstudio.ai/generate)
 * Some will be pre-packaged into a nice UI in a desktop app. This is rare
-  * [ComfyUI](https://comfy.org/)
   * [Runway](https://runwayml.com/)
   * [Flowframes](https://nmkd.itch.io/flowframes)
   * [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
@@ -92,6 +93,7 @@ How to install an ML tool:
 * Some must be installed on your own computer. Sometimes a very fancy GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
   * [This can be hard](../images/get-old-repo-to-run.png), [really](../images/get-old-repo-to-run-again.png)
   * Some projects are making it easier to install and run their tools
+    * [ComfyUI](https://comfy.org/)
     * [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 * Many existing apps are now adding AI features
   * [Photoshop](https://twitter.com/AiBreakfast/status/1661217865205440512?lang=en)
