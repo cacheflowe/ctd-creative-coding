@@ -199,3 +199,4 @@ If you're *not* comfortable with these, come to office hours and study the follo
 * Post the link to your code on (https://editor.p5js.org/)
 * Add a description of your intent, your successes, and failures
 * If you're using a different tool, upload a video to Canvas or post a link to a video on YouTube (or elsewhere) and post your code to Canvas or GitHub
+* If you use tutorials or other resources, please credit them in your comments. I don't care if your work is impressive, I care that you're learning and practicing. It's okay to use other people's code, but it's not okay to pretend it's your own. Attribution is an important skill to develop.
