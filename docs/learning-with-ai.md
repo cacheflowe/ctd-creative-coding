@@ -1,6 +1,6 @@
 # Coding and learning with AI
 
-https://www.reddit.com/r/csMajors/comments/18zmxbk/should_freshman_students_use_github_copilot/
+[Should students use GitHub Copilot?](https://www.reddit.com/r/csMajors/comments/18zmxbk/should_freshman_students_use_github_copilot/)
 
 ## Introduction
 
@@ -45,3 +45,7 @@ Here are a few examples of how you can use AI to improve your coding skills and 
 - Ask an LLM to generate code snippets based on a description of what you want to accomplish
 - Ask an LLM to help you debug a particular issue in your code
 - Ask an LLM to explain an error message that showed up in your code or console
+
+## My personal opinion
+
+I use multiple AI code assistants every day to speed up my coding and learning process. AI has helped me learn new languages and platforms, and this has saved me a ton of time. However, I also think that it is important to use AI as a supplement to your own learning and not as a replacement for it. AI can help you learn to code faster and more efficiently, but it is still important to practice writing code on your own and to learn the fundamentals of software and even hardware architecture. Consider the AI as a colleague and tutor, not as a replacement for your own skills and experience.

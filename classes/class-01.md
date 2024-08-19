@@ -59,15 +59,15 @@
   * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Practice! Try, fail, repeat
   * It's better to start writing bad code than to let yourself get stuck 
-    * [meme](../images/can-i-code-fast.jpg)
+  * [meme](../images/can-i-code-fast.jpg)
 * *Write a lot of code*
 * Where to find answers?
   * Break problems down & iterate
-    * Ask the questions in English
+    * Ask the questions in English (or your preferred language) - How do I make a circle? How do I make a circle move?
   * Places to search for code answers
     * Google
     * [Stack Overflow](https://stackoverflow.com)
-    * [ChatGPT](https://www.youtube.com/watch?v=VznoKyh6AXs)
+    * [ChatGPT](https://www.youtube.com/watch?v=VznoKyh6AXs) or other LLMs
     * Blogs/Tutorials
     * Slacks/Discords
     * [Technical documentation](https://p5js.org/reference/) 
@@ -76,6 +76,7 @@
     * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Slack.
 * Don't get overwhelmed - some concepts take a long time, and this is a long journey
 * We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
+* Finally, [let's talk about AI](./docs/learning-with-ai.md)
 
 ### How to do code
 

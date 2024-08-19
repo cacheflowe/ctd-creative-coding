@@ -62,6 +62,10 @@
 * Real-time coding vs scripting or event-based environments
   * `noLoop()` option
 
+## 🛠️ AI demo
+
+* How can AI help us with some of these concepts?
+
 ## 📝 Homework:
 
 * Read:

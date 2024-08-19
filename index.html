@@ -19,6 +19,7 @@
       h2,
       h3 {
         font-family: "Yanone Kaffeesatz";
+        font-family: "Droid Sans";
         font-weight: 400;
         /* margin-bottom: 0; */
       }
@@ -61,6 +62,9 @@
         background-color: #373832;
       }
 
+      header {
+        margin-bottom: 4rem;
+      }
       #content {
         margin: 2rem auto;
         max-width: 960px;
@@ -134,12 +138,27 @@
           .then((response) => response.text())
           .then((data) => {
             // parse & insert html from md
-            let parsedHTML = marked.parse(data);
+            let parsedHTML = headerHTML(classNum) + marked.parse(data);
             document.getElementById("content").innerHTML = parsedHTML;
             // post-process links
             prepLocalLinks();
             // prepLinksForBigPicture();
           });
+      }
+
+      function headerHTML(classNum) {
+        let title = !classNum ? "" : "<h1>CTD Creative Coding</h1>";
+        return `
+          <header>
+            <nav>
+              <a href="/">Home</a>
+              <a></a>
+              <a></a>
+              <a href="https://github.com/cacheflowe/ctd-creative-coding">GitHub</a>
+            </nav>
+          </header>
+          ${title}
+        `;
       }
 
       ////////////////////////////////////////
@@ -150,20 +169,19 @@
         // rewrite .md links
         let links = document.querySelectorAll("a");
         for (let link of links) {
-          let href = link.getAttribute("href");
+          let href = link.getAttribute("href") || "";
           let isLocal = href.indexOf("http") == -1;
           if (isLocal) {
+            console.log("Found local link:", href);
             if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
+              console.log("Found local image link:", href);
               // href = href.replace("../images/", "./images/");
               // link.setAttribute("href", href);
               // link.setAttribute("href", "?");
             }
-            console.log("Found local link:", href);
             if (href.indexOf(".md") != -1) {
-              console.log(href.indexOf("classes"));
-              if (href.indexOf("classes") != -1) {
+              if (href.indexOf("/class-") != -1) {
                 let classNum = href.match(/class-(\d+)/)[1];
-                console.log(classNum);
                 link.setAttribute("href", `?class=${classNum}`);
               } else if (href.indexOf("docs") != -1) {
                 let doc = href.match(/docs\/(.+)\.md/)[1];
@@ -171,7 +189,7 @@
               }
             }
           } else {
-            console.log("Found external link:", href);
+            // console.log("Found external link:", href);
             link.setAttribute("target", `external`);
           }
         }

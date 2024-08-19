@@ -3,7 +3,7 @@
 
 ### Tools & libraries
 
-* https://p5xr.org/
+* https://p5js.org/libraries/
 * https://github.com/bandaloo/post5
 * https://github.com/dominikus/p5.rec
 * https://github.com/tapioca24/p5.capture
