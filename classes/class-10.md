@@ -96,6 +96,7 @@ Web-based creative tools & libraries:
 * Voice-recognition
   * [Web Speech API demo](https://mdn.github.io/web-speech-api/speech-color-changer/) (Chrome only)
 * Face trackers
+  * [ml5](https://editor.p5js.org/ml5/sketches)
   * [face-api.js](https://github.com/justadudewhohacks/face-api.js)
   * [tracking.js](https://trackingjs.com/)
   * [clmtrackr](https://github.com/auduno/clmtrackr)
@@ -105,6 +106,7 @@ Web-based creative tools & libraries:
     * [WebGazer.js](https://webgazer.cs.brown.edu/)
   * [MediaPipe - Facemesh](https://google.github.io/mediapipe/solutions/face_mesh.html)
 * Body trackers
+  * [ml5](https://editor.p5js.org/ml5/sketches)
   * [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
   * [PoseNet for installations](https://github.com/oveddan/posenet-for-installations)
   * [Handtrack.js](https://github.com/victordibia/handtrack.js)
@@ -136,6 +138,10 @@ Web-based creative tools & libraries:
   * WebRTC (data/video/audio streaming)
     * [PeerJS](https://github.com/peers/peerjs)
     * [Kurento](https://doc-kurento.readthedocs.io/en/stable/index.html)
+
+## Jobs
+
+Let's talk about [jobs](./docs/jobs.md)!
 
 ## 📝 Homework:
 
