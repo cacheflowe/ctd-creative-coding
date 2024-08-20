@@ -115,7 +115,7 @@
   * I expect video documentation of your projects, since you can't turn them in via a link to the p5js editor. Use Canvas to hand in your video documentation if you go this route
   * Use [GitHub](https://github.com/) to post your code and upload a video to Canvas
 * Slack
-  * Use this to help each other out - like the real world
+  * Use this to help each other out - my coworkers and I do this
 * Screen capture
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
   * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
@@ -136,7 +136,7 @@
 
 [for() loops were invented in 1972](../images/for-loop-50-yo.png)
 
-Every language has these - the first goal is to understand these constructs & tools
+Every language has these features - the first goal is to understand these constructs & tools
 
 If you're *not* comfortable with these, come to office hours and study the following links 👇
 

@@ -49,6 +49,7 @@ Loading data payloads from external files or APIs
   * [awesome-json-datasets](https://github.com/jdorfman/awesome-json-datasets)
   * [public-apis](https://github.com/public-apis/public-apis)
   * [OpenWeather](https://openweathermap.org/api)
+  * [Spacekit](https://typpo.github.io/spacekit/)
 * Data Viz drawing tools
   * [Make your own!](https://vimeo.com/showcase/2573675) - This is Processing-specific, but would port easily to p5js
   * [Mappa.js](https://github.com/cvalenzuela/Mappa)
