@@ -33,6 +33,10 @@
       header {
         margin-bottom: 4rem;
       }
+      .anchor {
+        width: 24px;
+        display: inline-block;
+      }
       #content {
         margin: 2rem auto 10rem;
         max-width: 960px;
@@ -114,6 +118,7 @@
             prepImages();
             prepLocalLinks();
             prepLinksForBigPicture();
+            scrollToAnchor();
           });
       }
 
@@ -132,6 +137,22 @@
         `;
       }
 
+      function scrollToAnchor() {
+        // need to wait for frontend reqriting to happen
+        setTimeout(() => {
+          let hash = window.location.hash;
+          if (hash) {
+            let el = document.querySelector(hash);
+            if (el) {
+              console.log("scrolling to", hash);
+              el.scrollIntoView({
+                behavior: "smooth", // smooth scroll
+                block: "start", // the upper border of the element will be aligned at the top of the visible part of the window of the scrollable area.
+              });
+            }
+          }
+        }, 100);
+
       ////////////////////////////////////////
       // Give anchors to headers
       ////////////////////////////////////////
@@ -144,18 +165,24 @@
           .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
       }
 
+      function anchorLink(slug) {
+        let a = document.createElement("a");
+        a.setAttribute("href", `#${slug}`);
+        a.setAttribute("name", `#${slug}`);
+        a.classList.add("anchor");
+        a.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M9.5 14.5a3.5 3.5 0 0 1 0-7 3.5 3.5 0 0 1 0 7z"></path><path d="M14.5 9.5a3.5 3.5 0 0 1 0 7 3.5 3.5 0 0 1 0-7z"></path><line x1="9.5" y1="14.5" x2="14.5" y2="9.5"></line></svg>`;
+        return a;
+      }
+
       function prepHeaderAnchors() {
         let headers = document.querySelectorAll("h1, h2, h3");
         for (let header of headers) {
-          let headerTxt = slugify(header.innerText);
-          headerTxt = headerTxt.replace(/ /g, "-"); // slugify
-          if (/^\s/.test(headerTxt)) {
-            headerTxt = headerTxt.substring(1);
-          }
-          header.setAttribute("id", headerTxt);
-          header.addEventListener("click", (e) => {
-            window.location.hash = headerTxt;
-          });
+          let slug = slugify(header.innerText);
+          header.setAttribute("id", slug);
+          header.appendChild(anchorLink(slug));
+          // header.addEventListener("click", (e) => {
+          //   window.location.hash = slug;
+          // });
         }
       }
 
@@ -184,6 +211,7 @@
           let isLocal = href.indexOf("http") == -1;
           if (isLocal) {
             console.log("Found local link:", href);
+            let hash = href.indexOf("#") != -1 ? "#" + href.split("#")[1] : "";
             if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
               // console.log("Found local image link:", href);
               href = href.replace("../images/", "./images/"); // fix relative images from classes/docs
@@ -195,10 +223,10 @@
             if (href.indexOf(".md") != -1) {
               if (href.indexOf("/class-") != -1) {
                 let classNum = href.match(/class-(\d+)/)[1];
-                link.setAttribute("href", `?class=${classNum}`);
+                link.setAttribute("href", `?class=${classNum}${hash}`);
               } else if (href.indexOf("docs") != -1) {
                 let doc = href.match(/docs\/(.+)\.md/)[1];
-                link.setAttribute("href", `?doc=${doc}`);
+                link.setAttribute("href", `?doc=${doc}${hash}`);
               }
             }
           } else {
