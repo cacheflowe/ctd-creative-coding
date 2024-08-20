@@ -1,5 +1,7 @@
 # CTD Creative Coding
 
+Visit this course's [friendly frontend](https://cacheflowe.github.io/ctd-creative-coding)
+
 ## Course Info
 
 [CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
