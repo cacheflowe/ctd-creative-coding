@@ -48,6 +48,28 @@ How to use it?
   * Write your command into the terminal
   * Or write more complex scripts into a text file, and run your text file from the command line
 
+## 🛠️ Nodejs
+
+What is Node?
+
+* Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+* `npm` - Node Package manager
+
+Use cases
+
+* Web Server
+* Build tools & automations
+* WebSocket server
+* Batch processing tasks
+* CLI tasks in a friendlier environment
+
+Node Resources
+
+* [Introduction to Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+* [Node Weekly](https://nodeweekly.com/)
+* [The Coding Train topics](https://thecodingtrain.com/tracks/lang/all/topic/node-js)
+
+
 ## 🛠️ 3D Graphics
 
 The Graphics pipeline
