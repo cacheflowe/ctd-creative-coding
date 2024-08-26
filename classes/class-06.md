@@ -1,5 +1,7 @@
 # Class 6
 
+Project topic: SNKRS ATL
+
 ## 🛠️ Data Structures
 
 Structured data types in your code

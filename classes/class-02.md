@@ -1,6 +1,8 @@
 # Class 2 
 
-## 🛠️ Drawing tools
+Project topic: Kittredge Projections or Conscious Growth
+
+## 🛠️ Basic drawing tools
 
 * The graphics **context** refers the current image that's displayed, and the underlying technology used to draw and manipulate it, and keep track of it
   * It also refers to the **current state** of the **canvas**
@@ -54,13 +56,9 @@
   * [Grid 2D: Pixelated video/webcam](https://editor.p5js.org/cacheflowe/sketches/aLybN_TdB)
   * [Grid 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
 
-## 🛠️ Animation
+## 🛠️ Layout
 
-* Exercises:
-  * Intro to [basic movement](https://p5js.org/examples/motion-bounce.html)
-  * And more [examples/exercises](https://creative-coding.decontextualize.com/changes-over-time/)
-* Real-time coding vs scripting or event-based environments
-  * `noLoop()` option
+* [Layout demo](https://editor.p5js.org/cacheflowe/sketches/JVgGb7qd8)
 
 ## 🛠️ AI demo
 
@@ -68,27 +66,34 @@
 
 ## 📝 Homework:
 
-* Read:
-  * "[Why Love Generative Art?](https://www.artnome.com/news/2018/8/8/why-love-generative-art)" - A history of the medium
-* Watch:
-  * [Robert Hodgin @ Eyeo 2014](https://vimeo.com/103537259) - watch at least the first 13 minutes
-    * If you love this, watch [Robert Hodgin @ Eyeo 2012](https://vimeo.com/45526286)
-* Browse & collect inspiration. Post your favorite sketches in Slack!
-  * [OpenProcessing](https://www.openprocessing.org/)
-  * [CodePen](https://codepen.io/search/pens?q=p5js)
-  * [ShaderToy](https://www.shadertoy.com/)
-  * [Justin's inspiration links](../docs/inspiration.md)
-* **Program a [poster](https://www.instagram.com/tim_rodenbroeker/)**
-  * Use shapes, color, type, images
-  * If you're not great with colors, use a [palette generator](https://coolors.co/palettes)
-  * Find [inspiration](https://www.google.com/search?q=bauhaus+poster+design) and borrow ideas if you're not a natural designer. If you really want to keep it simple, replicate an existing design, but credit the original designer in the comments.
-  * If you are a designer, try to make something more contemporary, or in your own style
-  * For stretch goals:
-    * Use grids
-    * Swap colors with a key press or mouse position
-    * Make multiple posters
-    * Randomize elements
-  * Make your canvas big, and use [this function](https://editor.p5js.org/cacheflowe/sketches/bTaASS9mv) to scale it down, so you can fit it onto screen
+Read:
+
+* "[Why Love Generative Art?](https://www.artnome.com/news/2018/8/8/why-love-generative-art)" - A history of the medium
+
+Watch:
+
+* [Robert Hodgin @ Eyeo 2014](https://vimeo.com/103537259) - watch at least the first 13 minutes
+  * If you love this, watch [Robert Hodgin @ Eyeo 2012](https://vimeo.com/45526286)
+
+Browse & collect inspiration. Post your favorite sketches in Slack!
+
+* [OpenProcessing](https://www.openprocessing.org/)
+* [CodePen](https://codepen.io/search/pens?q=p5js)
+* [ShaderToy](https://www.shadertoy.com/)
+* [Justin's inspiration links](../docs/inspiration.md)
+
+**Program a [poster](https://www.instagram.com/tim_rodenbroeker/)**
+
+* Use shapes, color, type, images
+* If you're not great with colors, use a [palette generator](https://coolors.co/palettes)
+* Find [inspiration](https://www.google.com/search?q=bauhaus+poster+design) and borrow ideas if you're not a natural designer. If you really want to keep it simple, replicate an existing design, but credit the original designer in the comments.
+* If you are a designer, try to make something more contemporary, or in your own style
+* For stretch goals:
+  * Use grids
+  * Swap colors with a key press or mouse position
+  * Make multiple posters
+  * Randomize elements
+* Make your canvas big, and use [this function](https://editor.p5js.org/cacheflowe/sketches/bTaASS9mv) to scale it down, so you can fit it onto screen
 
 ## 📋 Review code
 

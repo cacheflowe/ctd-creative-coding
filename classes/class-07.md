@@ -1,8 +1,6 @@
 # Class 7
 
-## 🛠️ Project in progress
-
-* Towel Generator
+Project topic: Connected Canvas
 
 ## 🛠️ Command-Line Interface (CLI)
 
@@ -79,21 +77,26 @@ Basic layout & 3d thinking
 
 ## 📝 Homework:
 
-* Read:
-  * The WebGL & OpenGL articles above
-* Watch:
-  * [Best Of Demoscene 2020 (Playlist)](https://www.youtube.com/watch?v=zWqfX9J9BXI&list=PL9HVvEQXdWVb22aDO98yTbhqE8zy9XaDE)
-  * [SIGGRAPH 2020: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=jYdMKdRUq_8)
-  * [SIGGRAPH 2019: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=EhDr3Rs5fTU)
-  * [SIGGRAPH 2018 Asia: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=wdKpXvF_3AU)
-* Build something with a 3rd dimension
-  * Steps
-    * Start with `WEBGL` (p5js) or `P3D` (Processing) mode
-      * In p5js, this move the coordinate system to the center of the screen
-    * Use `box()`, `sphere()` and other 3d primitive functions to create shapes
-      * p5js has additional 3d shapes like `torus()`
-  * Stretch goals
-    * Create your own 3d geometry with `beginShape()`, `vertex()`, and `endShape()`
+Read:
+
+* The WebGL & OpenGL articles above
+
+Watch:
+
+* [Best Of Demoscene 2020 (Playlist)](https://www.youtube.com/watch?v=zWqfX9J9BXI&list=PL9HVvEQXdWVb22aDO98yTbhqE8zy9XaDE)
+* [SIGGRAPH 2020: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=jYdMKdRUq_8)
+* [SIGGRAPH 2019: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=EhDr3Rs5fTU)
+* [SIGGRAPH 2018 Asia: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=wdKpXvF_3AU)
+
+**Build something with a 3rd dimension**
+
+* Steps
+  * Start with `WEBGL` (p5js) or `P3D` (Processing) mode
+    * In p5js, this move the coordinate system to the center of the screen
+  * Use `box()`, `sphere()` and other 3d primitive functions to create shapes
+    * p5js has additional 3d shapes like `torus()`
+* Stretch goals
+  * Create your own 3d geometry with `beginShape()`, `vertex()`, and `endShape()`
 
 ## 📋 Review code
 

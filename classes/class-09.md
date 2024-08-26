@@ -1,5 +1,7 @@
 # Class 9
 
+Project topic: Interphase
+
 ## 🛠️ Open Source
 
 Open source = Freely-available source code!
@@ -27,8 +29,8 @@ Package (library) managers
 * Downsides
   * [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/)
   * [Security](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
-  * [Large download size](../images/node-modules-meme.png) (lots of extra library dependencies you might not use)
-  * Versioning/dependencies can [break or become outdated](../images/get-old-repo-to-run.png) over time
+  * Large download size (lots of extra library dependencies you might not use) [Nodejs meme](../images/node-modules-meme.png)
+  * Versioning/dependencies can break or become outdated over time [dependency meme](../images/get-old-repo-to-run.png)
 * Different languages have different package managers
   * `p5js`: [Doesn't have one](https://p5js.org/libraries/)! You include remote javascript files or upload them
   * `Processing`: library manager inside IDE
@@ -149,7 +151,7 @@ Read:
   * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
   * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
 
-Watch & listen
+Watch & listen:
 
 * [Making Music with CODE?! (With DJ_Dave and Sam Aaron)](https://www.youtube.com/watch?v=vuSZQnkOB_Y)
 * Tutorials
@@ -167,7 +169,7 @@ Watch & listen
   * [William Fields - Fields OS](https://williamfields.bandcamp.com/album/fieldsos)
     * "FieldsOS is 100% algorithmic music. The probabilities, conditions, and constraints were configured in advance. The output was recorded and this is the result. No curation or editing was done."
 
-Build something with audio
+**Build something with audio**
 
 * Ideas:
   * Write a program that plays a sound file along with a graphical element

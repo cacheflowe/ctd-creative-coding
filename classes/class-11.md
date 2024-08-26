@@ -1,5 +1,7 @@
 # Class 11
 
+Project topic: AI photobooths, Nike AF-1
+
 ## 🛠️ Debugging
 
 <img src="../images/debugging.png" alt="alt text" width="500"/>
@@ -229,11 +231,14 @@ Not necessarily specific to ML, but exacerbated by ML. Who is building the softw
 
 ## 📝 Homework:
 
-* Read:
-  * Some of the articles above
-  * Investigate some ML tools
-* Build something with a machine-learning tool
-  * *Or* start work on your final project and present that next week
+Read:
+
+* Some of the articles above
+* Investigate some ML tools
+
+**Build something with a machine-learning tool**
+
+* *Or* start work on your final project and present that next week
 
 ## 📋 Review code
 

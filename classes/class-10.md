@@ -26,6 +26,12 @@ Deliverables:
 
 ## 🛠️ Web Browsers, websites
 
+Articles & resources
+
+* https://wesbos.com/javascript/
+* https://github.com/leonardomso/33-js-concepts
+* https://alan.norbauer.com/articles/browser-debugging-tricks
+
 Creative Web Dev Studios
 
 * [Active Theory](https://activetheory.net/)
@@ -145,17 +151,24 @@ Let's talk about [jobs](./docs/jobs.md)!
 
 ## 📝 Homework:
 
-* Tutorial:
-  * [Browser console](https://creative-coding.decontextualize.com/browser-console/)
-* Read:
-  * Articles above on CSS and other web tech
-  * Research the enormous landscape of web-based creative tools
-* Watch:
-  * [Kate Compton: Creating generative art with Javascript](https://www.youtube.com/watch?v=tJ49bTJ6fbs)
-  * [Tim Holman - Generative Art Speedrun](https://www.youtube.com/watch?v=4Se0_w0ISYk)
-  * [Generative Machines with Matt DesLauriers](https://www.youtube.com/watch?v=8Uo6zFwSO78)
-* Build something with a new (to you) Web Browser feature
-  * Find a tool or API above ☝️
+Tutorial:
+
+* [Browser console](https://creative-coding.decontextualize.com/browser-console/)
+
+Read:
+
+* Articles above on CSS and other web tech
+* Research the enormous landscape of web-based creative tools
+
+Watch:
+
+* [Kate Compton: Creating generative art with Javascript](https://www.youtube.com/watch?v=tJ49bTJ6fbs)
+* [Tim Holman - Generative Art Speedrun](https://www.youtube.com/watch?v=4Se0_w0ISYk)
+* [Generative Machines with Matt DesLauriers](https://www.youtube.com/watch?v=8Uo6zFwSO78)
+
+**Build something with a new (to you) Web Browser feature**
+
+* Find a tool or API above ☝️
 
 ## 📋 Review code
 

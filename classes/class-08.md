@@ -1,5 +1,7 @@
 # Class 8
 
+Project topic: Me + You
+
 ## 🛠️ Hardware
 
 See also: [Creative Coding Notes list](https://github.com/cacheflowe/creative-coding-notes#physical-computing)
@@ -103,10 +105,11 @@ You can combine these tools to create larger integrated systems
 ## 📝 Homework:
 
 Listen to an episode from either podcast:
+
 * [Tech+Art](https://podcasts.apple.com/ca/podcast/tech-art/id1480019037) Podcast
 * [That's So New Media!?](https://open.spotify.com/show/7MXw99WToC4MbZHwAlaFzB?si=UggW_cRMTwmZKVWeVAfsjw&nd=1)
 
-Build something with a webcam or other hardware
+**Build something with a webcam or other hardware**
 
 * p5js resources
   * [Video Capture example](https://p5js.org/examples/dom-video-capture.html)

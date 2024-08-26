@@ -30,7 +30,7 @@ This course explores creative uses of software development while introducing fou
 
 * Introductions
 * What is (creative) code?
-* Prepare tools for the semester
+* Get your tools ready
 * Code basics overview
 
 ### Sep 2 (No class - Labor Day)
@@ -39,7 +39,8 @@ This course explores creative uses of software development while introducing fou
 
 * Basic drawing tools
 * Iteration
-* Animation
+* Layout
+* AI Demo
 
 ### [Class 03](./classes/class-03.md) - Sep 16
 
@@ -47,17 +48,19 @@ This course explores creative uses of software development while introducing fou
 * How does a program execute?
 * Shaping our sketches
 * Time
+* Animation
 
 ### [Class 04](./classes/class-04.md) - Sep 23
 
-* How to do build anything
 * Strings
+* Typography
 * Images
 * Looping animation
 
 ### [Class 05](./classes/class-05.md) - Sep 30
 
 * Software design
+* How to build anything
 * Graphics effects & algorithms
 * Math
 

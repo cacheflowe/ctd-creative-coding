@@ -1,5 +1,7 @@
 # Class 3
 
+Project topic: Google PDX
+
 ## 🛠️ Languages & IDEs
 
 - [Language differences & use-cases](https://www.quora.com/What-are-the-differences-that-exist-between-programming-languages/answer/James-Barton-129)
@@ -53,51 +55,66 @@
   - `nf()`
   - `deltaTime`
 
+## 🛠️ Animation
+
+* Exercises:
+  * Intro to [basic movement](https://p5js.org/examples/motion-bounce.html)
+  * And more [examples/exercises](https://creative-coding.decontextualize.com/changes-over-time/)
+* Real-time coding vs scripting or event-based environments
+  * `noLoop()` option
+
 ## 📝 Homework:
 
-- Read:
-  - [On Meta-Design and Algorithmic Design Systems](https://runemadsen.com/blog/on-meta-design-and-algorithmic-design-systems/) by Rune Madsen
-    - [MIT Media Lab's Brilliant New Logo Has 40,000 Permutations](https://www.fastcompany.com/1663378/mit-media-labs-brilliant-new-logo-has-40000-permutations-video)
-    - [Cacheflowe - Nightlines](https://cacheflowe.com/art/physical/nightlines-t-shirt)
-- Watch:
-  - [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
-    - See how animation effects give a boring game personality
-- Choose a secondary tool to investigate this semester. Some suggestions:
-  - Web tech: html/css/canvas/svg
-  - Processing
-  - openFrameworks
-  - Unity or Unreal
-  - Touch Designer
-  - VVVV
-  - Nannou
-  - OpenRNDR
-  - Sonic Pi
-  - Chuck
-- **Build a clock**
-  - Textual, graphical, or both
-  - Make it abstract or conceptual, not a [literal clock](https://editor.p5js.org/p5/sketches/Input:_Clock)
-  - Some ideas
-    - Use [millis()](https://p5js.org/reference/p5/millis/) for fine-grained time display
-    - Build a countdown clock?
-      - How many years do you have left to live? Use variables to calculate
-      - [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)
-      - How long before Covid is over, with variables added to the equation
-    - Show multiple time zones, or use an invented time scale
-    - Does IRL time of day influence the color or drawing style?
-    - Add sound
-    - Apply time to your favorite activity
-    - Reveal the rhythm of time with shapes
-    - Use Javascript for more [Date functions](https://flaviocopes.com/javascript-dates/)
-    - Turn the time into another "poster" and change the content depending on the time of day
-  - Inspiration
-    - [Raven Kwok: Time](http://ravenkwok.com/time/)
-    - [Humans since 1982: A Million Times](https://vimeo.com/channels/staffpicks/60491636)
-    - [Reza Ali: Reactions](https://www.instagram.com/p/CBogs4FH4E0/)
-  - Steps
-    - Sketch it out on paper
-    - Write some code, see if it sticks
-      - Sometimes the code will lead us down different, interesting paths
-    - Pivot when something isn't working and try a different approach
+Read:
+
+- [On Meta-Design and Algorithmic Design Systems](https://runemadsen.com/blog/on-meta-design-and-algorithmic-design-systems/) by Rune Madsen
+  - [MIT Media Lab's Brilliant New Logo Has 40,000 Permutations](https://www.fastcompany.com/1663378/mit-media-labs-brilliant-new-logo-has-40000-permutations-video)
+  - [Cacheflowe - Nightlines](https://cacheflowe.com/art/physical/nightlines-t-shirt)
+
+Watch:
+
+- [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
+  - See how animation effects give a boring game personality
+
+Choose a secondary tool to investigate this semester. Some suggestions:
+
+- Web tech: html/css/canvas/svg
+- Processing
+- openFrameworks
+- Unity or Unreal
+- Touch Designer
+- VVVV
+- Nannou
+- OpenRNDR
+- Sonic Pi
+- Chuck
+
+**Build a clock**
+
+- Textual, graphical, or both
+- Make it abstract or conceptual, not a [literal clock](https://editor.p5js.org/p5/sketches/Input:_Clock)
+- Some ideas
+  - Use [millis()](https://p5js.org/reference/p5/millis/) for fine-grained time display
+  - Build a countdown clock?
+    - How many years do you have left to live? Use variables to calculate
+    - [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)
+    - How long before Covid is over, with variables added to the equation
+  - Show multiple time zones, or use an invented time scale
+  - Does IRL time of day influence the color or drawing style?
+  - Add sound
+  - Apply time to your favorite activity
+  - Reveal the rhythm of time with shapes
+  - Use Javascript for more [Date functions](https://flaviocopes.com/javascript-dates/)
+  - Turn the time into another "poster" and change the content depending on the time of day
+- Inspiration
+  - [Raven Kwok: Time](http://ravenkwok.com/time/)
+  - [Humans since 1982: A Million Times](https://vimeo.com/channels/staffpicks/60491636)
+  - [Reza Ali: Reactions](https://www.instagram.com/p/CBogs4FH4E0/)
+- Steps
+  - Sketch it out on paper
+  - Write some code, see if it sticks
+    - Sometimes the code will lead us down different, interesting paths
+  - Pivot when something isn't working and try a different approach
 
 ## 📋 Review code
 

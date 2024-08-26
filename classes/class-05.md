@@ -1,5 +1,7 @@
 # Class 5
 
+Project topic: Adapt BB
+
 ## 🛠️ Software Design (How to write better code)
 
 General advice for cleaner, better code
@@ -30,6 +32,23 @@ Strategies
   - Build scripts
   - Package managers
   - es6 imports
+
+## 🛠️ How to build anything
+
+- [Follow the engineering design process](../images/engineering-design-process.jfif)
+- Break the problem down
+  - Google the components of the problem, and follow the process above
+  - Project management tools (Asana, Jira, Notion)
+- Write ugly code, then clean it up once it works
+  - Don't over-engineer it until it's working
+- Ask someone for help/advice!
+- What happens when you hit a wall?
+  - Sleep on it
+  - Go for a walk
+  - Use [a](https://en.wikipedia.org/wiki/Rubber_duck_debugging) [duck](https://rubberduckdebugging.com/)
+  - Try a different approach or reduce your ambition this time around. You'll figure it out with persistence!
+- Build your toolkit as you find solutions
+  - [Haxademic](https://github.com/cacheflowe/haxademic/) is one of mine
 
 ## 🛠️ Graphics Effects & Algorithms
 
@@ -71,7 +90,7 @@ Read
 - [Probability Distributions for Algorithmic Artists](https://tylerxhobbs.com/essays/2014/probability-distributions-for-algorithmic-artists) by Tyler Hobbs
 - [What makes generative art hard?](https://bendotk.com/writing/what-makes-generative-art-hard) by Ben Kovach
 
-Build a "generator"
+**Build a "generator"**
 
 - Shapes
 - Some ideas
