@@ -7,29 +7,26 @@
   * Interests: music, graphics, interaction, games
   * Show some projects
 * Please sign up for Slack if you haven't yet
-* "Grad Student Code Helper"
+* Tutor / Code Helper
 * Various skill levels
-  * Everyone: Learn about the craft, the state of the art, and express yourself creatively with code
-  * Beginners: I want you to learn to find joy in coding, and get comfortable with tools, techniques, and nomenclature
-  * Advanced: I want you to dig deep, explore concepts, seek out additional challenges to hone your skills
+  * **Everyone**: Learn about the craft, the state of the art, and express yourself creatively with code
+  * **Beginners**: I want you to learn to find joy in coding, and get comfortable with tools, techniques, and nomenclature
+  * **Advanced**: I want you to dig deep, explore concepts, seek out additional challenges to hone your skills, and build a more robust portfolio
+* Expectations of conduct & [ethos](../docs/policies.md#ethos-for-learning-code) for learning code
+* See the [original works](../docs/policies.md#original-works) policy
 
 ### Student introductions & interests
 
 * What topics are you interested in?
 * How can we merge our interests with code?
-* Self-directed and meandering exploration in this field is essential
-* Beginners vs. experts
-  * Experts should take this opportunity to build a portfolio
 * Special requests to make this course work for you?
-* Expectations of conduct & [ethos](../docs/policies.md#ethos-for-learning-code) for learning code
-* See the [original works](../docs/policies.md#original-works) policy
 
 ## 📋 What is code?
 
 ### Code is software, code is everywhere
 
-* Code is usually written in text files, but there are also node editors and other ways to "code"
-* Code is a web of logic
+* Code is usually written in text files, but there are also node editors and other ways to build interactive software
+* Code is a web of logic and data
 * [Code isn't hard, but it is frustrating](https://clivethompson.medium.com/programming-isnt-hard-but-it-s-frustrating-6cb740085243)
 * Language & syntax
 * Most modern languages are [very similar](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
@@ -55,6 +52,7 @@
   3. Create a roadmap for yourself
   4. Prioritize understanding
   5. Get use to failing
+* Self-directed and meandering exploration 
 * Practice! Try, fail, repeat
   * *Write a lot of code*
   * It's better to start writing bad code than to let yourself get stuck 
