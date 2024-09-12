@@ -4,6 +4,8 @@ Project topic: Connected Canvas
 
 ## 🛠️ Command-Line Interface (CLI)
 
+[CLI cartoon](../images/command-line.png)
+
 * [Different shells](https://en.wikipedia.org/wiki/Command-line_interface)
 * vs. [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 * Setup & config

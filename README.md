@@ -4,7 +4,7 @@ Visit this course's [friendly frontend](https://cacheflowe.github.io/ctd-creativ
 
 ## Course Info
 
-[CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/graduate/ms-technology-media-society) <br>
+[CU Boulder ATLAS program](https://www.colorado.edu/atlas/academics/grad/ctd-ci) <br>
 ATLS 5660 | Fall 2024 <br>
 Class time: Mondays @ 4:00–6:30pm <br>
 Office hours: Thursdays (Justin) @ 4:00-6:00pm via Zoom<br>

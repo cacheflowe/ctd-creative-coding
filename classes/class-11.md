@@ -15,7 +15,7 @@ Project topic: AI photobooths, Nike AF-1
 
 ### What to do when something doesn't work
 
-<img src="../images/roses-are-red.jpg" alt="alt text" width="500"/>
+[Extra bracket meme](../images/roses-are-red.jpg)
 
 * Does your IDE point out any syntax problems?
 * Is there an error message in the console?
@@ -28,6 +28,8 @@ Project topic: AI photobooths, Nike AF-1
 * Get help from ChatGPT or Copilot
 
 ### General debugging
+
+[Typo/error meme](../images/typo-error.jpg)
 
 * Reference errors (is your code pointing to the right thing?)
 * `console.log()` / `println()`
