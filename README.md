@@ -44,7 +44,8 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 03](./classes/class-03.md) - Sep 16
 
-* Languages & IDEs
+* Programming Languages 
+* IDEs
 * How does a program execute?
 * Shaping our sketches
 * Time
