@@ -9,6 +9,7 @@ Project topic: AI photobooths, Nike AF-1
 ### Resources
 
 * [p5js Debugging article](https://p5js.org/learn/debugging.html)
+* [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
 * ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
 * [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 

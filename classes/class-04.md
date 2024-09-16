@@ -44,11 +44,13 @@ Project topic: Looping animations
 
 - `image()`
   - [Basic image](https://editor.p5js.org/cacheflowe/sketches/H0JGQe2fu)
+  - [Advanced image](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)
 - `get()`
   - [Re-drawing images](https://editor.p5js.org/cacheflowe/sketches/RNbj-2IV0)
   - [p5 video example](https://p5js.org/examples/dom-video-pixels.html)
 - `copy()`
   - [marquee example](https://editor.p5js.org/cacheflowe/sketches/lXo4uD5fV)
+  - [Example](../images/html5-canvas-image-crop-diagram.png)
 - `texture()` w/`vertex()`
   - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)!
   - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/eOxZ6_PJx)!

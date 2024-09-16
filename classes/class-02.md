@@ -31,13 +31,10 @@ Project topic: Kittredge Projections or Conscious Growth
   * `scale()`
   * `rotate()`
     * `CORNER` vs. `CENTER` ([example](https://editor.p5js.org/cacheflowe/sketches/nOll3v7bR))
-* We've seen many different ways of drawing a shape (`ellipse()`, `rect()`), but let's consider:
+* We've seen many different ways of drawing a shape (`ellipse()`, `rect()`), but let's also consider:
   * `image()`
     * Make sure you load the image with `loadImage()` before drawing
     * [Image example (basic)](https://editor.p5js.org/cacheflowe/sketches/H0JGQe2fu)
-    * [Image example (advanced)](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)
-    * `copy()`
-      * [Example](../images/html5-canvas-image-crop-diagram.png)
   * `text()`
     * Custom fonts: Make sure you load the font first
       * [Example](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)

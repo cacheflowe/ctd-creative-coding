@@ -16,7 +16,7 @@ Project topic: Google PDX
 - IDEs - what can they do for you?
   - They're built specifically for certain languages
 - [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)s
-  - [Online-REPs-and-REPLs](https://joel.franusic.com/online-reps-and-repls)
+  - [Online-REPs-and-REPLs](https://joel.franusic.com/Online-REPs-and-REPLs)
 
 ## 🛠️ How does a program execute?
 
@@ -36,11 +36,14 @@ Project topic: Google PDX
   - [Sliders](https://editor.p5js.org/cacheflowe/sketches/t7su_ViJ3)
   - [Random numbers](https://happycoding.io/tutorials/p5js/random)
   - Data
-  - [noise()](https://twitter.com/pantrymoth/status/1557085719318990850) [basic example](https://editor.p5js.org/cacheflowe/sketches/rTspcZzcf) [advanced example](https://editor.p5js.org/cacheflowe/sketches/GemonFb9A)
+  - [noise()](https://p5js.org/reference/p5/noise/)
+    - [example: noise gridd offset](https://editor.p5js.org/cacheflowe/sketches/rTspcZzcf) 
+    - [example: noise circles](https://editor.p5js.org/cacheflowe/sketches/MsjQH_kPi)
+    - [example: textured noise mesh](https://editor.p5js.org/cacheflowe/sketches/XVQjjklv2)
   - sin() [example](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
   - lerp() [example](https://editor.p5js.org/cacheflowe/sketches/GemonFb9A)
-  - map()
-  - modulo `%`
+  - map() [example](https://editor.p5js.org/cacheflowe/sketches/v88Rfyxhi)
+  - modulo `%` [example](https://editor.p5js.org/cacheflowe/sketches/O9JM1Lp0n)
 - Normalizing numbers
 - Using `map()` - Live demo
   - Map mouse input - normalize and use for rotation
@@ -49,7 +52,7 @@ Project topic: Google PDX
 ## ⏱️ Time
 
 - [Time, according to p5js](https://editor.p5js.org/cacheflowe/sketches/EdkIstnmFL):
-  - `second()`, `minute()`, `hour()` use your system clock
+  - `second()`, `minute()`, `hour()` uses your system clock
   - Track `millis()` for custom/precise time intervals
   - `frameCount % 60`
   - `nf()`
