@@ -74,7 +74,7 @@ Languages update over time:
 ## 🛠️ Animation
 
 * Exercises:
-  * Intro to [basic movement](https://p5js.org/examples/motion-bounce.html)
+  * Intro to [basic movement](https://editor.p5js.org/p5/sketches/Motion:_Bounce)
   * And more [examples/exercises](https://creative-coding.decontextualize.com/changes-over-time/)
 * Real-time coding vs scripting or event-based or reactive environments
   * `noLoop()` option in p5.js

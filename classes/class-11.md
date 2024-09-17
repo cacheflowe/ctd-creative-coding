@@ -122,6 +122,7 @@ How to install an ML tool:
 * [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 * https://microsoft.github.io/generative-ai-for-beginners/
 * https://microsoft.github.io/ML-For-Beginners/
+* https://github.com/xnought/vae-explainer
 
 ### Interesting ML Tools
 
