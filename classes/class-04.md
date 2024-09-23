@@ -23,7 +23,7 @@ Project topic: Looping animations
 
 * [Custom fonts example](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)
   * [WEBGL example](https://editor.p5js.org/cacheflowe/sketches/MLo0ywJEh)
-* Kinetic typography artists [inspo](../docs/inspiration#kinetic-typography)
+* Kinetic typography artists [inspo](../docs/inspiration.md#kinetic-typography)
 * Kinetic typography examples by Cacheflowe
   * [WTF?](https://cacheflowe.com/art/digital/wtf)
   * [What Whut Wat](https://cacheflowe.com/art/digital/what-whut-wat)
