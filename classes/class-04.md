@@ -16,23 +16,14 @@ Project topic: Looping animations
 - Fun uses
   - [Typing effect](https://editor.p5js.org/cacheflowe/sketches/SZuK1L9Ij)
   - [Random character effect](https://editor.p5js.org/cacheflowe/sketches/_HvhP2BON)
+  - [p5.Font textToPoints](https://p5js.org/reference/p5.Font/textToPoints/)
 - Text manipulation [exercises](https://creative-coding.decontextualize.com/text-and-type/)
 
 ## 🛠️ Typography
 
 * [Custom fonts example](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)
-* TODO: Animate text example code
-* Kinetic typography artists:
-  * [@burnier](https://instagram.com/burnier)
-  * [@dia_studio](https://instagram.com/dia_studio)
-  * [@studiodumbar](https://instagram.com/studiodumbar)
-  * [@sawduststudio](https://instagram.com/sawduststudio)
-  * [@kiel.d.m](https://instagram.com/kiel.d.m)
-  * [@sandersturing](https://instagram.com/sandersturing)
-  * [@andreiongd](https://instagram.com/andreiongd)
-  * [@georgieyanadesign](https://instagram.com/georgieyanadesign)
-  * [@contemporarytype](https://instagram.com/contemporarytype)
-  * [@schultzschultzgrafik ](https://instagram.com/schultzschultzgrafik )
+  * [WEBGL example](https://editor.p5js.org/cacheflowe/sketches/MLo0ywJEh)
+* Kinetic typography artists [inspo](../docs/inspiration#kinetic-typography)
 * Kinetic typography examples by Cacheflowe
   * [WTF?](https://cacheflowe.com/art/digital/wtf)
   * [What Whut Wat](https://cacheflowe.com/art/digital/what-whut-wat)
@@ -52,8 +43,8 @@ Project topic: Looping animations
   - [marquee example](https://editor.p5js.org/cacheflowe/sketches/lXo4uD5fV)
   - [Example](../images/html5-canvas-image-crop-diagram.png)
 - `texture()` w/`vertex()`
-  - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)!
-  - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/eOxZ6_PJx)!
+  - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)
+  - [UV coordinates 2](https://editor.p5js.org/cacheflowe/sketches/eOxZ6_PJx)
 - Gradients w/`vertex()`
   - [Fast background gradient](https://editor.p5js.org/cacheflowe/sketches/3ToQYymCE)
   - [Radial gradient](https://editor.p5js.org/cacheflowe/sketches/W-vOOSTO6)
@@ -64,22 +55,23 @@ Project topic: Looping animations
 ## 🛠️ Looping Animations
 
 - [Example loops](https://cacheflowe.com/art/digital) from Justin
-- [Time, according to p5js](https://editor.p5js.org/cacheflowe/sketches/EdkIstnmFL):
-  - Frames (`frameCount`) or milliseconds `millis()`
-  - `deltaTime`
-  - Modulo (`%`)
-  - `sin()` & `TWO_PI`
+- [Time, according to p5js](https://editor.p5js.org/cacheflowe/sketches/EdkIstnmFL)
 
 ## 📝 Homework
 
-- Read:
-  - [Line](https://wblut.com/line/) by @wblut
-    - Discusses OOP techniques around the concept of a `line()`
-  - [Sketching with Math and Quasi Physics](https://kynd.github.io/p5sketches/)
-- Watch:
-  - [Exploring Emergence](https://www.youtube.com/watch?v=gOqOyb51prU) by Andy Lomas
-  - [CD Lecture: Kiel Mutschelknaus](https://www.youtube.com/watch?v=u98hjQusdEU) (Kinetic Typography concepts & tools)
-- **Build a looping animation**
+Read:
+
+- [Line](https://winterbloed.be/line/) by @wblut
+  - Discusses OOP techniques around the concept of a `line()`
+- [Sketching with Math and Quasi Physics](https://kynd.github.io/p5sketches/)
+
+Watch:
+  
+- [Exploring Emergence](https://www.youtube.com/watch?v=gOqOyb51prU) by Andy Lomas
+- [CD Lecture: Kiel Mutschelknaus](https://www.youtube.com/watch?v=u98hjQusdEU) (Kinetic Typography concepts & tools)
+
+**Build a looping animation**
+
   - Make a seamless loop of some sort, starting with [this example](https://editor.p5js.org/cacheflowe/sketches/AyMfAnXTA)
   - Some ideas
     - Scale something up and countdown
@@ -96,4 +88,3 @@ Project topic: Looping animations
 ## 📋 Review code
 
 - Present your clocks
-- How do we feel about time?

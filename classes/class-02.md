@@ -38,6 +38,7 @@ Project topic: Kittredge Projections or Conscious Growth
   * `text()`
     * Custom fonts: Make sure you load the font first
       * [Example](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)
+      * [Example (WEBGL)](https://editor.p5js.org/cacheflowe/sketches/MLo0ywJEh)
 * Advanced `context` topics
   * [Clipping](https://editor.p5js.org/cacheflowe/sketches/-tO_SsjsC)
   * [Dynamic Masking](https://editor.p5js.org/cacheflowe/sketches/Tlx3KwDHI)
