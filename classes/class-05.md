@@ -22,6 +22,7 @@ Strategies
   - [Article: "Is Your Code DRY or WET?"](https://dzone.com/articles/is-your-code-dry-or-wet)
 - [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
 - SOLID principles
+  - [SOLID principles](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
   - [The SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
   - [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
 - [Functional Programming for OOP Developers](http://jessewarden.com/2016/08/beginners-guide-to-functional-programming-part-1.html)
