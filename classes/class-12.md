@@ -54,6 +54,14 @@ p5js
   * https://editor.p5js.org/patriciogonzalezvivo/sketches/hwBn0i0qw
   * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
 
+Further topics
+
+[Matrices](https://vitaminac.github.io/Matrices-in-Computer-Graphics/)
+
+- [Convolution](https://www.taylorpetrick.com/blog/post/convolution-part1)
+- [Interactive image kernels](https://setosa.io/ev/image-kernels/)
+- [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328)
+
 More reading
 
 * [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)

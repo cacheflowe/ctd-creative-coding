@@ -7,7 +7,7 @@ Project topic: Adapt BB
 General advice for cleaner, better code
 - Practice
 - Ask for feedback from your peers or mentors (or AI)
-- Study techniques! What are people in the industry talking & writing about
+- Study common coding techniques. What are people in the industry talking & writing about?
   - Watch talks from conferences
   - Read blog posts
   - Follow developers on social media
@@ -18,12 +18,14 @@ Strategies
 - Use [Design patterns](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e)
   - It takes a long time to know which might be best ina given situation, but start trying them out!
 - [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself)
-  - [Article: "What is DRY Code"](https://codinglead.github.io/javascript/what-is-DRY-code)
+  - [Video: What is DRY code?](https://www.youtube.com/watch?v=HwTcjWtDAfc)
   - [Article: "Is Your Code DRY or WET?"](https://dzone.com/articles/is-your-code-dry-or-wet)
 - [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
-- [SOLID principles](https://konstantinlebedev.com/solid-in-react/)
+- SOLID principles
+  - [The SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
+  - [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
 - [Functional Programming for OOP Developers](http://jessewarden.com/2016/08/beginners-guide-to-functional-programming-part-1.html)
-- Refactor for better organization and code clarity
+- [Refactoring](https://refactoring.guru/) for better organization and code clarity
   - Readability
   - Comments
   - Indentation
@@ -53,14 +55,10 @@ Strategies
 ## 🛠️ Graphics Effects & Algorithms
 
 - [p5js libraries](https://p5js.org/libraries/)
-- [Postprocessing demo in PIXI.js](http://filters.pixijs.download/dev/demo/index.html)
+- [Postprocessing demo in PIXI.js](https://pixijs.io/filters/examples/)
   - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
 - [List of visual algorithms](https://thatcreativecode.page/)
 - [List of graphics algorithms](https://github.com/cacheflowe/creative-coding-notes#graphics-concepts) @ Cacheflowe's Creative Coding Notes
-- [Matrices](https://vitaminac.github.io/Matrices-in-Computer-Graphics/)
-  - [Convolution](https://www.taylorpetrick.com/blog/post/convolution-part1)
-  - [Interactive image kernels](https://setosa.io/ev/image-kernels/)
-  - [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328)
 
 ## 🛠️ Math
 
@@ -70,12 +68,15 @@ Strategies
   - [Circular oscillation](https://editor.p5js.org/cacheflowe/sketches/QazkuY-bZ)
   - [Divide an arc](https://editor.p5js.org/cacheflowe/sketches/_9FdBq40-)
   - [Sketch: Drive a car](https://editor.p5js.org/cacheflowe/sketches/SSqX9j2X-)
-- [Vectors](https://p5js.org/reference/p5.Vector/sub)
+- [Vectors](https://p5js.org/reference/p5.Vector/sub/)
   - Keep track of 2d/3d coordinates and do all of the math for you!
 - [Basic physics](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-- Collision detection
-- Raytracing
+  - [Introduction to Matter.js - The Nature of Code](https://www.youtube.com/watch?v=urR596FsU68)
+  - [Matter.js example](https://editor.p5js.org/mahdadbor/sketches/pSIth_A61)
+- [Collision detection](https://www.jeffreythompson.org/collision-detection/)
+- Raytracing / Raymarching
 - FFT
+  - [p5.js Coding Tutorial | Music Visualization with FFT](https://www.youtube.com/watch?v=8O5aCwdopLo)
 - [Coding Math](https://www.youtube.com/user/codingmath) video series by Keith Peters
 - ...and so much more
 
@@ -110,8 +111,8 @@ Inspiration
 - [Andreas Gysin: Bots](https://www.instagram.com/p/B9KGXmNByRa/)
 - [Everest Pipkin: Mirror Lake](https://everestpipkin.itch.io/mirrorlake)
 - [Lolo Armdz](https://www.instagram.com/p/Bo9XS81HomN/)
-- [Amanda Cifaldi: Tiny Spires](https://twitter.com/tinyspires)
-- [Cacheflowe: Branchers](https://www.instagram.com/p/BwHxemPFcMc/)
+- [Amanda Cifaldi: Tiny Spires](https://botsin.space/@tinyspires)
+- [Cacheflowe: Branchers](https://www.threads.net/@cacheflowe/post/Cu0sWaTAX7R)
 - [Kjetl Golid](https://www.instagram.com/p/B1FUsgSANMz/)
 - [Frederik Vanhoutte](https://www.instagram.com/p/B9scpU8HgXY/)
 - [Dmitri Cherniak](https://www.instagram.com/p/CDzmKONnAlj/)
