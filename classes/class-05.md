@@ -4,37 +4,38 @@ Project topic: Adapt BB
 
 ## 🛠️ Software Design (How to write better code)
 
-General advice for cleaner, better code
+### General advice for cleaner, better code
 - Practice
 - Ask for feedback from your peers or mentors (or AI)
+- Refactor & clean-up your own code once it's working
 - Study common coding techniques. What are people in the industry talking & writing about?
   - Watch talks from conferences
   - Read blog posts
   - Follow developers on social media
-- Refactor & clean-up your own code once it's working
 
-Strategies
+### Strategies
 
-- Use [Design patterns](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e)
-  - It takes a long time to know which might be best ina given situation, but start trying them out!
-- [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself)
-  - [Video: What is DRY code?](https://www.youtube.com/watch?v=HwTcjWtDAfc)
-  - [Article: "Is Your Code DRY or WET?"](https://dzone.com/articles/is-your-code-dry-or-wet)
-- [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
-- SOLID principles
-  - [SOLID principles](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
-  - [The SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
-  - [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
-- [Functional Programming for OOP Developers](http://jessewarden.com/2016/08/beginners-guide-to-functional-programming-part-1.html)
-- [Refactoring](https://refactoring.guru/) for better organization and code clarity
-  - Readability
-  - Comments
-  - Indentation
-  - OOP (classes) - [Example sketch](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-  - Separate files
-  - Build scripts
-  - Package managers
-  - es6 imports
+Use [Design patterns](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e)
+- It takes experience to know which might be best in a given situation, so start trying them out!
+
+Look for opportunities to [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself) up your code
+- [Video: What is DRY code?](https://www.youtube.com/watch?v=HwTcjWtDAfc)
+- [Article: "Is Your Code DRY or WET?"](https://dzone.com/articles/is-your-code-dry-or-wet)
+
+SOLID principles
+- [SOLID principles](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+- [The SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
+- [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
+
+Try [Refactoring](https://refactoring.guru/) your code for better organization and code clarity
+- Readability
+- Comments
+- Indentation
+- OOP (classes) - [Example sketch](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
+- Separate files
+- Build scripts
+- Package managers
+- es6 imports
 
 ## 🛠️ How to build anything
 
