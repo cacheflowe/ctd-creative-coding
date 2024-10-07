@@ -16,6 +16,7 @@ Project topic: Google PDX
 Programming paradigms:
 - [Object-oriented](https://www.youtube.com/watch?v=m_MQYyJpIjg) (imperative)
 - [Functional](https://www.youtube.com/watch?v=XGNYDjyD6G8) (declarative)
+  - [Unleash JavaScript's Potential with Functional Programming](https://janhesters.com/blog/unleash-javascripts-potential-with-functional-programming)
 - [And others](https://en.wikipedia.org/wiki/Programming_paradigm)
 
 Languages update over time:

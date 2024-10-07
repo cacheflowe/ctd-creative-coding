@@ -1,6 +1,6 @@
 # Class 6
 
-Project topic: SNKRS ATL
+Project topic: Interphase
 
 ## 🛠️ Data Structures
 
@@ -29,7 +29,7 @@ Loading data payloads from external files or APIs
   * [q5.js](https://github.com/LingDong-/q5xjs)
   * [q5 Example](https://editor.p5js.org/cacheflowe/sketches/IRhjHom9p)
 * How does code talk to other code?
-  * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
+  * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1) w/collision detection
 
 ## 🛠️ Databases
 
@@ -39,7 +39,9 @@ Loading data payloads from external files or APIs
   * Pro: Hosted in the cloud, a db can share data between users
   * Con: More difficult to set up and work with
   * Some different types of databases: SQL, Mongo, GraphQL
-* What's the best tool for the job? ([or most in fashion](../images/databases-relational-or-not.png))
+* What's the best tool for the job?
+  * [Or which tool is most in fashion?](../images/databases-relational-or-not.png)
+* Data search example
 
 ## 🛠️ Data Visualization
 
@@ -53,20 +55,26 @@ Loading data payloads from external files or APIs
   * [OpenWeather](https://openweathermap.org/api)
   * [Spacekit](https://typpo.github.io/spacekit/)
 * Data Viz drawing tools
-  * [Make your own!](https://vimeo.com/showcase/2573675) - This is Processing-specific, but would port easily to p5js
-  * [Mappa.js](https://github.com/cvalenzuela/Mappa)
+  * [Make your own!](https://vimeo.com/showcase/2573675) - This is a Processing-specific series, but would port easily to p5js
   * [D3](https://d3js.org/)
-  * [deck.gl](https://deck.gl/)
   * [chart.js](https://www.chartjs.org/docs/latest/samples/information.html)
-  * [Vizzu](https://github.com/vizzuhq/vizzu-lib)
+  * [Vizzu](https://lib.vizzuhq.com/latest/examples/presets/)
+  * [deck.gl](https://deck.gl/)
   * Other [data viz libraries](https://medium.com/nightingale/navigating-the-wide-world-of-web-based-data-visualization-libraries-798ea9f536e7)
+    * [More libraries](../images/chart-libraries.webp)
+    * https://roughjs.com/
+    * https://semiotic.nteract.io/
+    * http://dimplejs.org/
+    * https://vega.github.io/vega/
+    * https://github.com/antvis/G2
+    * https://plotly.com/javascript/
 
 ## 📝 Homework:
 
 Watch:
 
 * [The Pudding](https://pudding.cool/)
-* [Daniel Shiffman: Introduction to Data and APIs in JavaScript](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+* [Daniel Shiffman: Introduction to Data and APIs in JavaScript](https://www.youtube.com/watch?v=rJaXOFfwGVw)
 * [Giorgia Lupi: How we can find ourselves in data](https://www.youtube.com/watch?v=sFIDCtRX_-o)
 * [Aaron Koblin: From Data to Digital Art](https://www.youtube.com/watch?v=-SETcTrdcU4)
 * [Data Becomes Art in Immersive Visualizations](https://www.youtube.com/watch?v=99gMbK2QCKE)
@@ -86,7 +94,7 @@ Watch:
 * Inspiration
   * [Nadieh Bremer](https://www.visualcinnamon.com/)
   * [Nikcy Case](https://ncase.me/)
-  * [Shirley Wu](https://sxywu.com/)
+  * [Shirley Wu](https://shirleywu.studio/)
   * [Nicholas Felton: Annual Reports](http://feltron.com/FAR08.html)
   * [FlowingData](https://flowingdata.com/)
 * Steps
