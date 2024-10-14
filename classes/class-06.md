@@ -45,15 +45,17 @@ Loading data payloads from external files or APIs
 
 ## 🛠️ Data Visualization
 
-* Design
-  * [Types of visual components](https://datavizproject.com/)
+* Types of data viz
+  * [Traditional visual components](https://datavizproject.com/)
   * [Storytelling](https://www.youtube.com/watch?v=sFIDCtRX_-o)
   * [Art](https://www.youtube.com/watch?v=UxQDG6WQT5s)
 * Data sources
   * [awesome-json-datasets](https://github.com/jdorfman/awesome-json-datasets)
   * [public-apis](https://github.com/public-apis/public-apis)
-  * [OpenWeather](https://openweathermap.org/api)
-  * [Spacekit](https://typpo.github.io/spacekit/)
+  * [freepublicapis.com](https://www.freepublicapis.com/)
+  * Topic-specific:
+    * [OpenWeather](https://openweathermap.org/api)
+    * [Spacekit](https://typpo.github.io/spacekit/)
 * Data Viz drawing tools
   * [Make your own!](https://vimeo.com/showcase/2573675) - This is a Processing-specific series, but would port easily to p5js
   * [D3](https://d3js.org/)

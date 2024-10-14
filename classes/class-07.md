@@ -13,9 +13,9 @@ Project topic: Connected Canvas
     * [Bash](https://www.gnu.org/software/bash/) (Bourne Again SHell)
     * [zsh](http://zsh.sourceforge.net/) (Z shell - the new OS X default)
   * Windows
-    * [Command Shell](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-    * [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
-    * [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Windows Subsystem for Linux)
+    * [Command Shell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+    * [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview)
+    * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux)
 
 Why use CLI?
 
@@ -26,15 +26,14 @@ Why use CLI?
   * Make web requests (`curl`)
   * Start your app on machine startup
 * More powerful & custom commands
-* Tools are almost all free & open-source
+* Take advantage of existing command-lin tools
+* CLI tools are almost all free & open-source
 * Media conversion tools
-  * [imagemagick](https://imagemagick.org/index.php)
+  * [imagemagick](https://imagemagick.org/)
   * [ffmpeg](https://ffmpeg.org/)
   * [SoX](http://sox.sourceforge.net/)
   * [media-utility-scripts](https://github.com/cacheflowe/media-utility-scripts)
 * (Web) Servers
-  * [Node.js](https://nodejs.org/)
-  * [Beginner's Series to: Node.js](https://www.youtube.com/playlist?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg#begnodejs)
 
 How to use it?
 
@@ -67,7 +66,12 @@ Use cases
 
 Node Resources
 
+* [Node.js](https://nodejs.org/)
 * [Introduction to Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+* [Beginner's Series to: Node.js](https://www.youtube.com/playlist?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg#begnodejs)
+* [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://www.youtube.com/watch?v=ENrzD9HAZK4)
+* [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+* [Build an API from Scratch with Node.js Express](https://www.youtube.com/watch?v=-MTSQjw5DrM)
 * [Node Weekly](https://nodeweekly.com/)
 * [The Coding Train topics](https://thecodingtrain.com/tracks/lang/all/topic/node-js)
 
@@ -84,6 +88,11 @@ The Graphics pipeline
 Basic layout & 3d thinking
 
 * We're using an abstracted tool... It's just a 3rd coordinate ;)
+* Live demo
+  * [for() loops 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
+  * [3d shapes basic](https://editor.p5js.org/cacheflowe/sketches/6jSCgZm0L)
+  * [3d textured sphere w/light](https://editor.p5js.org/cacheflowe/sketches/LJJZUnd9_)
+  * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
 
 ## CPU vs GPU
 
@@ -96,8 +105,8 @@ Basic layout & 3d thinking
     * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
   * Textures & texture operations
     * Loading an image file is almost always faster than drawing vector data
-  * [Cached Geometry](https://github.com/davepagurek/p5.buildGeometry)
-  * [Drawing the pixels to the screen](https://xem.github.io/articles/images/webgl-guide/workflow.png)
+  * [Cached Geometry](https://p5js.org/reference/p5/p5.Geometry/)
+  * [Drawing the pixels to the screen](../images/webgl-rendering.png)
 
 ## 📝 Homework:
 
@@ -115,12 +124,15 @@ Watch:
 **Build something with a 3rd dimension**
 
 * Steps
-  * Start with `WEBGL` (p5js) or `P3D` (Processing) mode
-    * In p5js, this move the coordinate system to the center of the screen
+  * Start with `WEBGL` mode in p5js
+    * This moves the coordinate system to the center of the screen
   * Use `box()`, `sphere()` and other 3d primitive functions to create shapes
     * p5js has additional 3d shapes like `torus()`
 * Stretch goals
   * Create your own 3d geometry with `beginShape()`, `vertex()`, and `endShape()`
+  * Apply a texture to your geometry
+  * Load a 3d model with `loadModel()`
+  * Use a shader to create a custom material for your 3d geometry
 
 ## 📋 Review code
 
