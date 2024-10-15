@@ -227,7 +227,7 @@
           let href = link.getAttribute("href") || "";
           let isLocal = href.indexOf("http") == -1;
           if (isLocal) {
-            console.log("Found local link:", href);
+            // console.log("Found local link:", href);
             let hash = href.indexOf("#") != -1 ? "#" + href.split("#")[1] : "";
             if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
               // console.log("Found local image link:", href);
@@ -262,17 +262,10 @@
         for (let link of links) {
           let href = link.getAttribute("href");
           if (href) {
-            console.log(href);
             if (href.indexOf("youtube.com/watch?v=") != -1) {
               link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-yt", href.split("watch?v=")[1]);
             }
-            // if (href.match(/jpg|jpeg|png|gif|webp|jfif/gi)) {
-            //   link.setAttribute("data-img", href);
-            //   link.setAttribute("data-thumb", href);
-            // } else {
-            //   link.setAttribute("data-iframe", href);
-            // }
           }
         }
       }
