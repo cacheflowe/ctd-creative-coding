@@ -88,11 +88,12 @@ The Graphics pipeline
 Basic layout & 3d thinking
 
 * We're using an abstracted tool... It's just a 3rd coordinate ;)
-* Live demo
+* Live demos
   * [for() loops 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
   * [3d shapes basic](https://editor.p5js.org/cacheflowe/sketches/6jSCgZm0L)
   * [3d textured sphere w/light](https://editor.p5js.org/cacheflowe/sketches/LJJZUnd9_)
   * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
+  * [Disable depth test](https://editor.p5js.org/cacheflowe/sketches/SW763JUky)
 
 ## CPU vs GPU
 
@@ -105,7 +106,7 @@ Basic layout & 3d thinking
     * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
   * Textures & texture operations
     * Loading an image file is almost always faster than drawing vector data
-  * [Cached Geometry](https://p5js.org/reference/p5/p5.Geometry/)
+  * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
   * [Drawing the pixels to the screen](../images/webgl-rendering.png)
 
 ## 📝 Homework:

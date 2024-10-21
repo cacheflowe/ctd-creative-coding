@@ -29,6 +29,7 @@ Deliverables:
 Articles & resources
 
 * https://wesbos.com/javascript/
+* https://htmlforpeople.com/
 * https://github.com/leonardomso/33-js-concepts
 * https://alan.norbauer.com/articles/browser-debugging-tricks
 

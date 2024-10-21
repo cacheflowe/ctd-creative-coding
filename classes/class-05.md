@@ -27,6 +27,8 @@ SOLID principles
 - [The SOLID Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 - [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
 
+Defensive programming
+
 Try [Refactoring](https://refactoring.guru/) your code for better organization and code clarity
 - Readability
 - Comments
