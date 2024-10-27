@@ -4,40 +4,44 @@ Project topic: Interphase
 
 ## 🛠️ Open Source
 
-Open source = Freely-available source code!
+Open source software (OSS) = Freely-available source code!
 
-* Be aware of the different kinds of [licenses](https://opensource.org/licenses)
+* Be aware of the different kinds of OSS [licenses](https://opensource.org/licenses)
   * These determine how you can (or can't) legally use the code in your projects. Make sure you're allowed to use the code for your commercial (or non-commercial) purposes.
 * [How does open source happen?](http://opensource.guide/)
+  * [Aligning an Open Source Ethos](https://opensourceethos.net/)
   * OS development [funding models](https://mkaz.blog/misc/open-souce-funding-models/)
-  * [Personal projects](https://github.com/cacheflowe/haxademic)
-  * Internal tools that become their own library
-  * [The struggles of an open source maintainer](http://antirez.com/news/129)
-  * [awful-oss-incidents](https://github.com/PayDevs/awful-oss-incidents)
+  * Internal tools that become their own library, like [React](https://react.dev/) by Meta (Facebook)
+  * Personal projects or tooling that the author wants to share
+    * Mine is [Haxademic](https://github.com/cacheflowe/haxademic)
+* The dark sides of open source
+  * [The struggles of an open source maintainer](http://antirez.com/news/129) - being a OSS maintainer can be *difficult*
+  * [Awful OSS Incidents](https://github.com/PayDevs/awful-oss-incidents) - open source can create security risks
 
-Libraries & frameworks that you'll find
+Open source libraries & frameworks that you'll find
 
+* Many popular OSS projects are either a library or a framework
 * [What is the difference between a framework and a library?](https://www.youtube.com/watch?v=D_MO9vIRBcA)
-* Processing is the framework, but has a [libraries](https://processing.org/reference/libraries/) manager built in
+* p5js is a larger **framework**, but has **[libraries](https://p5js.org/libraries/)** that can add extra functionality
 
 Package (library) managers
 
-* Why?
-  * Quick & easy
-  * Dependency management
-  * One source for the latest tools
-* Downsides
+* Why use a package (library) manager?
+  * Quick & easy to add functionality to your project
+  * Dependency management - any library you use may have its own dependencies, and the package manager will download (and solve version conflicts) for you
+  * It's nice to have one source for the latest tools
+* Downsides of package managers
   * [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/)
-  * [Security](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
-  * Large download size (lots of extra library dependencies you might not use) [Nodejs meme](../images/node-modules-meme.png)
+  * [Security risks](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
+  * Large download size (with lots of extra library dependencies you might not use) [Nodejs meme](../images/node-modules-meme.png)
   * Versioning/dependencies can break or become outdated over time [dependency meme](../images/get-old-repo-to-run.png)
 * Different languages have different package managers
   * `p5js`: [Doesn't have one](https://p5js.org/libraries/)! You include remote javascript files or upload them
-  * `Processing`: library manager inside IDE
-  * `Javascript`: Node.js (npm)
-  * `Java`: Maven
+  * `Processing` & `Arduino`: library manager inside IDE
+  * `Javascript`: npm
+  * `Java`: Maven or Gradle
   * `Ruby`: Bundler
-  * `Python`: pip or conda/mamba
+  * `Python`: pip or conda
   * `OS X`: Homebrew
   * `Windows`: Chocolatey
 
@@ -46,6 +50,7 @@ Package (library) managers
 Justin's examples of different audio uses in creative code
 
 * [Interphase](https://cacheflowe.com/code/installation/interphase)
+  * [Interphase preview](https://cacheflowe.com/images/code/installation/cacheflowe-interphase-jenise-jensen-wave-8195.jpg)
   * Interactive music generator software w/physical lighting
   * [New iterations](https://www.instagram.com/p/Cy0wLwZrt6m/)
 * [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
@@ -64,28 +69,36 @@ Justin's examples of different audio uses in creative code
 Samples vs. Synthesis
 
 * Samples
-  * [p5.SoundFile](https://p5js.org/reference/p5.SoundFile)
-  * [Sample playback via button click](https://p5js.org/examples/sound-sound-effect.html)
-  * [Sound playback rate](https://p5js.org/examples/sound-playback-rate.html)
+  * [p5.SoundFile](https://p5js.org/reference/p5.sound/p5.SoundFile/)
+  * [Sample playback via button click](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
+  * [Sound playback rate](https://editor.p5js.org/p5/sketches/Sound:_Manipulate_Sound)
 * Synthesis
-  * [p5.Oscillator](https://p5js.org/reference/p5.Oscillator)
-  * [Oscillator Frequency](https://p5js.org/examples/sound-oscillator-frequency.html)
-  * [Note Envelope](https://p5js.org/examples/sound-note-envelope.html)
+  * [p5.Oscillator](https://p5js.org/reference/p5.sound/p5.Oscillator/)
+  * [Oscillator Frequency](https://editor.p5js.org/p5/sketches/Sound:_Oscillator_Waveform)
+  * [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
 
 Making music
 
 * Basic building blocks
-  * Data & timing to create "[sequencer](https://axelfuhrmann.com/step-sequencer)" patterns
+  * Data & timing to create "[sequencer](https://step-sequencer.afuh.dev/)" patterns ([author info](https://afuh.dev/step-sequencer/))
   * Notes, chords & scales
+    * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
+  * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
   * Changing parameters over time
-* Examples
-  * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
-  * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
 * Tools
-  * [WebAudio Weekly](https://www.webaudioweekly.com/)
+  * [WebAudio](https://webaudioapi.com/samples/)
+    * [Example from Justin](http://cacheflowe.github.io/audio-hax/)
+    * [WebAudio Weekly](https://www.webaudioweekly.com/)
+    * [Tone.js](https://tonejs.github.io/examples/)
   * [WebMIDI](https://www.onlinemusictools.com/webmiditest/)
     * [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
     * [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
+* Examples
+  * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
+  * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
+  * [generative.fm](https://generative.fm/)
+  * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
+* More xamples of web-based music tools
   * [DrumBot](https://twitter.com/notwaldorf/status/1201599495244537858)
   * [ZzFX](https://github.com/KilledByAPixel/ZzFX)
   * [meSing.js](http://usdivad.com/mesing/)
@@ -94,26 +107,20 @@ Making music
   * [Zupiter](https://pointersgonewild.com/2019/10/06/zupiter-a-web-based-modular-synthesizer/)
   * [PatternSketch](https://patternsketch.com/)
 
-[Scales](https://p5js.org/examples/hello-p5-song.html) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
-
-* [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
 
 Audio input
 
-* [FFT analysis](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum)
-* [Amplitude analysis](https://p5js.org/examples/sound-measuring-amplitude.html)
+* [FFT analysis](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum) from microphone input
+* [Amplitude analysis](https://editor.p5js.org/p5/sketches/Sound:_Amplitude_Analysis) from sound file
 * [More demos](https://therewasaguy.github.io/p5-music-viz/)
-  * [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
+  * Specific example: [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
 
-Other tools for creating music
+Other tools for creating music with code
 
-* Processing libraries:
-  * [Beads](http://www.beadsproject.net/)
-  * [Minim](http://code.compartmental.net/tools/minim/)
-* Live coding!
+* Live coding
   * [Sonic PI](http://sonic-pi.net/)
   * [TidalCycles](https://tidalcycles.org/)
-    * [Strudel](https://strudel.tidalcycles.org/tutorial/)
+    * [Strudel](https://strudel.cc/workshop/getting-started/) (web-based TidalCycles environment)
   * [ORCA](https://github.com/hundredrabbits/Orca)
   * [ChucK](http://chuck.cs.princeton.edu/)
   * [Gibber](https://gibber.cc/)
@@ -121,9 +128,7 @@ Other tools for creating music
   * [Alda](https://alda.io/)
   * [Extempore](https://extemporelang.github.io/)
   * [EarSketch](http://earsketch.gatech.edu/landing/)
-* [WebAudio](http://cacheflowe.github.io/audio-hax/)
 * [Max](https://cycling74.com/products/max/)
-* [Tone.js](https://tonejs.github.io/examples/)
 * [Supercollider](http://supercollider.github.io/)
 * [Aubio](https://aubio.org/)
 * [Sound eXchange](http://sox.sourceforge.net/) (cli conversion tool, like ffmpeg but for audio files)
@@ -131,11 +136,6 @@ Other tools for creating music
 * [VCV Rack](https://vcvrack.com/Prototype) ([+ plugin docs](https://vcvrack.com/manual/PluginDevelopmentTutorial))
 * [Ableton Live Connection Kit](https://www.ableton.com/en/packs/connection-kit/)
 
-Inspiration
-
-* [generative.fm](https://generative.fm/)
-* [Blob opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
-* [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
 
 ## 📝 Homework:
 
@@ -182,7 +182,7 @@ Watch & listen:
   * [freesound.org](https://freesound.org/)
   * [sampleswap.org](https://sampleswap.org/)
 * Resources: Wave editors (record & edit your own audio files)
-  * [Audacity](https://www.audacityteam.org/) (free desktop app)
+  * [Audacity (Tenacity)](https://tenacityaudio.org/) (free desktop app)
   * [Wavacity](https://wavacity.com/) (free browser-based app)
   * [AudioMass](https://audiomass.co/) (free browser-based app)
 
