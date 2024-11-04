@@ -33,7 +33,7 @@ Example job search: UX & design in a specific city
 
 ## Get in touch with people at the companies you want to work for
 
-- Find people who work for the company on LinkedIn orelsewhere. Be resourceful
+- Find people who work for the company on LinkedIn orelsewhere. Be resourceful and respectful
   - Send them a personal message:
     - Who you are & what your interests are
     - Why you're excited & interested in this organization

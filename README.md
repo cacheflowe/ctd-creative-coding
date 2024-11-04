@@ -92,7 +92,7 @@ This course explores creative uses of software development while introducing fou
 
 * Final projects
 * Web Browsers
-* Networking
+* Jobs
 
 ### [Class 11](./classes/class-11.md) - Nov 11
 

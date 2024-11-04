@@ -24,7 +24,7 @@ Deliverables:
   * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube/Vimeo, or otherwise.
   * This could also be uploaded to https://atlasinstitute.work/
 
-## 🛠️ Web Browsers, websites
+## 🛠️ Web Browsers
 
 Articles & resources
 
@@ -43,7 +43,7 @@ Creative Web Dev Studios
 * [Junni](https://next.junni.co.jp/)
 * [MakeMePulse](https://www.makemepulse.com/)
 * [RGA](https://www.rga.com/)
-* [Media Monks](https://media.monks.com/)
+* [Media Monks](https://www.monks.com/)
 * [Tool](https://toolofna.com/)
 * [Wieden + Kennedy](https://wk.com/)
 * [North Kingdom](https://www.northkingdom.com/)
@@ -61,8 +61,7 @@ SVG
 CSS
 
 * [Enhancing User Experience With CSS Animations](https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/)
-* [Generative Art with CSS](https://yuanchuan.dev/talk/generative-art-with-css/)
-* [CSS Doodle](https://css-doodle.com/)
+* [CSS Doodle](https://css-doodle.com/) by [@yuanchuan](https://yuanchuan.dev/)
 * [Ana Tudor](https://codepen.io/thebabydino)
 * Drawing with [A Single Div](https://a.singlediv.com/)
 
@@ -70,16 +69,18 @@ Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check 
 
 * [Canvas API](https://flaviocopes.com/canvas/) ([Bitmap drawing docs](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API))
 * [WebGL](https://webglfundamentals.org/) (High-performance 3d graphics)
-* [DeviceOrientationEvent](https://developers.google.com/web/fundamentals/native-hardware/device-orientation) (Accelerometer/gyroscope)
+* [DeviceOrientationEvent](https://web.dev/articles/device-orientation) (Accelerometer/gyroscope)
 * [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) & [Media Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) (Webcam, microphone, WebRTC streaming)
 * [WebSockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) (Persistent data streams)
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) (Audio playback/analysis/synthesis)
 * [WebRTC](https://webrtc.org/) (Video/audio/data streaming)
 * [WebXR](https://immersiveweb.dev/) (Build VR/AR/MR in-browser)
 * [Web MIDI API](https://www.smashingmagazine.com/2018/03/web-midi-api/) (MIDI devices)
+  * [JZZ](https://github.com/jazz-soft/JZZ)
 * [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API) (Game controller devices)
 * [Web Serial API](https://codelabs.developers.google.com/codelabs/web-serial/) (Serial devices like Arduino/Teensy)
 * [Geolocation API](https://developers.google.com/web/fundamentals/native-hardware/user-location) (GPS)
+* [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
 
 Web-based creative tools & libraries:
 
@@ -106,10 +107,8 @@ Web-based creative tools & libraries:
   * [ml5](https://editor.p5js.org/ml5/sketches)
   * [face-api.js](https://github.com/justadudewhohacks/face-api.js)
   * [tracking.js](https://trackingjs.com/)
-  * [clmtrackr](https://github.com/auduno/clmtrackr)
-  * [BRFv4](https://tastenkunst.github.io/brfv4_javascript_examples/)
-  * [jeelizWeboji](https://github.com/jeeliz/jeelizWeboji)
   * [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) + [example via UDP](https://github.com/madelinegannon/example-mediapipe-udp)
+    * [TouchDesigner plugin](https://github.com/torinmb/mediapipe-touchdesigner)
   * [WebGazer.js](https://webgazer.cs.brown.edu/)
   * [MediaPipe - Face Landmark Detection](https://mediapipe-studio.webapps.google.com/studio/demo/face_landmarker)
 * Body trackers
@@ -130,13 +129,6 @@ Web-based creative tools & libraries:
   * [8th Wall](https://www.8thwall.com/)
   * [Aframe](https://aframe.io)
   * [Native AR model viewer](https://cwervo.com/writing/quicklook-web/)
-* Hardware access
-  * [WebMIDI](https://www.smashingmagazine.com/2018/03/web-midi-api/)
-    * [JZZ](https://github.com/jazz-soft/JZZ)
-  * [Device Orientation](https://developers.google.com/web/fundamentals/native-hardware/device-orientation)
-  * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
-  * [Web Serial API](https://wicg.github.io/serial/)
-  * [Tramontana](https://tramontana.xyz/)
 * Multi-user sync
   * WebSockets (small data packets)
     * [ws](https://www.npmjs.com/package/ws)
