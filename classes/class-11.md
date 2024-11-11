@@ -8,7 +8,7 @@ Project topic: AI photobooths, Nike AF-1
 
 ### Resources
 
-* [p5js Debugging article](https://p5js.org/learn/debugging.html)
+* [p5js Debugging article](https://p5js.org/tutorials/field-guide-to-debugging/)
 * [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
 * ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
 * [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
@@ -38,17 +38,20 @@ Project topic: AI photobooths, Nike AF-1
 
 ### Graphical debugging
 
-* It's hard...
+"Why aren't things drawing the way I expect them to?"
+
+* It's hard, because there as less-obvious ways to identify a problem
 * If something isn't displaying, can you make a simpler version?
 * Add a "debug view"
+  * In GLSL (shaders), there's no textual logging or output, so developers will draw various textures and stages of pixel operations to the screen to decipher what might be happening
   * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
 ## 🛠️ Machine Learning & AI
 
 ### How to do ML/AI things
 
-1. Use a friendly, commercially-available ML tool
-2. (Beginner*) Find or download a tool/library/service that someone else has created, and use it
+1. (Beginner) Use a friendly, commercially-available ML tool
+2. (Intermediate) Find or download a tool/library/service that someone else has created, and use it
 3. (Advanced) Download a tool that someone else has made, and train your own data set, then use that
 4. (Expert) Write your own ML tool using existing ML frameworks like PyTorch or Tensorflow
 
@@ -56,40 +59,12 @@ __*__ Just using a ML tool that is "ready to use" can be an expert-level journey
 
 [Carmack](../images/carmack-pytorch.png)
 
-### Find an ML tool
-
-ML is really good at dealing with images, so many of the popular machine-learning tools are either image generators or analyzers. However, some other popular ML tools deal with text, audio, and other data types to do amazing, magical things. Some places to start, depending on your interests:
-
-* Computer vision (image analysis)
-  * [MediaPipe](https://mediapipe-studio.webapps.google.com/home)
-    * [MediaPipe multi-mode tracker in p5js](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt)
-  * [YOLO](https://pjreddie.com/darknet/yolo/)
-* Image creation
-  * Diffusers like [Dall-E](https://openai.com/dall-e-3), [Midjourney](https://www.midjourney.com/), and [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
-  * [GAN](https://github.com/NVlabs/stylegan3)s
-  * [FaceFusion](https://github.com/facefusion/facefusion)
-* Image manipulation
-  * [Super-resolution](https://deepai.org/machine-learning-model/torch-srgan) tools
-  * [Frame interpolation](https://github.com/megvii-research/ECCV2022-RIFE) tools
-  * [Style transfer](https://genekogan.com/works/style-transfer/), [pix2pix](https://phillipi.github.io/pix2pix/) and other image-based generators & effects
-  * [Palette extraction](https://github.com/angristan/palette)
-* Text (or code) generation
-  * [ChatGPT](https://chat.openai.com/)
-  * [LLaMA](https://cocktailpeanut.github.io/dalai/)
-  * [GitHub Copilot](https://github.com/features/copilot)
-* Audio manipulation
-  - [OpenAI Jukebox](https://openai.com/blog/jukebox/)
-  - [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
-  - [Open-Unmix](https://sigsep.github.io/open-unmix/js.html)
-  - [Adobe Enhance Speech](https://podcast.adobe.com/enhance)
-  
-### Install an ML tool
-
 How to install an ML tool:
 
 * Some ML tools are fully hosted online and you don't need to install anything
   * [Stable Diffusion @ Stability.AI](https://huggingface.co/spaces/stabilityai/stable-diffusion)
   * [DreamStudio](https://beta.dreamstudio.ai/generate)
+  * [Suno.ai](https://suno.com/)
 * Some will be pre-packaged into a nice UI in a desktop app. This is rare
   * [Runway](https://runwayml.com/)
   * [Flowframes](https://nmkd.itch.io/flowframes)
@@ -105,6 +80,41 @@ How to install an ML tool:
   * [Windows Copilt](https://www.microsoft.com/en-us/windows/copilot-ai-features)
   * [VS Code + GitHub Copilot](https://github.com/features/copilot)
 
+### Find an ML tool
+
+ML is really good at dealing with images, so many of the popular machine-learning tools are either image generators or analyzers. However, some other popular ML tools deal with text, audio, and other data types to do amazing, magical things. Some places to start, depending on your interests:
+
+* Computer vision (image analysis)
+  * [MediaPipe](https://mediapipe-studio.webapps.google.com/home)
+    * [MediaPipe multi-mode tracker in p5js](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt)
+  * [YOLO](https://pjreddie.com/darknet/yolo/)
+  * [Llava](https://huggingface.co/spaces/badayvedat/LLaVA)
+* Image creation
+  * **[ComfyUI](https://comfy.org/)**
+  * Diffusers like [Midjourney](https://www.midjourney.com/), [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Dall-E](https://openai.com/dall-e-3), [Firefly](https://www.adobe.com/products/firefly/features/text-to-image.html)
+  * [GAN](https://github.com/NVlabs/stylegan3)s
+  * [FaceFusion](https://github.com/facefusion/facefusion)
+* Image/Video manipulation
+  * [Super-resolution](https://deepai.org/machine-learning-model/torch-srgan) tools
+  * [Frame interpolation](https://github.com/megvii-research/ECCV2022-RIFE) tools
+  * [Style transfer](https://genekogan.com/works/style-transfer/), [pix2pix](https://phillipi.github.io/pix2pix/) and other image-based generators & effects
+  * [Palette extraction](https://github.com/angristan/palette)
+* Text (or code) generation
+  * LLMs
+    * [ChatGPT](https://chat.openai.com/)
+      * [How to Use Chat GPT For Beginners](https://www.youtube.com/watch?v=yFMVT3bcrJo)
+    * [Gemini](https://gemini.google.com/app)
+    * [ollama](https://ollama.com/)
+  * Code assistants
+    * [GitHub Copilot](https://github.com/features/copilot)
+    * [HuggingChat](https://huggingface.co/chat/)
+    * [Cursor](https://www.cursor.com/) IDE
+* Audio manipulation
+  - [OpenAI Jukebox](https://openai.com/blog/jukebox/)
+  - [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
+  - [Open-Unmix](https://sigsep.github.io/open-unmix/js.html)
+  - [Adobe Enhance Speech](https://podcast.adobe.com/enhance)
+  
 ### Articles / videos
 
 * [Why Copilot is Making Programmers Worse at Programming](https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/)
@@ -113,7 +123,6 @@ How to install an ML tool:
 * [The Wizard of AI](https://alanwarburton.co.uk/)
 * [Robort (A.I. Short Film)](https://www.youtube.com/watch?v=N_Nvr4ztBXs)
 * [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
-* [Stable Diffusion, 1 month in](https://twitter.com/daniel_eckler/status/1572210382944538624)
 * [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
 * [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)
 
@@ -129,9 +138,9 @@ How to install an ML tool:
 
 Lists of tools:
 
-* https://pharmapsychotic.com/tools.html
+<!-- * https://pharmapsychotic.com/tools.html -->
 * https://github.com/cacheflowe/creative-coding-notes#machine-learning
-* https://twitter.com/golan/status/1496311115571212294
+<!-- * https://twitter.com/golan/status/1496311115571212294 -->
 
 Beginner-friendly
 
