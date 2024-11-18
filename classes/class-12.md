@@ -39,9 +39,9 @@ Graham's shader blog posts
 p5js
 
 * Documentation
-  * [p5js shader reference](https://p5js.org/reference/p5/shader)
-  * [p5js Introduction to Shaders](https://p5js.org/learn/getting-started-in-webgl-shaders.html)
-  * [p5js createFilterShader()](https://p5js.org/reference/p5/createFilterShader) (New as of p5js 1.8!)
+  * [p5js shader reference](https://p5js.org/reference/p5/shader/)
+  * [p5js Introduction to Shaders](https://p5js.org/tutorials/intro-to-shaders/)
+  * [p5js createFilterShader()](https://p5js.org/reference/p5/createFilterShader/) (New as of p5js 1.8!)
 * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
 * Justin's p5js examples
   * [Basic generative starter](https://editor.p5js.org/cacheflowe/sketches/ha6wfUQHS)
