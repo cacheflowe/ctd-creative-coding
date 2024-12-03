@@ -6,6 +6,7 @@
 * We can use the remaining class time to work on your final project
 * I'll be digging back into Canvas to make sure I've graded everything, and will try to provide a bit more feedback on your work. 
 * Note: Best class yet in terms of getting the assignments done
+* 1x1 time: I'm available to meet with you to discuss your final project, or any other questions you have
 
 ## 📋 Faculty Course Questionnaire (FCQ)
 
