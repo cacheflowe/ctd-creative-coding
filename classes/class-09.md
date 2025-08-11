@@ -14,6 +14,7 @@ Open source software (OSS) = Freely-available source code!
   * Internal tools that become their own library, like [React](https://react.dev/) by Meta (Facebook)
   * Personal projects or tooling that the author wants to share
     * Mine is [Haxademic](https://github.com/cacheflowe/haxademic)
+  * [What open source project should I contribute to?](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)
 * The dark sides of open source
   * [The struggles of an open source maintainer](http://antirez.com/news/129) - being a OSS maintainer can be *difficult*
   * [Awful OSS Incidents](https://github.com/PayDevs/awful-oss-incidents) - open source can create security risks

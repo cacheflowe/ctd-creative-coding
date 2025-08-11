@@ -20,6 +20,7 @@ Project topic: Connected Canvas
 Why use CLI?
 
 * Automation
+  * Launch apps/scripts
   * Convert files
   * Batch process files
   * Find files on your hard drive, or text within files
@@ -34,6 +35,7 @@ Why use CLI?
   * [SoX](http://sox.sourceforge.net/)
   * [media-utility-scripts](https://github.com/cacheflowe/media-utility-scripts)
 * (Web) Servers
+* Vibe coding tools like Gemini CLI & Claude Code
 
 How to use it?
 
@@ -59,10 +61,11 @@ What is Node?
 Use cases
 
 * Web Server
-* Build tools & automations
 * WebSocket server
-* Batch processing tasks
+* Build tools & automations
+* Batch file-processing tasks
 * CLI tasks in a friendlier environment
+* General plumbing to connect different apps (http requests, file handling, websocket connections, etc)
 
 Node Resources
 
@@ -108,6 +111,9 @@ Basic layout & 3d thinking
     * Loading an image file is almost always faster than drawing vector data
   * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
   * [Drawing the pixels to the screen](../images/webgl-rendering.png)
+* [cpu.land](https://cpu.land/)
+* [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
+
 
 ## 📝 Homework:
 

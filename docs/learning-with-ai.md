@@ -1,10 +1,8 @@
 # Coding and learning with AI
 
-Conversation: [Should students use GitHub Copilot?](https://www.reddit.com/r/csMajors/comments/18zmxbk/should_freshman_students_use_github_copilot/)
-
 ## Introduction
 
-AI has drastically changed how professionals write (and learn) code, just in the last couple of years. This document provides some advice about how you can use AI to improve your coding skills and learn new things.
+AI is drastically changing how novices and professionals write (and learn) code. This document provides some advice about how you can use AI to improve your coding skills and learn new things.
 
 ## Where do AI and coding intersect?
 
@@ -12,40 +10,60 @@ AI stands for Artificial Intelligence. It is a field of computer science that fo
 
 Cloud-based LLM services:
 
-- **ChatGPT**: [ChatGPT](https://openai.com/chatgpt/) is a version of GPT-3 that is designed to have conversations with users. It can be used to ask questions about coding, get help with debugging, and even generate code snippets.
-  - Article: [How Would I Learn to Code with ChatGPT if I Had to Start Again?](https://towardsdatascience.com/how-would-i-learn-to-code-with-chatgpt-if-i-had-to-start-again-12f2f36e4383)
-- **GitHub Copilot**: [GitHub Copilot](https://github.com/features/copilot) is an LLM that is designed to help you write code. It can generate code snippets based on a description of what you want to accomplish, suggest ways to improve your code, and even help you debug issues. 
+- **Cursor/Windsurf/Replit/Claude Code/Gemini CLI**: The latest trend of AI coding assistants is IDE or CLIs that have AI coding tools built deeply into the interfaces. 
+- **GitHub Copilot**: [GitHub Copilot](https://github.com/features/copilot) is an AI coding assistant that's built into VS Code.
   - Video: [Should Self Learners Learn How To Code With GitHub Copilot?](https://www.youtube.com/watch?v=M9ouguDntLY) 
-- **HuggingChat**: [HuggingChat](https://huggingface.co/chat/) is an LLM that can be used to ask questions about coding, get help with debugging, and generate code snippets.
+- **ChatGPT**: [ChatGPT](https://openai.com/chatgpt/) is a great resource to ask questions about coding, get help with debugging, and generate code snippets.
 
 Self-hosted LLMs:
 
-- **Tabby**: [Tabby](https://github.com/TabbyML/tabby) is a *self-hosted* LLM code assistant.
-- **Twinny**: [Twinny](https://github.com/twinnydotdev/twinny) is a *self-hosted* LLM code assistant.
+- [Tabby](https://github.com/TabbyML/tabby)
+- [Twinny](https://github.com/twinnydotdev/twinny)
 
 ## How can AI help you learn to code?
 
 AI can help you learn to code in a number of ways. Here are a few examples:
 
-- **Code completion**: AI can help you write code faster by providing suggestions for what you might want to type next. This can be especially helpful when you are working on a large project or when you are trying to remember the syntax for a particular language.
-- **Code generation**: AI can help you generate code snippets based on a description of what you want to accomplish. This can be useful when you are trying to solve a particular problem and you are not sure how to get started.
+- **Code completion & generation**: AI can help you write code faster by providing suggestions for what you might want to type next. This can be especially helpful when you are working on a large project or when you are trying to remember the syntax for a particular language. AI can also generate code snippets (or entire programs) based on a description of what you want to accomplish. The spectrum goes from simple inline assistance, to inline AI chat, all the way up to "vibe-coding" where you describe what you want to do and the AI attempts to generate all of the code for you.
+- **Planning**: AI can help you plan your project and create a roadmap document. This planning document can then be used by the AI to help decide what to work on next.
 - **Code analysis**: AI can help you identify bugs in your code and suggest ways to fix them. This can be especially helpful when you are working on a complex project and you are not sure where to start debugging.
 - **Error message explanation**: AI can help you understand error messages and suggest ways to fix them. 
-- **Code feedback & refactoring**: AI can give you meaningful feedback on your code and make suggestions for improvements. 
-- **Code translation**: AI can help you translate your code into different languages or platforms. This can be especially helpful when you're porting code from one language to another (Java to Python, for example).
-- **Code education**: AI can help you learn to code by providing tutorials, quizzes, and other educational resources. It can also explain blocks of code to you, which is helpful when learning to read other peoples' code. This can be especially helpful when you are just starting out or when you are trying to learn a new language or framework.
-- **Code inspiration**: AI can help you come up with new ideas for projects or ways to improve your existing code. This can be especially helpful when you are feeling stuck or when you are trying to think outside the box.
-
-## Use cases
-
-Here are a few examples of how you can use AI to improve your coding skills and learn new things:
-
-- Paste your code into an LLM and ask for suggestions on how to improve it
-- Ask an LLM to explain a particular concept or syntax that you are struggling with
-- Ask an LLM to generate code snippets based on a description of what you want to accomplish
-- Ask an LLM to help you debug a particular issue in your code
-- Ask an LLM to explain an error message that showed up in your code or console
+- **Feedback & refactoring**: AI can give you meaningful feedback on your code and make suggestions for improvements. Ask an AI to refactor your code to make it more efficient, readable, or maintainable, and this can become a great learning experience - you essentially have 24/7 access to a virtual senior developer that can provide mentoring and feedback.
+- **Language translation**: AI can help you translate your code into different languages or platforms. This can be especially helpful when you're porting code from one language to another (Java to Python, for example).
+- **Education**: AI can help you learn to code by providing tutorials, quizzes, and other educational resources. It can also explain blocks of code to you, which is helpful when learning to read other peoples' code. This is helpful when you're just starting out or when you're trying to learn a new language or framework.
 
 ## My personal opinion
 
-I use multiple AI code assistants every day to speed up my coding and learning process. AI has helped me learn new languages and platforms, and this has saved me a ton of time. However, I also think that it is important to use AI as a supplement to your own learning and not as a replacement for it. AI can help you learn to code faster and more efficiently, but it is still important to practice writing code on your own and to learn the fundamentals of software and even hardware architecture. Consider the AI as a colleague and tutor, not as a replacement for your own skills and experience.
+I use multiple AI code assistants every day to speed up my coding and learning process. AI has helped me learn new languages and platforms, and has raised the ceiling of what I'm able to accomplish. Tasks that I would've given up on a couple of years ago are now possible because of the extra boost that AI tools give me. However, I think that it is important to use AI as a *supplement* to your learning and coding and not as a replacement for it. AI can help you learn to code faster and more efficiently, but it's still important to practice writing code on your own and to learn the fundamentals of software and even hardware architecture. Consider the AI as a colleague and tutor, not as a replacement for your own growth and experience.
+
+There are reasonable and emerging concerns about over-reliance on AI tools, in that they can erode our own critical thinking skills and problem-solving abilities. However, we're at a point in time where AI tools are becoming more and more integrated into the coding process, and it's important to learn how to use them effectively, and critically.
+
+## Articles and resources
+
+- [How not to lose your job to AI](https://80000hours.org/agi/guide/skills-ai-makes-valuable/)
+- [AI Tools Make Experienced Developers Slower, METR Study Finds](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+- [Coding Agents 101: The Art of Actually Getting Things Done](https://devin.ai/agents101#introduction)
+- [Is Using ChatGPT Bad for Your Brain?](https://www.media.mit.edu/articles/is-using-chatgpt-to-write-your-essay-bad-for-your-brain-new-mit-study-explained/)
+- [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)
+- [Machines of Faithful Obedience](https://www.lesswrong.com/posts/faAX5Buxc7cdjkXQG/machines-of-faithful-obedience)
+- [AI Slop: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=TWpg1RmzAbc)
+- [Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)
+- [How To Get The Most Out Of Vibe Coding](https://www.youtube.com/watch?v=BJjsfNO5JTo)
+- [Hugs From Your Late Mom, Interdimensional Chats, and College Cheating: The AI Future Is Here](https://podcasts.apple.com/us/podcast/offline-with-jon-favreau/id1610392666?i=1000714588578)
+- [Coding agents have crossed a chasm](https://blog.singleton.io/posts/2025-06-14-coding-agents-cross-a-chasm/)
+- [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+- [The Who Cares Era](https://dansinker.com/posts/2025-05-23-who-cares/)
+- [My AI Skeptic Friends Are All Nuts](https://fly.io/blog/youre-all-nuts/)
+- [Economics & labor rights in AI skepticism](https://henry.codes/writing/economics-and-labor-rights-in-ai-skepticism/)
+- [Large Language Muddle](https://jasonsantamaria.com/blog/large-language-muddle)
+- [Looking elsewhere](https://robbowen.digital/wrote-about/looking-elsewhere/)
+- [The Post-Developer Era](https://www.joshwcomeau.com/blog/the-post-developer-era/)
+- [LLMs can't stop making up software dependencies and sabotaging everything](https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/)
+- [Why Copilot is Making Programmers Worse at Programming](https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/)
+- [A Coder Considers the Waning Days of the Craft](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)
+- [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
+- [The Wizard of AI](https://alanwarburton.co.uk/)
+- [Robort (A.I. Short Film)](https://www.youtube.com/watch?v=N_Nvr4ztBXs)
+- [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
+- [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
+- [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)

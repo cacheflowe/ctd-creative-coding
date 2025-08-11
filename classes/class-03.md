@@ -90,6 +90,7 @@ Read:
 
 Watch:
 
+- [Secrets of Game Feel and Juice](https://www.youtube.com/watch?v=216_5nu4aVQ)
 - [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
   - See how animation effects give a boring game personality
 

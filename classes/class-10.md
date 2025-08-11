@@ -32,6 +32,7 @@ Articles & resources
 * https://htmlforpeople.com/
 * https://github.com/leonardomso/33-js-concepts
 * https://alan.norbauer.com/articles/browser-debugging-tricks
+* https://www.trevorlasn.com/blog/javascript-logical-operators
 
 Creative Web Dev Studios
 
@@ -96,6 +97,7 @@ Web-based creative tools & libraries:
   * [pts.js](https://ptsjs.org/)
   * [http://twgljs.org/](http://twgljs.org/)
   * [ogl.js](https://github.com/oframe/ogl)
+  * [bauble](https://bauble.studio/)
 * Live coding
   * [P5LIVE](https://teddavis.org/p5live/)
   * [Hydra](https://github.com/ojack/hydra)

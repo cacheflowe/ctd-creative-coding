@@ -57,8 +57,9 @@
   * *Write a lot of code*
   * It's better to start writing bad code than to let yourself get stuck 
   * [meme](../images/can-i-code-fast.jpg)
-* [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032)
+* Q: [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032) A: Any!
   * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
+  * [meme](../images/language-rankings-jun-2024.png)
 * Where to find answers?
   * Break problems down & iterate
     * Ask the questions in English (or your preferred language) - How do I make a circle? How do I make a circle move?
@@ -71,16 +72,15 @@
   * Community learning - ask each other questions
     * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Slack.
     * Slacks/Discords
-* Don't get overwhelmed - some concepts take a long time, and this is a long journey
+* Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey
 * We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
 * Finally, [let's talk about AI](./docs/learning-with-ai.md)
-* [Documentation](../images/rtfm-he-man.png)
 
 ### How to do code
 
 * Get an IDE that's good for your language of choice
   * [VS Code](https://code.visualstudio.com/) is a popular choice for web and general development
-  * p5js has the online editor, and other apps like Processing may come with their very own IDE
+  * p5js has the online editor, and other apps like Processing may come with their own IDE
   * Other languages often have specific IDEs and tools that work with that language
 * Type your code into text files
   * Or connect nodes in a node editor
@@ -107,13 +107,15 @@
 
 * For p5js, create an account for [the editor](https://editor.p5js.org/)
   * Get the [VS Code](https://code.visualstudio.com/) IDE, and then install the [p5js extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
+  * There's a good setup explainer here [p5js in VS Code](https://www.youtube.com/watch?v=OGB4WDw9iJA)
+  * If you use an external editor for p5js, please paste your code back into the p5js web editor to turn in your assignments
 * For Processing, [install the IDE](https://processing.org/download/)
 * If you'd like to use other tools like Unity, TouchDesigner, THREE.js, Openframeworks:
-  * I can help during office hours, but you're largely on your own
-  * I expect video documentation of your projects, since you can't turn them in via a link to the p5js editor. Use Canvas to hand in your video documentation if you go this route
+  * I can help during office hours, but if I don't have experience with the tool, you'll be on your own
+  * I expect video documentation of your projects, since you can't turn them in via a link to the p5js editor. Use Canvas to pass in your video documentation if you go this route
   * Use [GitHub](https://github.com/) to post your code and upload a video to Canvas
 * Slack
-  * Use this to help each other out - my coworkers and I do this
+  * Use this to help each other out - my coworkers and I use Slack to chat about engineering problems
 * Screen capture
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
   * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
@@ -136,7 +138,7 @@
 
 Every language has these features - the first goal is to understand these constructs & tools
 
-If you're *not* comfortable with these, come to office hours and study the following links 👇
+If you're *not* comfortable with these concepts yet, come to office hours and study the following links 👇
 
 ## 📝 Homework:
 
@@ -145,14 +147,6 @@ If you're *not* comfortable with these, come to office hours and study the follo
 * If you have little or no code experience, start [here](https://hello.processing.org)
 * Go through the 1st section of articles at [Welcome to Coding](https://happycoding.io/tutorials/p5js/)
   * Even if you're comfortable with the basic concepts, there are lots of important tips within.
-* Get comfortable with:
-  * Functions
-  * Variables (numbers & booleans for now)
-  * Conditionals (if/else)
-  * for() loops
-  * Arrays
-  * Animation
-  * Input
 * A video series to reinforce the **Welcome to Coding** articles:
   * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
     * Please follow along with this series, sections 1-4
@@ -191,11 +185,12 @@ If you're *not* comfortable with these, come to office hours and study the follo
 * Morph one "A" to another
 * Make it "pixel-perfect": Load an image and draw your shapes on top to make sure it's perfect
 * Make an interesting background - use an image or generate a pattern
+* Build a larger story or concept around the "A"
 * Use a different tool (Shadertoy, TouchDesigner, Unity) to make an "A"
 
 ### Turn in your work via Canvas
 
-* Post the link to your code on (https://editor.p5js.org/)
+* Post the link to your code on https://editor.p5js.org/
 * Add a description of your intent, your successes, and failures
 * If you're using a different tool, upload a video to Canvas or post a link to a video on YouTube (or elsewhere) and post your code to Canvas
-* If you use tutorials or other resources, please credit them in your comments. I don't care if your work is impressive, I care that you're learning and practicing. It's okay to use other people's code, but it's not okay to pretend it's your own. Attribution is an important skill to develop.
+* If you use tutorials or other resources, please credit them in your comments. I don't care if your work is *impressive*, I care that you're *learning* and *practicing*. It's okay to borrow other people's code and use AI tools, but don't pretend that it's your own. Attribution is an important skill to develop, and communicating your process is key to defending your work and informing your audience and collaborators.

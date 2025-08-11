@@ -4,7 +4,9 @@ Project topic: AI photobooths, Nike AF-1
 
 ## 🛠️ Debugging
 
-<img src="../images/debugging.png" alt="alt text" width="500"/>
+[Debugging meme](../images/debugging.png)
+
+[Documentation meme](../images/rtfm-he-man.png)
 
 ### Resources
 
@@ -70,7 +72,7 @@ How to install an ML tool:
   * [Flowframes](https://nmkd.itch.io/flowframes)
   * [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
 * Some have online notebooks that are ready to use, usually in [Google Colab](https://github.com/dvschultz/stylegan2-ada-pytorch). This creates a virtual environment with a good GPU to use. You should be able to copy a notebook into your own acount and start using it. This will also usually cost money if you want a very good GPU.
-* Some must be installed on your own computer. Sometimes a very fancy GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
+* Some must be installed on your own computer. Sometimes a very nice GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
   * [This can be hard](../images/get-old-repo-to-run.png), [really](../images/get-old-repo-to-run-again.png)
   * Some projects are making it easier to install and run their tools
     * [ComfyUI](https://comfy.org/)
@@ -117,14 +119,7 @@ ML is really good at dealing with images, so many of the popular machine-learnin
   
 ### Articles / videos
 
-* [Why Copilot is Making Programmers Worse at Programming](https://www.darrenhorrocks.co.uk/why-copilot-making-programmers-worse-at-programming/)
-* [A Coder Considers the Waning Days of the Craft](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)
-* [Will Artificial Intelligence End Human Creativity?](https://www.youtube.com/watch?v=oqamdXxdfSA)
-* [The Wizard of AI](https://alanwarburton.co.uk/)
-* [Robort (A.I. Short Film)](https://www.youtube.com/watch?v=N_Nvr4ztBXs)
-* [It’s Time to Pay Attention to A.I. (ChatGPT and Beyond)](https://www.youtube.com/watch?v=0uQqMxXoNVs)
-* [Vox: The text-to-image revolution, explained](https://www.youtube.com/watch?v=SVcsDDABEkM)
-* [The Many Ways that Digital Minds Can Know](https://moultano.wordpress.com/2023/06/28/the-many-ways-that-digital-minds-can-know/)
+See [Learning With AI](./docs/learning-with-ai.md#articles-and-resources)
 
 ### Courses / Tutorials
 

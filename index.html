@@ -6,10 +6,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CTD Creative Coding</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
     <style>
       @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -54,6 +51,7 @@
       #content img {
         width: 100%;
         max-width: 500px;
+        cursor: pointer;
       }
 
       li.hover {
@@ -70,6 +68,7 @@
         border-radius: initial;
       }
 
+      /* External links */
       a[href*="//"]:not([href*="localhost"])
       {
         /* background-color: #3fa09d; */
@@ -94,12 +93,29 @@
         margin: 0 0 0 0.25rem;
         transform: translateY(0.3rem);
       }
+      a[href*="//"][data-p5]::after
+      {
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTYiIGhlaWdodD0iNDIiIHZpZXdCb3g9IjAgMCA1NiA0MiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJwNS5qcyBMb2dvIiBmb2N1c2FibGU9InRydWUiIGNsYXNzPSJzdmdfX2xvZ28iPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTSA0My43NSAxNS40NCBMIDQyLjc2MSAxNi4xNTcgTCA0MS43MzUgMTQuNzk2IEwgNDAuNzM0IDE2LjEyMiBMIDM5Ljc3MSAxNS4zODggTCA0MC43NDYgMTQuMDUxIEwgMzkuMTY0IDEzLjQ4IEwgMzkuNTM4IDEyLjMzIEwgNDEuMTI0IDEyLjg0MSBMIDQxLjEyNCAxMS4xOTcgTCA0Mi4zOTcgMTEuMTk3IEwgNDIuMzk3IDEyLjg0NCBMIDQzLjk3MSAxMi4zNjggTCA0NC4zNDQgMTMuNTE4IEwgNDIuNzc0IDE0LjA1NCBMIDQzLjc0OSAxNS40MzkgTCA0My43NSAxNS40NCBaIE0gMzYuNzA1IDI0LjM5OSBDIDM2LjQxNyAyNS4wNyAzNS45OTEgMjUuNjcyIDM1LjQ1NSAyNi4xNjggQyAzNC45MzEgMjYuNjQ5IDM0LjMxNiAyNy4wMTggMzMuNjExIDI3LjI3MyBDIDMyLjg4OSAyNy41MzEgMzIuMTI4IDI3LjY2MSAzMS4zNjEgMjcuNjU2IEMgMzAuMDI3IDI3LjY1NiAyOC45MDEgMjcuMzQ0IDI3Ljk4NyAyNi43MiBDIDI3LjM2NiAyNi4yOTggMjYuODQzIDI1Ljc0OCAyNi40NTQgMjUuMTA2IEwgMjguNDA3IDIzLjI3MSBMIDI4LjQzNyAyMy4yNjEgQyAyOC42NDcgMjMuODcxIDI5LjA0IDI0LjQwMiAyOS41NjIgMjQuNzgxIEMgMzAuMDg3IDI1LjE2NSAzMC43MDkgMjUuMzU3IDMxLjQyOSAyNS4zNTcgQyAzMS44MzQgMjUuMzU3IDMyLjIxNiAyNS4yODkgMzIuNTc2IDI1LjE1MyBDIDMyLjkzNiAyNS4wMTkgMzMuMjUxIDI0LjgyMyAzMy41MjEgMjQuNTY4IEMgMzMuNzkxIDI0LjMxMiAzNC4wMDUgMjMuOTkzIDM0LjE2MiAyMy42MSBDIDM0LjMyIDIzLjIyNyAzNC4zOTkgMjIuNzk1IDM0LjM5OSAyMi4zMTQgQyAzNC4zOTkgMjEuNjk4IDM0LjI5MyAyMS4xODcgMzQuMDg0IDIwLjc4MSBDIDMzLjg5IDIwLjM5NSAzMy42MDkgMjAuMDU5IDMzLjI2MyAxOS44MDEgQyAzMi45MjQgMTkuNTUyIDMyLjUzNyAxOS4zNzUgMzIuMTI3IDE5LjI4MiBDIDMxLjcwNyAxOS4xODQgMzEuMjc3IDE5LjEzNSAzMC44NDUgMTkuMTM2IEMgMzAuNTQ1IDE5LjEzNiAzMC4yMjYgMTkuMTU4IDI5Ljg4OCAxOS4yMDMgQyAyOS41NTEgMTkuMjQ5IDI5LjIyMSAxOS4zMTMgMjguODk4IDE5LjM5NSBDIDI4LjU3NiAxOS40NzggMjguMjYxIDE5LjU3MiAyNy45NTQgMTkuNjc2IEMgMjcuNjczIDE5Ljc3IDI3LjM5OSAxOS44ODMgMjcuMTMzIDIwLjAxNCBMIDI3LjQwMyAxMS4yOTIgTCAzNi40NjggMTEuMjkyIEwgMzYuNDY4IDEzLjcyNiBMIDI5Ljk2NyAxMy43MjYgTCAyOS44MSAxNy4xNzUgQyAzMC4wNjQgMTcuMSAzMC4zNjggMTcuMDQ3IDMwLjcyIDE3LjAxNyBDIDMxLjA3MyAxNi45ODcgMzEuMzkyIDE2Ljk3MiAzMS42NzcgMTYuOTcyIEMgMzIuNDU3IDE2Ljk3MiAzMy4xOCAxNy4wODQgMzMuODQ3IDE3LjMxIEMgMzQuNDg3IDE3LjUyIDM1LjA3OSAxNy44NTIgMzUuNTkxIDE4LjI5IEMgMzYuMDg2IDE4LjcxOSAzNi40NzEgMTkuMjQ1IDM2Ljc0OSAxOS44NjggQyAzNy4wMjcgMjAuNDkyIDM3LjE2NSAyMS4yMDkgMzcuMTY1IDIyLjAyMSBDIDM3LjE2NSAyMi45MDggMzcuMDEyIDIzLjcgMzYuNzA1IDI0LjM5OSBaIE0gMjUuMTA0IDI0LjAzOSBDIDI0Ljg3MiAyNC43MSAyNC41MTMgMjUuMzMgMjQuMDQ2IDI1Ljg2NCBDIDIzLjU4MyAyNi4zODcgMjMuMDE2IDI2LjgxIDIyLjM4MiAyNy4xMDQgQyAyMS43MjkgMjcuNDExIDIwLjk5IDI3LjU2NiAyMC4xNjYgMjcuNTY2IEMgMTkuNDM4IDI3LjU3NCAxOC43MTggMjcuNDEyIDE4LjA2MyAyNy4wOTIgQyAxNy40MjUgMjYuNzc3IDE2LjkzMyAyNi4zNDkgMTYuNTg5IDI1LjgwNyBMIDE2LjU0NCAyNS44MDcgTCAxNi41NDQgMzIuNjYgTCAxMy44NDQgMzIuNjYgTCAxMy44NDQgMTYuNDMgTCAxNi40MzIgMTYuNDMgTCAxNi40MzIgMTcuOTQgTCAxNi40OTkgMTcuOTQgQyAxNi42MzQgMTcuNzMgMTYuODEgMTcuNTE2IDE3LjAyOCAxNy4yOTggQyAxNy4yNDUgMTcuMDggMTcuNTEyIDE2Ljg4NSAxNy44MjcgMTYuNzExIEMgMTguNTY1IDE2LjMwOSAxOS4zOTQgMTYuMTA0IDIwLjIzNCAxNi4xMTQgQyAyMC45OTggMTYuMTE0IDIxLjcwMyAxNi4yNjEgMjIuMzQ4IDE2LjU1NCBDIDIyLjk5MyAxNi44NDcgMjMuNTQ4IDE3LjI0OSAyNC4wMTMgMTcuNzYgQyAyNC40ODYgMTguMjg1IDI0Ljg1MyAxOC44OTggMjUuMDkzIDE5LjU2MyBDIDI1LjM0NyAyMC4yNTQgMjUuNDc1IDIwLjk5OCAyNS40NzUgMjEuNzk0IEMgMjUuNDc1IDIyLjU5MSAyNS4zNTEgMjMuMzM4IDI1LjEwNCAyNC4wMzcgTCAyNS4xMDQgMjQuMDM5IFogTSAyMi4wMjUgMTkuNjE3IEMgMjEuNzc0IDE5LjI4NiAyMS40NTIgMTkuMDE1IDIxLjA4NCAxOC44MjIgQyAyMC43MDQgMTguNjIxIDIwLjI2IDE4LjUyIDE5Ljc1IDE4LjUyIEMgMTkuMjY5IDE4LjUyIDE4LjgzOCAxOC42MjQgMTguNDYgMTguODM0IEMgMTguMDggMTkuMDQzIDE3Ljc1NiAxOS4zMTIgMTcuNDg2IDE5LjYzOSBDIDE3LjIxNiAxOS45NjggMTcuMDEyIDIwLjM0MSAxNi44NzQgMjAuNzU5IEMgMTYuNTk3IDIxLjU2OCAxNi41OTcgMjIuNDQ2IDE2Ljg3NCAyMy4yNTUgQyAxNy4wMTIgMjMuNjY2IDE3LjIxNiAyNC4wMzUgMTcuNDg2IDI0LjM2NCBDIDE3Ljc1NiAyNC42OTIgMTguMDggMjQuOTU3IDE4LjQ2IDI1LjE1OCBDIDE4LjgzOCAyNS4zNiAxOS4yNjkgMjUuNDYgMTkuNzUgMjUuNDYgQyAyMC4yNiAyNS40NiAyMC43MDUgMjUuMzU2IDIxLjA4NCAyNS4xNDcgQyAyMS40NjQgMjQuOTM4IDIxLjc3NyAyNC42NyAyMi4wMjQgMjQuMzQxIEMgMjIuMjcyIDI0LjAxMyAyMi40NTggMjMuNjQgMjIuNTgzIDIzLjIyMSBDIDIyLjgzMSAyMi40MDcgMjIuODMxIDIxLjUzOCAyMi41ODMgMjAuNzI0IEMgMjIuNDU4IDIwLjMxNSAyMi4yNzMgMTkuOTQ2IDIyLjAyNSAxOS42MTciPjwvcGF0aD48L2c+PC9zdmc+");
+        background-color: #ed225d;
+        content: "";
+        display: inline-block;
+        width: 1.2rem;
+        height: 1rem;
+        margin: 0 0 0 0.25rem;
+        transform: translateY(0.1rem);
+        background-size: contain;
+        background-position: center;
+      }
+      /* BigPicture iframe - extend to fill page height */
+      #bp_sv {
+        height: 80% !important;
+      }
     </style>
   </head>
   <body>
     <div id="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.2/dist/BigPicture.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.4/dist/BigPicture.min.js"></script>
     <script>
       ////////////////////////////////////////
       // marked.js .md -> html
@@ -140,7 +156,7 @@
 
       function headerHTML(classNum) {
         let title = !classNum ? "" : "<h1>CTD Creative Coding</h1>";
-        return `
+        return /* html */ `
           <header>
             <nav>
               <a href="./">Home</a>
@@ -208,7 +224,7 @@
       ////////////////////////////////////////
 
       function prepImages() {
-        // fix image paths from .md references
+        // fix relative image paths from .md references
         let imgs = document.querySelectorAll("img");
         for (let img of imgs) {
           let src = img.getAttribute("src");
@@ -236,6 +252,7 @@
               let img = document.createElement("img");
               img.setAttribute("src", href);
               link.parentNode.replaceChild(img, link);
+              img.addEventListener("click", openBiggerPicture);
             }
             if (href.indexOf(".md") != -1) {
               if (href.indexOf("/class-") != -1) {
@@ -265,6 +282,11 @@
             if (href.indexOf("youtube.com/watch?v=") != -1) {
               link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-yt", href.split("watch?v=")[1]);
+            }
+            if (href.indexOf("p5js.org") != -1) {
+              link.addEventListener("click", openBiggerPicture);
+              link.setAttribute("data-p5", true);
+              link.setAttribute("data-iframe", href);
             }
           }
         }
@@ -306,8 +328,7 @@
       function enableHighlightOnClick() {
         var highlightedEl = null;
         document.body.addEventListener("click", (e) => {
-          if (highlightedEl && highlightedEl != e.target)
-            highlightedEl.classList.remove("hover");
+          if (highlightedEl && highlightedEl != e.target) highlightedEl.classList.remove("hover");
           highlightedEl = e.target;
           e.target.classList.toggle("hover");
         });

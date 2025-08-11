@@ -1,6 +1,7 @@
 # Class 12
 
-Project topic: Adapt BB? Kittredge?
+Project topic: H&M
+
 
 ## 🛠️ Shaders
 
@@ -30,6 +31,7 @@ Interactive tutorials
 Online editors
 
 * [Shadertoy](http://shadertoy.com)
+* [ComputeToys](https://compute.toys/)
 
 Graham's shader blog posts
 
