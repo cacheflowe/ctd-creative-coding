@@ -13,10 +13,12 @@ Project topic: Kittredge Projections or Conscious Growth
   * Not the most performant
   * Amazing ease-of-use
   * Very popular to create art and learn graphics techniques
-* `WEBGL` mode disclaimer + [example](https://editor.p5js.org/cacheflowe/sketches/UYoSsOaV_)
-  * Doesn't use normal `<canvas>` operations
+* `WEBGL` mode 
   * WebGL is faster and more capable
+  * WebGL coordinate system is at the center of the canvas
+  * WebGL doesn't use normal `<canvas>` operations, so drawing can look a little different
   * WebGL is uglier in a lot of cases
+    * [example](https://editor.p5js.org/cacheflowe/sketches/UYoSsOaV_)
 * Professional data viz [example](https://editor.p5js.org/cacheflowe/sketches/sIdQuK_3W)
   * Rounds of design & UX testing
   * Not a common tool for my job, but useful in this case

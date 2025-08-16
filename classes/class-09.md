@@ -53,7 +53,7 @@ Justin's examples of different audio uses in creative code
 * [Interphase](https://cacheflowe.com/code/installation/interphase)
   * [Interphase preview](https://cacheflowe.com/images/code/installation/cacheflowe-interphase-jenise-jensen-wave-8195.jpg)
   * Interactive music generator software w/physical lighting
-  * [New iterations](https://www.instagram.com/p/Cy0wLwZrt6m/)
+    * [New iterations](https://cacheflowe.com/code/lab/c-a-c-h-e)
 * [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
   * All choreography & computer-generated visuals were synced to the tempo of the music
 * [Bauhouse](https://cacheflowe.com/art/digital/bauhouse) 
@@ -88,18 +88,18 @@ Making music
   * Changing parameters over time
 * Tools
   * [WebAudio](https://webaudioapi.com/samples/)
-    * [Example from Justin](http://cacheflowe.github.io/audio-hax/)
-    * [WebAudio Weekly](https://www.webaudioweekly.com/)
     * [Tone.js](https://tonejs.github.io/examples/)
+    * [WebAudio Weekly](https://www.webaudioweekly.com/)
   * [WebMIDI](https://www.onlinemusictools.com/webmiditest/)
     * [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
     * [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
 * Examples
+  * [All possible 8 step hihat rhythms](https://bsky.app/profile/piterpasma.nl/post/3luxjya5iyc2h)
   * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
   * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
   * [generative.fm](https://generative.fm/)
   * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
-* More xamples of web-based music tools
+* More examples of web-based music tools
   * [DrumBot](https://twitter.com/notwaldorf/status/1201599495244537858)
   * [ZzFX](https://github.com/KilledByAPixel/ZzFX)
   * [meSing.js](http://usdivad.com/mesing/)
