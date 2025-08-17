@@ -1,7 +1,5 @@
 # Class 3
 
-Project topic: Google PDX
-
 ## 🛠️ Programming Languages
 
 [Language differences & use-cases](https://www.quora.com/What-are-the-differences-that-exist-between-programming-languages/answer/James-Barton-129)
@@ -22,13 +20,13 @@ Programming paradigms:
 Languages update over time:
 - [Javascript history](https://www.educative.io/blog/javascript-versions-history)
 
-## IDEs
+## 🛠️ IDEs
 
 - IDEs - what can they do for you?
   - An IDE (Integrated Development Environment) lets you write, compile, and run code all in one place
   - They're built specifically for certain languages and have tools to help you write code faster and with fewer errors
   - They can be customized with plugins and themes
-- [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)s
+- [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
   - [Online-REPs-and-REPLs](https://joel.franusic.com/Online-REPs-and-REPLs)
 
 ## 🛠️ How does a program execute?
@@ -39,6 +37,7 @@ Languages update over time:
   - Functions
   - Conditionals (branching logic)
   - Loops
+  - [Control flow diagram](../images/control-flow.png)
 - Order of operations
   - In most languages, code executes serially by default. One operation needs to finish before the next starts.
   - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
@@ -51,10 +50,12 @@ Languages update over time:
   - [Random numbers](https://happycoding.io/tutorials/p5js/random)
   - Data
   - [noise()](https://p5js.org/reference/p5/noise/)
-    - [example: noise gridd offset](https://editor.p5js.org/cacheflowe/sketches/rTspcZzcf) 
+    - [example: noise grid offset](https://editor.p5js.org/cacheflowe/sketches/rTspcZzcf) 
     - [example: noise circles](https://editor.p5js.org/cacheflowe/sketches/MsjQH_kPi)
     - [example: textured noise mesh](https://editor.p5js.org/cacheflowe/sketches/XVQjjklv2)
-  - sin() [example](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
+  - sin() [example](https://editor.p5js.org/cacheflowe/sketches/WpJ24V4vq)
+    - [Making generative art with simple mathematics](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
+    - TD: `lfo`/`pattern`/`function` CHOPs
   - lerp() [example](https://editor.p5js.org/cacheflowe/sketches/GemonFb9A)
   - map() [example](https://editor.p5js.org/cacheflowe/sketches/v88Rfyxhi)
   - modulo `%` [example](https://editor.p5js.org/cacheflowe/sketches/O9JM1Lp0n)
@@ -71,6 +72,7 @@ Languages update over time:
   - `frameCount % 60`
   - `nf()`
   - `deltaTime`
+- Time according to TouchDesigner (live demo)
 
 ## 🛠️ Animation
 
@@ -92,11 +94,13 @@ Watch:
 
 - [Secrets of Game Feel and Juice](https://www.youtube.com/watch?v=216_5nu4aVQ)
 - [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
-  - See how animation effects give a boring game personality
+  - See how animation effects can give an otherwise boring game lots of personality
 
 Choose a secondary tool to investigate this semester. Some suggestions:
 
 - Web tech: html/css/canvas/svg
+  - THREE.js
+  - React / react-three-fiber
 - Unity or Unreal
 - TouchDesigner
 - VVVV
@@ -115,9 +119,9 @@ Choose a secondary tool to investigate this semester. Some suggestions:
 - Some ideas
   - Use [millis()](https://p5js.org/reference/p5/millis/) for fine-grained time display
   - Build a countdown clock?
+    - How long until you graduate, or other big life milestones?
     - How many years do you have left to live? Use variables to calculate
     - [Doomsday Clock](https://thebulletin.org/doomsday-clock/current-time/)
-    - How long before Covid is over, with variables added to the equation
   - Show multiple time zones, or use an invented time scale
   - Does IRL time of day influence the color or drawing style?
   - Add sound
@@ -138,6 +142,4 @@ Choose a secondary tool to investigate this semester. Some suggestions:
 ## 📋 Review code
 
 - Present your posters
-<!-- - What's it like working with designers?
-  - Do you have a good sense of design?
-  - Or can you find a designer to work with? -->
+

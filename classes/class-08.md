@@ -1,7 +1,5 @@
 # Class 8
 
-Project topic: Me + You
-
 ## 🛠️ Hardware
 
 See also: [Creative Coding Notes list](https://github.com/cacheflowe/creative-coding-notes#physical-computing)

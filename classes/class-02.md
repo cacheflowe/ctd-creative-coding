@@ -1,7 +1,5 @@
 # Class 2 
 
-Project topic: Kittredge Projections or Conscious Growth
-
 ## 🛠️ Basic drawing tools
 
 * The graphics **context** refers the current image that's displayed, and the underlying technology used to draw and manipulate it, and keep track of it

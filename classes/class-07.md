@@ -1,7 +1,5 @@
 # Class 7
 
-Project topic: Connected Canvas
-
 ## 🛠️ Command-Line Interface (CLI)
 
 [CLI cartoon](../images/command-line.png)

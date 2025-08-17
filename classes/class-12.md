@@ -1,8 +1,5 @@
 # Class 12
 
-Project topic: H&M
-
-
 ## 🛠️ Shaders
 
 * [Justin's GLSL overview article](https://github.com/cacheflowe/haxademic/blob/master/guides/shaders-intro.md)

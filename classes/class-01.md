@@ -122,15 +122,13 @@
 
 ## 🛠️ Code basics overview
 
-### Basic creative coding concepts:
+### Basic coding concepts:
 
 * Variables
 * Functions
 * Conditionals (if/else)
 * [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages)
 * Arrays
-* Animation
-* Input
 * Objects
 * Classes
 
@@ -151,9 +149,9 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
   * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
     * Please follow along with this series, sections 1-4
 * And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen, which is now its [own website](https://programmingdesignsystems.com/color/color-schemes/index.html)
-* Books!
-  * https://www.aesthetic-programming.net/index.html
+* Books
   * https://natureofcode.com/
+  * https://www.aesthetic-programming.net/index.html
 * Prepare your tools & workspace
 * Prepare to share & document your work
 
@@ -193,4 +191,4 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 * Post the link to your code on https://editor.p5js.org/
 * Add a description of your intent, your successes, and failures
 * If you're using a different tool, upload a video to Canvas or post a link to a video on YouTube (or elsewhere) and post your code to Canvas
-* If you use tutorials or other resources, please credit them in your comments. I don't care if your work is *impressive*, I care that you're *learning* and *practicing*. It's okay to borrow other people's code and use AI tools, but don't pretend that it's your own. Attribution is an important skill to develop, and communicating your process is key to defending your work and informing your audience and collaborators.
+* If you use tutorials or other resources, please credit them in your comments. I don't care if your work is *impressive*, I care that you're *learning* and *practicing*. It's okay to borrow other people's code and use AI tools, but don't pretend that it's your own. Attribution is an important skill to develop, and *communicating your process* is key to defending your work and informing your audience and collaborators.

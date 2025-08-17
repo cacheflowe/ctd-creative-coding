@@ -1,7 +1,5 @@
 # Class 5
 
-Project topic: Adapt BB
-
 ## 🛠️ Software Design (How to write better code)
 
 ### General advice for cleaner, better code

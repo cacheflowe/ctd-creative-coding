@@ -1,7 +1,5 @@
 # Class 11
 
-Project topic: AI photobooths, Nike AF-1
-
 ## 🛠️ Debugging
 
 [Debugging meme](../images/debugging.png)

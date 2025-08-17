@@ -1,7 +1,5 @@
 # Class 6
 
-Project topic: Interphase
-
 ## 🛠️ Data Structures
 
 Structured data types in your code

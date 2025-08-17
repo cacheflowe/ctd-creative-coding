@@ -1,7 +1,5 @@
 # Class 9
 
-Project topic: Interphase
-
 ## 🛠️ Open Source
 
 Open source software (OSS) = Freely-available source code!
