@@ -25,7 +25,7 @@ Why use CLI?
   * Make web requests (`curl`)
   * Start your app on machine startup
 * More powerful & custom commands
-* Take advantage of existing command-lin tools
+* Take advantage of existing command-line tools
 * CLI tools are almost all free & open-source
 * Media conversion tools
   * [imagemagick](https://imagemagick.org/)
@@ -33,7 +33,7 @@ Why use CLI?
   * [SoX](http://sox.sourceforge.net/)
   * [media-utility-scripts](https://github.com/cacheflowe/media-utility-scripts)
 * (Web) Servers
-* Vibe coding tools like Gemini CLI & Claude Code
+* Vibe coding tools like Gemini CLI & Claude Code are offered as terminal applications
 
 How to use it?
 
@@ -45,7 +45,7 @@ How to use it?
 * Navigate to somewhere on your computer
 * Run a command!
   * Each `command` is basically a function that can take parameters, just like in JavaScript
-  * Ask Google how to do something with `bash` or `zsh` or `Windows Command Prompt 🤢`
+  * Ask Google or AI how to do something with `bash` or `zsh` or `Windows Command Prompt`/`Powershell`
   * Write your command into the terminal
   * Or write more complex scripts into a text file, and run your text file from the command line
 
@@ -53,12 +53,12 @@ How to use it?
 
 What is Node?
 
-* Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+* [Node.js](https://nodejs.org/) is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 * `npm` - Node Package manager
 
 Use cases
 
-* Web Server
+* Web Server & development tools
 * WebSocket server
 * Build tools & automations
 * Batch file-processing tasks
@@ -111,7 +111,6 @@ Basic layout & 3d thinking
   * [Drawing the pixels to the screen](../images/webgl-rendering.png)
 * [cpu.land](https://cpu.land/)
 * [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
-
 
 ## 📝 Homework:
 

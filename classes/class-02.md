@@ -21,7 +21,6 @@
   * Rounds of design & UX testing
   * Not a common tool for my job, but useful in this case
   * I use Processing for my work
-
 * [Example sketch about context](https://editor.p5js.org/cacheflowe/sketches/Ciw6RMl7G)
 * Adjust the following properties on the **context** before drawing a shape
   * `fill()`

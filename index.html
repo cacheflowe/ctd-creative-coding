@@ -54,19 +54,20 @@
         cursor: pointer;
       }
 
-      li.hover {
+      li.hover,
+      p.hover {
         padding: 1rem;
         background: rgba(0, 0, 0, 0.4);
         box-shadow: 0rem 0rem 5rem rgba(255, 255, 255, 0.5);
         border-radius: 1rem;
       }
 
-      li.hover li {
+      /* li.hover li {
         font-weight: initial;
         padding: initial;
         background: rgba(0, 0, 0, 0.4);
         border-radius: initial;
-      }
+      } */
 
       li > ul {
         margin-bottom: 0;
@@ -88,6 +89,7 @@
         transform: translateY(-0.3rem);
       }
       a[href*="//"][data-yt]::after,
+      a[href*="//"][data-vimeo]::after,
       a[href*="//"][data-p5]::after,
       a[href*="//"][data-wiki]::after,
       a[href*="//"][data-cacheflowe]::after
@@ -107,6 +109,11 @@
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28.57 20'%3E%3Cpath fill='red' d='M27.9727 3.1232c-.3292-1.23-1.2959-2.1966-2.5259-2.5258C23.2197 0 14.285 0 14.285 0S5.3504 0 3.1232.5974C1.8932.9266.9266 1.8932.5974 3.1232 0 5.3504 0 10 0 10s0 4.6496.5974 6.8768c.3292 1.23 1.2958 2.1966 2.5258 2.5258C5.3504 20 14.285 20 14.285 20s8.9347 0 11.1618-.5974c1.23-.3292 2.1967-1.2958 2.5259-2.5258.5974-2.2272.5974-6.8768.5974-6.8768s-.0024-4.6496-.5974-6.8768Z'/%3E%3Cpath fill='%23fff' d='m11.4253 14.2854 7.4224-4.285-7.4224-4.285v8.57Z'/%3E%3C/svg%3E");
         width: 1.1rem;
         transform: translateY(0.3rem);
+      }
+      a[href*="//"][data-vimeo]::after
+      {
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTE4LjkxIDUuODRjLTEuMDA2IDUuNzczLTYuNjI1IDEwLjY2LTguMzE1IDExLjc3Ny0xLjY5IDEuMTE1LTMuMjMzLS40NDctMy43OTItMS42My0uNjQtMS4zNDgtMi41Ni04LjY1Ny0zLjA2Mi05LjI2Mi0uNTAyLS42MDYtMi4wMS42MDUtMi4wMS42MDVMMSA2LjM1NHMzLjA2LTMuNzI1IDUuMzktNC4xOWMyLjQ3LS40OTQgMi40NjcgMy44NjMgMy4wNiA2LjI4LjU3NSAyLjM0My45NjIgMy42OCAxLjQ2NCAzLjY4czEuNDYyLTEuMzA0IDIuNTEyLTMuMzA0YzEuMDUzLTIuMDA0LS4wNDUtMy43NzItMi4xLTIuNTE0LjgyMi01LjAyNyA4LjU5LTYuMjM2IDcuNTg0LS40NjZ6Ii8+PC9zdmc+Cg==");
+        background-color: #ffffff;
       }
       a[href*="//"][data-p5]::after
       {
@@ -128,6 +135,9 @@
       /* BigPicture iframe - extend to fill page height */
       #bp_sv {
         height: 80% !important;
+      }
+      #bp_container {
+        background: rgba(0, 0, 0, 0.8);
       }
     </style>
   </head>
@@ -170,6 +180,9 @@
             prepLocalLinks();
             prepLinksForBigPicture();
             scrollToAnchor();
+            enableHighlightOnClick();
+            getHighlightElements();
+            addLeftRightArrows();
           });
       }
 
@@ -270,8 +283,8 @@
               // replace link with img tag
               let img = document.createElement("img");
               img.setAttribute("src", href);
+              img.setAttribute("data-img", href);
               link.parentNode.replaceChild(img, link);
-              img.addEventListener("click", openBiggerPicture);
             }
             if (href.indexOf(".md") != -1) {
               if (href.indexOf("/class-") != -1) {
@@ -299,27 +312,24 @@
           let href = link.getAttribute("href");
           if (href) {
             if (href.indexOf("youtube.com/watch?v=") != -1) {
-              link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-yt", href.split("watch?v=")[1]);
             }
+            if (href.indexOf("vimeo.com") != -1) {
+              const vimeoMatch = href.match(/^https?:\/\/(?:www\.)?vimeo\.com\/(\d+)(?:$|[/?#])/);
+              if (vimeoMatch) {
+                link.setAttribute("data-vimeo", href.split("vimeo.com/")[1]);
+              }
+            }
             if (href.indexOf("p5js.org") != -1) {
-              link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-p5", true);
               link.setAttribute("data-iframe", href);
             }
             if (href.indexOf("wikipedia.org") != -1) {
-              link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-wiki", true);
               link.setAttribute("data-iframe", href);
             }
             if (href.indexOf("cacheflowe.com") != -1) {
-              link.addEventListener("click", openBiggerPicture);
               link.setAttribute("data-cacheflowe", true);
-              link.setAttribute("data-iframe", href);
-            }
-            if (href.indexOf("shadertoy.com") != -1) {
-              link.addEventListener("click", openBiggerPicture);
-              link.setAttribute("data-shadertoy", true);
               link.setAttribute("data-iframe", href);
             }
           }
@@ -342,6 +352,13 @@
             el: e.target,
             ytSrc: ytId,
           });
+        } else if (e.target.hasAttribute("data-vimeo")) {
+          e.preventDefault();
+          let vimeoId = e.target.getAttribute("data-vimeo");
+          BigPicture({
+            el: e.target,
+            vimeoSrc: vimeoId,
+          });
         } else {
           e.preventDefault();
           let href = e.target.getAttribute("data-iframe");
@@ -360,20 +377,87 @@
       ///////////////////////////////////
 
       function enableHighlightOnClick() {
-        var highlightedEl = null;
         document.body.addEventListener("click", (e) => {
-          if (highlightedEl && highlightedEl != e.target) highlightedEl.classList.remove("hover");
-          highlightedEl = e.target;
-          e.target.classList.toggle("hover");
+          checkHoverClick(e);
+          checkBigPictureClick(e);
         });
+      }
+
+      function closestLiOrP(el) {
+        let targeted = el.closest("li");
+        if (!targeted) targeted = el.closest("#content > p");
+        return targeted;
+      }
+
+      function checkBigPictureClick(e) {
+        if (
+          e.target.hasAttribute("data-iframe") ||
+          e.target.hasAttribute("data-img") ||
+          e.target.hasAttribute("data-yt") ||
+          e.target.hasAttribute("data-vimeo")
+        ) {
+          e.preventDefault();
+          openBiggerPicture(e);
+        }
+      }
+
+      function checkHoverClick(e) {
+        clickedEl = closestLiOrP(e.target);
+        // remove previous highlight if needed
+        if (highlightedEl && highlightedEl != clickedEl) highlightedEl.classList.remove("hover");
+        // set hover
+        if (clickedEl) {
+          highlightedEl = clickedEl;
+          clickedEl.classList.toggle("hover");
+          if (clickedEl.classList.contains("hover")) {
+            highlightIndex = highlightEls.indexOf(clickedEl);
+          } else {
+            highlightIndex = -1;
+            highlightedEl = null;
+          }
+        }
+      }
+
+      function getHighlightElements() {
+        highlightEls = document.querySelectorAll("li, #content > p");
+        highlightEls = Array.from(highlightEls);
+      }
+
+      function addLeftRightArrows() {
+        window.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") {
+            if (highlightIndex > 0) {
+              highlightIndex--;
+              setHighlightElement();
+            }
+          } else if (e.key === "ArrowRight") {
+            if (highlightIndex != -1 && highlightIndex < highlightEls.length - 1) {
+              highlightIndex++;
+              setHighlightElement();
+            }
+          } else if (e.key === "Escape") {
+            highlightIndex = -1;
+            if (highlightedEl) {
+              highlightedEl.classList.remove("hover");
+              highlightedEl = null;
+            }
+          }
+        });
+      }
+
+      function setHighlightElement() {
+        highlightEls[highlightIndex].click();
+        highlightEls[highlightIndex].scrollIntoView({ behavior: "smooth", block: "center" });
       }
 
       ///////////////////////////////////
       // init
       ///////////////////////////////////
 
+      var highlightedEl = null;
+      var highlightEls = null;
+      var highlightIndex = -1;
       loadMarkdownFile();
-      enableHighlightOnClick();
     </script>
   </body>
 </html>

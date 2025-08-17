@@ -5,11 +5,11 @@
 [Language differences & use-cases](https://www.quora.com/What-are-the-differences-that-exist-between-programming-languages/answer/James-Barton-129)
 
 [Typing](https://en.wikipedia.org/wiki/Type_system)
-  - > In computer programming, a **type system** is a logical system comprising a set of rules that assigns a property called a type (for example, **integer**, **floating point**, **string**) to every term (a word, phrase, or other set of symbols). Usually the terms are various language constructs of a computer program, such as **variables**, **expressions**, **functions**, or **modules**. A type system dictates the operations that can be performed on a term. For variables, the type system determines the allowed values of that term.<br><br>Type systems formalize and enforce the otherwise implicit categories the programmer uses for algebraic data types, data structures, or other data types, such as "string", "array of float", "function returning boolean".
-  - [Type System for Javascript](https://dev.to/melodyleonard/type-system-for-javascript-1c1a): 
-    - > JavaScript is a dynamically-typed language. What this means is that it performs type checking at runtime. <br><br>Take for instance a language like java or C++ which is a statically-typed language. Type checking in such language is performed at compile time. This is very useful as it warns the programmer of all type errors before the code executes successfully. This way, programmers are subjected to [fewer errors].
-    - > JavaScript is a weakly typed language. It recognizes different data types (numbers, strings, etc.), but doesn't use them too strictly, trying to convert data when it seems reasonable. [Many] expressions that don't work in other languages work perfectly well in JavaScript. Try to perform any arithmetic operation (except addition) with strings or another data type (except when both operands are numbers or strings consisting only of numbers). You will see that they always work and return NaN, which makes sense.<br><br>In strongly typed languages, adding a number to a string won't work. ([Source](https://code-basics.com/languages/javascript/lessons/data-types-weak-typing))
-  - Video: [Typing: Static vs Dynamic, Weak vs. Strong](https://www.youtube.com/watch?v=C5fr0LZLMAs)
+- > In computer programming, a **type system** is a logical system comprising a set of rules that assigns a property called a type (for example, **integer**, **floating point**, **string**) to every term (a word, phrase, or other set of symbols). Usually the terms are various language constructs of a computer program, such as **variables**, **expressions**, **functions**, or **modules**. A type system dictates the operations that can be performed on a term. For variables, the type system determines the allowed values of that term.<br><br>Type systems formalize and enforce the otherwise implicit categories the programmer uses for algebraic data types, data structures, or other data types, such as "string", "array of float", "function returning boolean".
+- [Type System for Javascript](https://dev.to/melodyleonard/type-system-for-javascript-1c1a): 
+  - > JavaScript is a dynamically-typed language. What this means is that it performs type checking at runtime. <br><br>Take for instance a language like java or C++ which is a statically-typed language. Type checking in such language is performed at compile time. This is very useful as it warns the programmer of all type errors before the code executes successfully. This way, programmers are subjected to [fewer errors].
+  - > JavaScript is a weakly typed language. It recognizes different data types (numbers, strings, etc.), but doesn't use them too strictly, trying to convert data when it seems reasonable. [Many] expressions that don't work in other languages work perfectly well in JavaScript. Try to perform any arithmetic operation (except addition) with strings or another data type (except when both operands are numbers or strings consisting only of numbers). You will see that they always work and return NaN, which makes sense.<br><br>In strongly typed languages, adding a number to a string won't work. ([Source](https://code-basics.com/languages/javascript/lessons/data-types-weak-typing))
+- Video: [Typing: Static vs Dynamic, Weak vs. Strong](https://www.youtube.com/watch?v=C5fr0LZLMAs)
 
 Programming paradigms:
 - [Object-oriented](https://www.youtube.com/watch?v=m_MQYyJpIjg) (imperative)
@@ -131,7 +131,7 @@ Choose a secondary tool to investigate this semester. Some suggestions:
   - Turn the time into another "poster" and change the content depending on the time of day
 - Inspiration
   - [Raven Kwok: Time](http://ravenkwok.com/time/)
-  - [Humans since 1982: A Million Times](https://vimeo.com/channels/staffpicks/60491636)
+  - [Humans since 1982: A Million Times](https://vimeo.com/60491636)
   - [Reza Ali: Reactions](https://www.instagram.com/p/CBogs4FH4E0/)
 - Steps
   - Sketch it out on paper
