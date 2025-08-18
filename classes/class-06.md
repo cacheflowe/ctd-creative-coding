@@ -39,7 +39,7 @@ Loading data payloads from external files or APIs
   * Some different types of databases: SQL, Mongo, GraphQL
 * What's the best tool for the job?
   * [Or which tool is most in fashion?](../images/databases-relational-or-not.png)
-* Data search example
+* Data search [example](https://editor.p5js.org/cacheflowe/sketches/GOzYzYViFF)
 
 ## 🛠️ Data Visualization
 
