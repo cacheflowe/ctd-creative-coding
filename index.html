@@ -59,7 +59,8 @@
         transition: all 0.15s ease-in-out;
       }
       li.highlight,
-      p.highlight {
+      p.highlight,
+      #content > ul > li:has(li.highlight) {
         padding: 1rem;
         background: rgba(0, 0, 0, 0.4);
         /* box-shadow: 0rem 0rem 50rem rgba(255, 0, 0, 0.8); */
@@ -70,6 +71,9 @@
       p.highlight {
         margin: 2rem 0;
       }
+      #content > ul > li:has(li.highlight) {
+        font-size: 100%;
+      }
 
       /* li.highlight li {
         font-weight: initial;
@@ -79,6 +83,9 @@
       } */
 
       li > ul {
+        margin-bottom: 0;
+      }
+      blockquote > p {
         margin-bottom: 0;
       }
 
@@ -190,7 +197,7 @@
             prepLinksForBigPicture();
             scrollToAnchor();
             handleSpecialClicks();
-            getHighlightElements();
+            selectHighlightElements();
             addLeftRightArrows();
           });
       }
@@ -426,6 +433,11 @@
 
       // Slideshow/highlighting
 
+      function selectHighlightElements() {
+        highlightEls = document.querySelectorAll("li, #content > p");
+        highlightEls = Array.from(highlightEls);
+      }
+
       function checkHighlightClick(e) {
         clickedEl = closestLiOrP(e.target);
         // cancel highlight behavior if <a> tag was clicked
@@ -446,11 +458,6 @@
             highlightedEl = null;
           }
         }
-      }
-
-      function getHighlightElements() {
-        highlightEls = document.querySelectorAll("li, #content > p");
-        highlightEls = Array.from(highlightEls);
       }
 
       function addLeftRightArrows() {
@@ -476,8 +483,14 @@
       }
 
       function setHighlightElement() {
-        highlightEls[highlightIndex].click();
-        highlightEls[highlightIndex].scrollIntoView({ behavior: "smooth", block: "center" });
+        highlightEls[highlightIndex].click(); // simulate click to call checkHighlightClick()
+        let hasParentLi = highlightedEl.closest("#content > ul > li");
+        console.log(hasParentLi);
+        // let scrollEl = hasParentLi ? hasParentLi : highlightedEl;
+        // scrollEl.scrollIntoView({ behavior: "smooth", block: "center" });
+        setTimeout(() => {
+          highlightedEl.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 300);
       }
 
       ///////////////////////////////////

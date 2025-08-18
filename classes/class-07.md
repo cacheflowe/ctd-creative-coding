@@ -49,6 +49,8 @@ How to use it?
   * Write your command into the terminal
   * Or write more complex scripts into a text file, and run your text file from the command line
 
+[File paths meme](../images/file-paths-jedi.jpg)
+
 ## 🛠️ Nodejs
 
 What is Node?

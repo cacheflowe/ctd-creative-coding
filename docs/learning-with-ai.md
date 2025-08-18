@@ -22,6 +22,10 @@ From: [Nick](https://spinweaveandcut.com/education-home/) [Sousanis](https://bsk
 
 Noted by [Ann Telnaes](https://bsky.app/profile/anntelnaes.bsky.social/post/3lufpzwfyzs2o)
 
+> "Using AI to do your writing homework in school is like saying, 'I'm not going to run a mile for exercise, I'm going to drive my car one mile for exercise.'"
+
+[Po-Shen Loh](https://www.youtube.com/watch?v=xWYb7tImErI)
+
 ## Where do AI and coding intersect?
 
 AI stands for Artificial Intelligence, but is a very fuzzy term at this point in time. AI is used in a wide range of applications, from self-driving cars to recommendation systems to any number of productivity and multimedia tools. An **LLM** is a type of "AI" that is designed to learn from data and make [predictions](https://en.wikipedia.org/wiki/Stochastic_parrot) based on that data. For the purposes of learning and boosting our coding skills, this is the type of AI that assists our learning and coding practice. Here are a few LLMs that you might use while coding, and while learning to code:
@@ -57,10 +61,18 @@ I use multiple AI code assistants every day to speed up my coding and learning p
 
 There are reasonable and emerging concerns about over-reliance on AI tools, in that they can erode our own critical thinking skills and problem-solving abilities. However, we're at a point in time where AI tools are becoming more and more integrated into the coding process, and it's important to learn how to use them effectively, and critically.
 
+## A likely(?) future of code abstraction
+
+[Programming abstraction layers diagram](../images/programming-abstraction-layers.webp)
+
+Just as JavaScript and Python are higher level languages that remove (or abstract away) the complexity of lower level languages like C or Assembly, AI tools are becoming the next higher level abstraction for coding that allow non-programmers to build applications without needing to learn as many of the intricacies of programming. The big question is where you want to sit in the spectrum. If you want to become a self-sufficient software developer, you need to learn the inner workings of programming langauages and the reasons that computers do what they do. This requires real practice. If you're a designer or product owner who occasionally wants to dip into building software to prototype something or build a pesonal tool, AI can help you do that, and this is a now-diverging path of coding education.
+
 ## Articles and resources
 
 ... with extremely varied opinions
 
+- [The Only Trait for Success in the AI Era—How to Build It](https://www.youtube.com/watch?v=xWYb7tImErI)
+- [Vibe Coding: Everything You Need To Know](https://podcasts.apple.com/us/podcast/big-technology-podcast/id1522960417?i=1000720895504)
 - [AI does NOT make developers more productive… Okay. Maybe a bit.](https://www.youtube.com/watch?v=Ozorw5tdFrU)
 - [How not to lose your job to AI](https://80000hours.org/agi/guide/skills-ai-makes-valuable/)
 - [AI Tools Make Experienced Developers Slower, METR Study Finds](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
