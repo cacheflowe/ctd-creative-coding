@@ -26,7 +26,7 @@ This course explores creative uses of software development while introducing fou
 
 ## Schedule
 
-### [Class 01](./classes/class-01.md) - Aug 26
+### [Class 01](./classes/class-01.md) - Aug 25
 
 * Introductions
 * What is (creative) code?
@@ -35,14 +35,14 @@ This course explores creative uses of software development while introducing fou
 
 ### Sep 2 (No class - Labor Day)
 
-### [Class 02](./classes/class-02.md) - Sep 9
+### [Class 02](./classes/class-02.md) - Sep 8
 
 * Basic drawing tools
 * Iteration
 * Layout
 * AI Demo
 
-### [Class 03](./classes/class-03.md) - Sep 16
+### [Class 03](./classes/class-03.md) - Sep 15
 
 * Programming Languages 
 * IDEs
@@ -51,68 +51,66 @@ This course explores creative uses of software development while introducing fou
 * Time
 * Animation
 
-### [Class 04](./classes/class-04.md) - Sep 23
+### [Class 04](./classes/class-04.md) - Sep 22
 
 * Strings
 * Typography
 * Images
 * Looping animation
 
-### [Class 05](./classes/class-05.md) - Sep 30
+### [Class 05](./classes/class-05.md) - Sep 29
 
 * Software design
 * How to build anything
 * Graphics effects & algorithms
 * Math
 
-### [Class 06](./classes/class-06.md) - Oct 7
+### [Class 06](./classes/class-06.md) - Oct 6
 
 * Data structures
 * APIs
 * Databases
 * Data Visualization
 
-### [Class 07](./classes/class-07.md) - Oct 14
+### [Class 07](./classes/class-07.md) - Oct 13
 
 * CLI
 * 3D
 * CPU vs GPU
 
-### [Class 08](./classes/class-08.md) - Oct 21
+### [Class 08](./classes/class-08.md) - Oct 20
 
 * Hardware
 * Computer vision
 
-### [Class 09](./classes/class-09.md) - Oct 28
+### [Class 09](./classes/class-09.md) - Oct 27
 
 * Open Source
 * Audio
 
-### [Class 10](./classes/class-10.md) - Nov 4
+### [Class 10](./classes/class-10.md) - Nov 3
 
 * Final projects
 * Web Browsers
 * Jobs
 
-### [Class 11](./classes/class-11.md) - Nov 11
+### [Class 11](./classes/class-11.md) - Nov 10
 
 * Debugging
 * Machine learning
 
-### [Class 12](./classes/class-12.md) - Nov 18
+### [Class 12](./classes/class-12.md) - Nov 17
 
 * Shaders
 
-### Nov 25 (No class - Fall Break)
+### Nov 24 (No class - Fall Break)
 
-### [Class 13](./classes/class-13.md) - Dec 2
+### [Class 13](./classes/class-13.md) - Dec 1
 
-* Final project help
+* Present final project WIP in class
 
-### [Class 14](./classes/class-14.md) - Dec 9
+### ~~[Class 14](./classes/class-14.md) - Dec 8~~
 
-* Present final projects in class
-
-### Dec 16
+### Dec 8
 
 * Final project due in Canvas

@@ -407,6 +407,7 @@
 
       function handleSpecialClicks() {
         document.body.addEventListener("click", (e) => {
+          if (!e.target.closest("#content")) return; // ignore clicks outside of content area
           checkHeaderClick(e);
           checkHighlightClick(e);
           checkBigPictureClick(e);
@@ -485,7 +486,6 @@
       function setHighlightElement() {
         highlightEls[highlightIndex].click(); // simulate click to call checkHighlightClick()
         let hasParentLi = highlightedEl.closest("#content > ul > li");
-        console.log(hasParentLi);
         // let scrollEl = hasParentLi ? hasParentLi : highlightedEl;
         // scrollEl.scrollIntoView({ behavior: "smooth", block: "center" });
         setTimeout(() => {

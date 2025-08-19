@@ -142,12 +142,10 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 
 ### Get familiar (or refamiliarize) with basic programming concepts
 
-* If you have little or no code experience, start [here](https://hello.processing.org)
+* If you have little or no code experience, start here with sections 1-5:
+  * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) 
 * Go through the 1st section of articles at [Welcome to Coding](https://happycoding.io/tutorials/p5js/)
   * Even if you're comfortable with the basic concepts, there are lots of important tips within.
-* A video series to reinforce the **Welcome to Coding** articles:
-  * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-    * Please follow along with this series, sections 1-4
 * And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen, which is now its [own website](https://programmingdesignsystems.com/color/color-schemes/index.html)
 * Books
   * https://natureofcode.com/
