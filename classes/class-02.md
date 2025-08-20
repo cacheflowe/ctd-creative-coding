@@ -74,7 +74,7 @@ Watch:
 * [Robert Hodgin @ Eyeo 2014](https://vimeo.com/103537259) - watch at least the first 13 minutes
   * If you love this, watch [Robert Hodgin @ Eyeo 2012](https://vimeo.com/45526286)
 
-Browse & collect inspiration. Post your favorite sketches in Slack!
+Browse & collect inspiration. Post your favorite sketches in Canvas!
 
 * [OpenProcessing](https://www.openprocessing.org/)
 * [CodePen](https://codepen.io/search/pens?q=p5js)

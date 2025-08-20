@@ -2,11 +2,10 @@
 
 ## 📋 Introductions
 
-* Review the [course description](https://github.com/cacheflowe/ctd-creative-coding). This isn't a frontend course!
+* Review the [course description](https://github.com/cacheflowe/ctd-creative-coding?tab=readme-ov-file#course-description). This isn't a frontend course!
 * Your [instructor](https://cacheflowe.com)
   * Interests: music, graphics, interaction, games
   * Show some projects
-* Please sign up for Slack if you haven't yet
 * Tutor / Code Helper
 * Various skill levels
   * **Everyone**: Learn about the craft, the state of the art, and express yourself creatively with code
@@ -70,7 +69,7 @@
     * [Stack Overflow](https://stackoverflow.com)
     * Blogs/Tutorials
   * Community learning - ask each other questions
-    * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Slack.
+    * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Canvas or the ATLAS Slack to communicate online.
     * Slacks/Discords
 * Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey
 * We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
