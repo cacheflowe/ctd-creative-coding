@@ -6,11 +6,11 @@ AI is drastically changing how novices and professionals write (and learn) code.
 
 But first, consider this:
 
-[](../images/ai-learning-experience.jpg)
+[](../images/ai-learning-experience.png)
 
 > AI can rob you of decisions and struggle - and the joy of being surprised. It robs you of learning.
 
-From: [Nick](https://spinweaveandcut.com/education-home/) [Sousanis](https://bsky.app/profile/nsousanis.bsky.social/post/3lwa2ppvwqk23)
+From: [Nick](https://spinweaveandcut.com/fall-2025-syllabi/) [Sousanis](https://bsky.app/profile/nsousanis.bsky.social/post/3lwa2ppvwqk23)
 
 > “Practicing an art, no matter how well or badly, is a way to make your soul grow, for heaven's sake. Sing in the shower. Dance to the radio. Tell stories. Write a poem to a friend, even a lousy poem. Do it as well as you possibly can. You will get an enormous reward. You will have created something.”
 
@@ -57,20 +57,23 @@ AI can help you learn to code in a number of ways. Here are a few examples:
 
 ## My personal opinion
 
-I use multiple AI code assistants every day to speed up my coding and learning process. AI has helped me learn new languages and platforms, and has raised the ceiling of what I'm able to accomplish. Tasks that I would've given up on a couple of years ago are now possible because of the extra boost that AI tools give me. However, I think that it is important to use AI as a *supplement* to your learning and coding and not as a replacement for it. AI can help you learn to code faster and more efficiently, but it's still important to practice writing code on your own and to learn the fundamentals of software and even hardware architecture. Consider the AI as a colleague and tutor, not as a replacement for your own growth and experience.
+I use multiple AI code assistants every day to speed up my coding and learning process. AI has helped me learn new languages and platforms, and has raised the ceiling of what I'm able to accomplish. Tasks that I would've given up on a couple of years ago are now possible because of the extra boost that AI tools give me. However, I think that it is important to use AI as a *supplement* to your learning and coding and not as a replacement for it. AI can help you learn to code faster and more efficiently, but it's still important to practice writing code on your own and to learn the fundamentals of software and even hardware architecture. Consider the AI as a colleague and tutor, not as a replacement for your own growth and experience. 
 
-There are reasonable and emerging concerns about over-reliance on AI tools, in that they can erode our own critical thinking skills and problem-solving abilities. However, we're at a point in time where AI tools are becoming more and more integrated into the coding process, and it's important to learn how to use them effectively, and critically.
+There are emerging concerns about over-reliance on AI tools, in that they can erode our own critical thinking skills and problem-solving abilities. I actually feel this happening when I use AI for simple tasks that I could do just as quickly, with my own voice, and in my own style. However, we're at a point in time where AI tools are becoming more and more integrated into the coding process, and it's important to learn how to use them effectively, and critically. 
 
-## A likely(?) future of code abstraction
+**For multidisciplinary creative technologogists in particular**, AI can be helpful, but is often technically *wrong* or creatively *boring*. We're doing work that is outside of the mainstream information that LLMs were trained with. While AI can help get you unstuck and raise the ceiling of your abilities, it can't create original thoughts for you. Your human value in an AI world comes from your ability to think creatively, to create and solve *unique* problems, and to build positive relationships with other creative people. If you don't want to be replaced by AI, these are skills that you shouldn't offload to AI.
 
-[Programming abstraction layers diagram](../images/programming-abstraction-layers.webp)
+## An emerging future of code abstraction
 
-Just as JavaScript and Python are higher level languages that remove (or abstract away) the complexity of lower level languages like C or Assembly, AI tools are becoming the next higher level abstraction for coding that allow non-programmers to build applications without needing to learn as many of the intricacies of programming. The big question is where you want to sit in the spectrum. If you want to become a self-sufficient software developer, you need to learn the inner workings of programming langauages and the reasons that computers do what they do. This requires real practice. If you're a designer or product owner who occasionally wants to dip into building software to prototype something or build a pesonal tool, AI can help you do that, and this is a now-diverging path of coding education.
+[Programming abstraction layers diagram](../images/programming-abstraction-layers.png)
+
+Just as JavaScript and Python are higher level languages that remove (or abstract away) the complexity of lower level languages like C or Assembly, AI tools are becoming the next higher level abstraction for coding that allow non-programmers to build applications without needing to learn as many of the intricacies of programming. The big question is where you want to sit in the spectrum. If you want to become a self-sufficient software developer, you need to learn the inner workings of programming langauages and the reasons that computers do what they do. This requires real practice. If you're a designer or product owner who occasionally wants to dip into building software to prototype something or build a pesonal tool, AI can help you do that with "vibe coding", and this is a now-diverging path of coding education.
 
 ## Articles and resources
 
 ... with extremely varied opinions
 
+- [Is ChatGPT killing higher education?](https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?i=1000723417161)
 - [The Only Trait for Success in the AI Era—How to Build It](https://www.youtube.com/watch?v=xWYb7tImErI)
 - [Vibe Coding: Everything You Need To Know](https://podcasts.apple.com/us/podcast/big-technology-podcast/id1522960417?i=1000720895504)
 - [AI does NOT make developers more productive… Okay. Maybe a bit.](https://www.youtube.com/watch?v=Ozorw5tdFrU)

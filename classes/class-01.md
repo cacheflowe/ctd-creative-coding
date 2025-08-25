@@ -25,16 +25,17 @@
 ### Code is software, code is everywhere
 
 * Code is usually written in text files, but there are also node editors and other ways to build interactive software
-* Code is a web of logic and data
+* Writing code is ultimately the practice of building a web of logic and data
 * [Code isn't hard, but it is frustrating](https://clivethompson.medium.com/programming-isnt-hard-but-it-s-frustrating-6cb740085243)
-* Language & syntax
+* Language & [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 * Most modern languages are [very similar](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
 
 ### Why code?
 
 * Interdisciplinary & creative work
 * It's fun and magic!
-* Jobs
+* Jobs & employment
+* Digital literacy
 
 ### How to love it
 
@@ -51,7 +52,7 @@
   3. Create a roadmap for yourself
   4. Prioritize understanding
   5. Get use to failing
-* Self-directed and meandering exploration 
+* Self-directed and meandering exploration - this is an important ethos of approaching programming from a creative coding perspective
 * Practice! Try, fail, repeat
   * *Write a lot of code*
   * It's better to start writing bad code than to let yourself get stuck 
@@ -79,8 +80,13 @@
 
 * Get an IDE that's good for your language of choice
   * [VS Code](https://code.visualstudio.com/) is a popular choice for web and general development
-  * p5js has the online editor, and other apps like Processing may come with their own IDE
-  * Other languages often have specific IDEs and tools that work with that language
+  * p5js has its own [online editor](https://editor.p5js.org/)
+  * Other languages/tools like Processing sometimes come with their own IDE
+  * Most popular languages have IDEs and tools that have been developed to work well with that language. For example:
+    * Java is usually written in [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
+    * C# is usually written in [Visual Studio](https://visualstudio.microsoft.com/)
+    * Swift is usually written in [Xcode](https://developer.apple.com/xcode/)
+    * But VS Code has been extended to work with almost any language
 * Type your code into text files
   * Or connect nodes in a node editor
 * Compile or run your program
