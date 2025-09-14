@@ -73,6 +73,7 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 
 ... with extremely varied opinions
 
+- [How to use ChatGPT at university without cheating: 'Now it’s more like a study partner'](https://www.theguardian.com/education/2025/sep/14/how-to-use-chatgpt-at-university-without-cheating-now-its-more-like-a-study-partner)
 - [Is ChatGPT killing higher education?](https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?i=1000723417161)
 - [The Only Trait for Success in the AI Era—How to Build It](https://www.youtube.com/watch?v=xWYb7tImErI)
 - [Vibe Coding: Everything You Need To Know](https://podcasts.apple.com/us/podcast/big-technology-podcast/id1522960417?i=1000720895504)
