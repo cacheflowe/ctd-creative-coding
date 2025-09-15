@@ -74,6 +74,8 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 ... with extremely varied opinions
 
 - [Is ChatGPT killing higher education?](https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?i=1000723417161)
+- [I Am An AI Hater](http://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
+- [AI Took Your Job](https://podcasts.apple.com/us/podcast/ai-took-your-job/id1346207297?i=1000723478455)
 - [The Only Trait for Success in the AI Era—How to Build It](https://www.youtube.com/watch?v=xWYb7tImErI)
 - [Vibe Coding: Everything You Need To Know](https://podcasts.apple.com/us/podcast/big-technology-podcast/id1522960417?i=1000720895504)
 - [AI does NOT make developers more productive… Okay. Maybe a bit.](https://www.youtube.com/watch?v=Ozorw5tdFrU)
