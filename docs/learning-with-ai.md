@@ -73,6 +73,9 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 
 ... with extremely varied opinions
 
+- [The Software Engineers Paid to Fix Vibe Coded Messes](https://www.404media.co/the-software-engineers-paid-to-fix-vibe-coded-messes/)
+- [How to use ChatGPT at university without cheating: 'Now it’s more like a study partner'](https://www.theguardian.com/education/2025/sep/14/how-to-use-chatgpt-at-university-without-cheating-now-its-more-like-a-study-partner)
+- [Just How Bad Would an AI Bubble Be?](https://www.theatlantic.com/economy/archive/2025/09/ai-bubble-us-economy/684128/?gift=7hTHsHMAOczHYMB_joQW7LTGoKy3Twvj1C29M0nRWY4&utm_source=copy-link&utm_medium=social&utm_campaign=share) - The entire U.S. economy is being propped up by the promise of productivity gains that seem very far from materializing.
 - [Is ChatGPT killing higher education?](https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?i=1000723417161)
 - [I Am An AI Hater](http://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
 - [AI Took Your Job](https://podcasts.apple.com/us/podcast/ai-took-your-job/id1346207297?i=1000723478455)
