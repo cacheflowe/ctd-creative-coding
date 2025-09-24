@@ -28,6 +28,7 @@ Project topic: Looping animations
   * [WTF?](https://cacheflowe.com/art/digital/wtf)
   * [What Whut Wat](https://cacheflowe.com/art/digital/what-whut-wat)
   * [Wobble](https://cacheflowe.com/art/digital/wobble)
+    * [Quick demo](https://editor.p5js.org/cacheflowe/sketches/XpVomQq1S)
   * [Drip](https://cacheflowe.com/art/digital/drip)
   * [Wavy](https://cacheflowe.com/art/digital/wavy)
 
@@ -43,10 +44,11 @@ Project topic: Looping animations
   - [marquee example](https://editor.p5js.org/cacheflowe/sketches/lXo4uD5fV)
   - [Example](../images/html5-canvas-image-crop-diagram.png)
 - `texture()` w/`vertex()`
-  - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/DhW4CrQ18)
+  - [UV coordinates](https://editor.p5js.org/cacheflowe/sketches/gQTxOUuFj)
   - [UV coordinates 2](https://editor.p5js.org/cacheflowe/sketches/eOxZ6_PJx)
 - Gradients w/`vertex()`
   - [Fast background gradient](https://editor.p5js.org/cacheflowe/sketches/3ToQYymCE)
+    - [Alternate w/drawingContext](https://editor.p5js.org/cacheflowe/sketches/hClcXo_Cm)
   - [Radial gradient](https://editor.p5js.org/cacheflowe/sketches/W-vOOSTO6)
 - More exercises
   - [https://creative-coding.decontextualize.com/media/](https://creative-coding.decontextualize.com/media/)

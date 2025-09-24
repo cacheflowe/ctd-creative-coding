@@ -39,6 +39,8 @@
       * [Example](https://editor.p5js.org/cacheflowe/sketches/ZbOawrLPw)
       * [Example (WEBGL)](https://editor.p5js.org/cacheflowe/sketches/MLo0ywJEh)
 * Advanced `context` topics
+  * [drawingContext](https://p5js.org/reference/p5/drawingContext/) - gives you access to the underlying canvas context
+    * [Glow Example](https://editor.p5js.org/cacheflowe/sketches/QMAE-qmRs)
   * [Clipping](https://editor.p5js.org/cacheflowe/sketches/-tO_SsjsC)
   * [Dynamic Masking](https://editor.p5js.org/cacheflowe/sketches/Tlx3KwDHI)
     * [Fancier Masking](https://editor.p5js.org/cacheflowe/sketches/l7xQ9dh64)
@@ -49,6 +51,7 @@
   * Good for doing something many times
   * Work hand-in-hand with Arrays
 * Nested `for()` loops
+  * [drawGrid()](https://editor.p5js.org/cacheflowe/sketches/xTyKRWCNn)
   * [Grid 2D](https://editor.p5js.org/cacheflowe/sketches/xsYHe2SY_)
   * [Grid 2D w/labels](https://editor.p5js.org/cacheflowe/sketches/myxKaCofw)
   * [Grid 2D w/objects in array](https://editor.p5js.org/cacheflowe/sketches/U1nSNmcBQ)

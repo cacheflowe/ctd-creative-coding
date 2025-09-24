@@ -56,6 +56,7 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 
 ## 🛠️ Graphics Effects & Algorithms
 
+- [Nature of Code](https://natureofcode.com/) by Daniel Shiffman
 - [p5js libraries](https://p5js.org/libraries/)
 - [Postprocessing demo in PIXI.js](https://pixijs.io/filters/examples/)
   - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
