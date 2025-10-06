@@ -9,6 +9,19 @@
 * [@awe.curation](https://www.instagram.com/awe.curation/)
 * [@new_media_art](https://www.instagram.com/new_media_art/)
 * [genuary.art](https://genuary.art/)
+* https://www.instagram.com/awe.curation/
+* https://www.instagram.com/codex.futurae/
+* https://www.instagram.com/creativeappsnet/
+* https://www.instagram.com/creativetechnologyideas/
+* https://www.instagram.com/generative.hut/
+* https://www.instagram.com/holo.mg/
+* https://www.instagram.com/lunchmeatfestival/
+* https://www.instagram.com/new_media_art/
+* https://www.instagram.com/nxtmuseum/
+* https://www.instagram.com/orbmagazineofficial/
+* https://www.instagram.com/thehiveh/
+* https://www.instagram.com/touchdesigner/
+* https://www.instagram.com/xuxoe/
 
 ## Kinetic typography
 
@@ -21,8 +34,8 @@
 * [@andreiongd](https://instagram.com/andreiongd)
 * [@georgieyanadesign](https://instagram.com/georgieyanadesign)
 * [@contemporarytype](https://instagram.com/contemporarytype)
-* [@schultzschultzgrafik ](https://instagram.com/schultzschultzgrafik)
-* [@inscript.tf ](https://www.instagram.com/inscript.tf/)
+* [@schultzschultzgrafik](https://instagram.com/schultzschultzgrafik)
+* [@inscript.tf](https://www.instagram.com/inscript.tf/)
 
 ## Shaders @ ShaderToy
 

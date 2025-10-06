@@ -1,5 +1,7 @@
 # Class 12
 
+[Copypasta meme](../images/senior-copy-paste.png)
+
 ## 🛠️ Shaders
 
 * [Justin's GLSL overview article](https://github.com/cacheflowe/haxademic/blob/master/guides/shaders-intro.md)

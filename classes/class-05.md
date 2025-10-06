@@ -2,6 +2,8 @@
 
 ## 🛠️ Software Design (How to write better code)
 
+[We thought it would be easy](../images/thought-it-would-be-easy.png)
+
 ### General advice for cleaner, better code
 - Practice
 - Ask for feedback from your peers or mentors (or AI)
@@ -28,7 +30,7 @@ SOLID principles
 Defensive programming
 
 Try [Refactoring](https://refactoring.guru/) your code for better organization and code clarity
-- Readability
+- Readability (see below)
 - Comments
 - Indentation
 - OOP (classes) - [Example sketch](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
@@ -36,6 +38,8 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 - Build scripts
 - Package managers
 - es6 imports
+
+[Example of readability over brevity](../images/clarity-over-brevity.jpg)
 
 ## 🛠️ How to build anything
 
@@ -64,6 +68,8 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 - [List of graphics algorithms](https://github.com/cacheflowe/creative-coding-notes#graphics-concepts) @ Cacheflowe's Creative Coding Notes
 
 ## 🛠️ Math
+
+[Math in generative art](../images/code-is-not-math-tweet.png)
 
 - [Floating Point Math](https://0.30000000000000004.com/)
 - [Trigonometry (Making generative art with simple mathematics)](https://www.hailpixel.com/articles/generative-art-simple-mathematics)

@@ -1,10 +1,32 @@
 # Class 6
 
+[Impostor syndrome](../images/impostor.jpg)
+
+..or rather, you shouldn't!
+
 ## 🛠️ Data Structures
 
-Structured data types in your code
-  * [Arrays](https://www.youtube.com/watch?v=am6e1U2BHkA&vl=en)
-  * Dictionaries/Hashes ([Objects](https://www.youtube.com/watch?v=_5jdE6RKxVk) in .js, [HashMap](https://processing.org/examples/hashmapclass.html) in Java)
+Common structured data types:
+
+* [Arrays](https://www.youtube.com/watch?v=VIQoUghHSxU)
+  * Indexed values (0, 1, 2, 3...)
+  * Various ways of looping through arrays
+    * `for` loop
+    * `for...of` loop
+    * `forEach()` method
+    * `map()` method
+  * Other [array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* Dictionaries/Hashes ([Objects](https://www.youtube.com/watch?v=_5jdE6RKxVk) in .js, [HashMap](https://processing.org/reference/HashMap.html) in Java)
+  * Key-value pairs rather than indexed values
+  * Various ways of looping through objects
+    * `for...in` loop
+    * `Object.keys()` method
+    * `Object.values()` method
+    * `Object.entries()` method
+* Other languages have other data structures
+  * [Lists, Sets, Tuples, etc](https://www.w3schools.com/python/python_lists.asp) in Python
+  * [Arrays, Vectors, Linked Lists, etc](https://www.geeksforgeeks.org/data-structures/) in C/C++
+  * Structs, Enums, etc in Java/Rust/Go/Swift
 
 Loading data payloads from external files or APIs
   * Text file
