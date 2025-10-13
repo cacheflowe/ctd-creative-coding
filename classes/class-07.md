@@ -21,19 +21,19 @@ Why use CLI?
   * Launch apps/scripts
   * Convert files
   * Batch process files
-  * Find files on your hard drive, or text within files
-  * Make web requests (`curl`)
   * Start your app on machine startup
+* Find files on your hard drive, or text within files
+* Make web requests (`curl`)
 * More powerful & custom commands
 * Take advantage of existing command-line tools
-* CLI tools are almost all free & open-source
 * Media conversion tools
   * [imagemagick](https://imagemagick.org/)
   * [ffmpeg](https://ffmpeg.org/)
   * [SoX](http://sox.sourceforge.net/)
   * [media-utility-scripts](https://github.com/cacheflowe/media-utility-scripts)
 * (Web) Servers
-* Vibe coding tools like Gemini CLI & Claude Code are offered as terminal applications
+* CLI tools are almost all free & open-source
+* Vibe coding tools like Gemini CLI, Github Copilot, & Claude Code are offered as terminal applications
 
 How to use it?
 
@@ -59,6 +59,10 @@ What is Node?
 
 * [Node.js](https://nodejs.org/) is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 * `npm` - Node Package manager
+* `package.json` - project config file
+  * `npm install`
+  * `npm run [command]`
+  * Use this [example project](https://github.com/benjaminmiles/react-three-vite) to try it out
 
 Use cases
 
