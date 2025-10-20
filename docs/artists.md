@@ -27,6 +27,7 @@ Artists and their "specialty"
 * Recent
   * [Raven Kwok](http://ravenkwok.com) - Design via visual algorithms
   * [Olivia Jack](https://ojack.xyz/) - Live audiovisual coding
+  * [Amanda Ghassaei](https://amandaghassaei.com/) - Advanced graphics algorithms
   * [Bees & Bombs](https://beesandbombs.tumblr.com/) - Seamless animated loops
   * [Jen Lewin](https://www.jenlewinstudio.com/) - Installation art, kinect, LEDs
   * [Everest Pipkin](http://everest-pipkin.com/) - Conceptual art, tools
