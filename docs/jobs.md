@@ -12,7 +12,6 @@ And how to find them
   - What are your goals?
 - What kind of work environment do you want to be in?
 - What kind of people do you want to work with?
-- 
 
 ### Salaries
 

@@ -35,6 +35,7 @@ Loading data payloads from external files or APIs
     * `loadTable()` - [p5 example](https://p5js.org/reference/p5/loadTable)
   * [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
     * [json validator](https://jsonlint.com/)
+    * [json tools](https://formatjsononline.com/)
     * `loadJSON()` - [p5 example](https://p5js.org/reference/p5/loadJSON)
   * [XML](https://www.sitepoint.com/really-good-introduction-xml/)
     * `loadXML()` - [p5 example](https://p5js.org/reference/p5/loadXML)

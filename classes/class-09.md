@@ -145,6 +145,7 @@ Read:
 * [Algorithmic Music @ Wikipedia](http://en.wikipedia.org/wiki/Algorithmic_music)
 * [Live Coding Handbook](https://livecodingbook.toplap.org/)
 * Advanced articles (optional, just for kicks)
+  * [Katie Fenn – Around the wwworld: Web MIDI, Web AUDIO and what the web does best – All Day Hey! 2025](https://www.youtube.com/watch?v=9R3hIvfRLMY)
   * [What Is the Web Audio API?](https://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
   * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
   * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
