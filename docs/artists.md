@@ -34,6 +34,7 @@ Artists and their "specialty"
   * [Sean Zellmer](https://www.instagram.com/lejeunerenard/) - Raymarching (3d)
   * [Saskia Freeke](http://sasj.nl/) - Generative shapes
   * [Matt Deslaurier](https://www.mattdesl.com/) - Tools, techniques, execution
+  * [Switch Angel](https://www.youtube.com/@Switch-Angel) - Live coding audio
   * [Nervous System](http://n-e-r-v-o-u-s.com/) - Product design
   * [Reza Ali](https://www.syedrezaali.com/) - Generative art & low-level tools
   * [Kyle McDonald](https://kylemcdonald.net/) - Machine learning & all new tech

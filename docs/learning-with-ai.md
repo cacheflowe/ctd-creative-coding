@@ -73,6 +73,7 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 
 ... with extremely varied opinions
 
+- [The Majority AI View](https://www.anildash.com/2025/10/17/the-majority-ai-view/)
 - ["Workslop" was the logical outcome of productivity maxxing](https://productpicnic.beehiiv.com/p/workslop-was-the-logical-outcome-of-productivity-maxxing)
 - [The Software Engineers Paid to Fix Vibe Coded Messes](https://www.404media.co/the-software-engineers-paid-to-fix-vibe-coded-messes/)
 - [How to use ChatGPT at university without cheating: 'Now it’s more like a study partner'](https://www.theguardian.com/education/2025/sep/14/how-to-use-chatgpt-at-university-without-cheating-now-its-more-like-a-study-partner)

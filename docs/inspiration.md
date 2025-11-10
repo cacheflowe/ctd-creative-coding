@@ -13,6 +13,7 @@
 * https://www.instagram.com/codex.futurae/
 * https://www.instagram.com/creativeappsnet/
 * https://www.instagram.com/creativetechnologyideas/
+* https://www.instagram.com/criticalplayground/
 * https://www.instagram.com/generative.hut/
 * https://www.instagram.com/holo.mg/
 * https://www.instagram.com/lunchmeatfestival/
@@ -22,6 +23,7 @@
 * https://www.instagram.com/thehiveh/
 * https://www.instagram.com/touchdesigner/
 * https://www.instagram.com/xuxoe/
+* https://www.instagram.com/newmediacaucus
 
 ## Kinetic typography
 

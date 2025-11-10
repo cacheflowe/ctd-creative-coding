@@ -1,5 +1,7 @@
 # Class 9
 
+- H&M + Jordan projects
+
 ## 🛠️ Open Source
 
 Open source software (OSS) = Freely-available source code!
@@ -83,6 +85,7 @@ Making music
   * Notes, chords & scales
     * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
   * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
+  * [Generative Music AI Course](https://www.youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D) - YouTube series
   * Changing parameters over time
 * Tools
   * [WebAudio](https://webaudioapi.com/samples/)

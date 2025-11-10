@@ -62,22 +62,20 @@ __*__ Just using a ML tool that is "ready to use" can be an expert-level journey
 How to install an ML tool:
 
 * Some ML tools are fully hosted online and you don't need to install anything
-  * [Stable Diffusion @ Stability.AI](https://huggingface.co/spaces/stabilityai/stable-diffusion)
-  * [DreamStudio](https://beta.dreamstudio.ai/generate)
+  * [Huggingface Spaces](https://huggingface.co/spaces)
+  * [Fuser](https://fuser.studio/)
+  * [ComfyUI](https://www.comfy.org/cloud)
   * [Suno.ai](https://suno.com/)
 * Some will be pre-packaged into a nice UI in a desktop app. This is rare
-  * [Runway](https://runwayml.com/)
-  * [Flowframes](https://nmkd.itch.io/flowframes)
-  * [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
-* Some have online notebooks that are ready to use, usually in [Google Colab](https://github.com/dvschultz/stylegan2-ada-pytorch). This creates a virtual environment with a good GPU to use. You should be able to copy a notebook into your own acount and start using it. This will also usually cost money if you want a very good GPU.
+  * [ComfyUI](https://www.comfy.org/)
+  * [LM Studio](https://lmstudio.ai/)
+  * [Ollama](https://ollama.com/)
+* Some have online notebooks that are ready to use, usually in [Google Colab](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb). This creates a virtual environment with a good GPU to use. You should be able to copy a notebook into your own acount and start using it. This will also usually cost money if you want a very good GPU.
 * Some must be installed on your own computer. Sometimes a very nice GPU is required (look for GPU RAM requirements). Often Linux and Windows are the target platforms
-  * [This can be hard](../images/get-old-repo-to-run.png), [really](../images/get-old-repo-to-run-again.png)
-  * Some projects are making it easier to install and run their tools
-    * [ComfyUI](https://comfy.org/)
-    * [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+  * [This can be hard](../images/get-old-repo-to-run.png)
 * Many existing apps are now adding AI features
   * [Photoshop](https://twitter.com/AiBreakfast/status/1661217865205440512?lang=en)
-  * [Windows Copilt](https://www.microsoft.com/en-us/windows/copilot-ai-features)
+  * [Windows Copilot](https://www.microsoft.com/en-us/windows/copilot-ai-features)
   * [VS Code + GitHub Copilot](https://github.com/features/copilot)
 
 ### Find an ML tool
@@ -87,13 +85,12 @@ ML is really good at dealing with images, so many of the popular machine-learnin
 * Computer vision (image analysis)
   * [MediaPipe](https://mediapipe-studio.webapps.google.com/home)
     * [MediaPipe multi-mode tracker in p5js](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt)
-  * [YOLO](https://pjreddie.com/darknet/yolo/)
-  * [Llava](https://huggingface.co/spaces/badayvedat/LLaVA)
+  * [Teachable Machine](https://teachablemachine.withgoogle.com/)
+  * [Supervision by Roboflow](https://supervision.roboflow.com/latest/)
+  * [Llava](https://llava.net/)
 * Image creation
   * **[ComfyUI](https://comfy.org/)**
   * Diffusers like [Midjourney](https://www.midjourney.com/), [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Dall-E](https://openai.com/dall-e-3), [Firefly](https://www.adobe.com/products/firefly/features/text-to-image.html)
-  * [GAN](https://github.com/NVlabs/stylegan3)s
-  * [FaceFusion](https://github.com/facefusion/facefusion)
 * Image/Video manipulation
   * [Super-resolution](https://deepai.org/machine-learning-model/torch-srgan) tools
   * [Frame interpolation](https://github.com/megvii-research/ECCV2022-RIFE) tools
@@ -139,9 +136,8 @@ Beginner-friendly
 
 * [ml5js](https://ml5js.org/) [demo from scratch](https://www.youtube.com/watch?v=8HEgeAbYphA)
 * [Teachable Machine by Google](https://teachablemachine.withgoogle.com/) & [Shiffman tutorials](https://thecodingtrain.com/TeachableMachine/index.html)
-* [Wekinator](http://www.wekinator.org/)
-* [Artbreeder](https://www.artbreeder.com/)
-* [Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
+<!-- * [Wekinator](http://www.wekinator.org/)
+* [Artbreeder](https://www.artbreeder.com/) -->
 * [Runway](https://runwayml.com/)
 
 Computer vision
@@ -161,7 +157,7 @@ More advanced
 * [StyleGAN3](https://github.com/NVlabs/stylegan3)
 * [AWS ML tools](https://aws.amazon.com/machine-learning/)
 * [Machine Learning for Artists](https://ml4a.net/)
-* [Style Transfer](https://tenso.rs/demos/fast-neural-style/)
+<!-- * [Style Transfer](https://tenso.rs/demos/fast-neural-style/) -->
 * [Spleeter](https://waxy.org/2019/11/fast-and-free-music-separation-with-deezers-machine-learning-library/)
 * [Synopsis](https://special-circumstances.info/)
 * [Descript](https://www.descript.com/)
