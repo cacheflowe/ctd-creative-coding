@@ -1,29 +1,32 @@
 # Inspiration
 
+## Websites and blogs
+
 * [Cacheflowe Inspiration page](https://cacheflowe.com/inspiration)
 * [The Coding Train by Daniel Shiffman](https://thecodingtrain.com/)
 * [Gorilla Sun](https://www.gorillasun.de/articles/) & [Newsletter](https://www.gorillasun.de/tag/newsletter/)
 * [CreativeApplications](https://www.creativeapplications.net/)
 * [ProstheticKnowledge](https://prostheticknowledge.tumblr.com/)
 * [Generative Substack](https://generative.substack.com/)
-* [@awe.curation](https://www.instagram.com/awe.curation/)
-* [@new_media_art](https://www.instagram.com/new_media_art/)
 * [genuary.art](https://genuary.art/)
-* https://www.instagram.com/awe.curation/
-* https://www.instagram.com/codex.futurae/
-* https://www.instagram.com/creativeappsnet/
-* https://www.instagram.com/creativetechnologyideas/
-* https://www.instagram.com/criticalplayground/
-* https://www.instagram.com/generative.hut/
-* https://www.instagram.com/holo.mg/
-* https://www.instagram.com/lunchmeatfestival/
-* https://www.instagram.com/new_media_art/
-* https://www.instagram.com/nxtmuseum/
-* https://www.instagram.com/orbmagazineofficial/
-* https://www.instagram.com/thehiveh/
-* https://www.instagram.com/touchdesigner/
-* https://www.instagram.com/xuxoe/
-* https://www.instagram.com/newmediacaucus
+
+## Instagram curator accounts
+
+* [@awe.curation](https://www.instagram.com/awe.curation/)
+* [@codex.futurae](https://www.instagram.com/codex.futurae/)
+* [@creativeappsnet](https://www.instagram.com/creativeappsnet/)
+* [@creativetechnologyideas](https://www.instagram.com/creativetechnologyideas/)
+* [@criticalplayground](https://www.instagram.com/criticalplayground/)
+* [@generative.hut](https://www.instagram.com/generative.hut/)
+* [@holo.mg](https://www.instagram.com/holo.mg/)
+* [@lunchmeatfestival](https://www.instagram.com/lunchmeatfestival/)
+* [@new_media_art](https://www.instagram.com/new_media_art/)
+* [@nxtmuseum](https://www.instagram.com/nxtmuseum/)
+* [@orbmagazineofficial](https://www.instagram.com/orbmagazineofficial/)
+* [@thehiveh](https://www.instagram.com/thehiveh/)
+* [@touchdesigner](https://www.instagram.com/touchdesigner/)
+* [@xuxoe](https://www.instagram.com/xuxoe/)
+* [@newmediacaucus](https://www.instagram.com/newmediacaucus/)
 
 ## Kinetic typography
 
@@ -51,3 +54,6 @@
 * [@aiekick](https://www.shadertoy.com/user/aiekick)
 * [@tdhooper](https://www.shadertoy.com/user/tdhooper)
 * [@cornusammonis](https://www.shadertoy.com/user/cornusammonis)
+* [@SnoopethDuckDuck](https://www.shadertoy.com/user/SnoopethDuckDuck)
+* [@evvvvil](https://www.shadertoy.com/user/evvvvil)
+* [@byt3_m3chanic](https://www.shadertoy.com/user/byt3_m3chanic)

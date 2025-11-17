@@ -2,11 +2,18 @@
 
 [Copypasta meme](../images/senior-copy-paste.png)
 
+## 📋 Faculty Course Questionnaire (FCQ)
+
+* 15 minutes at the beginning of class for students to complete their online FCQs
+* The purpose of the FCQ, how it's used in your course and department, and highlight its importance to you.
+* Visit [https://colorado.campuslabs.com/eval-home/](https://colorado.campuslabs.com/eval-home/) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
+
+
 ## 🛠️ Shaders
 
 * [Justin's GLSL overview article](https://github.com/cacheflowe/haxademic/blob/master/guides/shaders-intro.md)
 * [NVIDIA: Adam and Jamie Paint the Mona Lisa in 80 Milliseconds](https://www.youtube.com/watch?v=WmW6SD-EHVY)
-* [Shaders visual explanation](https://typefully.com/DanHollick/gpnhhud) by [@DanHollick](https://twitter.com/DanHollick/status/1603370500306018304)
+* [Shaders visual explanation](https://typefully.com/DanHollick/shaders-gpnhhud) by [@DanHollick](https://twitter.com/DanHollick/status/1603370500306018304)
 https://www.mayerowitz.io/blog/a-journey-into-shaders
 
 ### What can they do?
@@ -30,6 +37,7 @@ Interactive tutorials
 Online editors
 
 * [Shadertoy](http://shadertoy.com)
+* [Shader Park](https://shaderpark.com/)
 * [ComputeToys](https://compute.toys/)
 
 Graham's shader blog posts
@@ -61,7 +69,7 @@ Further topics
 
 - [Convolution](https://www.taylorpetrick.com/blog/post/convolution-part1)
 - [Interactive image kernels](https://setosa.io/ev/image-kernels/)
-- [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328)
+- [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328) - [Full lesson](https://youtu.be/KuXjwB4LzSA?si=SkcbUjixgL-OfDAx&t=619)
 
 More reading
 
@@ -70,7 +78,6 @@ More reading
 * [An introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY)
 * [Shader Tutorials By XorDev](https://mini.gmshaders.com/)
 * [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
-* [Intro to Compute Shaders (workshop for Unity)](https://paprika.studio/workshops/compute/index.html)
 
 ## 📝 Homework:
 
