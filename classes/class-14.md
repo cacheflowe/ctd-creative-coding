@@ -2,21 +2,24 @@
 
 ## 📋 We did it!
 
-You all made cool things with code!
+### You all made cool things with code!
+
 * Learning creative code techniques were part of the journey, but you've also learned:
-  * Language features & basic object-oriented code concepts
+  * Foundational programming language features & object-oriented code concepts
   * Setup & configuration of tools
   * How to creatively experiment with code
-  * How to try and fail, then try more and (sometimes) succeed
+  * How to try and fail, then try more and (usually) succeed
   * How to ask questions in a new and very deep discipline
-
+  * How to bring in your own interests and creative style to coding
 You've inspired me!
 * Tools you've chosen
+* Questions you've asked
 * Ideas you've brought to the table with all of your various interests and inherent talents
 * Bringing humanity to code
 * Being nice & creative human beings
 
-Where to go from here?
+### Where to go from here?
+
 * Keep coding! You all have the ability to code, and I'm excited to see what you make
 * Go back to the basics & get more comfortable with the puzzle pieces
 * Read about more advanced techniques and tools
