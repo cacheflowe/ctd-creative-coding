@@ -33,7 +33,7 @@ Where to go from here?
 ## 📋 Presentations
 
 * Present your final project
-* Final versions should be uploaded to Canvas by Sat, Dec 16th
+* Final versions should be uploaded to Canvas by Mon, Dec 8th
 
 ## 📝 Final Project Guidelines
 

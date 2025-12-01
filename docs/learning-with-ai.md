@@ -73,6 +73,7 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 
 ... with extremely varied opinions
 
+- [What Everyone Is Getting Wrong About AI And Jobs](https://www.youtube.com/watch?v=IqwSb2hO1jE)
 - [The Majority AI View](https://www.anildash.com/2025/10/17/the-majority-ai-view/)
 - ["Workslop" was the logical outcome of productivity maxxing](https://productpicnic.beehiiv.com/p/workslop-was-the-logical-outcome-of-productivity-maxxing)
 - [The Software Engineers Paid to Fix Vibe Coded Messes](https://www.404media.co/the-software-engineers-paid-to-fix-vibe-coded-messes/)
