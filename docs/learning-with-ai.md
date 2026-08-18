@@ -61,7 +61,7 @@ I use multiple AI code assistants every day to speed up my coding and learning p
 
 There are emerging concerns about over-reliance on AI tools, in that they can erode our own critical thinking skills and problem-solving abilities. I actually feel this happening when I use AI for simple tasks that I could do just as quickly, with my own voice, and in my own style. However, we're at a point in time where AI tools are becoming more and more integrated into the coding process, and it's important to learn how to use them effectively, and critically. 
 
-**For multidisciplinary creative technologogists in particular**, AI can be helpful, but is often technically *wrong* or creatively *boring*. We're doing work that is outside of the mainstream information that LLMs were trained with. While AI can help get you unstuck and raise the ceiling of your abilities, it can't create original thoughts for you. Your human value in an AI world comes from your ability to think creatively, to create and solve *unique* problems, and to build positive relationships with other creative people. If you don't want to be replaced by AI, these are skills that you shouldn't offload to AI.
+**For multidisciplinary creative technologogists in particular**, AI can be helpful, but is often technically *wrong* or creatively *boring*. As creative technologists, we are often doing work that is outside of the mainstream information that LLMs were trained with. While AI can help get you unstuck and raise the ceiling of your abilities, it can't create original thoughts for you. Your human value in an AI world comes from your ability to think creatively, to create and solve *unique* problems, and to build positive relationships with other creative people. If you don't want to be replaced by AI, these are skills that you shouldn't offload to AI.
 
 ## An emerging future of code abstraction
 
@@ -73,6 +73,9 @@ Just as JavaScript and Python are higher level languages that remove (or abstrac
 
 ... with extremely varied opinions
 
+- [Something Big Is Happening](https://shumer.dev/something-big-is-happening)
+- [Vibe prototyping isn't solving any problems. But it's creating many new ones.](https://productpicnic.beehiiv.com/p/vibe-prototyping-isn-t-solving-any-problems-but-it-s-creating-many-new-ones)
+- [AI paradox: faster coding, slower shipping | by Addy Osmani](https://www.youtube.com/watch?v=FoXHScf1mjA)
 - [What Everyone Is Getting Wrong About AI And Jobs](https://www.youtube.com/watch?v=IqwSb2hO1jE)
 - [The Majority AI View](https://www.anildash.com/2025/10/17/the-majority-ai-view/)
 - ["Workslop" was the logical outcome of productivity maxxing](https://productpicnic.beehiiv.com/p/workslop-was-the-logical-outcome-of-productivity-maxxing)

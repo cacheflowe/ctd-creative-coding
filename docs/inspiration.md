@@ -14,19 +14,25 @@
 
 * [@awe.curation](https://www.instagram.com/awe.curation/)
 * [@codex.futurae](https://www.instagram.com/codex.futurae/)
+* [@creativecodeart](https://www.instagram.com/creativecodeart/)
 * [@creativeappsnet](https://www.instagram.com/creativeappsnet/)
 * [@creativetechnologyideas](https://www.instagram.com/creativetechnologyideas/)
 * [@criticalplayground](https://www.instagram.com/criticalplayground/)
 * [@generative.hut](https://www.instagram.com/generative.hut/)
+* [@genmediaclub](https://www.instagram.com/genmediaclub/)
 * [@holo.mg](https://www.instagram.com/holo.mg/)
 * [@lunchmeatfestival](https://www.instagram.com/lunchmeatfestival/)
 * [@new_media_art](https://www.instagram.com/new_media_art/)
+* [@newmediacaucus](https://www.instagram.com/newmediacaucus/)
 * [@nxtmuseum](https://www.instagram.com/nxtmuseum/)
 * [@orbmagazineofficial](https://www.instagram.com/orbmagazineofficial/)
+* [@phntm](https://www.instagram.com/phntm/)
+* [@papillons.agency](https://www.instagram.com/papillons.agency/)
+* [@rendahmag](https://www.instagram.com/rendahmag/)
 * [@thehiveh](https://www.instagram.com/thehiveh/)
 * [@touchdesigner](https://www.instagram.com/touchdesigner/)
+* [@twentytwohalo](https://www.instagram.com/twentytwohalo/)
 * [@xuxoe](https://www.instagram.com/xuxoe/)
-* [@newmediacaucus](https://www.instagram.com/newmediacaucus/)
 
 ## Kinetic typography
 

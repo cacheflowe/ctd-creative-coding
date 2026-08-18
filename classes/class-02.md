@@ -76,6 +76,7 @@ Watch:
 
 * [Robert Hodgin @ Eyeo 2014](https://vimeo.com/103537259) - watch at least the first 13 minutes
   * If you love this, watch [Robert Hodgin @ Eyeo 2012](https://vimeo.com/45526286)
+* [Creative Code: Merging Design and Programming 〡Bruno Imbrizi](https://www.youtube.com/watch?v=Kdfw8t59OXI)
 
 Browse & collect inspiration. Post your favorite sketches in Canvas!
 
@@ -95,6 +96,7 @@ Browse & collect inspiration. Post your favorite sketches in Canvas!
   * Swap colors with a key press or mouse position
   * Make multiple posters
   * Randomize elements
+  * Use a [library](https://editor.p5js.org/isohedral/full/vJa5RiZWs)
 * Make your canvas big, and use [this function](https://editor.p5js.org/cacheflowe/sketches/bTaASS9mv) to scale it down, so you can fit it onto screen
 
 ## 📋 Review code

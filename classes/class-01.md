@@ -25,7 +25,7 @@
 ### Code is software, code is everywhere
 
 * Code is usually written in text files, but there are also node editors and other ways to build interactive software
-* Writing code is ultimately the practice of building a web of logic and data
+* Writing code is the practice of building a **web of logic and data**
 * [Code isn't hard, but it is frustrating](https://clivethompson.medium.com/programming-isnt-hard-but-it-s-frustrating-6cb740085243)
 * Language & [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 * Most modern languages are [very similar](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
@@ -34,73 +34,53 @@
 
 * Interdisciplinary & creative work
 * It's fun and magic!
-* Jobs & employment
+* Jobs & employment*
 * Digital literacy
+
+\* Even if you don't pursue a career in coding, understanding code is increasingly important part of literacy in the digital world
 
 ### How to love it
 
 * Find something that speaks to your interests
   * You'll each find your own path with code (languages, career paths)
 * Find the magic
-* Personal story of failure & persistence
+* Personal story of failure & persistence in Computer Science
 
 ### How to learn it
 
-* [Coding Was HARD Until I Learned These 5 Things...](https://www.youtube.com/watch?v=ujPDRl1q-dw)
-  1. Learn by doing
-  2. Learn to program, not programming language
-  3. Create a roadmap for yourself
-  4. Prioritize understanding
-  5. Get use to failing
+* Practice! Try, fail, repeat - it's better to start writing bad code than to let yourself get stuck [meme](../images/can-i-code-fast.jpg)
 * Self-directed and meandering exploration - this is an important ethos of approaching programming from a creative coding perspective
-* Practice! Try, fail, repeat
-  * *Write a lot of code*
-  * It's better to start writing bad code than to let yourself get stuck 
-  * [meme](../images/can-i-code-fast.jpg)
-* Q: [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032) A: Any!
-  * [This will change over time!](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
-  * [meme](../images/language-rankings-jun-2024.png)
-* Where to find answers?
-  * Break problems down & iterate
-    * Ask the questions in English (or your preferred language) - How do I make a circle? How do I make a circle move?
-  * Places to search for code answers
-    * [ChatGPT](https://www.youtube.com/watch?v=VznoKyh6AXs) or other LLMs
-    * Google / YouTube
-    * [Technical documentation](https://p5js.org/reference/) 
-    * [Stack Overflow](https://stackoverflow.com)
-    * Blogs/Tutorials
-  * Community learning - ask each other questions
-    * Since we don't have much class time together, this will be an important part of the class. Ask questions along the way. Use Canvas or the ATLAS Slack to communicate online.
-    * Slacks/Discords
-* Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey
-* We're learning a new language, but we don't have to memorize everything like a spoken language. We can always look things up on the fly. It's more important to learn the capabilities of the tools than to memorize syntax.
-* Finally, [let's talk about AI](./docs/learning-with-ai.md)
+* [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032) Any! [This will change over time.](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
+* Where to find answers: break the problem down, ask it in plain English ("how do I make a circle move?"), then search - your AI assistant, Google/YouTube, [docs](https://p5js.org/reference/), [Stack Overflow](https://stackoverflow.com), or each other (Canvas/Slack - since we don't have much class time together, this matters)
+* Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey. It's more important to learn the capabilities of the tools than to memorize syntax
+* Finally, [let's talk about AI](../docs/learning-with-ai.md)
+
+🔍 *Further*
+
+* [meme](../images/language-rankings-jun-2024.png)
+* More places to look: Articles/Blogs/Tutorials, Slacks/Discords where coders talk
 
 ### How to do code
 
-* Get an IDE that's good for your language of choice
-  * [VS Code](https://code.visualstudio.com/) is a popular choice for web and general development
-  * p5js has its own [online editor](https://editor.p5js.org/)
-  * Other languages/tools like Processing sometimes come with their own IDE
-  * Most popular languages have IDEs and tools that have been developed to work well with that language. For example:
-    * Java is usually written in [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
-    * C# is usually written in [Visual Studio](https://visualstudio.microsoft.com/)
-    * Swift is usually written in [Xcode](https://developer.apple.com/xcode/)
-    * But VS Code has been extended to work with almost any language
-* Type your code into text files
-  * Or connect nodes in a node editor
-* Compile or run your program
+* Get an IDE that's good for your language of choice - [VS Code](https://code.visualstudio.com/) for web/general dev, or p5js's own [online editor](https://editor.p5js.org/)
+* Type your code into text files (or connect nodes in a node editor), then compile or run your program
+
+🔍 *Further (other languages have their own popular IDEs)*
+
+* Java: [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
+* C#: [Visual Studio](https://visualstudio.microsoft.com/)
+* Swift: [Xcode](https://developer.apple.com/xcode/)
+* VS Code has been extended to work with almost any language
 
 ## 📋 What is "creative" code?
 
 * It's still just code! But with an emphasis on media, graphics, audio, and interactivity
 * "Creative coding", is a buzzword that most commonly refers to:
   * [Generative art](https://github.com/cacheflowe/creative-coding-notes)
-    * [Frieder Nake interview w/CU's Mark Amerika](https://www.rightclicksave.com/article/an-interview-with-frieder-nake)
   * Interactive installations
   * New Media Art
   * Making games, toys, apps, instruments, or anything **creative**, that's not just a typical website or app
-* All code is creative!
+* But, all code is creative!
   * Solving any engineering problem is a creative process
 * What kind of creative coder do you want to be?
   * Some [artists](../docs/artists.md) for inspiration
@@ -121,7 +101,7 @@
   * Use [GitHub](https://github.com/) to post your code and upload a video to Canvas
 * Slack
   * Use this to help each other out - my coworkers and I use Slack to chat about engineering problems
-* Screen capture
+* Screen capture - you'll need this to document your work
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
   * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
 
@@ -143,6 +123,12 @@ Every language has these features - the first goal is to understand these constr
 
 If you're *not* comfortable with these concepts yet, come to office hours and study the following links 👇
 
+## 🛠️ Live demo (10 min): draw some shapes
+
+* Pull up the [p5js editor](https://editor.p5js.org/) together and build a tiny preview of tonight's homework
+* `background()`, `fill()`, a couple of shapes (`rect()`, `ellipse()`, `triangle()`) - just enough to show it's not scary
+* This is the shape of every homework to come: open the editor, try something small, see it work
+
 ## 📝 Homework:
 
 ### Get familiar (or refamiliarize) with basic programming concepts
@@ -155,6 +141,8 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 * Books
   * https://natureofcode.com/
   * https://www.aesthetic-programming.net/index.html
+* [p5.js examples](https://p5js.org/examples/)
+  * [p5.js v2](https://github.com/processing/p5.js-compatibility)
 * Prepare your tools & workspace
 * Prepare to share & document your work
 

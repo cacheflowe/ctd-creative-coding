@@ -15,6 +15,8 @@ And how to find them
 
 ### Salaries
 
+Search for salary guides for your field and location:
+
 - https://www.creativecircle.com/salary-guide/search-salary/candidate/graphic-designer-sr/new-york-ny/
 
 ### Organization culture
