@@ -1,6 +1,6 @@
 # Class 6
 
-[Impostor syndrome](../images/impostor.jpg)
+![Impostor syndrome](../images/impostor.jpg)
 
 ..or rather, you shouldn't!
 
@@ -116,7 +116,7 @@ Watch:
   * API requests
 * Inspiration
   * [Nadieh Bremer](https://www.visualcinnamon.com/)
-  * [Nikcy Case](https://ncase.me/)
+  * [Nicky Case](https://ncase.me/)
   * [Shirley Wu](https://shirleywu.studio/)
   * [Nicholas Felton: Annual Reports](http://feltron.com/FAR08.html)
   * [FlowingData](https://flowingdata.com/)

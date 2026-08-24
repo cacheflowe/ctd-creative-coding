@@ -2,7 +2,7 @@
 
 ## Websites and blogs
 
-* [Cacheflowe Inspiration page](https://cacheflowe.com/inspiration)
+* [Cacheflowe Inspiration page](https://cacheflowe.com/personal/code-inspiration)
 * [The Coding Train by Daniel Shiffman](https://thecodingtrain.com/)
 * [Gorilla Sun](https://www.gorillasun.de/articles/) & [Newsletter](https://www.gorillasun.de/tag/newsletter/)
 * [CreativeApplications](https://www.creativeapplications.net/)

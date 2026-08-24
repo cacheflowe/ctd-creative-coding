@@ -1,195 +1,111 @@
 # Class 9
 
-- H&M + Jordan projects
+## 🛠️ 3D Graphics
 
-## 🛠️ Open Source
+The Graphics pipeline
 
-Open source software (OSS) = Freely-available source code!
+* [How do Video Game Graphics Work?](https://www.youtube.com/watch?v=C8YtdC8mxTU)
+* [Projection (3D)](https://jsantell.com/3d-projection)
+* [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
+* [Learn OpenGL](https://learnopengl.com/)
 
-* Be aware of the different kinds of OSS [licenses](https://opensource.org/licenses)
-  * These determine how you can (or can't) legally use the code in your projects. Make sure you're allowed to use the code for your commercial (or non-commercial) purposes.
-* [How does open source happen?](http://opensource.guide/)
-  * [Aligning an Open Source Ethos](https://opensourceethos.net/)
-  * OS development [funding models](https://mkaz.blog/misc/open-souce-funding-models/)
-  * Internal tools that become their own library, like [React](https://react.dev/) by Meta (Facebook)
-  * Personal projects or tooling that the author wants to share
-    * Mine is [Haxademic](https://github.com/cacheflowe/haxademic)
-  * [What open source project should I contribute to?](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)
-* The dark sides of open source
-  * [The struggles of an open source maintainer](http://antirez.com/news/129) - being a OSS maintainer can be *difficult*
-  * [Awful OSS Incidents](https://github.com/PayDevs/awful-oss-incidents) - open source can create security risks
+Basic layout & 3d thinking
 
-Open source libraries & frameworks that you'll find
+* We're using an abstracted tool... It's just a 3rd coordinate ;)
+* Live demos
+  * [for() loops 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
+  * [3d shapes basic](https://editor.p5js.org/cacheflowe/sketches/6jSCgZm0L)
+  * [3d textured sphere w/light](https://editor.p5js.org/cacheflowe/sketches/LJJZUnd9_)
+  * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
+  * [Disable depth test](https://editor.p5js.org/cacheflowe/sketches/SW763JUky)
 
-* Many popular OSS projects are either a library or a framework
-* [What is the difference between a framework and a library?](https://www.youtube.com/watch?v=D_MO9vIRBcA)
-* p5js is a larger **framework**, but has **[libraries](https://p5js.org/libraries/)** that can add extra functionality
+## CPU vs GPU
 
-Package (library) managers
+* What tasks are handled on each?
+  * Shader code and pixel display operations are handled on the GPU
+  * Most of the code that you write is on the CPU, unless you're writing shaders or OpenGL code
+    * Under the hood of p5js & Processing, there's a ton of OpenGL/WebGL code, so know how this stuff works is helpful to know what your performance bottlenecks might be
+* What's optimized on the GPU
+  * It depends on the platform and tools
+    * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
+  * Textures & texture operations
+    * Loading an image file is almost always faster than drawing vector data
+  * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
+  * ![Drawing the pixels to the screen](../images/webgl-rendering.png)
+* [cpu.land](https://cpu.land/)
+* [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
 
-* Why use a package (library) manager?
-  * Quick & easy to add functionality to your project
-  * Dependency management - any library you use may have its own dependencies, and the package manager will download (and solve version conflicts) for you
-  * It's nice to have one source for the latest tools
-* Downsides of package managers
-  * [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/)
-  * [Security risks](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
-  * Large download size (with lots of extra library dependencies you might not use) [Nodejs meme](../images/node-modules-meme.png)
-  * Versioning/dependencies can break or become outdated over time [dependency meme](../images/get-old-repo-to-run.png)
-* Different languages have different package managers
-  * `p5js`: [Doesn't have one](https://p5js.org/libraries/)! You include remote javascript files or upload them
-  * `Processing` & `Arduino`: library manager inside IDE
-  * `Javascript`: npm
-  * `Java`: Maven or Gradle
-  * `Ruby`: Bundler
-  * `Python`: pip or conda
-  * `OS X`: Homebrew
-  * `Windows`: Chocolatey
+## 🛠️ Computer vision
 
-## 🛠️ Audio
+* [@ Wikipedia](https://en.wikipedia.org/wiki/Computer_vision)
+* p5js CV examples
+  * https://github.com/kylemcdonald/cv-examples (need to change p5js version number)
+* Processing OpenCV [library](https://github.com/atduskgreg/opencv-processing) - older classic CV algorithms
+* Basic, [custom CV](https://cacheflowe.com/code/lab/webcam-experiments)
+* Interesting cameras:
+  * Depth ([Kinect](https://www.orbbec.com/products/tof-camera/femto-mega/) / [Realsense](https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html))
+  * [High framerate](https://www.edgertronic.com/)
+  * [Thermal](https://groupgets.com/manufacturers/getlab/products/purethermal-2-flir-lepton-smart-i-o-module)
+  * [Infrared](https://www.amazon.com/SVPRO-Outdoor-Waterproof-Surveillance-Android/dp/B07C2RL8PB/) (night vision)
 
-Justin's examples of different audio uses in creative code
+## 🛠️ Computer vision in p5js
 
-* [Interphase](https://cacheflowe.com/code/installation/interphase)
-  * [Interphase preview](https://cacheflowe.com/images/code/installation/cacheflowe-interphase-jenise-jensen-wave-8195.jpg)
-  * Interactive music generator software w/physical lighting
-    * [New iterations](https://cacheflowe.com/code/lab/c-a-c-h-e)
-* [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
-  * All choreography & computer-generated visuals were synced to the tempo of the music
-* [Bauhouse](https://cacheflowe.com/art/digital/bauhouse) 
-  * Graphics respond to audio triggering (built w/Interphase music engine)
-* [Feetboxin](https://cacheflowe.com/code/lab/feetboxin)
-  * Piezo (impact) sensors send MIDI signals that trigger audio, but also are turn into DMX signals to trigger the lights
-* [HaxVisual](https://cacheflowe.com/code/lab/haxvisual-audioreactive-vj-software)
-  * Incoming audio signal is analysed and used to draw audio-reactive images
-* [Obsidian](https://cacheflowe.com/art/digital/obsidian)
-  * Looping animation was matched exactly to the length of the looping audio track
-* [Webcam sonification](https://www.instagram.com/p/CIytqIxljZG/)
-  * Using pixel data to translate into a looping sound wave
-
-Samples vs. Synthesis
-
-* Samples
-  * [p5.SoundFile](https://p5js.org/reference/p5.sound/p5.SoundFile/)
-  * [Sample playback via button click](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
-  * [Sound playback rate](https://editor.p5js.org/p5/sketches/Sound:_Manipulate_Sound)
-* Synthesis
-  * [p5.Oscillator](https://p5js.org/reference/p5.sound/p5.Oscillator/)
-  * [Oscillator Frequency](https://editor.p5js.org/p5/sketches/Sound:_Oscillator_Waveform)
-  * [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
-
-Making music
-
-* Basic building blocks
-  * Data & timing to create "[sequencer](https://step-sequencer.afuh.dev/)" patterns ([author info](https://afuh.dev/step-sequencer/))
-  * Notes, chords & scales
-    * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
-  * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
-  * [Generative Music AI Course](https://www.youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D) - YouTube series
-  * Changing parameters over time
-* Tools
-  * [WebAudio](https://webaudioapi.com/samples/)
-    * [Tone.js](https://tonejs.github.io/examples/)
-    * [WebAudio Weekly](https://www.webaudioweekly.com/)
-  * [WebMIDI](https://www.onlinemusictools.com/webmiditest/)
-    * [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
-    * [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
-* Examples
-  * [All possible 8 step hihat rhythms](https://bsky.app/profile/piterpasma.nl/post/3luxjya5iyc2h)
-  * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
-  * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
-  * [generative.fm](https://generative.fm/)
-  * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
-* More examples of web-based music tools
-  * [DrumBot](https://twitter.com/notwaldorf/status/1201599495244537858)
-  * [ZzFX](https://github.com/KilledByAPixel/ZzFX)
-  * [meSing.js](http://usdivad.com/mesing/)
-  * [Beet.js](http://zya.github.io/beet.js/)
-  * [Blip.js](http://jshanley.github.io/blip/)
-  * [Zupiter](https://pointersgonewild.com/2019/10/06/zupiter-a-web-based-modular-synthesizer/)
-  * [PatternSketch](https://patternsketch.com/)
-
-
-Audio input
-
-* [FFT analysis](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum) from microphone input
-* [Amplitude analysis](https://editor.p5js.org/p5/sketches/Sound:_Amplitude_Analysis) from sound file
-* [More demos](https://therewasaguy.github.io/p5-music-viz/)
-  * Specific example: [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
-
-Other tools for creating music with code
-
-* Live coding
-  * [Sonic PI](http://sonic-pi.net/)
-  * [TidalCycles](https://tidalcycles.org/)
-    * [Strudel](https://strudel.cc/workshop/getting-started/) (web-based TidalCycles environment)
-  * [ORCA](https://github.com/hundredrabbits/Orca)
-  * [ChucK](http://chuck.cs.princeton.edu/)
-  * [Gibber](https://gibber.cc/)
-  * [Overtone](http://overtone.github.io/)
-  * [Alda](https://alda.io/)
-  * [Extempore](https://extemporelang.github.io/)
-  * [EarSketch](http://earsketch.gatech.edu/landing/)
-* [Max](https://cycling74.com/products/max/)
-* [Supercollider](http://supercollider.github.io/)
-* [Aubio](https://aubio.org/)
-* [Sound eXchange](http://sox.sourceforge.net/) (cli conversion tool, like ffmpeg but for audio files)
-* [JUCE](https://juce.com/)
-* [VCV Rack](https://vcvrack.com/Prototype) ([+ plugin docs](https://vcvrack.com/manual/PluginDevelopmentTutorial))
-* [Ableton Live Connection Kit](https://www.ableton.com/en/packs/connection-kit/)
-
+* [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
+* [MediaPipe multi-mode tracker](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt) - [original](https://editor.p5js.org/golan/sketches/0yyu6uEwM)
+* ml5 [examples](https://editor.p5js.org/ml5/sketches)
+  * [handPose-parts](https://editor.p5js.org/ml5/sketches/DNbSiIYKB)
+  * [handPose-keypoints](https://editor.p5js.org/ml5/sketches/QGH3dwJ1A)
+    * [More info](https://github.com/tensorflow/tfjs-models/blob/master/hand-pose-detection/README.md#keypoint-diagram)
+  * [MediaPipe hand tracker](https://editor.p5js.org/lingdong/sketches/1viPqbRMv)
+  * [faceMesh-shapes-from-parts](https://editor.p5js.org/ml5/sketches/6qj0M3ElM)
+  * [faceMesh-parts-bounding-box](https://editor.p5js.org/ml5/sketches/F9jRILxn2)
+  * [faceMesh-keypoints-from-parts](https://editor.p5js.org/ml5/sketches/EjynWxazD4)
+  * [faceMesh-bounding-box](https://editor.p5js.org/ml5/sketches/fMCIspRD7_)
+  * [bodySegmentation-select-body-parts](https://editor.p5js.org/ml5/sketches/R5rug0HKk)
+  * [bodyPose-skeleton](https://editor.p5js.org/ml5/sketches/hMN9GdrO3)
+  * [ml5.js PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
+  * [ml5.js BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
+  <!-- * [ml5.js + p5play game](https://editor.p5js.org/StevesMakerspace/sketches/RLGFfn2pt) -->
+* [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
+* [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
 
 ## 📝 Homework:
 
 Read:
 
-* [Introduction to Generative Music](https://medium.com/@alexbainter/introduction-to-generative-music-91e00e4dba11)
-* [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
-* [Algorithmic Music @ Wikipedia](http://en.wikipedia.org/wiki/Algorithmic_music)
-* [Live Coding Handbook](https://livecodingbook.toplap.org/)
-* Advanced articles (optional, just for kicks)
-  * [Katie Fenn – Around the wwworld: Web MIDI, Web AUDIO and what the web does best – All Day Hey! 2025](https://www.youtube.com/watch?v=9R3hIvfRLMY)
-  * [What Is the Web Audio API?](https://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
-  * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
-  * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
-  * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
+* The WebGL & OpenGL articles above
 
-Watch & listen:
+Watch:
 
-* [Making Music with CODE?! (With DJ_Dave and Sam Aaron)](https://www.youtube.com/watch?v=vuSZQnkOB_Y)
-* Tutorials
-  * "The Code Creative" [Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
-  * [Luisa Pereira's classes](https://www.luisapereira.net/teaching/)
-* Conceptual interviews
-  * [Computer Music (Synthesizers, Synclavier) News Report w/Stanley Jordan (1986)](https://www.youtube.com/watch?v=duMStO826W0)
-  * [George E. Lewis: Why Do We Want Our Computers to Improvise?](https://www.youtube.com/watch?v=wDP8FsjyCaA)
-  * [Autechre: Sign review – electronic masters soar and fall in negative space](https://www.theguardian.com/music/2020/oct/16/autechre-sign-review-warp)
-    * [Autechre Worked in Isolation for Decades. Now It’s Unintentionally Timely.](https://www.nytimes.com/2020/10/13/arts/music/autechre-sign-interview.html)
-* Art examples
-  * [Simon Russell - Beat Visualization](https://vimeo.com/687076688)
-  * [The Ballad of the Psychotropic Robots](https://www.youtube.com/watch?v=nhq6wzgFEXc)
-  * [Ryoji Ikeda | data.path](https://www.soundart.zone/ryoji-ikeda-data-path/)
-  * [William Fields - Fields OS](https://williamfields.bandcamp.com/album/fieldsos)
-    * "FieldsOS is 100% algorithmic music. The probabilities, conditions, and constraints were configured in advance. The output was recorded and this is the result. No curation or editing was done."
+* [Best Of Demoscene 2020 (Playlist)](https://www.youtube.com/watch?v=zWqfX9J9BXI&list=PL9HVvEQXdWVb22aDO98yTbhqE8zy9XaDE)
+* [SIGGRAPH 2020: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=jYdMKdRUq_8)
+* [SIGGRAPH 2019: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=EhDr3Rs5fTU)
+* [SIGGRAPH 2018 Asia: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=wdKpXvF_3AU)
 
-**Build something with audio**
+Listen to an episode from either podcast:
 
-* Ideas:
-  * Write a program that plays a sound file along with a graphical element
-  * Build an interactive or self-playing instrument
-  * Visualize microphone or audio file analysis
-  * Synthesize some sounds with oscillators
-  * Build a drum pad/machine like [Bongo.cat](https://bongo.cat/)
-  * Use MIDI
-* Resources: Free audio files
-  * [freesound.org](https://freesound.org/)
-  * [sampleswap.org](https://sampleswap.org/)
-* Resources: Wave editors (record & edit your own audio files)
-  * [Audacity (Tenacity)](https://tenacityaudio.org/) (free desktop app)
-  * [Wavacity](https://wavacity.com/) (free browser-based app)
-  * [AudioMass](https://audiomass.co/) (free browser-based app)
+* [Tech+Art](https://podcasts.apple.com/ca/podcast/tech-art/id1480019037) Podcast
+* [That's So New Media!?](https://open.spotify.com/show/7MXw99WToC4MbZHwAlaFzB?si=UggW_cRMTwmZKVWeVAfsjw&nd=1)
+
+**Build something with 3D graphics or computer vision**
+
+* 3D Graphics ideas
+  * Start with WEBGL mode in p5js
+    * This moves the coordinate system to the center of the screen
+  * Use ox(), sphere() and other 3d primitive functions to create shapes
+    * p5js has additional 3d shapes like 	orus()
+* 3D Stretch goals
+  * Create your own 3d geometry with eginShape(), ertex(), and ndShape()
+  * Apply a texture to your geometry
+  * Load a 3d model with loadModel()
+  * Use a shader to create a custom material for your 3d geometry
+* Computer Vision resources
+  * [Video Capture example](https://p5js.org/examples/imported-media-video-capture/)
+  * [ml5.js image classification](https://www.youtube.com/watch?v=pbjR20eTLVs)
+    * From: [Beginners Guide to Machine Learning in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+  * Processing: [Shiffman: Capture and Live Video](https://www.youtube.com/watch?v=WH31daSj4nc)
+  * Processing: [Introduction to Webcam Effects with Processing](https://www.youtube.com/watch?v=6pGEk2dQnss)
 
 ## 📋 Review code
 
-* Present your webcam/hardware sketches
-
+* Present your shader sketches

@@ -1,8 +1,21 @@
 # Class 5
 
-## 🛠️ Software Design (How to write better code)
+## 🛠️ Software Design (How software works, and how to write better code)
 
 [We thought it would be easy](../images/thought-it-would-be-easy.png)
+
+### How does a program execute?
+
+- Entry point (main function)
+- [Compiling vs Interpreting](https://dev.to/robiulhr/is-javascript-compiled-or-interpreted-language-l20)
+- Basic [control flow](https://en.wikipedia.org/wiki/Control_flow) tools:
+  - Functions
+  - Conditionals (branching logic)
+  - Loops
+  - [Control flow diagram](../images/control-flow.png)
+- Order of operations
+  - In most languages, code executes serially by default. One operation needs to finish before the next starts.
+  - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
 
 ### General advice for cleaner, better code
 - Practice
@@ -39,9 +52,9 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 - Package managers
 - es6 imports
 
-[Example of readability over brevity](../images/clarity-over-brevity.jpg)
+![Example of readability over brevity](../images/clarity-over-brevity.jpg)
 
-## 🛠️ How to build anything
+### How to build anything
 
 - [Follow the engineering design process](../images/engineering-design-process.jfif)
 - Break the problem down
@@ -62,10 +75,12 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 
 - [Nature of Code](https://natureofcode.com/) by Daniel Shiffman
 - [p5js libraries](https://p5js.org/libraries/)
-- [Postprocessing demo in PIXI.js](https://pixijs.io/filters/examples/)
-  - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
 - [List of visual algorithms](https://thatcreativecode.page/)
 - [List of graphics algorithms](https://github.com/cacheflowe/creative-coding-notes#graphics-concepts) @ Cacheflowe's Creative Coding Notes
+- [Post Processing As A Creative Medium](https://blog.maximeheckel.com/posts/post-processing-as-a-creative-medium/)
+  - [Postprocessing demo in PIXI.js](https://pixijs.io/filters/examples/)
+  - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
+  - https://alexharri.com/blog/ascii-rendering
 
 ## 🛠️ Math
 

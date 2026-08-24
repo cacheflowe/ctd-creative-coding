@@ -1,5 +1,23 @@
 # Class 3
 
+- Please add context about your assignment in Canvas 
+  - What went well and what didn't
+  - How you arrived at your result
+  - A paragraph's worth of writing is plenty
+  - This can be in the sketch comments, in a Canvas comment on your assignment page, or in the "paper" view when turning in
+- Tidy Code command - how to group code together like you're writing an organized text document
+  - grouping related lines with line spacing
+  - consistency around spacing & indentation
+- Finding nice colors: https://color.adobe.com/create/color-wheel
+- Glow effect example, fast linear gradient example
+- Oct 25 (Sat) art show for CTD class - w/Livvy & The Company
+- **Creative Coding Art Show**
+  - Saturday, October 25, evening (exact time TBD)
+  - 2101 W 29th Ave, Denver, CO 80202
+  - Hosted by the [Creative Code Denver Meetup](https://www.meetup.com/creative-code-denver/) at [The Company](https://thecompany.social/).
+- Office hours start in earnest this week on Thursdays (4-6pm)
+- NBM install last week
+
 ## 🛠️ Programming Languages
 
 [Language differences & use-cases](https://www.quora.com/What-are-the-differences-that-exist-between-programming-languages/answer/James-Barton-129)
@@ -29,18 +47,71 @@ Languages update over time:
 - [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
   - [Online-REPs-and-REPLs](https://joel.franusic.com/Online-REPs-and-REPLs)
 
-## 🛠️ How does a program execute?
+## 🛠️ Professional AI coding setup
 
-- Entry point (main function)
-- [Compiling vs Interpreting](https://dev.to/robiulhr/is-javascript-compiled-or-interpreted-language-l20)
-- Basic [control flow](https://en.wikipedia.org/wiki/Control_flow) tools:
-  - Functions
-  - Conditionals (branching logic)
-  - Loops
-  - [Control flow diagram](../images/control-flow.png)
-- Order of operations
-  - In most languages, code executes serially by default. One operation needs to finish before the next starts.
-  - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
+* Read [Coding and learning with AI](../docs/learning-with-ai.md) if you haven't yet - this section is about the *hands-on setup*, not the philosophy
+* Pick an AI-assisted editor
+  * [VS Code](https://code.visualstudio.com/) + [GitHub Copilot](https://github.com/features/copilot) or [Claude Code](https://claude.com/product/claude-code) - most common professional setup right now
+  * [Cursor](https://www.cursor.com/) - a fork of VS Code, built AI-first
+  * Others: Windsurf, Replit, Gemini CLI
+* What's actually going on under the hood
+  * Inline suggestions vs. chat vs. full agentic "vibe coding" - a spectrum, not one thing
+  * Context matters most - the AI can only work with what it can see (open files, terminal output, instructions you give it)
+* Giving the AI durable context/instructions
+  * **AGENTS.md** (or `CLAUDE.md`, `.cursorrules`, etc) - a file in your project that tells the AI tool your conventions, constraints, and preferences, so you don't repeat yourself every session
+  * **Skills** - packaged, reusable instructions for a specific kind of task (a deploy checklist, a code review style) that the AI can invoke by name
+  * **MCP servers** ([Model Context Protocol](https://modelcontextprotocol.io/)) - lets an AI tool call out to external tools/data (a database, a design tool, a browser) beyond just reading/writing files
+* Routing - not every task needs the biggest/most expensive model
+  * Different tools let you pick a model per-task (fast/cheap vs. slow/capable)
+  * Worth understanding what you're actually paying for (in money, time, or both)
+* **Live demo**: setting up a project with an AGENTS.md file and watching the difference it makes
+
+## 🛠️ Debugging
+
+![Debugging meme](../images/debugging.png)
+
+Since we just set up an AI coding assistant above, this is a great addition to your debugging toolkit too - but see [Coding and learning with AI](../docs/learning-with-ai.md) for how to lean on it without atrophying your own debugging skills.
+
+### Resources
+
+![Documentation meme](../images/rtfm-he-man.png)
+
+* [p5js Debugging article](https://p5js.org/tutorials/field-guide-to-debugging/)
+* [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
+* ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
+* [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+
+### What to do when something doesn't work
+
+![Extra bracket meme](../images/roses-are-red.jpg)
+
+* Does your IDE point out any syntax problems?
+* Is there an error message in the console?
+  * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
+* Check your syntax
+* Check for typos
+* Can you make a more basic version of the code do something?
+* Double-check the documentation
+* Do some Googling - has someone else had this problem?
+* Get help from ChatGPT or Copilot
+
+### General debugging
+
+![Typo/error meme](../images/typo-error.jpg)
+
+* Reference errors (is your code pointing to the right thing?)
+* `console.log()` / `println()`
+* Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
+
+### Graphical debugging
+
+"Why aren't things drawing the way I expect them to?"
+
+* It's hard, because there as less-obvious ways to identify a problem
+* If something isn't displaying, can you make a simpler version?
+* Add a "debug view"
+  * In GLSL (shaders), there's no textual logging or output, so developers will draw various textures and stages of pixel operations to the screen to decipher what might be happening
+  * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
 ## 🛠️ Shaping our sketches
 

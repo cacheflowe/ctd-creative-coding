@@ -1,150 +1,149 @@
 # Class 7
 
-## 🛠️ Command-Line Interface (CLI)
+## 🛠️ Audio
 
-[CLI cartoon](../images/command-line.png)
+🎤 **Case study**: [Interphase](https://cacheflowe.com/code/installation/interphase) - a deeper look at building an interactive music generator with physical lighting
 
-* [Different shells](https://en.wikipedia.org/wiki/Command-line_interface)
-* vs. [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
-* Setup & config
-  * OS X (also Linux)
-    * [Bash](https://www.gnu.org/software/bash/) (Bourne Again SHell)
-    * [zsh](http://zsh.sourceforge.net/) (Z shell - the new OS X default)
-  * Windows
-    * [Command Shell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-    * [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview)
-    * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux)
+Justin's examples of different audio uses in creative code
 
-Why use CLI?
+* [Interphase](https://cacheflowe.com/code/installation/interphase)
+  * [Interphase preview](https://cacheflowe.com/images/code/installation/cacheflowe-interphase-jenise-jensen-wave-8195.jpg)
+  * Interactive music generator software w/physical lighting
+    * [New iterations](https://cacheflowe.com/code/lab/c-a-c-h-e)
+* [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
+  * All choreography & computer-generated visuals were synced to the tempo of the music
+* [Bauhouse](https://cacheflowe.com/art/digital/bauhouse) 
+  * Graphics respond to audio triggering (built w/Interphase music engine)
+* [Feetboxin](https://cacheflowe.com/code/lab/feetboxin)
+  * Piezo (impact) sensors send MIDI signals that trigger audio, but also are turn into DMX signals to trigger the lights
+* [HaxVisual](https://cacheflowe.com/code/lab/haxvisual-audioreactive-vj-software)
+  * Incoming audio signal is analysed and used to draw audio-reactive images
+* [Obsidian](https://cacheflowe.com/art/digital/obsidian)
+  * Looping animation was matched exactly to the length of the looping audio track
+* [Webcam sonification](https://www.instagram.com/p/CIytqIxljZG/)
+  * Using pixel data to translate into a looping sound wave
 
-* Automation
-  * Launch apps/scripts
-  * Convert files
-  * Batch process files
-  * Start your app on machine startup
-* Find files on your hard drive, or text within files
-* Make web requests (`curl`)
-* More powerful & custom commands
-* Take advantage of existing command-line tools
-* Media conversion tools
-  * [imagemagick](https://imagemagick.org/)
-  * [ffmpeg](https://ffmpeg.org/)
-  * [SoX](http://sox.sourceforge.net/)
-  * [media-utility-scripts](https://github.com/cacheflowe/media-utility-scripts)
-* (Web) Servers
-* CLI tools are almost all free & open-source
-* Vibe coding tools like Gemini CLI, Github Copilot, & Claude Code are offered as terminal applications
+Samples vs. Synthesis
 
-How to use it?
+* Samples
+  * [p5.SoundFile](https://p5js.org/reference/p5.sound/p5.SoundFile/)
+  * [Sample playback via button click](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
+  * [Sound playback rate](https://editor.p5js.org/p5/sketches/Sound:_Manipulate_Sound)
+* Synthesis
+  * [p5.Oscillator](https://p5js.org/reference/p5.sound/p5.Oscillator/)
+  * [Oscillator Frequency](https://editor.p5js.org/p5/sketches/Sound:_Oscillator_Waveform)
+  * [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
 
-* Install your tools with a package manager:
-  * [Homebrew](https://brew.sh/) for Mac
-  * [Chocolatey](https://chocolatey.org/) or [Scoop](https://scoop.sh/) for Windows
-  * [apt](https://manpages.ubuntu.com/manpages/trusty/man8/apt.8.html) for Linux (Ubuntu)
-  * Or custom installation when necessary (usually just copying some files onto your computer)
-* Navigate to somewhere on your computer
-* Run a command!
-  * Each `command` is basically a function that can take parameters, just like in JavaScript
-  * Ask Google or AI how to do something with `bash` or `zsh` or `Windows Command Prompt`/`Powershell`
-  * Write your command into the terminal
-  * Or write more complex scripts into a text file, and run your text file from the command line
+Making music
 
-[File paths meme](../images/file-paths-jedi.jpg)
-
-## 🛠️ Nodejs
-
-[The server is down](../images/server-is-down.png)
-
-What is Node?
-
-* [Node.js](https://nodejs.org/) is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
-* `npm` - Node Package manager
-* `package.json` - project config file
-  * `npm install`
-  * `npm run [command]`
-  * Use this [example project](https://github.com/benjaminmiles/react-three-vite) to try it out
-
-Use cases
-
-* Web Server & development tools
-* WebSocket server
-* Build tools & automations
-* Batch file-processing tasks
-* CLI tasks in a friendlier environment
-* General plumbing to connect different apps (http requests, file handling, websocket connections, etc)
-
-Node Resources
-
-* [Node.js](https://nodejs.org/)
-* [Introduction to Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
-* [Beginner's Series to: Node.js](https://www.youtube.com/playlist?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg#begnodejs)
-* [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://www.youtube.com/watch?v=ENrzD9HAZK4)
-* [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4)
-* [Build an API from Scratch with Node.js Express](https://www.youtube.com/watch?v=-MTSQjw5DrM)
-* [Node Weekly](https://nodeweekly.com/)
-* [The Coding Train topics](https://thecodingtrain.com/tracks/lang/all/topic/node-js)
+* Basic building blocks
+  * Data & timing to create "[sequencer](https://step-sequencer.afuh.dev/)" patterns ([author info](https://afuh.dev/step-sequencer/))
+  * Notes, chords & scales
+    * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
+  * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
+  * [Generative Music AI Course](https://www.youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D) - YouTube series
+  * Changing parameters over time
+* Tools
+  * [WebAudio](https://webaudioapi.com/samples/)
+    * [Tone.js](https://tonejs.github.io/examples/)
+    * [WebAudio Weekly](https://www.webaudioweekly.com/)
+  * [WebMIDI](https://www.onlinemusictools.com/webmiditest/)
+    * [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
+    * [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
+* Examples
+  * [All possible 8 step hihat rhythms](https://bsky.app/profile/piterpasma.nl/post/3luxjya5iyc2h)
+  * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
+  * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
+  * [generative.fm](https://generative.fm/)
+  * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
+* More examples of web-based music tools
+  * [DrumBot](https://twitter.com/notwaldorf/status/1201599495244537858)
+  * [ZzFX](https://github.com/KilledByAPixel/ZzFX)
+  * [meSing.js](http://usdivad.com/mesing/)
+  * [Beet.js](http://zya.github.io/beet.js/)
+  * [Blip.js](http://jshanley.github.io/blip/)
+  * [Zupiter](https://pointersgonewild.com/2019/10/06/zupiter-a-web-based-modular-synthesizer/)
+  * [PatternSketch](https://patternsketch.com/)
 
 
-## 🛠️ 3D Graphics
+Audio input
 
-The Graphics pipeline
+* [FFT analysis](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum) from microphone input
+* [Amplitude analysis](https://editor.p5js.org/p5/sketches/Sound:_Amplitude_Analysis) from sound file
+* [More demos](https://therewasaguy.github.io/p5-music-viz/)
+  * Specific example: [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
 
-* [How do Video Game Graphics Work?](https://www.youtube.com/watch?v=C8YtdC8mxTU)
-* [Projection (3D)](https://jsantell.com/3d-projection)
-* [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
-* [Learn OpenGL](https://learnopengl.com/)
+Other tools for creating music with code
 
-Basic layout & 3d thinking
+* Live coding
+  * [Sonic PI](http://sonic-pi.net/)
+  * [TidalCycles](https://tidalcycles.org/)
+    * [Strudel](https://strudel.cc/workshop/getting-started/) (web-based TidalCycles environment)
+  * [ORCA](https://github.com/hundredrabbits/Orca)
+  * [ChucK](http://chuck.cs.princeton.edu/)
+  * [Gibber](https://gibber.cc/)
+  * [Overtone](http://overtone.github.io/)
+  * [Alda](https://alda.io/)
+  * [Extempore](https://extemporelang.github.io/)
+  * [EarSketch](http://earsketch.gatech.edu/landing/)
+* [Max](https://cycling74.com/products/max/)
+* [Supercollider](http://supercollider.github.io/)
+* [Aubio](https://aubio.org/)
+* [Sound eXchange](http://sox.sourceforge.net/) (cli conversion tool, like ffmpeg but for audio files)
+* [JUCE](https://juce.com/)
+* [VCV Rack](https://vcvrack.com/Prototype) ([+ plugin docs](https://vcvrack.com/manual/PluginDevelopmentTutorial))
+* [Ableton Live Connection Kit](https://www.ableton.com/en/packs/connection-kit/)
 
-* We're using an abstracted tool... It's just a 3rd coordinate ;)
-* Live demos
-  * [for() loops 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
-  * [3d shapes basic](https://editor.p5js.org/cacheflowe/sketches/6jSCgZm0L)
-  * [3d textured sphere w/light](https://editor.p5js.org/cacheflowe/sketches/LJJZUnd9_)
-  * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
-  * [Disable depth test](https://editor.p5js.org/cacheflowe/sketches/SW763JUky)
-
-## CPU vs GPU
-
-* What tasks are handled on each?
-  * Shader code and pixel display operations are handled on the GPU
-  * Most of the code that you write is on the CPU, unless you're writing shaders or OpenGL code
-    * Under the hood of p5js & Processing, there's a ton of OpenGL/WebGL code, so know how this stuff works is helpful to know what your performance bottlenecks might be
-* What's optimized on the GPU
-  * It depends on the platform and tools
-    * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
-  * Textures & texture operations
-    * Loading an image file is almost always faster than drawing vector data
-  * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
-  * [Drawing the pixels to the screen](../images/webgl-rendering.png)
-* [cpu.land](https://cpu.land/)
-* [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
 
 ## 📝 Homework:
 
 Read:
 
-* The WebGL & OpenGL articles above
+* [Introduction to Generative Music](https://medium.com/@alexbainter/introduction-to-generative-music-91e00e4dba11)
+* [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
+* [Algorithmic Music @ Wikipedia](http://en.wikipedia.org/wiki/Algorithmic_music)
+* [Live Coding Handbook](https://livecodingbook.toplap.org/)
+* Advanced articles (optional, just for kicks)
+  * [Katie Fenn – Around the wwworld: Web MIDI, Web AUDIO and what the web does best – All Day Hey! 2025](https://www.youtube.com/watch?v=9R3hIvfRLMY)
+  * [What Is the Web Audio API?](https://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
+  * [JavaScript Systems Music](https://teropa.info/blog/2016/07/28/javascript-systems-music.html)
+  * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
+  * [Advanced audio signal processing books](https://ccrma.stanford.edu/~jos/) by Julius Orion Smith III
 
-Watch:
+Watch & listen:
 
-* [Best Of Demoscene 2020 (Playlist)](https://www.youtube.com/watch?v=zWqfX9J9BXI&list=PL9HVvEQXdWVb22aDO98yTbhqE8zy9XaDE)
-* [SIGGRAPH 2020: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=jYdMKdRUq_8)
-* [SIGGRAPH 2019: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=EhDr3Rs5fTU)
-* [SIGGRAPH 2018 Asia: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=wdKpXvF_3AU)
+* [Making Music with CODE?! (With DJ_Dave and Sam Aaron)](https://www.youtube.com/watch?v=vuSZQnkOB_Y)
+* Tutorials
+  * "The Code Creative" [Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
+  * [Luisa Pereira's classes](https://www.luisapereira.net/teaching/)
+* Conceptual interviews
+  * [Computer Music (Synthesizers, Synclavier) News Report w/Stanley Jordan (1986)](https://www.youtube.com/watch?v=duMStO826W0)
+  * [George E. Lewis: Why Do We Want Our Computers to Improvise?](https://www.youtube.com/watch?v=wDP8FsjyCaA)
+  * [Autechre: Sign review – electronic masters soar and fall in negative space](https://www.theguardian.com/music/2020/oct/16/autechre-sign-review-warp)
+    * [Autechre Worked in Isolation for Decades. Now It's Unintentionally Timely.](https://www.nytimes.com/2020/10/13/arts/music/autechre-sign-interview.html)
+* Art examples
+  * [Simon Russell - Beat Visualization](https://vimeo.com/687076688)
+  * [The Ballad of the Psychotropic Robots](https://www.youtube.com/watch?v=nhq6wzgFEXc)
+  * [Ryoji Ikeda | data.path](https://www.soundart.zone/ryoji-ikeda-data-path/)
+  * [William Fields - Fields OS](https://williamfields.bandcamp.com/album/fieldsos)
+    * "FieldsOS is 100% algorithmic music. The probabilities, conditions, and constraints were configured in advance. The output was recorded and this is the result. No curation or editing was done."
 
-**Build something with a 3rd dimension**
+**Build something with audio**
 
-* Steps
-  * Start with `WEBGL` mode in p5js
-    * This moves the coordinate system to the center of the screen
-  * Use `box()`, `sphere()` and other 3d primitive functions to create shapes
-    * p5js has additional 3d shapes like `torus()`
-* Stretch goals
-  * Create your own 3d geometry with `beginShape()`, `vertex()`, and `endShape()`
-  * Apply a texture to your geometry
-  * Load a 3d model with `loadModel()`
-  * Use a shader to create a custom material for your 3d geometry
+* Ideas:
+  * Write a program that plays a sound file along with a graphical element
+  * Build an interactive or self-playing instrument
+  * Visualize microphone or audio file analysis
+  * Synthesize some sounds with oscillators
+  * Build a drum pad/machine like [Bongo.cat](https://bongo.cat/)
+  * Use MIDI
+* Resources: Free audio files
+  * [freesound.org](https://freesound.org/)
+  * [sampleswap.org](https://sampleswap.org/)
+* Resources: Wave editors (record & edit your own audio files)
+  * [Audacity (Tenacity)](https://tenacityaudio.org/) (free desktop app)
+  * [Wavacity](https://wavacity.com/) (free browser-based app)
+  * [AudioMass](https://audiomass.co/) (free browser-based app)
 
 ## 📋 Review code
 

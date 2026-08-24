@@ -75,40 +75,43 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 07](./classes/class-07.md) - Oct 12
 
-* Command line & Node.js
-* 3D
-* CPU vs GPU
+* Audio
 
 ### [Class 08](./classes/class-08.md) - Oct 19
 
-* Hardware
-* Computer vision
+* Shaders
 
 ### [Class 09](./classes/class-09.md) - Oct 26
 
-* Open Source
-* Audio
+* 3D
+* Computer vision
 
 ### [Class 10](./classes/class-10.md) - Nov 2
 
 * Final projects
-* Web Browsers
+* Machine learning
 
 ### [Class 11](./classes/class-11.md) - Nov 9
 
-* Machine learning
+* Web Browsers
+* Command line & Node.js
 
 ### [Class 12](./classes/class-12.md) - Nov 16
 
-* Jobs
-* Shaders
+* Hardware & Integration
+* Open Source
 
 ### Nov 23 (No class - Fall Break)
 
 ### [Class 13](./classes/class-13.md) - Nov 30
 
-* Present final project WIP in class
+* Jobs
+* Final project help
 
-### Dec 7
+### [Class 14](./classes/class-14.md) - Dec 4
+
+* Final project presentations
+
+### Dec 11
 
 * Final project due in Canvas

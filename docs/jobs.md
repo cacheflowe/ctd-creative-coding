@@ -2,6 +2,8 @@
 
 And how to find them
 
+See some great advice for *tech jobs* [here](https://www.youtube.com/@techjobsin2/shorts)
+
 ## Considerations when looking for a job
 
 ### A good fit
@@ -88,4 +90,4 @@ Example job search: UX & design in a specific city
   - Reach out to people with similar interests on the internet (social media, Discords, Slacks, etc)
   - Show & share your work with like-minded people. Help others out with their work
 
-[Great People](../images/jobs-great-people.jpg)
+![Great People](../images/jobs-great-people.jpg)

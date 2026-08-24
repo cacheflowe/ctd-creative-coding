@@ -30,14 +30,42 @@
 * Language & [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 * Most modern languages are [very similar](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
 
+```cpp
+// C++ example
+// this syntax of for() loops originated in 1972!
+for (int i = 0; i < 10; i++) {
+    cout << "Hello, world!" << endl;
+}
+```
+
+```javascript
+// JavaScript example
+for (let i = 0; i < 10; i++) {
+    console.log("Hello, world!");
+}
+```
+
+```java
+// Java example
+for (int i = 0; i < 10; i++) {
+    System.out.println("Hello, world!");
+}
+```
+
+```python
+# Python example
+for i in range(10):
+    print("Hello, world!")
+```
+
+![Language popularity rankings, 2024](../images/language-rankings-jun-2024.png)
+
 ### Why code?
 
-* Interdisciplinary & creative work
-* It's fun and magic!
-* Jobs & employment*
-* Digital literacy
-
-\* Even if you don't pursue a career in coding, understanding code is increasingly important part of literacy in the digital world
+* Opens doors to interdisciplinary & creative work
+* It's fun and magic ✨ You can build such unique and varied things with codem abd is a reqarding creative outlet
+* Digital literacy. If algorithms and AI are impacting our lives in so many ways, we should understand how they work
+* Jobs & employment. Even if you don't pursue a career in coding, understanding code can be an enormous advantage across fields
 
 ### How to love it
 
@@ -53,12 +81,8 @@
 * [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032) Any! [This will change over time.](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
 * Where to find answers: break the problem down, ask it in plain English ("how do I make a circle move?"), then search - your AI assistant, Google/YouTube, [docs](https://p5js.org/reference/), [Stack Overflow](https://stackoverflow.com), or each other (Canvas/Slack - since we don't have much class time together, this matters)
 * Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey. It's more important to learn the capabilities of the tools than to memorize syntax
-* Finally, [let's talk about AI](../docs/learning-with-ai.md)
-
-🔍 *Further*
-
-* [meme](../images/language-rankings-jun-2024.png)
 * More places to look: Articles/Blogs/Tutorials, Slacks/Discords where coders talk
+* Finally, [let's talk about AI](../docs/learning-with-ai.md)
 
 ### How to do code
 
@@ -94,12 +118,11 @@
   * Get the [VS Code](https://code.visualstudio.com/) IDE, and then install the [p5js extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
   * There's a good setup explainer here [p5js in VS Code](https://www.youtube.com/watch?v=OGB4WDw9iJA)
   * If you use an external editor for p5js, please paste your code back into the p5js web editor to turn in your assignments
-* For Processing, [install the IDE](https://processing.org/download/)
-* If you'd like to use other tools like Unity, TouchDesigner, THREE.js, Openframeworks:
+* If you'd like to use other tools like Unity, TouchDesigner, THREE.js, Processing, Openframeworks:
   * I can help during office hours, but if I don't have experience with the tool, you'll be on your own
   * I expect video documentation of your projects, since you can't turn them in via a link to the p5js editor. Use Canvas to pass in your video documentation if you go this route
-  * Use [GitHub](https://github.com/) to post your code and upload a video to Canvas
-* Slack
+  * Use [GitHub](https://github.com/) to post your code, and upload a video to Canvas
+* Canvas & Slack 
   * Use this to help each other out - my coworkers and I use Slack to chat about engineering problems
 * Screen capture - you'll need this to document your work
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
@@ -116,8 +139,6 @@
 * Arrays
 * Objects
 * Classes
-
-[for() loops were invented in 1972](../images/for-loop-50-yo.png)
 
 Every language has these features - the first goal is to understand these constructs & tools
 
@@ -137,8 +158,7 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
   * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) 
 * Go through the 1st section of articles at [Welcome to Coding](https://happycoding.io/tutorials/p5js/)
   * Even if you're comfortable with the basic concepts, there are lots of important tips within.
-* And a great course overview about [Programming Design Systems](http://printingcode.runemadsen.com/) by Rune Madsen, which is now its [own website](https://programmingdesignsystems.com/color/color-schemes/index.html)
-* Books
+* Books to bookmark:
   * https://natureofcode.com/
   * https://www.aesthetic-programming.net/index.html
 * [p5.js examples](https://p5js.org/examples/)

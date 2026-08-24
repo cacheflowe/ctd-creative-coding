@@ -6,7 +6,21 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CTD Creative Coding</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23000'/><text x='50' y='55' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='%23fff' text-anchor='middle' dominant-baseline='middle'>CC</text></svg>"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/microlighter@2.1.0/dist/themes/github.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/microlighter@2.1.0/dist/micro-lighter-element.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.4/lite-yt-embed.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.4/lite-yt-embed.min.js"></script>
     <style>
       @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -149,7 +163,7 @@
       }
     </style>
   </head>
-  <body>
+  <body data-syntax-theme="github">
     <div id="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.4/dist/BigPicture.min.js"></script>
@@ -183,10 +197,12 @@
             let parsedHTML = headerHTML(classNum) + marked.parse(data);
             document.getElementById("content").innerHTML = parsedHTML;
             // post-process generated markup
+            prepCodeBlocks();
             prepHeaderAnchors();
             prepImages();
             prepLocalLinks();
             addExternalLinkTooltips();
+            createYouTubeEmbeds();
             prepLinksForBigPicture();
             scrollToAnchor();
             handleSpecialClicks();
@@ -224,6 +240,25 @@
             behavior: "smooth", // smooth scroll
             block: "start", // the upper border of the element will be aligned at the top of the visible part of the window of the scrollable area.
           });
+        }
+      }
+
+      ////////////////////////////////////////
+      // Wrap markdown code blocks w/ micro-lighter for syntax highlighting
+      ////////////////////////////////////////
+
+      function prepCodeBlocks() {
+        let codeBlocks = document.querySelectorAll("#content pre > code");
+        for (let code of codeBlocks) {
+          let pre = code.parentElement;
+          let match = code.className.match(/language-(\S+)/);
+          let lang = match ? match[1] : "text";
+          let wrapper = document.createElement("micro-lighter");
+          wrapper.setAttribute("language", lang);
+          // wrapper.setAttribute("controls", "copy");
+          // wrapper.setAttribute("line-numbers", "");
+          pre.replaceWith(wrapper);
+          wrapper.appendChild(pre);
         }
       }
 
@@ -279,10 +314,13 @@
 
       function prepImages() {
         // fix relative image paths from .md references
+        // also covers markdown-embedded images (`![alt](src)`), which marked
+        // renders directly as <img>, unlike linked images handled in prepLocalLinks()
         let imgs = document.querySelectorAll("img");
         for (let img of imgs) {
-          let src = img.getAttribute("src");
-          img.setAttribute("src", src.replace("../images/", "./images/"));
+          let src = img.getAttribute("src").replace("../images/", "./images/");
+          img.setAttribute("src", src);
+          img.setAttribute("data-img", src);
         }
       }
 
@@ -346,6 +384,41 @@
       }
 
       ////////////////////////////////////////
+      // YouTube inline embed conversion
+      ////////////////////////////////////////
+
+      function createYouTubeEmbeds() {
+        // convert YouTube links with #embed or &embed=true to inline lite-youtube embeds
+        let links = document.querySelectorAll("a");
+        for (let link of links) {
+          let href = link.getAttribute("href");
+          if (href && href.indexOf("youtube.com/watch?v=") != -1) {
+            // Check for #embed hash or &embed=true query param
+            if (
+              href.indexOf("#embed") != -1 ||
+              href.indexOf("&embed=true") != -1 ||
+              href.indexOf("?embed=true") != -1
+            ) {
+              // Extract video ID (everything between v= and first & or #)
+              let videoId = href.split("watch?v=")[1].split(/[&#]/)[0];
+              let linkText = link.textContent || "Play video";
+
+              // Create lite-youtube element
+              let embed = document.createElement("lite-youtube");
+              embed.setAttribute("videoid", videoId);
+              embed.setAttribute("playlabel", "Play: " + linkText);
+
+              // Insert embed before the link, then keep the link as source reference
+              link.parentNode.insertBefore(embed, link);
+
+              // Add a line break between embed and link for spacing
+              let br = document.createElement("br");
+              link.parentNode.insertBefore(br, link);
+            }
+          }
+        }
+      }
+
       // BigPicture.js link prep/handling
       ////////////////////////////////////////
 
@@ -356,7 +429,14 @@
           let href = link.getAttribute("href");
           if (href) {
             if (href.indexOf("youtube.com/watch?v=") != -1) {
-              link.setAttribute("data-yt", href.split("watch?v=")[1]);
+              // Skip links with embed parameter (already converted to inline embeds)
+              if (
+                href.indexOf("#embed") == -1 &&
+                href.indexOf("&embed=true") == -1 &&
+                href.indexOf("?embed=true") == -1
+              ) {
+                link.setAttribute("data-yt", href.split("watch?v=")[1]);
+              }
             }
             if (href.indexOf("vimeo.com") != -1) {
               const vimeoMatch = href.match(/^https?:\/\/(?:www\.)?vimeo\.com\/(\d+)(?:$|[/?#])/);
@@ -380,34 +460,29 @@
         }
       }
 
-      function openBiggerPicture(e) {
-        // console.log(e.target, e.currentTarget)
-        if (e.target.hasAttribute("data-img")) {
-          e.preventDefault();
-          let href = e.target.getAttribute("data-img");
+      function openBiggerPicture(el) {
+        if (el.hasAttribute("data-img")) {
+          let href = el.getAttribute("data-img");
           BigPicture({
-            el: e.target,
+            el: el,
             imgSrc: href,
           });
-        } else if (e.target.hasAttribute("data-yt")) {
-          e.preventDefault();
-          let ytId = e.target.getAttribute("data-yt");
+        } else if (el.hasAttribute("data-yt")) {
+          let ytId = el.getAttribute("data-yt");
           BigPicture({
-            el: e.target,
+            el: el,
             ytSrc: ytId,
           });
-        } else if (e.target.hasAttribute("data-vimeo")) {
-          e.preventDefault();
-          let vimeoId = e.target.getAttribute("data-vimeo");
+        } else if (el.hasAttribute("data-vimeo")) {
+          let vimeoId = el.getAttribute("data-vimeo");
           BigPicture({
-            el: e.target,
+            el: el,
             vimeoSrc: vimeoId,
           });
         } else {
-          e.preventDefault();
-          let href = e.target.getAttribute("data-iframe");
+          let href = el.getAttribute("data-iframe");
           BigPicture({
-            el: e.target,
+            el: el,
             iframeSrc: href,
             onError: function () {
               console.log("there was an error");
@@ -436,14 +511,10 @@
       }
 
       function checkBigPictureClick(e) {
-        if (
-          e.target.hasAttribute("data-iframe") ||
-          e.target.hasAttribute("data-img") ||
-          e.target.hasAttribute("data-yt") ||
-          e.target.hasAttribute("data-vimeo")
-        ) {
+        let el = e.target.closest("[data-iframe], [data-img], [data-yt], [data-vimeo]");
+        if (el) {
           e.preventDefault();
-          openBiggerPicture(e);
+          openBiggerPicture(el);
         }
       }
 
