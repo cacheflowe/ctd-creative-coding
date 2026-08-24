@@ -6,7 +6,7 @@
 * Your [instructor](https://cacheflowe.com)
   * Interests: music, graphics, interaction, games
   * Show some projects
-* Tutor / Code Helper
+* Tutor / Learning Assistant: Reid Pritchard!
 * Various skill levels
   * **Everyone**: Learn about the craft, the state of the art, and express yourself creatively with code
   * **Beginners**: I want you to learn to find joy in coding, and get comfortable with tools, techniques, and nomenclature
@@ -79,7 +79,7 @@ for i in range(10):
 * Practice! Try, fail, repeat - it's better to start writing bad code than to let yourself get stuck [meme](../images/can-i-code-fast.jpg)
 * Self-directed and meandering exploration - this is an important ethos of approaching programming from a creative coding perspective
 * [Which language/tool should I learn?](https://twitter.com/shanselman/status/1560431550981804032) Any! [This will change over time.](https://remotesynthesis.com/blog/the-price-of-developer-tools/)
-* Where to find answers: break the problem down, ask it in plain English ("how do I make a circle move?"), then search - your AI assistant, Google/YouTube, [docs](https://p5js.org/reference/), [Stack Overflow](https://stackoverflow.com), or each other (Canvas/Slack - since we don't have much class time together, this matters)
+* Where to find answers: break the problem down, ask it in spoken language ("how do I make a circle move?"), then search - your AI assistant, Google/YouTube, [docs](https://p5js.org/reference/), [Stack Overflow](https://stackoverflow.com), or each other (Canvas/Slack - since we don't have much class time together, this matters)
 * Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey. It's more important to learn the capabilities of the tools than to memorize syntax
 * More places to look: Articles/Blogs/Tutorials, Slacks/Discords where coders talk
 * Finally, [let's talk about AI](../docs/learning-with-ai.md)
@@ -89,8 +89,7 @@ for i in range(10):
 * Get an IDE that's good for your language of choice - [VS Code](https://code.visualstudio.com/) for web/general dev, or p5js's own [online editor](https://editor.p5js.org/)
 * Type your code into text files (or connect nodes in a node editor), then compile or run your program
 
-🔍 *Further (other languages have their own popular IDEs)*
-
+Examples of IDEs used with different languages:
 * Java: [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
 * C#: [Visual Studio](https://visualstudio.microsoft.com/)
 * Swift: [Xcode](https://developer.apple.com/xcode/)
@@ -112,9 +111,7 @@ for i in range(10):
 
 ## 🛠️ Get your tools ready
 
-### p5js (or Processing)
-
-* For p5js, create an account for [the editor](https://editor.p5js.org/)
+* p5js: create an account for [the editor](https://editor.p5js.org/)
   * Get the [VS Code](https://code.visualstudio.com/) IDE, and then install the [p5js extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
   * There's a good setup explainer here [p5js in VS Code](https://www.youtube.com/watch?v=OGB4WDw9iJA)
   * If you use an external editor for p5js, please paste your code back into the p5js web editor to turn in your assignments
@@ -128,9 +125,9 @@ for i in range(10):
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
   * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
 
-## 🛠️ Code basics overview
+## 🛠️ Code basics
 
-### Basic coding concepts:
+At a minimum, we'll be exploring the following coding concepts this semester. If these are already familiar, then let's practice them, and choose our own adventure for further exploration.
 
 * Variables
 * Functions
@@ -140,15 +137,15 @@ for i in range(10):
 * Objects
 * Classes
 
-Every language has these features - the first goal is to understand these constructs & tools
+Every language has these features - the first goal is to understand these constructs & tools.
 
 If you're *not* comfortable with these concepts yet, come to office hours and study the following links 👇
 
 ## 🛠️ Live demo (10 min): draw some shapes
 
-* Pull up the [p5js editor](https://editor.p5js.org/) together and build a tiny preview of tonight's homework
+* Pull up the [p5js editor](https://editor.p5js.org/) together and build a tiny preview of the first assignment
 * `background()`, `fill()`, a couple of shapes (`rect()`, `ellipse()`, `triangle()`) - just enough to show it's not scary
-* This is the shape of every homework to come: open the editor, try something small, see it work
+* This is the bare minimum of every assignment this semester: open the editor, build something small, and see how far we can take it!
 
 ## 📝 Homework:
 
