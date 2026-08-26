@@ -60,21 +60,38 @@ for i in range(10):
 
 ![Language popularity rankings, 2024](../images/language-rankings-jun-2024.png)
 
-### Why code?
+### 🛠️ Code basics
+
+At a minimum, we'll be exploring the following coding concepts this semester. If these are already familiar, then let's practice them, and choose our own adventure for further exploration.
+
+* Variables
+* Functions
+* Conditionals (if/else)
+* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages)
+* Arrays
+* Objects
+* Classes
+
+Every language has these features - the first goal is to understand these constructs & tools.
+
+If you're *not* comfortable with these concepts yet, come to office hours and study the following links 👇
+
+
+### 🤷 Why code?
 
 * Opens doors to interdisciplinary & creative work
 * It's fun and magic ✨ You can build such unique and varied things with codem abd is a reqarding creative outlet
 * Digital literacy. If algorithms and AI are impacting our lives in so many ways, we should understand how they work
 * Jobs & employment. Even if you don't pursue a career in coding, understanding code can be an enormous advantage across fields
 
-### How to love it
+### 💖 How to love it
 
 * Find something that speaks to your interests
   * You'll each find your own path with code (languages, career paths)
 * Find the magic
 * Personal story of failure & persistence in Computer Science
 
-### How to learn it
+### 🧑‍🏫 How to learn it
 
 * Practice! Try, fail, repeat - it's better to start writing bad code than to let yourself get stuck [meme](../images/can-i-code-fast.jpg)
 * Self-directed and meandering exploration - this is an important ethos of approaching programming from a creative coding perspective
@@ -83,17 +100,6 @@ for i in range(10):
 * Don't get overwhelmed - some concepts take a long time, and this is a (life)long journey. It's more important to learn the capabilities of the tools than to memorize syntax
 * More places to look: Articles/Blogs/Tutorials, Slacks/Discords where coders talk
 * Finally, [let's talk about AI](../docs/learning-with-ai.md)
-
-### How to do code
-
-* Get an IDE that's good for your language of choice - [VS Code](https://code.visualstudio.com/) for web/general dev, or p5js's own [online editor](https://editor.p5js.org/)
-* Type your code into text files (or connect nodes in a node editor), then compile or run your program
-
-Examples of IDEs used with different languages:
-* Java: [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
-* C#: [Visual Studio](https://visualstudio.microsoft.com/)
-* Swift: [Xcode](https://developer.apple.com/xcode/)
-* VS Code has been extended to work with almost any language
 
 ## 📋 What is "creative" code?
 
@@ -111,6 +117,17 @@ Examples of IDEs used with different languages:
 
 ## 🛠️ Get your tools ready
 
+* Get an IDE that's good for your language of choice - [VS Code](https://code.visualstudio.com/) for web/general dev, or p5js's own [online editor](https://editor.p5js.org/)
+* Type your code into text files (or connect nodes in a node editor), then compile or run your program
+
+Examples of IDEs used with different languages:
+* Java: [IntelliJ IDEA](https://www.jetbrains.com/idea/) or Eclipse
+* C#: [Visual Studio](https://visualstudio.microsoft.com/)
+* Swift: [Xcode](https://developer.apple.com/xcode/)
+* VS Code has been extended to work with almost any language
+
+### 📝 How to do your assignments
+
 * p5js: create an account for [the editor](https://editor.p5js.org/)
   * Get the [VS Code](https://code.visualstudio.com/) IDE, and then install the [p5js extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
   * There's a good setup explainer here [p5js in VS Code](https://www.youtube.com/watch?v=OGB4WDw9iJA)
@@ -125,23 +142,8 @@ Examples of IDEs used with different languages:
   * OS X: [Quicktime](https://support.apple.com/en-us/HT208721)
   * Windows 10: Windows **Snipping Tool** or [Xbox Game Bar](https://support.microsoft.com/en-us/help/4027180/windows-10-record-a-game-clip-with-xbox-game-bar)
 
-## 🛠️ Code basics
 
-At a minimum, we'll be exploring the following coding concepts this semester. If these are already familiar, then let's practice them, and choose our own adventure for further exploration.
-
-* Variables
-* Functions
-* Conditionals (if/else)
-* [for() loops](https://en.wikipedia.org/wiki/For_loop#Timeline_of_the_for-loop_syntax_in_various_programming_languages)
-* Arrays
-* Objects
-* Classes
-
-Every language has these features - the first goal is to understand these constructs & tools.
-
-If you're *not* comfortable with these concepts yet, come to office hours and study the following links 👇
-
-## 🛠️ Live demo (10 min): draw some shapes
+## 🟢 Live demo (10 min): draw some shapes
 
 * Pull up the [p5js editor](https://editor.p5js.org/) together and build a tiny preview of the first assignment
 * `background()`, `fill()`, a couple of shapes (`rect()`, `ellipse()`, `triangle()`) - just enough to show it's not scary
@@ -149,7 +151,7 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 
 ## 📝 Homework:
 
-### Get familiar (or refamiliarize) with basic programming concepts
+### 👀 Get familiar (or refamiliarize) with basic programming concepts
 
 * If you have little or no code experience, start here with sections 1-5:
   * [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) 
@@ -163,7 +165,7 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 * Prepare your tools & workspace
 * Prepare to share & document your work
 
-### The actual assignment
+### 🔎 The actual assignment
 
 * Build an [ATLAS logo](https://clementzheng.github.io/atlas-wordmark/index.html) "**A**" of your choice with [code](https://editor.p5js.org/cacheflowe/sketches/igKe9eDoB). Use basic drawing tools to set colors and create shapes:
   * w/p5js:
@@ -179,7 +181,7 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
       * [Polygons](https://p5js.org/reference/p5/vertex)
       * [Bezier](https://p5js.org/reference/p5/bezier) or [Quadratic](https://p5js.org/reference/p5/quadraticVertex) curves
 
-### If this is easy for you, try some stretch goals:
+### 💪 If this is easy for you, try some stretch goals:
 
 * Add animation or interactivity
 * Get creative with color
@@ -194,7 +196,7 @@ If you're *not* comfortable with these concepts yet, come to office hours and st
 * Build a larger story or concept around the "A"
 * Use a different tool (Shadertoy, TouchDesigner, Unity) to make an "A"
 
-### Turn in your work via Canvas
+### 📩 Turn in your work via Canvas
 
 * Post the link to your code on https://editor.p5js.org/
 * Add a description of your intent, your successes, and failures
