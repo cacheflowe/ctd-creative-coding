@@ -149,7 +149,7 @@ Examples of IDEs used with different languages:
 * `background()`, `fill()`, a couple of shapes (`rect()`, `ellipse()`, `triangle()`) - just enough to show it's not scary
 * This is the bare minimum of every assignment this semester: open the editor, build something small, and see how far we can take it!
 
-## 📝 Homework:
+## 📝 Homework
 
 ### 👀 Get familiar (or refamiliarize) with basic programming concepts
 
@@ -165,7 +165,7 @@ Examples of IDEs used with different languages:
 * Prepare your tools & workspace
 * Prepare to share & document your work
 
-### 🔎 The actual assignment
+### 🔎 The assignment
 
 * Build an [ATLAS logo](https://clementzheng.github.io/atlas-wordmark/index.html) "**A**" of your choice with [code](https://editor.p5js.org/cacheflowe/sketches/igKe9eDoB). Use basic drawing tools to set colors and create shapes:
   * w/p5js:

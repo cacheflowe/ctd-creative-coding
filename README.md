@@ -36,32 +36,30 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 02](./classes/class-02.md) - Aug 31
 
+* Color
+* Basic text
 * Basic drawing tools
 * Iteration
 * Layout
-* AI Demo
 
 ### Sep 7 (No class - Labor Day)
 
 ### [Class 03](./classes/class-03.md) - Sep 14
 
-* Programming Languages 
-* IDEs
-* Professional AI coding setup
+* Images
 * Debugging
+* Animation
 * Shaping our sketches
 * Time
-* Animation
 
 ### [Class 04](./classes/class-04.md) - Sep 21
 
-* Strings
-* Typography
-* Images
 * Looping animation
 
 ### [Class 05](./classes/class-05.md) - Sep 28
 
+* Strings
+* Typography
 * Software design
 * Graphics effects & algorithms
 * Math

@@ -161,6 +161,33 @@
       #bp_container {
         background: rgba(0, 0, 0, 0.8);
       }
+
+      /* Table of Contents */
+      #table-of-contents {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 0.5rem;
+      }
+      #table-of-contents h3 {
+        margin-top: 0;
+        text-align: left;
+      }
+      #table-of-contents ul {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        text-align: left;
+
+        a {
+          text-decoration: none;
+        }
+      }
+      #table-of-contents .toc-h3 {
+        margin-left: 1.5rem;
+        font-size: 0.9em;
+      }
     </style>
   </head>
   <body data-syntax-theme="github">
@@ -199,6 +226,7 @@
             // post-process generated markup
             prepCodeBlocks();
             prepHeaderAnchors();
+            if (classNum) createTableOfContents(); // add TOC for class pages
             prepImages();
             prepLocalLinks();
             addExternalLinkTooltips();
@@ -305,6 +333,60 @@
               window.location.hash = slug;
             }, 1000); // delay to allow for smooth scroll
           }
+        }
+      }
+
+      ////////////////////////////////////////
+      // Create Table of Contents for class pages
+      ////////////////////////////////////////
+
+      function createTableOfContents() {
+        // find all h2 and h3 headers in content (skip h1 which is the page title)
+        let headers = document.querySelectorAll("#content h2, #content h3");
+        if (headers.length === 0) return;
+
+        // create TOC container
+        let toc = document.createElement("div");
+        toc.setAttribute("id", "table-of-contents");
+
+        let tocList = document.createElement("ul");
+
+        // build TOC list from headers
+        for (let header of headers) {
+          let slug = header.getAttribute("id");
+          let level = header.tagName.toLowerCase(); // h2 or h3
+          let text = header.textContent.replace("🔗", "").trim(); // remove link icon
+
+          let li = document.createElement("li");
+          if (level === "h3") {
+            li.classList.add("toc-h3");
+          }
+
+          let a = document.createElement("a");
+          a.setAttribute("href", `#${slug}`);
+          a.textContent = text;
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            scrollToEl(header);
+            setTimeout(() => {
+              window.location.hash = slug;
+            }, 500);
+          });
+
+          li.appendChild(a);
+          tocList.appendChild(li);
+        }
+
+        toc.appendChild(tocList);
+
+        // insert TOC after the h1 title
+        let h1 = document.querySelector("#content h1");
+        if (h1) {
+          h1.parentNode.insertBefore(toc, h1.nextSibling);
+        } else {
+          // if no h1, insert at top of content
+          let content = document.getElementById("content");
+          content.insertBefore(toc, content.firstChild);
         }
       }
 
@@ -528,7 +610,7 @@
       function checkHighlightClick(e) {
         clickedEl = closestLiOrP(e.target);
         // cancel highlight behavior if <a> tag was clicked
-        if (e.target.tagName == "A" || e.target.tagName == "IMG") {
+        if (e.target.closest("a") || e.target.tagName == "A" || e.target.tagName == "IMG") {
           clickedEl = null;
           return;
         }
