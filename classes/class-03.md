@@ -58,30 +58,6 @@
   - Map mouse input - normalize and use for rotation
   - Map time (seconds to screen width)
 
-## 🛠️ Math
-
-![Math in generative art](../images/code-is-not-math-tweet.png)
-
-- [Floating Point Math](https://0.30000000000000004.com/)
-- [Trigonometry (Making generative art with simple mathematics)](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
-  - [Polar (circular) coordinates](https://editor.p5js.org/cacheflowe/sketches/22CiPOyiN)
-  - [Circular oscillation](https://editor.p5js.org/cacheflowe/sketches/QazkuY-bZ)
-  - [Divide an arc](https://editor.p5js.org/cacheflowe/sketches/_9FdBq40-)
-  - [Sketch: Drive a car](https://editor.p5js.org/cacheflowe/sketches/SSqX9j2X-)
-- [Vectors](https://p5js.org/reference/p5.Vector/sub/)
-  - Keep track of 2d/3d coordinates and do all of the math for you!
-- [Basic physics](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-  - [Introduction to Matter.js - The Nature of Code](https://www.youtube.com/watch?v=urR596FsU68)
-  - [Matter.js example](https://editor.p5js.org/mahdadbor/sketches/pSIth_A61)
-- [Collision detection](https://www.jeffreythompson.org/collision-detection/)
-- Raytracing / Raymarching
-- FFT
-  - [p5.js Coding Tutorial | Music Visualization with FFT](https://www.youtube.com/watch?v=8O5aCwdopLo)
-- [Coding Math](https://www.youtube.com/user/codingmath) video series by Keith Peters
-- ...and so much more
-
-
-
 ## ⏱️ Time
 
 - [Time, according to p5js](https://editor.p5js.org/cacheflowe/sketches/EdkIstnmFL):
@@ -91,14 +67,6 @@
   - `nf()`
   - `deltaTime`
 - Time according to TouchDesigner (live demo)
-
-## 🛠️ Animation
-
-* Exercises:
-  * Intro to [basic movement](https://editor.p5js.org/p5/sketches/Motion:_Bounce)
-  * And more [examples/exercises](https://creative-coding.decontextualize.com/changes-over-time/)
-* Real-time coding vs scripting or event-based or reactive environments
-  * `noLoop()` option in p5.js
 
 ## 📝 Homework
 
@@ -129,6 +97,8 @@ Choose a secondary tool to investigate this semester. Some suggestions:
 - Sonic Pi
 - Tidal Cycles or Strudel
 - Chuck
+
+### 🔎 The assignment
 
 **Build a clock**
 
