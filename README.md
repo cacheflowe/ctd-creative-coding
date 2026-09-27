@@ -36,33 +36,34 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 02](./classes/class-02.md) - Aug 31
 
+* Drawing tools in p5js
+* Images
 * Color
-* Basic text
-* Basic drawing tools
+* Text
 * Iteration
 * Layout
+* Professional p5js use
 
 ### Sep 7 (No class - Labor Day)
 
 ### [Class 03](./classes/class-03.md) - Sep 14
 
-* Images
-* Debugging
-* Animation
-* Shaping our sketches
+* Advanced image tools
+* Shaping our sketches (remapping numbers, noise)
 * Time
 
 ### [Class 04](./classes/class-04.md) - Sep 21
 
-* Looping animation
+* Strings
+* Typography
+* Graphics effects & algorithms
+* Math
+* Animation (looping animations)
 
 ### [Class 05](./classes/class-05.md) - Sep 28
 
-* Strings
-* Typography
+* Debugging
 * Software design
-* Graphics effects & algorithms
-* Math
 
 ### [Class 06](./classes/class-06.md) - Oct 5
 
@@ -74,6 +75,9 @@ This course explores creative uses of software development while introducing fou
 ### [Class 07](./classes/class-07.md) - Oct 12
 
 * Audio
+* Programming languages
+* IDEs
+* Professional AI coding setup
 
 ### [Class 08](./classes/class-08.md) - Oct 19
 
@@ -81,7 +85,8 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 09](./classes/class-09.md) - Oct 26
 
-* 3D
+* 3D graphics
+* CPU vs GPU
 * Computer vision
 
 ### [Class 10](./classes/class-10.md) - Nov 2
@@ -103,6 +108,8 @@ This course explores creative uses of software development while introducing fou
 
 ### [Class 13](./classes/class-13.md) - Nov 30
 
+* Faculty Course Questionnaire (FCQ)
+* Where are we?
 * Jobs
 * Final project help
 

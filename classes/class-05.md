@@ -1,8 +1,60 @@
 # Class 5
 
+## 🛠️ Debugging
+
+![Debugging meme](../images/debugging.png)
+
+If you've got an AI coding assistant set up, it's a great addition to your debugging toolkit too - but see [Coding and learning with AI](../docs/learning-with-ai.md) for how to lean on it without atrophying your own debugging skills.
+
+### Resources
+
+![Documentation meme](../images/rtfm-he-man.png)
+
+* [p5js Debugging article](https://p5js.org/tutorials/field-guide-to-debugging/)
+* [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
+* ["Expert Software Developers' Approach to Error"](https://www.youtube.com/watch?v=UNMF5AS4SLg)
+* [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+
+### What to do when something doesn't work
+
+![Extra bracket meme](../images/roses-are-red.jpg)
+
+* Does your IDE point out any syntax problems?
+* Is there an error message in the console?
+  * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
+* Check your syntax
+* Check for typos
+* Can you make a more basic version of the code do something?
+* Double-check the documentation
+* Do some Googling - has someone else had this problem?
+* Get help from ChatGPT or Copilot
+* Take a step back - is something obvious being overlooked?
+  * Are we editing the right file?
+  * Are we observing the right server (e.g., localhost vs production)?
+  * Has something changed that seemed insignificant at the time?
+  * Have you tried restarting your development environment or server and clearing any caches?
+
+### General debugging
+
+![Typo/error meme](../images/typo-error.jpg)
+
+* Reference errors (is your code pointing to the right thing?)
+* `console.log()` / `println()`
+* Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
+
+### Graphical debugging
+
+"Why aren't things drawing the way I expect them to?"
+
+* It's hard, because there as less-obvious ways to identify a problem
+* If something isn't displaying, can you make a simpler version?
+* Add a "debug view"
+  * In GLSL (shaders), there's no textual logging or output, so developers will draw various textures and stages of pixel operations to the screen to decipher what might be happening
+  * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
+
 ## 🛠️ Software Design (How software works, and how to write better code)
 
-[We thought it would be easy](../images/thought-it-would-be-easy.png)
+![We thought it would be easy](../images/thought-it-would-be-easy.png)
 
 ### How does a program execute?
 
@@ -18,11 +70,11 @@
   - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
 
 ### General advice for cleaner, better code
-- Practice
+- Practice! Solving the same type of problem over time allows you to experiment with different approaches
 - Ask for feedback from your peers or mentors (or AI)
-- Refactor & clean-up your own code once it's working
+- Refactor and clean up your own code once it's working. Can you find ways to make it simpler, cleaner, more reliable or efficient?
 - Study common coding techniques. What are people in the industry talking & writing about?
-  - Watch talks from conferences
+  - Watch online lessons and talks from conferences
   - Read blog posts
   - Follow developers on social media
 
@@ -56,10 +108,12 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
 
 ### How to build anything
 
-- [Follow the engineering design process](../images/engineering-design-process.jfif)
-- Break the problem down
-  - Google the components of the problem, and follow the process above
-  - Project management tools (Asana, Jira, Notion)
+- ![Follow the engineering design process](../images/engineering-design-process.jfif)
+- Break the problem down into smaller components
+  - Plan for each component of the problem, then follow the process above
+  - Writing and testing isolated code is a great way to solve these smaller, focused components
+  - Build a larger plan to connect the smaller pieces - this is software design
+  - Use a project management or task-tracking tool to keep track of your progress
 - Write ugly code, then clean it up once it works
   - Don't over-engineer it until it's working
 - Ask someone for help/advice!
@@ -70,39 +124,6 @@ Try [Refactoring](https://refactoring.guru/) your code for better organization a
   - Try a different approach or reduce your ambition this time around. You'll figure it out with persistence!
 - Build your toolkit as you find solutions
   - [Haxademic](https://github.com/cacheflowe/haxademic/) is one of mine
-
-## 🛠️ Graphics Effects & Algorithms
-
-- [Nature of Code](https://natureofcode.com/) by Daniel Shiffman
-- [p5js libraries](https://p5js.org/libraries/)
-- [List of visual algorithms](https://thatcreativecode.page/)
-- [List of graphics algorithms](https://github.com/cacheflowe/creative-coding-notes#graphics-concepts) @ Cacheflowe's Creative Coding Notes
-- [Post Processing As A Creative Medium](https://blog.maximeheckel.com/posts/post-processing-as-a-creative-medium/)
-  - [Postprocessing demo in PIXI.js](https://pixijs.io/filters/examples/)
-  - [Postprocessing demo in p5js](https://editor.p5js.org/cacheflowe/sketches/nnrNlvnFF)
-  - https://alexharri.com/blog/ascii-rendering
-
-## 🛠️ Math
-
-[Math in generative art](../images/code-is-not-math-tweet.png)
-
-- [Floating Point Math](https://0.30000000000000004.com/)
-- [Trigonometry (Making generative art with simple mathematics)](https://www.hailpixel.com/articles/generative-art-simple-mathematics)
-  - [Polar (circular) coordinates](https://editor.p5js.org/cacheflowe/sketches/22CiPOyiN)
-  - [Circular oscillation](https://editor.p5js.org/cacheflowe/sketches/QazkuY-bZ)
-  - [Divide an arc](https://editor.p5js.org/cacheflowe/sketches/_9FdBq40-)
-  - [Sketch: Drive a car](https://editor.p5js.org/cacheflowe/sketches/SSqX9j2X-)
-- [Vectors](https://p5js.org/reference/p5.Vector/sub/)
-  - Keep track of 2d/3d coordinates and do all of the math for you!
-- [Basic physics](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-  - [Introduction to Matter.js - The Nature of Code](https://www.youtube.com/watch?v=urR596FsU68)
-  - [Matter.js example](https://editor.p5js.org/mahdadbor/sketches/pSIth_A61)
-- [Collision detection](https://www.jeffreythompson.org/collision-detection/)
-- Raytracing / Raymarching
-- FFT
-  - [p5.js Coding Tutorial | Music Visualization with FFT](https://www.youtube.com/watch?v=8O5aCwdopLo)
-- [Coding Math](https://www.youtube.com/user/codingmath) video series by Keith Peters
-- ...and so much more
 
 ## 📝 Homework
 
@@ -149,4 +170,4 @@ Inspiration
 
 ## 📋 Review code
 
-- Present your animation loops
+- Present your looping animations
