@@ -4,8 +4,6 @@
 
 ![Debugging meme](../images/debugging.png)
 
-If you've got an AI coding assistant set up, it's a great addition to your debugging toolkit too. Let's keep in mind [Coding and learning with AI](../docs/learning-with-ai.md) - try to use AI as a learning tool to build your own debugging skills.
-
 ### Resources
 
 ![Extra bracket meme](../images/roses-are-red.jpg)
@@ -38,6 +36,9 @@ If you've got an AI coding assistant set up, it's a great addition to your debug
   * Has something changed that seemed insignificant at the time?
   * Do you have a fairly unique issue, and if so, how can we work around it?
 
+> An AI coding assistant is a great addition to your debugging toolkit. Let's keep in mind [Coding and learning with AI](../docs/learning-with-ai.md) - try to use AI as a learning tool to build our own debugging skills. AI can often explain your exact debugging situation very well, and this is incredibly helpful, but let's not rely on it exclusively; we should still strive to understand and solve problems independently.
+
+
 ### General debugging
 
 ![Typo/error meme](../images/typo-error.jpg)
@@ -47,7 +48,7 @@ If you've got an AI coding assistant set up, it's a great addition to your debug
   * For example, .js String functions make copies, rather than mutate the original value
 * `console.log()` / `println()`
   * Using multiple log calls can ensure that your code is executing, and in the expected order (See control flow below)
-* Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
+* Debuggers - live demo
 
 ### Graphical debugging
 
