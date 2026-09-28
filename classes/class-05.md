@@ -4,11 +4,11 @@
 
 ![Debugging meme](../images/debugging.png)
 
-If you've got an AI coding assistant set up, it's a great addition to your debugging toolkit too - but see [Coding and learning with AI](../docs/learning-with-ai.md) for how to lean on it without atrophying your own debugging skills.
+If you've got an AI coding assistant set up, it's a great addition to your debugging toolkit too. Let's keep in mind [Coding and learning with AI](../docs/learning-with-ai.md) - try to use AI as a learning tool to build your own debugging skills.
 
 ### Resources
 
-![Documentation meme](../images/rtfm-he-man.png)
+![Extra bracket meme](../images/roses-are-red.jpg)
 
 * [p5js Debugging article](https://p5js.org/tutorials/field-guide-to-debugging/)
 * [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
@@ -17,49 +17,66 @@ If you've got an AI coding assistant set up, it's a great addition to your debug
 
 ### What to do when something doesn't work
 
-![Extra bracket meme](../images/roses-are-red.jpg)
+![Documentation meme](../images/rtfm-he-man.png)
 
-* Does your IDE point out any syntax problems?
-* Is there an error message in the console?
-  * Is there a "[stack trace](https://en.wikipedia.org/wiki/Stack_trace)"?
-* Check your syntax
-* Check for typos
-* Can you make a more basic version of the code do something?
-* Double-check the documentation
-* Do some Googling - has someone else had this problem?
-* Get help from ChatGPT or Copilot
-* Take a step back - is something obvious being overlooked?
+* First steps:
+  * Does your IDE point out any syntax problems?
+  * Is there an error message in the console?
+    * Is there a [stack trace](https://en.wikipedia.org/wiki/Stack_trace)?
+  * Check your syntax
+  * Check for typos
   * Are we editing the right file?
   * Are we observing the right server (e.g., localhost vs production)?
+  * Is your code actually reloading?
+    * Try restarting your development environment or server and clearing any caches
+* Next steps:
+  * Double-check the documentation
+  * Do some Googling - has someone else had this problem?
+  * Can you make a more basic version of the code do something?
+  * Get help from AI 
+* Still not working? Take a step back - is something obvious being overlooked?
   * Has something changed that seemed insignificant at the time?
-  * Have you tried restarting your development environment or server and clearing any caches?
+  * Do you have a fairly unique issue, and if so, how can we work around it?
 
 ### General debugging
 
 ![Typo/error meme](../images/typo-error.jpg)
 
-* Reference errors (is your code pointing to the right thing?)
+* Reference errors (is your code operating to the right thing?)
+  * Pointing by reference vs value
+  * For example, .js String functions make copies, rather than mutate the original value
 * `console.log()` / `println()`
+  * Using multiple log calls can ensure that your code is executing, and in the expected order (See control flow below)
 * Debuggers - [live demo](http://localhost/haxademic.js/demo/#three-scene)
 
 ### Graphical debugging
 
 "Why aren't things drawing the way I expect them to?"
 
-* It's hard, because there as less-obvious ways to identify a problem
+* It's hard, because there as less-obvious ways to identify a problem. Even if you can log something, it might not explain visual artifacts. 
+  * There are very common issues with z-fighting, transparency, incorrect normals, and *lots* more that can make things look wrong, but without an obvious fix unless you've seen it before.
 * If something isn't displaying, can you make a simpler version?
 * Add a "debug view"
-  * In GLSL (shaders), there's no textual logging or output, so developers will draw various textures and stages of pixel operations to the screen to decipher what might be happening
+  * In GLSL (shaders), there's no textual logging or output, so developers will often draw various textures and stages of pixel operations to the screen to decipher what might be happening
+  * Draw values to the screen via text of charts, since logging to the console can be too dense to track
   * [#debugviewart](https://www.instagram.com/explore/tags/debugviewart/)
 
-## 🛠️ Software Design (How software works, and how to write better code)
+## 🛠️ Software Design
+
+How software works, and how to write better code 
 
 ![We thought it would be easy](../images/thought-it-would-be-easy.png)
 
+Software design decisions happen at micro and macro levels inside of a single codebase. Every chunk of code can potentially use a different style of organizational pattern, from individual functions and classes, to representation of data and state, to larger system architecture. 
+
+Knowing how a program executes helps you organize and structure your code as a reflection of how it should function. As you practice coding, your mental modeling will become more intuitive, but even senior engineers might take time to diagram and plan an approach before writing a single line of code. 
+
+On top of learning any specific language, software design concepts are universal. The larger the codebase, the more consequential your software design choices become.
+
 ### How does a program execute?
 
-- Entry point (main function)
 - [Compiling vs Interpreting](https://dev.to/robiulhr/is-javascript-compiled-or-interpreted-language-l20)
+- Entry point (main function)
 - Basic [control flow](https://en.wikipedia.org/wiki/Control_flow) tools:
   - Functions
   - Conditionals (branching logic)
@@ -67,9 +84,10 @@ If you've got an AI coding assistant set up, it's a great addition to your debug
   - [Control flow diagram](../images/control-flow.png)
 - Order of operations
   - In most languages, code executes serially by default. One operation needs to finish before the next starts.
-  - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity
+  - *Multithreading* breaks out of the predictable order of execution and allows for more optimal performance, but at a cost of complexity and new pitfalls
 
 ### General advice for cleaner, better code
+
 - Practice! Solving the same type of problem over time allows you to experiment with different approaches
 - Ask for feedback from your peers or mentors (or AI)
 - Refactor and clean up your own code once it's working. Can you find ways to make it simpler, cleaner, more reliable or efficient?
@@ -80,8 +98,14 @@ If you've got an AI coding assistant set up, it's a great addition to your debug
 
 ### Strategies
 
-Use [Design patterns](https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e)
-- It takes experience to know which might be best in a given situation, so start trying them out!
+> As your codebase grows, it becomes increasingly important to organize your code using these strategies. This is how we avoid unmanageable and messy "[spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)"
+
+![spaghetti code](../images/spaghetti-code.webp)
+
+Use [Design patterns](https://refactoring.guru/design-patterns)
+- It takes experience to know which might be best in a given situation, so start trying them out! Different parts of a program will benefit from different design patterns - they all work together, depending on the task at hand.
+- Your AI coding assistant will implement these concepts. Just like humans, AI can create a mess of spaghetti, or really overengineer things. To avoid a vibe-coded mess, discuss the design of your software and explore different options for different parts of the code
+- Applying design patterns to your code should make it more maintainable and modular, which will allow it to grown and evolve more seamlessly
 
 Look for opportunities to [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself) up your code
 - [Video: What is DRY code?](https://www.youtube.com/watch?v=HwTcjWtDAfc)
@@ -94,15 +118,24 @@ SOLID principles
 
 Defensive programming
 
-Try [Refactoring](https://refactoring.guru/) your code for better organization and code clarity
+Try [Refactoring](https://refactoring.guru/refactoring/what-is-refactoring) your code for better organization and code clarity. 
+
 - Readability (see below)
 - Comments
-- Indentation
+- Proper indentation
 - OOP (classes) - [Example sketch](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1)
-- Separate files
-- Build scripts
-- Package managers
-- es6 imports
+- Separate code into multiple files
+  - ex. es6 module imports in modern JavaScript
+- Use build scripts
+- Use package managers
+
+[When to refactor](https://refactoring.guru/refactoring/smells)?
+
+- Your functions or classes are doing too much at once
+- Your code has grown beyond several hundred lines of code
+- Spaghetti has happened
+- You don't even understand why your code works
+- Cleanup before sharing your work 
 
 ![Example of readability over brevity](../images/clarity-over-brevity.jpg)
 
@@ -162,12 +195,12 @@ Inspiration
 - [Frederik Vanhoutte](https://www.instagram.com/p/B9scpU8HgXY/)
 - [Dmitri Cherniak](https://www.instagram.com/p/CDzmKONnAlj/)
 - [Caleb Ogg](https://www.instagram.com/p/B_YjBSYnMn1/)
-- fxhash
-  - [KilledByAPixel](https://www.fxhash.xyz/u/KilledByAPixel)
-  - [flight404](https://www.fxhash.xyz/u/flight404)
-  - [toxi](https://www.fxhash.xyz/u/toxi)
-  - [https://www.fxhash.xyz/generative/slug/panta-rei](https://www.fxhash.xyz/generative/slug/panta-rei)
+- fxhash archive
+  - [KilledByAPixel](https://killedbyapixel.github.io/fxhashArchive/#/artist/tz1aFiCb7spiSAdkCYUwaFSLgr4qN9ceGn2b)
+  - [flight404](https://killedbyapixel.github.io/fxhashArchive/#/artist/tz1YysAQDjxqh9AkQnSabKEXeUu4DuNng1pm)
+  - [toxi](https://killedbyapixel.github.io/fxhashArchive/#/artist/tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf)
+  - [Panta Rei by Koboljka](https://killedbyapixel.github.io/fxhashArchive/#/token/panta-rei)
 
 ## 📋 Review code
 
-- Present your looping animations
+- Present your animations
