@@ -4,6 +4,8 @@
 
 ..or rather, you shouldn't!
 
+![Who is json?](../images/who-is-json.jpg)
+
 ## 🛠️ Data Structures
 
 Common structured data types:
@@ -32,37 +34,49 @@ Loading data payloads from external files or APIs
   * Text file
     * `loadStrings()` - [p5 example](https://p5js.org/reference/p5/loadStrings)
   * [CSV](https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/) (spreadsheet/tabular data)
-    * `loadTable()` - [p5 example](https://p5js.org/reference/p5/loadTable)
+    * `loadTable()` - [p5 example](https://p5js.org/reference/p5/loadTable/)
   * [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
     * [json validator](https://jsonlint.com/)
     * [json tools](https://formatjsononline.com/)
-    * `loadJSON()` - [p5 example](https://p5js.org/reference/p5/loadJSON)
+    * `loadJSON()` - [p5 example](https://p5js.org/reference/p5/loadJSON/)
   * [XML](https://www.sitepoint.com/really-good-introduction-xml/)
-    * `loadXML()` - [p5 example](https://p5js.org/reference/p5/loadXML)
+    * `loadXML()` - [p5 example](https://p5js.org/reference/p5/loadXML/)
+  
+![Who is json?](../images/backend-frontend-api.jpg)
 
 ## 🛠️ APIs
 
 * "[WTF is an API?](https://maggieappleton.com/api/)"
-* Load some data!
+* Generally, we think about APIs as a way to read and write data from web servers, and JSON is the most common data transmission format. [REST](https://www.redhat.com/en/topics/api/what-is-a-rest-api) APIs and CRUD (Create, Read, Update, and Delete) operations are common patterns for interacting with APIs.
   * `loadJSON()` [demo](https://editor.p5js.org/cacheflowe/sketches/aHrrTAQFw)
   * vanilla `fetch()` [demo](https://editor.p5js.org/cacheflowe/sketches/FTI18-cxJ)
-* Example of swapping an API:
-  * [q5.js](https://github.com/LingDong-/q5xjs)
+* But we can also think about the p5js framework's functions as an API - it's the instructions for how you use it. q5js is an example of swapping an API with a compatible alternative.
+  * [q5.js](https://q5js.org/)
   * [q5 Example](https://editor.p5js.org/cacheflowe/sketches/IRhjHom9p)
-* How does code talk to other code?
-  * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1) w/collision detection
+* Even within our own codebase, we can think of an API as the way different parts of our code communicate with each other
+  * [Example live-code](https://editor.p5js.org/cacheflowe/sketches/488Fdh1O1) w/collision detection on mouse position
+
+---
+![Database is like Excel sheets](../images/database-is-excel-sheets.webp)
 
 ## 🛠️ Databases
 
 * Databases are searchable data structures 
 * Relational & queryable databases allow for large sets of searchable data
-  * Pro: More powerful and reliable than a data file
+  * Pro: More powerful and reliable than a data **file**
   * Pro: Hosted in the cloud, a db can share data between users
+  * Pro: a db can handle many concurrent users and large volumes of data (think social media platforms)
   * Con: More difficult to set up and work with
-  * Some different types of databases: SQL, Mongo, GraphQL
+  * Some different types of databases: SQL, Mongo (NoSQL), GraphQL (API layer)
 * What's the best tool for the job?
-  * [Or which tool is most in fashion?](../images/databases-relational-or-not.png)
-* Data search [example](https://editor.p5js.org/cacheflowe/sketches/GOzYzYViFF)
+  * Different database frameworks, just like languages, have their strengths and weaknesses, and are preferred by developers in certain contexts or industries
+  * Just like languages, database tools experience shifts in popularity [over time](https://db-engines.com/en/ranking_trend)
+  * ![which database is most in fashion?](../images/databases-relational-or-not.png)
+* Data search [example](https://editor.p5js.org/cacheflowe/sketches/GOzYzYViFF) - this doesn't use a database, just a local data structure. But it demonstrates the basic principles of searching and filtering data that databases are really good at
+
+---
+
+![Data viz or modern art?](../images/data-viz-or-modern-art.jpg)
 
 ## 🛠️ Data Visualization
 
@@ -72,6 +86,7 @@ Loading data payloads from external files or APIs
   * [Art](https://www.youtube.com/watch?v=UxQDG6WQT5s)
 * Data sources
   * [awesome-json-datasets](https://github.com/jdorfman/awesome-json-datasets)
+    * you can append [.json to any subreddit url](https://www.reddit.com/r/science.json) (but this needs a proxy)
   * [public-apis](https://github.com/public-apis/public-apis)
   * [freepublicapis.com](https://www.freepublicapis.com/)
   * Topic-specific:
