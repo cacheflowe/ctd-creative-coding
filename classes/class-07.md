@@ -1,21 +1,21 @@
 # Class 7
 
-## 🛠️ Audio
+## 🎵 Audio
 
 🎤 **Case study**: [Interphase](https://cacheflowe.com/code/installation/interphase) - a deeper look at building an interactive music generator with physical lighting
 
-Justin's examples of different audio uses in creative code
+### Justin's audio projects
 
 * [Interphase](https://cacheflowe.com/code/installation/interphase)
   * [Interphase preview](https://cacheflowe.com/images/code/installation/cacheflowe-interphase-jenise-jensen-wave-8195.jpg)
   * Interactive music generator software w/physical lighting
-    * [New iterations](https://cacheflowe.com/code/lab/c-a-c-h-e)
+  * [New iterations](https://cacheflowe.com/code/lab/c-a-c-h-e)
 * [#dancelab](https://cacheflowe.com/code/installation/dancelab-dam) @ DAM
   * All choreography & computer-generated visuals were synced to the tempo of the music
 * [Bauhouse](https://cacheflowe.com/art/digital/bauhouse) 
   * Graphics respond to audio triggering (built w/Interphase music engine)
 * [Feetboxin](https://cacheflowe.com/code/lab/feetboxin)
-  * Piezo (impact) sensors send MIDI signals that trigger audio, but also are turn into DMX signals to trigger the lights
+  * Piezo (impact) sensors send MIDI signals that trigger audio and are converted into DMX signals that trigger the lights
 * [HaxVisual](https://cacheflowe.com/code/lab/haxvisual-audioreactive-vj-software)
   * Incoming audio signal is analysed and used to draw audio-reactive images
 * [Obsidian](https://cacheflowe.com/art/digital/obsidian)
@@ -23,79 +23,104 @@ Justin's examples of different audio uses in creative code
 * [Webcam sonification](https://www.instagram.com/p/CIytqIxljZG/)
   * Using pixel data to translate into a looping sound wave
 
-Samples vs. Synthesis
+### Other Artists Inspo
 
-* Samples
+* [All possible 8 step hihat rhythms](https://bsky.app/profile/piterpasma.nl/post/3luxjya5iyc2h)
+* [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
+* [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
+* [generative.fm](https://generative.fm/)
+* [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
+
+
+### Audio fundamentals
+
+#### Samples vs. synthesis
+
+* Sample playback
   * [p5.SoundFile](https://p5js.org/reference/p5.sound/p5.SoundFile/)
   * [Sample playback via button click](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
   * [Sound playback rate](https://editor.p5js.org/p5/sketches/Sound:_Manipulate_Sound)
-* Synthesis
+* Sound synthesis
   * [p5.Oscillator](https://p5js.org/reference/p5.sound/p5.Oscillator/)
   * [Oscillator Frequency](https://editor.p5js.org/p5/sketches/Sound:_Oscillator_Waveform)
   * [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
 
-Making music
+#### Making music
 
-* Basic building blocks
-  * Data & timing to create "[sequencer](https://step-sequencer.afuh.dev/)" patterns ([author info](https://afuh.dev/step-sequencer/))
-  * Notes, chords & scales
-    * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
-  * [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
-  * [Generative Music AI Course](https://www.youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D) - YouTube series
-  * Changing parameters over time
-* Tools
-  * [WebAudio](https://webaudioapi.com/samples/)
-    * [Tone.js](https://tonejs.github.io/examples/)
-    * [WebAudio Weekly](https://www.webaudioweekly.com/)
-  * [WebMIDI](https://www.onlinemusictools.com/webmiditest/)
-    * [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
-    * [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
-* Examples
-  * [All possible 8 step hihat rhythms](https://bsky.app/profile/piterpasma.nl/post/3luxjya5iyc2h)
-  * [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
-  * [Blob Opera](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw)
-  * [generative.fm](https://generative.fm/)
-  * [Felix Turner](https://twitter.com/felixturner/status/1569821623133556737)
-* More examples of web-based music tools
-  * [DrumBot](https://twitter.com/notwaldorf/status/1201599495244537858)
-  * [ZzFX](https://github.com/KilledByAPixel/ZzFX)
-  * [meSing.js](http://usdivad.com/mesing/)
-  * [Beet.js](http://zya.github.io/beet.js/)
-  * [Blip.js](http://jshanley.github.io/blip/)
-  * [Zupiter](https://pointersgonewild.com/2019/10/06/zupiter-a-web-based-modular-synthesizer/)
-  * [PatternSketch](https://patternsketch.com/)
+* Data & timing to create [sequencer](https://step-sequencer.afuh.dev/) patterns ([author info](https://afuh.dev/step-sequencer/))
+* Notes, chords & scales
+  * [Scales](https://editor.p5js.org/p5/sketches/Hello_P5:_song) & [frequencies](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/)
+* [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) - interactive tutorial in p5js
+* [Generative Music AI Course](https://www.youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D) - YouTube series
+* Changing parameters over time
 
+### Browser-based audio tools
 
-Audio input
+#### Web Audio
+
+Libraries
+
+* [p5.sound](https://p5js.org/reference/p5.sound/)
+* [Tone.js](https://tonejs.github.io/examples/)
+* [Howler.js](https://howlerjs.com/)
+
+Docs & lists
+
+* [WebAudio](https://webaudioapi.com/samples/)
+* [WebAudio Weekly](https://www.webaudioweekly.com/)
+* [Awesome WebAudio](https://github.com/notthetup/awesome-webaudio)
+
+#### Web MIDI
+
+* [WebMIDI test](https://www.onlinemusictools.com/webmiditest/)
+* [Justin's example MIDI sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
+* [Justin's example MIDI sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
+
+#### Audio input and analysis
 
 * [FFT analysis](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum) from microphone input
 * [Amplitude analysis](https://editor.p5js.org/p5/sketches/Sound:_Amplitude_Analysis) from sound file
-* [More demos](https://therewasaguy.github.io/p5-music-viz/)
-  * Specific example: [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
+* [p5.js music visualization demos](https://therewasaguy.github.io/p5-music-viz/)
+  * [Realtime pitch detection](https://therewasaguy.github.io/p5-music-viz/demos/06c_autoCorrelation_PitchTrack/)
 
-Other tools for creating music with code
+#### Browser-based music experiments and libraries
 
-* Live coding
-  * [Sonic PI](http://sonic-pi.net/)
-  * [TidalCycles](https://tidalcycles.org/)
-    * [Strudel](https://strudel.cc/workshop/getting-started/) (web-based TidalCycles environment)
-  * [ORCA](https://github.com/hundredrabbits/Orca)
-  * [ChucK](http://chuck.cs.princeton.edu/)
-  * [Gibber](https://gibber.cc/)
-  * [Overtone](http://overtone.github.io/)
-  * [Alda](https://alda.io/)
-  * [Extempore](https://extemporelang.github.io/)
-  * [EarSketch](http://earsketch.gatech.edu/landing/)
+* [Noisecraft](https://pointersgonewild.com/2021/12/05/noisecraft-a-browser-based-visual-programming-language-for-sound-music/)
+* [DrumBot](https://magenta.tensorflow.org/drumbot)
+* [ZzFX](https://zzfx.3d2k.com/)
+* [meSing.js](http://usdivad.com/mesing/)
+* [Beet.js](http://zya.github.io/beet.js/)
+* [Blip.js](http://jshanley.github.io/blip/)
+* [PatternSketch](https://patternsketch.com/)
+
+### Tools beyond the browser
+
+Live coding & [algorave](https://blog.toplap.org/about/) tools
+
+* [Sonic Pi](https://sonic-pi.net/)
+* [TidalCycles](https://tidalcycles.org/)
+* [ORCA](https://github.com/hundredrabbits/Orca)
+* [ChucK](http://chuck.cs.princeton.edu/) ([web IDE](https://chuck.cs.princeton.edu/ide/))
+* [Overtone](http://overtone.github.io/)
+* [Alda](https://alda.io/)
+* [Extempore](https://extemporelang.github.io/)
+* [EarSketch](http://earsketch.gatech.edu/landing/)
+* [Gibber](https://gibber.cc/)
+
+Music Frameworks
+
 * [Max](https://cycling74.com/products/max/)
-* [Supercollider](http://supercollider.github.io/)
-* [Aubio](https://aubio.org/)
-* [Sound eXchange](http://sox.sourceforge.net/) (cli conversion tool, like ffmpeg but for audio files)
 * [JUCE](https://juce.com/)
+* [Supercollider](http://supercollider.github.io/)
 * [VCV Rack](https://vcvrack.com/Prototype) ([+ plugin docs](https://vcvrack.com/manual/PluginDevelopmentTutorial))
 * [Ableton Live Connection Kit](https://www.ableton.com/en/packs/connection-kit/)
 
+CLI tools
 
-## 📝 Homework:
+* [Aubio](https://aubio.org/)
+* [Sound eXchange](http://sox.sourceforge.net/)
+
+## 📝 Homework
 
 Read:
 
@@ -112,12 +137,12 @@ Read:
 
 Watch & listen:
 
+* [Brian Eno: Behind The Reflection](https://youtu.be/cv7epY75Wa0?si=HUu00BO5t8WFWpUA&t=812)
 * [Making Music with CODE?! (With DJ_Dave and Sam Aaron)](https://www.youtube.com/watch?v=vuSZQnkOB_Y)
 * Tutorials
-  * "The Code Creative" [Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
-  * [Luisa Pereira's classes](https://www.luisapereira.net/teaching/)
+  * [The Code Creative - Web Audio API video tutorials](https://www.youtube.com/playlist?list=PLMPgoZdlPumc_llMSynz5BqT8dTwr5sZ2)
 * Conceptual interviews
-  * [Computer Music (Synthesizers, Synclavier) News Report w/Stanley Jordan (1986)](https://www.youtube.com/watch?v=duMStO826W0)
+  * [Computer Music (Synthesizers, Synclavier) News Report w/Stanley Jordan (1986)](https://www.youtube.com/watch?v=Xk7OcYsvR3U&t=460)
   * [George E. Lewis: Why Do We Want Our Computers to Improvise?](https://www.youtube.com/watch?v=wDP8FsjyCaA)
   * [Autechre: Sign review – electronic masters soar and fall in negative space](https://www.theguardian.com/music/2020/oct/16/autechre-sign-review-warp)
     * [Autechre Worked in Isolation for Decades. Now It's Unintentionally Timely.](https://www.nytimes.com/2020/10/13/arts/music/autechre-sign-interview.html)

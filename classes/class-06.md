@@ -11,7 +11,7 @@
 Common structured data types:
 
 * [Arrays](https://www.youtube.com/watch?v=VIQoUghHSxU)
-  * Indexed values (0, 1, 2, 3...)
+  * Indexed values [0, 1, 2, 3...]
   * Various ways of looping through arrays
     * `for` loop
     * `for...of` loop
@@ -107,7 +107,7 @@ Loading data payloads from external files or APIs
     * https://github.com/antvis/G2
     * https://plotly.com/javascript/
 
-## 📝 Homework:
+## 📝 Homework
 
 Watch:
 
