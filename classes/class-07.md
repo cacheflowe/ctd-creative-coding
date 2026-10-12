@@ -120,6 +120,10 @@ CLI tools
 * [Aubio](https://aubio.org/)
 * [Sound eXchange](http://sox.sourceforge.net/)
 
+## 🤖 Professional AI-Assisted Coding Setup
+
+See: [https://github.com/cacheflowe/agentic-p5js](https://github.com/cacheflowe/agentic-p5js)
+
 ## 📝 Homework
 
 Read:

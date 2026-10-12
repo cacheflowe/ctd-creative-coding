@@ -56,7 +56,6 @@ This course explores creative uses of software development while introducing fou
 
 * Strings
 * Typography
-* Graphics effects & algorithms
 * Math
 * Animation (looping animations)
 
@@ -75,12 +74,11 @@ This course explores creative uses of software development while introducing fou
 ### [Class 07](./classes/class-07.md) - Oct 12
 
 * Audio
-* Programming languages
-* IDEs
-* Professional AI coding setup
+* Professional AI-assisted coding setup
 
 ### [Class 08](./classes/class-08.md) - Oct 19
 
+* Graphics effects & algorithms
 * Shaders
 
 ### [Class 09](./classes/class-09.md) - Oct 26
