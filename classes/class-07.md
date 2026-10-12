@@ -97,6 +97,7 @@ Docs & lists
 
 Live coding & [algorave](https://blog.toplap.org/about/) tools
 
+* [Strudel](https://strudel.cc/)
 * [Sonic Pi](https://sonic-pi.net/)
 * [TidalCycles](https://tidalcycles.org/)
 * [ORCA](https://github.com/hundredrabbits/Orca)
