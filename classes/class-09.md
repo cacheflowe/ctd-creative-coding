@@ -1,25 +1,6 @@
 # Class 9
 
-## 🛠️ 3D Graphics
-
-The Graphics pipeline
-
-* [How do Video Game Graphics Work?](https://www.youtube.com/watch?v=C8YtdC8mxTU)
-* [Projection (3D)](https://jsantell.com/3d-projection)
-* [WebGL Guide](https://xem.github.io/articles/webgl-guide.html)
-* [Learn OpenGL](https://learnopengl.com/)
-
-Basic layout & 3d thinking
-
-* We're using an abstracted tool... It's just a 3rd coordinate ;)
-* Live demos
-  * [for() loops 3D](https://editor.p5js.org/cacheflowe/sketches/1S7L5IqjO)
-  * [3d shapes basic](https://editor.p5js.org/cacheflowe/sketches/6jSCgZm0L)
-  * [3d textured sphere w/light](https://editor.p5js.org/cacheflowe/sketches/LJJZUnd9_)
-  * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
-  * [Disable depth test](https://editor.p5js.org/cacheflowe/sketches/SW763JUky)
-
-## CPU vs GPU
+## 🖥️ CPU vs GPU
 
 * What tasks are handled on each?
   * Shader code and pixel display operations are handled on the GPU
@@ -30,82 +11,114 @@ Basic layout & 3d thinking
     * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
   * Textures & texture operations
     * Loading an image file is almost always faster than drawing vector data
-  * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
+  * Cached (retained) Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/) vs immediate mode geometry (creating geometry on the fly each frame)
   * ![Drawing the pixels to the screen](../images/webgl-rendering.png)
 * [cpu.land](https://cpu.land/)
 * [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
 
-## 🛠️ Computer vision
+## 🛠️ Shaders
 
-* [@ Wikipedia](https://en.wikipedia.org/wiki/Computer_vision)
-* p5js CV examples
-  * https://github.com/kylemcdonald/cv-examples (need to change p5js version number)
-* Processing OpenCV [library](https://github.com/atduskgreg/opencv-processing) - older classic CV algorithms
-* Basic, [custom CV](https://cacheflowe.com/code/lab/webcam-experiments)
-* Interesting cameras:
-  * Depth ([Kinect](https://www.orbbec.com/products/tof-camera/femto-mega/) / [Realsense](https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html))
-  * [High framerate](https://www.edgertronic.com/)
-  * [Thermal](https://groupgets.com/manufacturers/getlab/products/purethermal-2-flir-lepton-smart-i-o-module)
-  * [Infrared](https://www.amazon.com/SVPRO-Outdoor-Waterproof-Surveillance-Android/dp/B07C2RL8PB/) (night vision)
+🎤 **Case study**: H&M + Jordan projects - shaders in a real client pipeline
 
-## 🛠️ Computer vision in p5js
+* [Justin's GLSL overview article](https://github.com/cacheflowe/haxademic/blob/master/guides/shaders-intro.md)
+* [Justin's PShader tutorial & examples](https://github.com/cacheflowe/pshader-examples)
+* [NVIDIA: Adam and Jamie Paint the Mona Lisa in 80 Milliseconds](https://www.youtube.com/watch?v=WmW6SD-EHVY)
+* [Shaders visual explanation](https://typefully.com/DanHollick/shaders-gpnhhud) by [@DanHollick](https://twitter.com/DanHollick/status/1603370500306018304)
+https://www.mayerowitz.io/blog/a-journey-into-shaders
 
-* [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
-* [MediaPipe multi-mode tracker](https://editor.p5js.org/orrkislev/sketches/wwLqrnVDt) - [original](https://editor.p5js.org/golan/sketches/0yyu6uEwM)
-* ml5 [examples](https://editor.p5js.org/ml5/sketches)
-  * [handPose-parts](https://editor.p5js.org/ml5/sketches/DNbSiIYKB)
-  * [handPose-keypoints](https://editor.p5js.org/ml5/sketches/QGH3dwJ1A)
-    * [More info](https://github.com/tensorflow/tfjs-models/blob/master/hand-pose-detection/README.md#keypoint-diagram)
-  * [MediaPipe hand tracker](https://editor.p5js.org/lingdong/sketches/1viPqbRMv)
-  * [faceMesh-shapes-from-parts](https://editor.p5js.org/ml5/sketches/6qj0M3ElM)
-  * [faceMesh-parts-bounding-box](https://editor.p5js.org/ml5/sketches/F9jRILxn2)
-  * [faceMesh-keypoints-from-parts](https://editor.p5js.org/ml5/sketches/EjynWxazD4)
-  * [faceMesh-bounding-box](https://editor.p5js.org/ml5/sketches/fMCIspRD7_)
-  * [bodySegmentation-select-body-parts](https://editor.p5js.org/ml5/sketches/R5rug0HKk)
-  * [bodyPose-skeleton](https://editor.p5js.org/ml5/sketches/hMN9GdrO3)
-  * [ml5.js PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
-  * [ml5.js BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
-  <!-- * [ml5.js + p5play game](https://editor.p5js.org/StevesMakerspace/sketches/RLGFfn2pt) -->
-* [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
-* [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
+### What can they do?
 
-## 📝 Homework:
+* Fragment shaders
+  * [Dynamic texturing & lighting](https://threejs.org/examples/#webgl_materials_bumpmap) of polygons
+  * [Postprocessing effects](https://filters.pixijs.download/main/demo/index.html)
+  * [Compositing](https://filters.pixijs.download/main/demo/index.html)
+  * [Generative textures](https://www.shadertoy.com/view/XtyXzw)
+    * [Raymarching](https://www.shadertoy.com/view/Xds3zN)!
+* Vertex shaders
+  * Create & [manipulate geometry](https://www.instagram.com/p/CfHwxRGlpod/)
+
+## How to start
+
+Interactive tutorials
+
+* [Book of Shaders](http://thebookofshaders.com/) (+ [Editor](http://editor.thebookofshaders.com/))
+* [Fragment Foundry](http://hughsk.io/fragment-foundry/)
+
+Online editors
+
+* [Shadertoy](http://shadertoy.com)
+* [Shader Park](https://shaderpark.com/)
+* [ComputeToys](https://compute.toys/)
+
+Graham's shader blog posts
+
+* [Introduction to Shaders in P5](https://graha.ms/posts/blog/2022-11-01-introduction-to-shaders-in-p5/)
+* [Using p5 shaders for post processing](https://graha.ms/posts/blog/2022-11-10-using-p5-shaders-for-post-processing/)
+
+p5js
+
+* Documentation
+  * [p5js shader reference](https://p5js.org/reference/p5/shader/)
+  * [p5js Introduction to Shaders](https://p5js.org/tutorials/intro-to-shaders/)
+  * [p5js createFilterShader()](https://p5js.org/reference/p5/createFilterShader/) (New as of p5js 1.8)
+  * [p5.strands: Writing shaders in JavaScript](https://www.davepagurek.com/blog/writing-shaders-in-js/) (New as of p5js 2.0)
+* [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
+* Justin's p5js examples
+  * [Basic generative starter](https://editor.p5js.org/cacheflowe/sketches/ha6wfUQHS)
+  * [Basic generative shader](https://editor.p5js.org/cacheflowe/sketches/ml0ubsQhB)
+  * [Basic post-processing shader effect](https://editor.p5js.org/cacheflowe/sketches/K8LFvt_D2)
+  * [Feedback effect without a shader](https://editor.p5js.org/cacheflowe/sketches/RMfzMUdhc)
+  * [Feedback effect with a shader](https://editor.p5js.org/cacheflowe/sketches/TKFuqnxVE)
+  * [Fancier feedback effect](https://editor.p5js.org/cacheflowe/sketches/8aCDXu1cU)
+  * [Earth in space](https://editor.p5js.org/cacheflowe/sketches/fx_4KVPV1)
+  * [GPGPU particles](https://editor.p5js.org/cacheflowe/sketches/qOrYNxUU2)
+* [Lygia](https://lygia.xyz/)
+  * https://editor.p5js.org/patriciogonzalezvivo/sketches/hwBn0i0qw
+  * [w/p5js](https://editor.p5js.org/patriciogonzalezvivo/sketches)
+
+## Further topics
+
+[Matrices](https://vitaminac.github.io/Matrices-in-Computer-Graphics/)
+
+- [Convolution](https://www.taylorpetrick.com/blog/post/convolution-part1)
+- [Interactive image kernels](https://setosa.io/ev/image-kernels/)
+- [What is a convolution? What is a "Gaussian Kernel"?](https://twitter.com/3blue1brown/status/1303489896519139328) - [Full lesson](https://youtu.be/KuXjwB4LzSA?si=SkcbUjixgL-OfDAx&t=619)
+
+More reading
+
+* [A Beginner's Guide to Coding Graphics Shaders](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
+* [A Journey Into Shaders](https://www.mayerowitz.io/blog/a-journey-into-shaders)
+* [An introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY)
+* [Shader Tutorials By XorDev](https://mini.gmshaders.com/)
+* [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
+
+## 📝 Homework
 
 Read:
 
-* The WebGL & OpenGL articles above
+* [What is a particle system?](http://natureofcode.com/book/chapter-4-particle-systems/)
+* [Signed Distance Field Resources](https://github.com/CedricGuillemet/SDF)
+* [A trip through the Graphics Pipeline](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
+* [Casual Introduction to Low-Level Graphics Programming](http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming)
+* [Computational complexity of GPGPU](https://thume.ca/2023/01/02/one-machine-twitter/)
 
 Watch:
 
-* [Best Of Demoscene 2020 (Playlist)](https://www.youtube.com/watch?v=zWqfX9J9BXI&list=PL9HVvEQXdWVb22aDO98yTbhqE8zy9XaDE)
-* [SIGGRAPH 2020: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=jYdMKdRUq_8)
-* [SIGGRAPH 2019: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=EhDr3Rs5fTU)
-* [SIGGRAPH 2018 Asia: Technical Papers Preview Trailer](https://www.youtube.com/watch?v=wdKpXvF_3AU)
+* [Shader Coding Introduction](https://www.youtube.com/watch?v=3mfvZ-mdtZQ&list=PLGmrMu-IwbguU_nY2egTFmlg691DN7uE5&index=1)
+* [An introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY)
+* [Shaders and Textures with p5.js and WebGL](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_)
+* [Edan Kwan - Building Engaging WebGL Experiences](https://www.youtube.com/watch?v=lg8vukwgpo8)
 
-Listen to an episode from either podcast:
+**Choose your own adventure:**
 
-* [Tech+Art](https://podcasts.apple.com/ca/podcast/tech-art/id1480019037) Podcast
-* [That's So New Media!?](https://open.spotify.com/show/7MXw99WToC4MbZHwAlaFzB?si=UggW_cRMTwmZKVWeVAfsjw&nd=1)
+- Build something with a shader
+- Use a webcam
+- Try a machine-learning tool
+- Expand on a past week's project
+- Try a new technology
+- Start planning your final project (bring something to show next week)
 
-**Build something with 3D graphics or computer vision**
-
-* 3D Graphics ideas
-  * Start with WEBGL mode in p5js
-    * This moves the coordinate system to the center of the screen
-  * Use ox(), sphere() and other 3d primitive functions to create shapes
-    * p5js has additional 3d shapes like 	orus()
-* 3D Stretch goals
-  * Create your own 3d geometry with eginShape(), ertex(), and ndShape()
-  * Apply a texture to your geometry
-  * Load a 3d model with loadModel()
-  * Use a shader to create a custom material for your 3d geometry
-* Computer Vision resources
-  * [Video Capture example](https://p5js.org/examples/imported-media-video-capture/)
-  * [ml5.js image classification](https://www.youtube.com/watch?v=pbjR20eTLVs)
-    * From: [Beginners Guide to Machine Learning in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
-  * Processing: [Shiffman: Capture and Live Video](https://www.youtube.com/watch?v=WH31daSj4nc)
-  * Processing: [Introduction to Webcam Effects with Processing](https://www.youtube.com/watch?v=6pGEk2dQnss)
 
 ## 📋 Review code
 
-* Present your shader sketches
+* Present your 3d sketches

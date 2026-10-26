@@ -30,22 +30,6 @@ Basic layout & 3d thinking
   * [Graphics & textured cube](https://editor.p5js.org/cacheflowe/sketches/T2VXcVI2A)
   * [Disable depth test](https://editor.p5js.org/cacheflowe/sketches/SW763JUky)
 
-## 🖥️ CPU vs GPU
-
-* What tasks are handled on each?
-  * Shader code and pixel display operations are handled on the GPU
-  * Most of the code that you write is on the CPU, unless you're writing shaders or OpenGL code
-    * Under the hood of p5js & Processing, there's a ton of OpenGL/WebGL code, so know how this stuff works is helpful to know what your performance bottlenecks might be
-* What's optimized on the GPU
-  * It depends on the platform and tools
-    * For example, certain parts of web browser rendering happen on the GPU, but differs per browser
-  * Textures & texture operations
-    * Loading an image file is almost always faster than drawing vector data
-  * Cached Geometry with [p5.Geometry](https://p5js.org/reference/p5/p5.Geometry/) and [buildGeometry()](https://p5js.org/reference/p5/buildGeometry/)
-  * ![Drawing the pixels to the screen](../images/webgl-rendering.png)
-* [cpu.land](https://cpu.land/)
-* [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
-
 ## 📝 Homework
 
 Read:
