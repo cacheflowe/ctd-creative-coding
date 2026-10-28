@@ -59,7 +59,7 @@ p5js
 
 * Documentation
   * [p5js shader reference](https://p5js.org/reference/p5/shader/)
-  * [p5js Introduction to Shaders](https://p5js.org/tutorials/intro-to-shaders/)
+  * [p5js Introduction to Shaders](https://p5js.org/tutorials/intro-to-p5-strands/)
   * [p5js createFilterShader()](https://p5js.org/reference/p5/createFilterShader/) (New as of p5js 1.8)
   * [p5.strands: Writing shaders in JavaScript](https://www.davepagurek.com/blog/writing-shaders-in-js/) (New as of p5js 2.0)
 * [p5js examples](https://github.com/aferriss/p5jsShaderExamples)
