@@ -79,23 +79,24 @@ This course explores creative uses of software development while introducing fou
 ### [Class 08](./classes/class-08.md) - Oct 19
 
 * Graphics effects & algorithms
-* Shaders
+* 3D graphics
 
 ### [Class 09](./classes/class-09.md) - Oct 26
 
-* 3D graphics
 * CPU vs GPU
-* Computer vision
+* Shaders
 
 ### [Class 10](./classes/class-10.md) - Nov 2
 
 * Final projects
-* Machine learning
+* Web Browsers
+* Command line & Node.js
+* Computer vision in p5js
 
 ### [Class 11](./classes/class-11.md) - Nov 9
 
-* Web Browsers
-* Command line & Node.js
+* Machine learning
+* Computer vision
 
 ### [Class 12](./classes/class-12.md) - Nov 16
 
