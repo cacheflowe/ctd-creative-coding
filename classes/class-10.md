@@ -17,11 +17,12 @@ Deliverables:
   * A live version of your code running on a website
   * A .zip file with the code that can be run locally
   * A video recap of the code in action
-  * A live performance??
+  * A site-specific installation
+  * A live performance
 * Documentation:
   * Screenshots and/or video screen recordings that show off the output and program features
   * A description of the piece (and title if applicable). At least 1 paragraph about what you've created, what you learned, tools, techniques, and anything else that makes your project interesting. Tell a story.
-  * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube/Vimeo, or otherwise.
+  * Documentation should ideally go into your portfolio or exist on the web somewhere. You host it on your own website, the p5js editor, YouTube, or otherwise.
 
 ## 🛠️ Web Browsers
 
@@ -54,9 +55,9 @@ SVG
 CSS
 
 * [Enhancing User Experience With CSS Animations](https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/)
-* [CSS Doodle](https://css-doodle.com/) by [@yuanchuan](https://yuanchuan.dev/)
-* [Ana Tudor](https://codepen.io/thebabydino)
-* Drawing with [A Single Div](https://a.singlediv.com/)
+* [CSS Doodle](https://css-doodle.com/) by [@yuanchuan](https://yuanchuan.dev/) - a tool for creating generative art with CSS
+* Artist highlight: [Ana Tudor](https://codepen.io/thebabydino)
+* Drawing with [A Single Div](https://a.singlediv.com/) highlights a unique approach to drawing in the browser
 
 Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check [caniuse.com](https://caniuse.com/))
 
@@ -72,6 +73,9 @@ Interesting Web [APIs](https://developer.mozilla.org/en-US/docs/Web/API) (check 
 * [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API) (Game controller devices)
 * [Web Serial API](https://codelabs.developers.google.com/codelabs/web-serial/) (Serial devices like Arduino/Teensy)
 * [WebCodecs API](https://cacheflowe.github.io/media-converter/) (Low-level media encoding/decoding)
+* [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) (Speech recognition and synthesis)
+  * [Speech recognition color changer demo](https://mdn.github.io/dom-examples/web-speech-api/speech-color-changer/) (Chrome only)
+  * [Speech synthesis demo](https://mdn.github.io/dom-examples/web-speech-api/speak-easy-synthesis/)
 * [Geolocation API](https://developers.google.com/web/fundamentals/native-hardware/user-location) (GPS)
 * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/) (Connect to Bluetooth devices)
 
@@ -99,9 +103,6 @@ Web-based creative tools & libraries:
   * [Hydra](https://github.com/ojack/hydra)
   * [Hedron](https://github.com/nudibranchrecords/hedron)
 * Audio (see [previous class](./class-07.md) for a list)
-* Voice-recognition
-  * [Web Speech API demo](https://mdn.github.io/dom-examples/web-speech-api/speech-color-changer/) (Chrome only)
-  * And [speech-to-text](https://mdn.github.io/dom-examples/web-speech-api/speak-easy-synthesis/)
 * Face & body trackers
   * Modern frameworks
     * [MediaPipe](https://google-ai-edge.github.io/mediapipe-samples-web/#/home)
@@ -115,6 +116,21 @@ Web-based creative tools & libraries:
     * [MoveNet](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html)
     * [BlazePose (3d)](https://blog.tensorflow.org/2021/08/3d-pose-detection-with-mediapipe-blazepose-ghum-tfjs.html)
       * [KalidoFace 3D](https://3d.kalidoface.com/)
+  * More ml5 [examples](https://editor.p5js.org/ml5/sketches)
+    * [handPose-parts](https://editor.p5js.org/ml5/sketches/DNbSiIYKB)
+    * [handPose-keypoints](https://editor.p5js.org/ml5/sketches/QGH3dwJ1A) ([keypoint diagram](https://github.com/tensorflow/tfjs-models/blob/master/hand-pose-detection/README.md#keypoint-diagram))
+    * [faceMesh-shapes-from-parts](https://editor.p5js.org/ml5/sketches/6qj0M3ElM)
+    * [faceMesh-parts-bounding-box](https://editor.p5js.org/ml5/sketches/F9jRILxn2)
+    * [faceMesh-keypoints-from-parts](https://editor.p5js.org/ml5/sketches/EjynWxazD4)
+    * [faceMesh-bounding-box](https://editor.p5js.org/ml5/sketches/fMCIspRD7_)
+    * [bodyPose-skeleton](https://editor.p5js.org/ml5/sketches/hMN9GdrO3)
+    * [PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
+    * [bodySegmentation-select-body-parts](https://editor.p5js.org/ml5/sketches/R5rug0HKk)
+    * [BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
+* More Computer Vision & Machine Learning
+  * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
+  * [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
+  * [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
 * Fonts
   * [opentype.js](https://opentype.js.org/)
 * Augmented/Mixed/Virtual Reality
@@ -136,12 +152,12 @@ Web-based creative tools & libraries:
 
 Articles & resources for Javascript and web development
 
-* [Console tutorial](https://creative-coding.decontextualize.com/browser-console/)
-* https://wesbos.com/javascript/
-* https://htmlforpeople.com/
-* https://github.com/leonardomso/33-js-concepts
-* https://alan.norbauer.com/articles/browser-debugging-tricks
-* https://www.trevorlasn.com/blog/javascript-logical-operators
+* [JavaScript in the browser console](https://creative-coding.decontextualize.com/browser-console/)
+* [Beginner JavaScript Notes & Reference](https://wesbos.com/javascript/) by Wes Bos
+* [HTML is for people](https://htmlforpeople.com/)
+* [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts)
+* [Browser debugging tricks](https://alan.norbauer.com/articles/browser-debugging-tricks)
+* [JavaScript logical operators](https://www.trevorlasn.com/blog/javascript-logical-operators)
 
 
 ## 🛠️ Command Line & Node.js
@@ -153,11 +169,8 @@ Articles & resources for Javascript and web development
   * Automation (batch-processing files, running scripts on a schedule)
   * Scripting your own tools
   * It's how most dev/build tooling (including `npm`, below) actually gets used
-* Vibe coding tools like Gemini CLI, GitHub Copilot, & Claude Code are also offered as terminal applications
+* Vibe coding tools like Claude are also offered as terminal applications
   * Speaking of which, when your local agent harness is searching your files, updating them, and committing your code, the harness is just calling tons of command-line commands under the hood
-
-🔍 *Further (setup details - useful when you actually need them, not required reading now)*
-
 * Shells: 
   * [Bash](https://www.gnu.org/software/bash/)/[zsh](http://zsh.sourceforge.net/) (Mac/Linux)
   * [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview)/ CMD(Windows)
@@ -204,26 +217,6 @@ Node Resources
 * [The Coding Train topics](https://thecodingtrain.com/tracks/lang/all/topic/node-js)
 
 ![The server is down](../images/server-is-down.png)
-
-## 🛠️ Computer vision in p5js
-
-* [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
-* ml5 [examples](https://editor.p5js.org/ml5/sketches)
-  * [handPose-parts](https://editor.p5js.org/ml5/sketches/DNbSiIYKB)
-  * [handPose-keypoints](https://editor.p5js.org/ml5/sketches/QGH3dwJ1A)
-    * [More info](https://github.com/tensorflow/tfjs-models/blob/master/hand-pose-detection/README.md#keypoint-diagram)
-  * [MediaPipe hand tracker](https://editor.p5js.org/lingdong/sketches/1viPqbRMv)
-  * [faceMesh-shapes-from-parts](https://editor.p5js.org/ml5/sketches/6qj0M3ElM)
-  * [faceMesh-parts-bounding-box](https://editor.p5js.org/ml5/sketches/F9jRILxn2)
-  * [faceMesh-keypoints-from-parts](https://editor.p5js.org/ml5/sketches/EjynWxazD4)
-  * [faceMesh-bounding-box](https://editor.p5js.org/ml5/sketches/fMCIspRD7_)
-  * [bodySegmentation-select-body-parts](https://editor.p5js.org/ml5/sketches/R5rug0HKk)
-  * [bodyPose-skeleton](https://editor.p5js.org/ml5/sketches/hMN9GdrO3)
-  * [ml5.js PoseNet skeleton example](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
-  * [ml5.js BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
-* [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
-* [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
-
 
 ## 📝 Homework
 
