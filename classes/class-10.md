@@ -128,9 +128,9 @@ Web-based creative tools & libraries:
     * [bodySegmentation-select-body-parts](https://editor.p5js.org/ml5/sketches/R5rug0HKk)
     * [BodyPix segmentation example](https://editor.p5js.org/cacheflowe/sketches/ezqWo10Ye)
 * More Computer Vision & Machine Learning
-  * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
   * [Teachable Machine](https://teachablemachine.withgoogle.com/) (code is downloadable)
   * [Frame differencing example](https://editor.p5js.org/cacheflowe/sketches/NfXQSVwNmG)
+  * [Mirrored webcam](https://editor.p5js.org/cacheflowe/sketches/zLpJ56Gi2) - (how to flip/mirror your webcam!)
 * Fonts
   * [opentype.js](https://opentype.js.org/)
 * Augmented/Mixed/Virtual Reality
