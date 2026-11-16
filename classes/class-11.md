@@ -45,6 +45,10 @@ See [Learning With AI](../docs/learning-with-ai.md#articles-and-resources) for s
     - [apfel](https://apfel.franzai.com/)
     - VRAM discussion
       - Applies to LLMs and any model that you run locally
+      - Computer hardware truly matters, and whenever possible, it's best to run ML models on the GPU, though some smaller models can reasonably be run on the CPU.
+        - **Windows/Linux w/NVIDIA GPUs** generally have good support for CUDA, which accelerates LLM inference and training.
+        - macOS can't support CUDA, which is important for a lot of ML models and frameworks, but now with CoreML and shared memory architecture, larger models can be loaded and run efficiently, but not at the speed of an NVIDIA GPU.
+        - PCs with a shared memory architecture similar to Mac are now available, like DGX Spark and AMD AI Max systems. This makes it possible to run larger models locally without being as constrained by VRAM, though performance may still lag behind dedicated NVIDIA GPUs.
   - Concepts
     - Tokens: The basic units of text that LLMs process.
     - Context window: The maximum number of tokens the model can consider at once.

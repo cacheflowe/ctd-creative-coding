@@ -1,125 +1,145 @@
 # Class 12
 
+## 📋 Faculty Course Questionnaire (FCQ)
+
+* 15 minutes at the beginning of class for students to complete their online FCQs
+* The purpose of the FCQ, how it's used in your course and department, and highlight its importance to you as an instructor.
+* Visit [https://colorado.campuslabs.com/eval-home/](https://colorado.campuslabs.com/eval-home/) using a phone, tablet or computer. They will need to authenticate using their campus user ID.
+
 ## 🛠️ Hardware
 
-See also: [Creative Coding Notes list](https://github.com/cacheflowe/creative-coding-notes#physical-computing)
+* Custom hardware *inputs* let us:
+  * Detect when a person touches an object
+  * Know when a basketball goes through a hoop
+  * Detect a door opening and closing
+* Custom hardware *outputs* let us:
+  * Light up a room
+  * Create haptic responses
+  * Print a custom takeaway
+  * And lots more!
 
-Some hardware needs special device drivers
+See: [Creative Coding Notes list](https://github.com/cacheflowe/creative-coding-notes#physical-computing)
 
-* There's not a simple messaging scheme (like Serial communication) that you can replicate without major reverse-engineering. for example:
+**Some hardware needs special device drivers**
+
+* In this case, there's not a simple messaging scheme (like Serial communication) that you can replicate without major reverse-engineering. for example:
   * Kinect / Realsense
-  * Leap Motion
 
-Some hardware uses electrical signals and basic data transmission
+**Some hardware uses electrical signals or common protocols for data transmission**
 
-* Arduino / Raspberry Pi sensors & output devices
+![](../images/rpi-vs-arduino.png)
+
+Raspberry Pi vs Arduino (computer vs microcontroller)
+
+* Raspberry Pi (and similar single-board computers) is a full-fledged computer that runs an operating system and more complex software. You have large storage possibility and can plug in a monitor, mouse, and keyboard. But it also has terminals for connecting sensors other small devices via GPIO pins. This is halfway between a microcontroller and a traditional computer.
+* Arduino/esp32 is typically used for direct hardware interfacing with sensors and actuators, running simple programs on a microcontroller. A microcontroller can live on its own as a self-contained device, but can also act as an extension to a computer, with custom inputs & outputs.
 
 
-## 🛠️ Integration & Networking
+## 🛠️ Hardware Protocols
 
-* Keyboard/mouse [HID](https://en.wikipedia.org/wiki/Human_interface_device) 
-  * [xkeys devices](https://xkeys.com/xkeys.html)
-  * [Arduino Leonardo](https://forum.arduino.cc/t/using-arduino-as-a-usb-hid/504918/7)
-* Webcams - `[UVC](https://en.wikipedia.org/wiki/USB_video_device_class)` means that a camera of video device can be seen as a webcam by your operating system
-* [MIDI](http://en.wikipedia.org/wiki/MIDI)
-* Network protocols
-  * [HTTP](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)
-  * [WebRTC](https://webrtc.github.io/samples/)
-  * [WebSocket](http://en.wikipedia.org/wiki/WebSocket)
-  * [OSC](http://en.wikipedia.org/wiki/Open_Sound_Control)
-    * [osculator](https://osculator.net/)
-  * [MQTT](https://en.wikipedia.org/wiki/MQTT)
-  * [ZeroMQ](http://zeromq.org)
-  * [UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
-* Serial I/O - This is how we talk to custom sensors via Arduino (or other PCB boards)
-  * Example: [Epic React: Instant Go](https://cacheflowe.com/code/installation/epic-react-instant-go) treadmill
-  * Example: [30 Years of Air](https://cacheflowe.com/code/installation/30-years-of-air) - sensor & motors
-* Wireless protocols
-  * [Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API) (can be hard to work with)
-  * [RFID](https://www.instructables.com/Arduino-Wiring-and-Programming-of-RFID-Sensor/)
-    * [NFC](https://en.wikipedia.org/wiki/Near-field_communication)
-  * [IR](https://roboticsbackend.com/arduino-ir-remote-controller-tutorial-setup-and-map-buttons/)
-  * [Zigbee](https://docs.arduino.cc/retired/getting-started-guides/ArduinoWirelessShieldS2/)
-* Lighting protocols
-  * [ArtNet](https://en.wikipedia.org/wiki/Art-Net) ([Addressable LEDs](https://cacheflowe.com/code/lab/artnet-+-processing))
-  * [DMX](https://en.wikipedia.org/wiki/DMX512) ([Example: Zoom simulation](https://cacheflowe.com/code/installation/zoom-centrifuge))
-  * [sACN](https://www.lightjams.com/sacn.html)
-  * [WLED](https://kno.wled.ge/)
-* Shared textures between apps
-  * [Spout](http://spout.zeal.co/)
-  * [Syphon](http://www.syphon.v002.info/)
-* Video streaming
-  * [RTP](https://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
-  * [NDI](https://www.ndi.tv/)
-  * [WebRTC](https://webrtc.org/)
+**Common protocols**
 
-You can use these protocols to create larger integrated systems!
+**Keyboard/mouse - [HID](https://en.wikipedia.org/wiki/Human_interface_device)**
 
-## 🛠️ Open Source
+* [Arduino Leonardo](https://forum.arduino.cc/t/using-arduino-as-a-usb-hid/504918/7)
+* [xkeys devices](https://piengineering.com/pages/x-keys)
 
-Open source software (OSS) = Freely-available source code!
+**Webcams - UVC**
 
-* Be aware of the different kinds of OSS [licenses](https://opensource.org/licenses)
-  * These determine how you can (or can't) legally use the code in your projects. Make sure you're allowed to use the code for your commercial (or non-commercial) purposes.
-* [How does open source happen?](http://opensource.guide/)
-  * [Aligning an Open Source Ethos](https://opensourceethos.net/)
-  * OS development [funding models](https://mkaz.blog/misc/open-souce-funding-models/)
-  * Internal tools that become their own library, like [React](https://react.dev/) by Meta (Facebook)
-  * Personal projects or tooling that the author wants to share
-    * Mine is [Haxademic](https://github.com/cacheflowe/haxademic)
-  * [What open source project should I contribute to?](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)
-* The dark sides of open source
-  * [The struggles of an open source maintainer](http://antirez.com/news/129) - being a OSS maintainer can be *difficult*
-  * [Awful OSS Incidents](https://github.com/PayDevs/awful-oss-incidents) - open source can create security risks
+* "[UVC](https://en.wikipedia.org/wiki/USB_video_device_class)" means that a camera of video device can be seen as a webcam by your operating system. Look for this when choosing a camera that you want to use as a standard webcam.
 
-Open source libraries & frameworks that you'll find
+**MIDI**
 
-* Many popular OSS projects are either a library or a framework
-* [What is the difference between a framework and a library?](https://www.youtube.com/watch?v=D_MO9vIRBcA)
-* p5js is a larger **framework**, but has **[libraries](https://p5js.org/libraries/)** that can add extra functionality
+- [MIDI](http://en.wikipedia.org/wiki/MIDI)
 
-Package (library) managers
+**Network protocols**
 
-* Why use a package (library) manager?
-  * Quick & easy to add functionality to your project
-  * Dependency management - any library you use may have its own dependencies, and the package manager will download (and solve version conflicts) for you
-  * It's nice to have one source for the latest tools
-* Downsides of package managers
-  * [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/)
-  * [Security risks](https://arstechnica.com/information-technology/2021/09/npm-package-with-3-million-weekly-downloads-had-a-severe-vulnerability/)
-  * Large download size (with lots of extra library dependencies you might not use) ![Nodejs meme](../images/node-modules-meme.png)
-  * Versioning/dependencies can break or become outdated over time ![dependency meme](../images/get-old-repo-to-run.png)
-* Different languages have different package managers
-  * p5js: [Doesn't have one](https://p5js.org/libraries/)! You include remote javascript files or upload them
-  * Processing & Arduino: library manager inside IDE
-  * Javascript: npm
-  * Java: Maven or Gradle
-  * Ruby: Bundler
-  * Python: pip or conda
-  * OS X: Homebrew
-  * Windows: Chocolatey
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages)
+* [WebRTC](https://webrtc.github.io/samples/)
+* [WebSocket](http://en.wikipedia.org/wiki/WebSocket)
+* [OSC](http://en.wikipedia.org/wiki/Open_Sound_Control)
+* [MQTT](https://en.wikipedia.org/wiki/MQTT)
+* [gRPC](https://grpc.io/)
+* [ZeroMQ](http://zeromq.org)
+* [UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
-## 📝 Homework:
+**Serial I/O**
 
-Listen to an episode from either podcast:
+This is how we talk to custom sensors via Arduino (or other microcontrollers). Lots of commercial devices use Serial as well - often, the SDK is built on top of [Serial communication](https://en.wikipedia.org/wiki/Serial_communication), with very specific message formats that send and receive data between the device and the computer. If a device uses Serial, you can probably write your own code to communicate with it directly, even if it's not officially supported. You can talk to Serial devices with Chrome, TouchDesigner, Python, Java, C++, etc.
 
-* [Tech+Art](https://podcasts.apple.com/ca/podcast/tech-art/id1480019037) Podcast
-* [That's So New Media!?](https://open.spotify.com/show/7MXw99WToC4MbZHwAlaFzB?si=UggW_cRMTwmZKVWeVAfsjw&nd=1)
+* Example: [Epic React: Instant Go](https://cacheflowe.com/code/installation/epic-react-instant-go) treadmill
+* Example: [30 Years of Air](https://cacheflowe.com/code/installation/30-years-of-air) - sensor & motors
 
-**Build something with hardware or explore an open source project**
+**Wireless protocols**
+
+* [Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API) (can be hard to work with)
+* [RFID](https://www.instructables.com/Arduino-Wiring-and-Programming-of-RFID-Sensor/)
+  * [NFC](https://en.wikipedia.org/wiki/Near-field_communication)
+* [IR](https://roboticsbackend.com/arduino-ir-remote-controller-tutorial-setup-and-map-buttons/)
+* [ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
+* [Zigbee](https://docs.arduino.cc/retired/getting-started-guides/ArduinoWirelessShieldS2/)
+
+**Lighting protocols**
+
+* [ArtNet](https://en.wikipedia.org/wiki/Art-Net) ([Addressable LEDs](https://cacheflowe.com/code/lab/artnet-+-processing))
+* [DMX](https://en.wikipedia.org/wiki/DMX512) ([Example: Zoom simulation](https://cacheflowe.com/code/installation/zoom-centrifuge))
+* [sACN](https://www.lightjams.com/sacn.html)
+* [WLED](https://kno.wled.ge/)
+
+**Shared textures between apps**
+
+* [Spout](http://spout.zeal.co/)
+* [Syphon](http://www.syphon.v002.info/)
+
+**Video streaming**
+
+* [RTP](https://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
+* [NDI](https://www.ndi.tv/)
+* [WebRTC](https://webrtc.org/)
+
+**RFID**
+
+- UHF - Ultra High Frequency RFID, typically used for longer-range identification and tracking of objects. Range depends on the strength of the reader and the tag
+- LF - Low Frequency RFID, typically used for card readers - close proximity detection. Range is usually a few centimeters.
+- NFC - Near Field Communication, typically used for short-range communication between devices, such as contactless payments, contact-sharing, or an alternative to QR codes
+
+## 🛠️ Hardware Devices
+
+**Sensors**
+
+![](../images/proximity-sensors.jpg)
+
+- Proximity sensors - Detect the presence of nearby objects without physical contact, often used for interactive installations or automation.
+  - Infrared (IR) & Photoelectric
+  - Ultrasonic
+  - Microwave
+- Capacitive touch
+- Motion sensors - Detect movement within a space, often used for security or interactive installations.
+- Pressure sensors - Measure the force applied to a surface, often used for interactive installations or monitoring physical interactions.
+- Light sensors - Detect ambient light levels, often used for automatic lighting control or interactive installations.
+- Temp/humidity/moisture sensors - good for automated environmental monitoring and control, often used in smart homes, agriculture, or climate-sensitive installations.
+
+**Depth Cameras**
+
+![](../images/kinect-depth.jpg)
+
+* Realsense/Kinect/Femto - Depth cameras that provide high-framerate [3D information](https://new-orbbec3d-s3.s3.amazonaws.com/wp-content/uploads/2023/12/05105219/image016-1.gif), often used for motion tracking in a larger volume.
+* LIDAR - Light Detection and Ranging sensors that measure distance by illuminating the target with laser light and measuring the reflection time, often used for mapping and navigation. Usually built for a 360-degree [plane FOV](https://www.robotshop.com/cdn/shop/files/hokuyo_ust_30lc_30m_outdoor_lidar_w_ethernet_outpu_2_1200x1200.webp?v=1761050128) on a rotating platform, though some LIDARs have a wider FOV for 3d scanning.
+
+**...Show & tell if there's time**
+
+## 📝 Homework
+
+**Build something with hardware and/or work on your final project**
 
 * Hardware ideas
   * p5js: use the [Web Serial API](https://web.dev/serial/) with [Justin's example sketch](https://editor.p5js.org/cacheflowe/sketches/F7GG8vuEy) (Chrome only)
-    * Show example video
-  * Processing: use the Serial library
+  * TouchDesigner: use the Serial node
   * MIDI (Chrome only)
     * [Justin's example sketch](https://editor.p5js.org/cacheflowe/sketches/xuGYeJnZY)
     * [Justin's example sketch 2](https://editor.p5js.org/cacheflowe/sketches/iFMtaetat)
-* Open Source ideas
-  * Find an interesting open source project and explore its code
-  * Contribute to an open source project
-  * Start your own open source project
+  * Use a camera for computer vision or motion tracking
 
 ## 📋 Review code
 
-* Present your web browser/Node.js projects
+* Present your ML project or final project progress
